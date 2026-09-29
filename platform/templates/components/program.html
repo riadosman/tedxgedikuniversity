@@ -1,0 +1,2 @@
+{% load i18n ui %}
+<ol class="timeline">{% for item in schedule %}<li><time datetime="{{ item.published_snapshot.starts_at }}">{{ item.published_snapshot.starts_at|program_time }}</time><div><h3>{{ item.published_snapshot.title }}</h3><p>{{ item.published_snapshot.description }}</p></div></li>{% empty %}<li><span aria-hidden="true">—</span><p>{% translate 'The approved program will be published here.' %}</p></li>{% endfor %}</ol>

@@ -1,0 +1,4 @@
+{% extends 'staff/base.html' %}{% load i18n %}
+{% block content %}<div class="section-heading"><div><p class="eyebrow">{{ event.name }}</p><h1>{{ group.label }}</h1><p class="muted">{{ group.description }}</p></div></div>
+<div class="hub-grid">{% for link in group.links %}<a class="hub-card" href="{{ link.url }}"><span class="hub-index" aria-hidden="true">{{ forloop.counter|stringformat:'02d' }}</span><h2>{{ link.label }}</h2><span class="directional" aria-hidden="true">→</span></a>{% endfor %}</div>
+{% endblock %}

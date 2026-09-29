@@ -1,0 +1,27 @@
+{% extends 'base.html' %}{% load i18n static %}
+{% block layout %}
+<main id="main" tabindex="-1" class="auth-card">
+  <a href="{% url 'home' %}"><img class="event-logo" src="{% static 'brand/logo-black.png' %}" alt="TEDxGedik University" width="2048" height="512"></a>
+  <p class="eyebrow">{% translate "EVENT OPERATIONS" %}</p>
+  <h1>{% translate "Team sign in" %}</h1>
+  {% if development_login_available %}
+  <section aria-labelledby="development-login-title">
+    <h2 id="development-login-title">Yerel geliştirme girişi</h2>
+    <p class="muted">Bu bilgisayardaki geliştirme ortamında kullanıcı adı, şifre ve MFA olmadan yönetim panelini açın.</p>
+    <form method="post" action="{% url 'development-login' %}">
+      {% csrf_token %}
+      <button type="submit">Geliştirme için tek tıkla giriş</button>
+    </form>
+  </section>
+  {% endif %}
+  <p class="muted">{% translate "Use your assigned account to access the event workspace." %}</p>
+  {% if throttled %}<p role="alert">{% translate "Too many attempts. Please try again later." %}</p>{% endif %}
+  <form method="post">
+    {% csrf_token %}{% include 'components/form-fields.html' %}
+    <input type="hidden" name="next" value="{{ next }}">
+    <button>{% translate "Sign in" %}</button>
+  </form>
+  <p><a href="{% url 'password-recover' %}">{% translate "Forgot your password?" %}</a></p>
+  <a href="{% url 'home' %}">{% translate "← Event website" %}</a>
+</main>
+{% endblock %}

@@ -1,0 +1,38 @@
+.venv/
+.local/
+.env
+!.env.example
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+platform/staticfiles/
+platform/private-media/
+platform/db.sqlite3
+node_modules/
+test-results/
+playwright-report/
+# Private original sources must not enter a future public repository.
+Mails.txt
+*.pdf
+Turkish Language/
+arabic_guides/
+
+# Publish only the web application and its technical documentation.
+/*
+!/.gitignore
+!/README.md
+!/platform/
+!/docs/
+.env.*
+!.env.example
+*.log
+*.sqlite3
+*.sqlite3-*
+*.pem
+*.key
+*.p12
+*.pfx

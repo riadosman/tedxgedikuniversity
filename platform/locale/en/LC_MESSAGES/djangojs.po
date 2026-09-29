@@ -1,0 +1,125 @@
+#
+msgid ""
+msgstr ""
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid " · Already admitted"
+msgstr " · Already admitted"
+
+msgid "ADMIT — ticket accepted"
+msgstr "ADMIT — ticket accepted"
+
+msgid "An admission request is unresolved."
+msgstr "An admission request is unresolved."
+
+msgid "CANCELLED — ticket rejected"
+msgstr "CANCELLED — ticket rejected"
+
+msgid ""
+"Camera unavailable. Allow camera access over HTTPS, use a USB scanner, or "
+"ask the supervisor for manual lookup."
+msgstr ""
+"Camera unavailable. Allow camera access over HTTPS, use a USB scanner, or "
+"ask the supervisor for manual lookup."
+
+msgid "Confirmed tickets"
+msgstr "Confirmed tickets"
+
+msgid "DO NOT ADMIT AGAIN — already checked in"
+msgstr "DO NOT ADMIT AGAIN — already checked in"
+
+msgid "Dashboard unavailable"
+msgstr "Dashboard unavailable"
+
+msgid "Dashboard unavailable. Check your connection and sign-in."
+msgstr "Dashboard unavailable. Check your connection and sign-in."
+
+msgid "ENTRY CLOSED — outside admission hours"
+msgstr "ENTRY CLOSED — outside admission hours"
+
+msgid "ENTRY PAUSED — follow the supervisor’s instructions"
+msgstr "ENTRY PAUSED — follow the supervisor’s instructions"
+
+msgid "EXPIRED — ask the supervisor"
+msgstr "EXPIRED — ask the supervisor"
+
+msgid "Entry mode"
+msgstr "Entry mode"
+
+msgid ""
+"Live counts unavailable — displayed totals may be stale. Check the "
+"connection."
+msgstr ""
+"Live counts unavailable — displayed totals may be stale. Check the "
+"connection."
+
+msgid "Live counts updated "
+msgstr "Live counts updated "
+
+msgid "Manual check-in"
+msgstr "Manual check-in"
+
+msgid "NOT VALID — ask the supervisor"
+msgstr "NOT VALID — ask the supervisor"
+
+msgid "Next attendee"
+msgstr "Next attendee"
+
+msgid "No attendee found. Refer to the supervisor."
+msgstr "No attendee found. Refer to the supervisor."
+
+msgid ""
+"OUTCOME UNKNOWN — do not admit. Restore the connection and retry this same "
+"request."
+msgstr ""
+"OUTCOME UNKNOWN — do not admit. Restore the connection and retry this same "
+"request."
+
+msgid "REPLACED / REVOKED — use the latest ticket"
+msgstr "REPLACED / REVOKED — use the latest ticket"
+
+msgid "Ready for the next attendee."
+msgstr "Ready for the next attendee."
+
+msgid "Record the reason for manual admission:"
+msgstr "Record the reason for manual admission:"
+
+msgid "Search unavailable. Check the connection."
+msgstr "Search unavailable. Check the connection."
+
+msgid ""
+"Sign in again in another tab if your session expired, then retry. Do not "
+"admit while the outcome is unknown."
+msgstr ""
+"Sign in again in another tab if your session expired, then retry. Do not "
+"admit while the outcome is unknown."
+
+msgid "The server could not confirm this request. Check sign-in and retry."
+msgstr "The server could not confirm this request. Check sign-in and retry."
+
+msgid "Validating… Do not admit yet."
+msgstr "Validating… Do not admit yet."
+
+msgid "WRONG EVENT — ticket rejected"
+msgstr "WRONG EVENT — ticket rejected"
+
+msgid "Working…"
+msgstr "Working…"
+
+msgid "Dashboard updated."
+msgstr "Dashboard updated."
+
+msgid "Updates unavailable. Displayed information may be stale."
+msgstr "Updates unavailable. Displayed information may be stale."
+
+msgid "Admitted"
+msgstr "Admitted"
+
+msgid "Remaining"
+msgstr "Remaining"
+
+msgid "Confirm"
+msgstr "Confirm"

@@ -1,0 +1,2789 @@
+#
+msgid ""
+msgstr ""
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "A documented retention hold is still active."
+msgstr "A documented retention hold is still active."
+
+msgid "A reconciled admission needs its actual, valid event-day timestamp."
+msgstr "A reconciled admission needs its actual, valid event-day timestamp."
+
+msgid "A retry ID cannot be reused for a different request."
+msgstr "A retry ID cannot be reused for a different request."
+
+msgid "A valid invitation for this email is required."
+msgstr "A valid invitation for this email is required."
+
+msgid "ACCOUNT SECURITY"
+msgstr "ACCOUNT SECURITY"
+
+msgid "Absent"
+msgstr "Absent"
+
+msgid "Acceptance"
+msgstr "Acceptance"
+
+msgid "Accepted"
+msgstr "Accepted"
+
+msgid "Access"
+msgstr "Access"
+
+msgid ""
+"Account activation and event roles are separate. Deactivation removes access"
+" immediately."
+msgstr ""
+"Account activation and event roles are separate. Deactivation removes access"
+" immediately."
+
+msgid "Account invitation queued. Assign the appropriate event role next."
+msgstr "Account invitation queued. Assign the appropriate event role next."
+
+msgid "Account status changed. Access is rechecked on every request."
+msgstr "Account status changed. Access is rechecked on every request."
+
+msgid "Acknowledge"
+msgstr "Acknowledge"
+
+msgid "Acknowledged At"
+msgstr "Acknowledged At"
+
+msgid "Acknowledged at"
+msgstr "Acknowledged at"
+
+msgid "Action"
+msgstr "Action"
+
+msgid "Action recorded."
+msgstr "Action recorded."
+
+msgid "Activate"
+msgstr "Activate"
+
+msgid "Active"
+msgstr "Active"
+
+msgid "Actor"
+msgstr "Actor"
+
+msgid "Add a reason or operational note."
+msgstr "Add a reason or operational note."
+
+msgid "Add comment"
+msgstr "Add comment"
+
+msgid "Add record +"
+msgstr "Add record +"
+
+msgid "Admission Status"
+msgstr "Admission Status"
+
+msgid "Admission opens at"
+msgstr "Admission opens at"
+
+msgid "Admission policy is awaiting approval."
+msgstr "Admission policy is awaiting approval."
+
+msgid "All available categories count toward the approved audience capacity."
+msgstr "All available categories count toward the approved audience capacity."
+
+msgid "All speakers"
+msgstr "All speakers"
+
+msgid "All statuses"
+msgstr "All statuses"
+
+msgid "Already committed"
+msgstr "Already committed"
+
+msgid "Already registered? Recover your ticket link."
+msgstr "Already registered? Recover your ticket link."
+
+msgid "Amount Minor"
+msgstr "Amount Minor"
+
+msgid "Amount minor"
+msgstr "Amount minor"
+
+msgid "An erasure needs a verified request and an approval reason."
+msgstr "An erasure needs a verified request and an approval reason."
+
+msgid "An independently organized TEDx event."
+msgstr "An independently organized TEDx event."
+
+msgid "Announcements"
+msgstr "Announcements"
+
+msgid "Anonymize"
+msgstr "Anonymize"
+
+msgid "Answer is too long."
+msgstr "Answer is too long."
+
+msgid "Application received"
+msgstr "Application received"
+
+msgid "Applications are not open yet. Please check back for an update."
+msgstr "Applications are not open yet. Please check back for an update."
+
+msgid "Approve"
+msgstr "Approve"
+
+msgid ""
+"Approve a versioned privacy notice before opening volunteer applications."
+msgstr ""
+"Approve a versioned privacy notice before opening volunteer applications."
+
+msgid ""
+"Approve the event's contact and admission policy before issuing invitations."
+msgstr ""
+"Approve the event's contact and admission policy before issuing invitations."
+
+msgid ""
+"Approve the talk and publish its speaker before publishing this session."
+msgstr ""
+"Approve the talk and publish its speaker before publishing this session."
+
+msgid "Approved"
+msgstr "Approved"
+
+msgid "Approved runbook"
+msgstr "Approved runbook"
+
+msgid "Archive"
+msgstr "Archive"
+
+msgid "Arrive"
+msgstr "Arrive"
+
+msgid "Arrived At"
+msgstr "Arrived At"
+
+msgid "Arrived at"
+msgstr "Arrived at"
+
+msgid "Assign the volunteer to this department first."
+msgstr "Assign the volunteer to this department first."
+
+msgid "Assigned"
+msgstr "Assigned"
+
+msgid "Assigned To"
+msgstr "Assigned To"
+
+msgid "Assigned to"
+msgstr "Assigned to"
+
+msgid "At Risk"
+msgstr "At Risk"
+
+msgid "Attachments"
+msgstr "Attachments"
+
+msgid "Attempts"
+msgstr "Attempts"
+
+msgid "Attend the event"
+msgstr "Attend the event"
+
+msgid "Attendee"
+msgstr "Attendee"
+
+msgid "Attendee invitations"
+msgstr "Attendee invitations"
+
+msgid "Attendees"
+msgstr "Attendees"
+
+msgid "Audience"
+msgstr "Audience"
+
+msgid "Audit records are append-only."
+msgstr "Audit records are append-only."
+
+msgid "Audit records cannot be deleted through the application."
+msgstr "Audit records cannot be deleted through the application."
+
+msgid "Audit trail"
+msgstr "Audit trail"
+
+msgid "Availability"
+msgstr "Availability"
+
+msgid "Back to dashboard"
+msgstr "Back to dashboard"
+
+msgid "Back to sign in"
+msgstr "Back to sign in"
+
+msgid "Biography"
+msgstr "Biography"
+
+msgid "Blocked"
+msgstr "Blocked"
+
+msgid "Body"
+msgstr "Body"
+
+msgid "Break"
+msgstr "Break"
+
+msgid "Brief"
+msgstr "Brief"
+
+msgid "Briefed At"
+msgstr "Briefed At"
+
+msgid "Briefed at"
+msgstr "Briefed at"
+
+msgid "CSV files must be smaller than 1 MB."
+msgstr "CSV files must be smaller than 1 MB."
+
+msgid "Cancel"
+msgstr "Cancel"
+
+msgid "Cancel ticket"
+msgstr "Cancel ticket"
+
+msgid "Cancelled"
+msgstr "Cancelled"
+
+msgid "Capacity"
+msgstr "Capacity"
+
+msgid "Capacity cannot be lower than already committed tickets."
+msgstr "Capacity cannot be lower than already committed tickets."
+
+msgid "Category"
+msgstr "Category"
+
+msgid "Change password"
+msgstr "Change password"
+
+msgid "Changes Required"
+msgstr "Changes Required"
+
+msgid "Check your email"
+msgstr "Check your email"
+
+msgid "Check-in"
+msgstr "Check-in"
+
+msgid "Checked in"
+msgstr "Checked in"
+
+msgid "Checkin"
+msgstr "Checkin"
+
+msgid "Choice fields need 1–50 text options of at most 100 characters."
+msgstr "Choice fields need 1–50 text options of at most 100 characters."
+
+msgid "Choose supported language codes: en, tr, ar."
+msgstr "Choose supported language codes: en, tr, ar."
+
+msgid "Clean"
+msgstr "Clean"
+
+msgid "Closed"
+msgstr "Closed"
+
+msgid "Closes at"
+msgstr "Closes at"
+
+msgid "Closing"
+msgstr "Closing"
+
+msgid "Code"
+msgstr "Code"
+
+msgid "Commit reviewed import"
+msgstr "Commit reviewed import"
+
+msgid "Complete"
+msgstr "Complete"
+
+msgid "Complete prerequisite tasks first."
+msgstr "Complete prerequisite tasks first."
+
+msgid "Complete release, fact checking and rights review before approval."
+msgstr "Complete release, fact checking and rights review before approval."
+
+msgid ""
+"Complete the release, fact checking and rights review before marking this "
+"talk ready."
+msgstr ""
+"Complete the release, fact checking and rights review before marking this "
+"talk ready."
+
+msgid "Completed"
+msgstr "Completed"
+
+msgid "Completed At"
+msgstr "Completed At"
+
+msgid "Completed at"
+msgstr "Completed at"
+
+msgid "Configure an enabled admission ticket type first."
+msgstr "Configure an enabled admission ticket type first."
+
+msgid "Confirm the speaker and record publication consent first."
+msgstr "Confirm the speaker and record publication consent first."
+
+msgid "Confirm this email address to continue your application."
+msgstr "Confirm this email address to continue your application."
+
+msgid "Confirmed"
+msgstr "Confirmed"
+
+msgid "Confirmed tickets not admitted"
+msgstr "Confirmed tickets not admitted"
+
+msgid "Contact"
+msgstr "Contact"
+
+msgid "Contact email"
+msgstr "Contact email"
+
+msgid "Contingency"
+msgstr "Contingency"
+
+msgid "Continue to workspace"
+msgstr "Continue to workspace"
+
+msgid "Correct"
+msgstr "Correct"
+
+msgid "Created"
+msgstr "Created"
+
+msgid "Created At"
+msgstr "Created At"
+
+msgid "Created at"
+msgstr "Created at"
+
+msgid "Critical"
+msgstr "Critical"
+
+msgid "Cue At"
+msgstr "Cue At"
+
+msgid "Cue at"
+msgstr "Cue at"
+
+msgid "Currency"
+msgstr "Currency"
+
+msgid "Custom fields need unique keys, labels and supported types."
+msgstr "Custom fields need unique keys, labels and supported types."
+
+msgid "Deactivate"
+msgstr "Deactivate"
+
+msgid "Declined"
+msgstr "Declined"
+
+msgid "Default general admission"
+msgstr "Default general admission"
+
+msgid "Department"
+msgstr "Department"
+
+msgid "Department memberships"
+msgstr "Department memberships"
+
+msgid "Department readiness"
+msgstr "Department readiness"
+
+msgid "Departments"
+msgstr "Departments"
+
+msgid "Depends On"
+msgstr "Depends On"
+
+msgid "Depends on"
+msgstr "Depends on"
+
+msgid "Description"
+msgstr "Description"
+
+msgid "Details"
+msgstr "Details"
+
+msgid "Device label"
+msgstr "Device label"
+
+msgid "Discover the event"
+msgstr "Discover the event"
+
+msgid "Discussion"
+msgstr "Discussion"
+
+msgid "Done"
+msgstr "Done"
+
+msgid "Download file"
+msgstr "Download file"
+
+msgid "Download my registration data"
+msgstr "Download my registration data"
+
+msgid "Draft"
+msgstr "Draft"
+
+msgid "Due At"
+msgstr "Due At"
+
+msgid "Due at"
+msgstr "Due at"
+
+msgid "ENTRANCE OPERATIONS"
+msgstr "ENTRANCE OPERATIONS"
+
+msgid "EVENT OPERATIONS"
+msgstr "EVENT OPERATIONS"
+
+msgid "EVENT WORKSPACE"
+msgstr "EVENT WORKSPACE"
+
+msgid ""
+"Each code works once. Store them privately before continuing. They will not "
+"be shown again."
+msgstr ""
+"Each code works once. Store them privately before continuing. They will not "
+"be shown again."
+
+msgid "Each field needs a concise label."
+msgstr "Each field needs a concise label."
+
+msgid "Edit record"
+msgstr "Edit record"
+
+msgid "Editor"
+msgstr "Editor"
+
+msgid "Email"
+msgstr "Email"
+
+msgid ""
+"Email changes require identity review. Keep this registration's verified "
+"address; cancel and re-register through the approved process if necessary."
+msgstr ""
+"Email changes require identity review. Keep this registration's verified "
+"address; cancel and re-register through the approved process if necessary."
+
+msgid "Email delivery"
+msgstr "Email delivery"
+
+msgid "Email templates"
+msgstr "Email templates"
+
+msgid "Email verified"
+msgstr "Email verified"
+
+msgid "Enabled"
+msgstr "Enabled"
+
+msgid "Enabled languages"
+msgstr "Enabled languages"
+
+msgid "Ends At"
+msgstr "Ends At"
+
+msgid "Ends at"
+msgstr "Ends at"
+
+msgid "English"
+msgstr "English"
+
+msgid "Enter a name of 1–150 characters."
+msgstr "Enter a name of 1–150 characters."
+
+msgid ""
+"Enter your assigned account email. Resetting a password does not remove "
+"authenticator protection."
+msgstr ""
+"Enter your assigned account email. Resetting a password does not remove "
+"authenticator protection."
+
+msgid ""
+"Entrance opening must be after venue setup access and before the event ends."
+msgstr ""
+"Entrance opening must be after venue setup access and before the event ends."
+
+msgid "Entry mode updated. Brief every admission desk."
+msgstr "Entry mode updated. Brief every admission desk."
+
+msgid "Equipment"
+msgstr "Equipment"
+
+msgid "Erase"
+msgstr "Erase"
+
+msgid "Event & registration settings"
+msgstr "Event & registration settings"
+
+msgid "Event Admin"
+msgstr "Event Admin"
+
+msgid "Event information"
+msgstr "Event information"
+
+msgid "Event settings saved."
+msgstr "Event settings saved."
+
+msgid "Event-day dashboard"
+msgstr "Event-day dashboard"
+
+msgid "Event-day runbook"
+msgstr "Event-day runbook"
+
+msgid "Expanded presentation is too large."
+msgstr "Expanded presentation is too large."
+
+msgid "Expired"
+msgstr "Expired"
+
+msgid "Expires At"
+msgstr "Expires At"
+
+msgid "Expires at"
+msgstr "Expires at"
+
+msgid ""
+"Explore the program, meet the speakers, and find the information you need to"
+" take part."
+msgstr ""
+"Explore the program, meet the speakers, and find the information you need to"
+" take part."
+
+msgid "Export CSV"
+msgstr "Export CSV"
+
+msgid "Export consenting survey recipients"
+msgstr "Export consenting survey recipients"
+
+msgid "Export controlled admission roster"
+msgstr "Export controlled admission roster"
+
+msgid "Export minimum operational columns"
+msgstr "Export minimum operational columns"
+
+msgid "FAQ"
+msgstr "FAQ"
+
+msgid "Fact check notes"
+msgstr "Fact check notes"
+
+msgid "Fact checked"
+msgstr "Fact checked"
+
+msgid "Failed"
+msgstr "Failed"
+
+msgid "File content does not match its extension."
+msgstr "File content does not match its extension."
+
+msgid "Finance"
+msgstr "Finance"
+
+msgid "Find an attendee"
+msgstr "Find an attendee"
+
+msgid "Footer navigation"
+msgstr "Footer navigation"
+
+msgid "Forgot your password?"
+msgstr "Forgot your password?"
+
+msgid "Full name"
+msgstr "Full name"
+
+msgid "Handover at"
+msgstr "Handover at"
+
+msgid "Help bring the day to life."
+msgstr "Help bring the day to life."
+
+msgid "High"
+msgstr "High"
+
+msgid "Hold Until"
+msgstr "Hold Until"
+
+msgid "Hold until"
+msgstr "Hold until"
+
+msgid "I agree to receive the optional event survey"
+msgstr "I agree to receive the optional event survey"
+
+msgid "I have read the privacy notice"
+msgstr "I have read the privacy notice"
+
+msgid ""
+"If a request times out, retry the same request before admitting anyone. "
+"Offline admission requires the supervisor’s controlled manual procedure."
+msgstr ""
+"If a request times out, retry the same request before admitting anyone. "
+"Offline admission requires the supervisor’s controlled manual procedure."
+
+msgid ""
+"If that address has an application, we will send a private management link."
+msgstr ""
+"If that address has an application, we will send a private management link."
+
+msgid ""
+"If that address has an eligible account, we will send a password reset link."
+" Your authenticator remains required."
+msgstr ""
+"If that address has an eligible account, we will send a password reset link."
+" Your authenticator remains required."
+
+msgid ""
+"If this address is eligible, a verification email will arrive shortly. A "
+"submission is not a confirmed seat."
+msgstr ""
+"If this address is eligible, a verification email will arrive shortly. A "
+"submission is not a confirmed seat."
+
+msgid ""
+"If we have an eligible registration for that address, we will send a fresh "
+"link."
+msgstr ""
+"If we have an eligible registration for that address, we will send a fresh "
+"link."
+
+msgid "Import at most 1000 rows at a time."
+msgstr "Import at most 1000 rows at a time."
+
+msgid "Import committed. Repeating this batch will not repeat the changes."
+msgstr "Import committed. Repeating this batch will not repeat the changes."
+
+msgid "Important"
+msgstr "Important"
+
+msgid "In Progress"
+msgstr "In Progress"
+
+msgid "Inactive"
+msgstr "Inactive"
+
+msgid "Incidents"
+msgstr "Incidents"
+
+msgid "Instructions"
+msgstr "Instructions"
+
+msgid "Interface language"
+msgstr "Interface language"
+
+msgid "Internal cues"
+msgstr "Internal cues"
+
+msgid "Internal notes"
+msgstr "Internal notes"
+
+msgid "Interview"
+msgstr "Interview"
+
+msgid "Invalid answer option."
+msgstr "Invalid answer option."
+
+msgid "Invalid custom-field definition."
+msgstr "Invalid custom-field definition."
+
+msgid "Invalid entry-mode transition or missing reason."
+msgstr "Invalid entry-mode transition or missing reason."
+
+msgid "Invalid or already-used code. Wait for the next code and try again."
+msgstr "Invalid or already-used code. Wait for the next code and try again."
+
+msgid "Invalid or macro-enabled presentation."
+msgstr "Invalid or macro-enabled presentation."
+
+msgid "Invalid published program timestamp."
+msgstr "Invalid published program timestamp."
+
+msgid "Investigating"
+msgstr "Investigating"
+
+msgid "Invitation"
+msgstr "Invitation"
+
+msgid ""
+"Invitation queued. The recipient still verifies their email and receives a "
+"ticket only within capacity."
+msgstr ""
+"Invitation queued. The recipient still verifies their email and receives a "
+"ticket only within capacity."
+
+msgid "Invite a staff member"
+msgstr "Invite a staff member"
+
+msgid "Invite an attendee"
+msgstr "Invite an attendee"
+
+msgid "Invite staff member"
+msgstr "Invite staff member"
+
+msgid "Invited"
+msgstr "Invited"
+
+msgid "Join the volunteer team"
+msgstr "Join the volunteer team"
+
+msgid "Keep at least one active organizer."
+msgstr "Keep at least one active organizer."
+
+msgid "Keep this QR private. Entry staff will validate it at the event."
+msgstr "Keep this QR private. Entry staff will validate it at the event."
+
+msgid "Key"
+msgstr "Key"
+
+msgid "Kind"
+msgstr "Kind"
+
+msgid "Language"
+msgstr "Language"
+
+msgid "Languages"
+msgstr "Languages"
+
+msgid "Last Error Code"
+msgstr "Last Error Code"
+
+msgid "Last error code"
+msgstr "Last error code"
+
+msgid "Leader"
+msgstr "Leader"
+
+msgid "Leaders"
+msgstr "Leaders"
+
+msgid "Leadership"
+msgstr "Leadership"
+
+msgid "Link unavailable"
+msgstr "Link unavailable"
+
+msgid ""
+"Live database totals. Export minimum columns from each authorized module."
+msgstr ""
+"Live database totals. Export minimum columns from each authorized module."
+
+msgid "Location"
+msgstr "Location"
+
+msgid "Low"
+msgstr "Low"
+
+msgid "Main navigation"
+msgstr "Main navigation"
+
+msgid "Manage admission mode"
+msgstr "Manage admission mode"
+
+msgid "Manual admission requires a reason."
+msgstr "Manual admission requires a reason."
+
+msgid "Map url"
+msgstr "Map url"
+
+msgid "Max talk minutes"
+msgstr "Max talk minutes"
+
+msgid "Medium"
+msgstr "Medium"
+
+msgid "Menu"
+msgstr "Menu"
+
+msgid "Mitigated"
+msgstr "Mitigated"
+
+msgid "More information soon."
+msgstr "More information soon."
+
+msgid "NOW"
+msgstr "NOW"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Name or booking reference"
+msgstr "Name or booking reference"
+
+msgid "Needs Review"
+msgstr "Needs Review"
+
+msgid "Next Attempt At"
+msgstr "Next Attempt At"
+
+msgid "Next attempt at"
+msgstr "Next attempt at"
+
+msgid "Next →"
+msgstr "Next →"
+
+msgid "Next:"
+msgstr "Next:"
+
+msgid "No announcements for your team."
+msgstr "No announcements for your team."
+
+msgid "No approved runbook cues for your role."
+msgstr "No approved runbook cues for your role."
+
+msgid "No comments yet."
+msgstr "No comments yet."
+
+msgid "No contacts in your scope."
+msgstr "No contacts in your scope."
+
+msgid "No departments in your scope."
+msgstr "No departments in your scope."
+
+msgid "No event access assigned"
+msgstr "No event access assigned"
+
+msgid "No records found. Try another search or add the first record."
+msgstr "No records found. Try another search or add the first record."
+
+msgid "No records yet."
+msgstr "No records yet."
+
+msgid ""
+"Non-counted ticket categories need a separately approved admission policy."
+msgstr ""
+"Non-counted ticket categories need a separately approved admission policy."
+
+msgid "Normal"
+msgstr "Normal"
+
+msgid "Not Started"
+msgstr "Not Started"
+
+msgid "Notes"
+msgstr "Notes"
+
+msgid "Notice version"
+msgstr "Notice version"
+
+msgid "On the stage"
+msgstr "On the stage"
+
+msgid "Only failed delivery jobs can be retried, with a recorded reason."
+msgstr "Only failed delivery jobs can be retried, with a recorded reason."
+
+msgid "Only published runbook revisions can be acknowledged."
+msgstr "Only published runbook revisions can be acknowledged."
+
+msgid "Only the responsible department leader can change this record."
+msgstr "Only the responsible department leader can change this record."
+
+msgid "Open"
+msgstr "Open"
+
+msgid "Open →"
+msgstr "Open →"
+
+msgid "Opening"
+msgstr "Opening"
+
+msgid "Opens at"
+msgstr "Opens at"
+
+msgid "Operational contacts"
+msgstr "Operational contacts"
+
+msgid "Operational reports"
+msgstr "Operational reports"
+
+msgid "Operations navigation"
+msgstr "Operations navigation"
+
+msgid "Organizer"
+msgstr "Organizer"
+
+msgid "Organizers"
+msgstr "Organizers"
+
+msgid "Other"
+msgstr "Other"
+
+msgid "Overdue tasks"
+msgstr "Overdue tasks"
+
+msgid "Owner"
+msgstr "Owner"
+
+msgid "Page"
+msgstr "Page"
+
+msgid "Paid"
+msgstr "Paid"
+
+msgid ""
+"Paid registration is unavailable until a provider and merchant policy are "
+"approved and integrated."
+msgstr ""
+"Paid registration is unavailable until a provider and merchant policy are "
+"approved and integrated."
+
+msgid "Password updated"
+msgstr "Password updated"
+
+msgid "Payment mode"
+msgstr "Payment mode"
+
+msgid "Payment orders"
+msgstr "Payment orders"
+
+msgid "Pending"
+msgstr "Pending"
+
+msgid "Phone"
+msgstr "Phone"
+
+msgid "Photo"
+msgstr "Photo"
+
+msgid "Placeholders: {event}, {name}, {link}, {status}. Plain text only."
+msgstr "Placeholders: {event}, {name}, {link}, {status}. Plain text only."
+
+msgid "Planning"
+msgstr "Planning"
+
+msgid "Policy approved"
+msgstr "Policy approved"
+
+msgid "Preferred Department"
+msgstr "Preferred Department"
+
+msgid "Preferred department"
+msgstr "Preferred department"
+
+msgid "Preview a CSV import"
+msgstr "Preview a CSV import"
+
+msgid "Priority"
+msgstr "Priority"
+
+msgid "Privacy"
+msgstr "Privacy"
+
+msgid "Privacy approved"
+msgstr "Privacy approved"
+
+msgid "Privacy notice"
+msgstr "Privacy notice"
+
+msgid "Privacy requests"
+msgstr "Privacy requests"
+
+msgid "Private files"
+msgstr "Private files"
+
+msgid "Production"
+msgstr "Production"
+
+msgid "Production cues stay internal."
+msgstr "Production cues stay internal."
+
+msgid "Program"
+msgstr "Program"
+
+msgid "Program & production schedule"
+msgstr "Program & production schedule"
+
+msgid "Promotions cutoff"
+msgstr "Promotions cutoff"
+
+msgid "Proposed"
+msgstr "Proposed"
+
+msgid "Provide a cancellation reason."
+msgstr "Provide a cancellation reason."
+
+msgid "Provider"
+msgstr "Provider"
+
+msgid "Provider Reference"
+msgstr "Provider Reference"
+
+msgid "Provider reference"
+msgstr "Provider reference"
+
+msgid "Public Candidate"
+msgstr "Public Candidate"
+
+msgid "Public description"
+msgstr "Public description"
+
+msgid "Public pages & FAQs"
+msgstr "Public pages & FAQs"
+
+msgid "Public sessions must fit inside the event's public hours."
+msgstr "Public sessions must fit inside the event's public hours."
+
+msgid "Publication consent"
+msgstr "Publication consent"
+
+msgid "Publish"
+msgstr "Publish"
+
+msgid "Publish At"
+msgstr "Publish At"
+
+msgid "Publish at"
+msgstr "Publish at"
+
+msgid "Published"
+msgstr "Published"
+
+msgid "Published At"
+msgstr "Published At"
+
+msgid "Published at"
+msgstr "Published at"
+
+msgid "QR credential or USB scanner input"
+msgstr "QR credential or USB scanner input"
+
+msgid "Quarantined"
+msgstr "Quarantined"
+
+msgid "Read"
+msgstr "Read"
+
+msgid "Read the privacy notice"
+msgstr "Read the privacy notice"
+
+msgid "Readiness"
+msgstr "Readiness"
+
+msgid "Ready"
+msgstr "Ready"
+
+msgid "Ready. Start the camera or scan a ticket."
+msgstr "Ready. Start the camera or scan a ticket."
+
+msgid "Reason"
+msgstr "Reason"
+
+msgid "Reason / operational note"
+msgstr "Reason / operational note"
+
+msgid "Received"
+msgstr "Received"
+
+msgid "Recent admissions"
+msgstr "Recent admissions"
+
+msgid "Record a decision reason."
+msgstr "Record a decision reason."
+
+msgid "Record a reason for the account change."
+msgstr "Record a reason for the account change."
+
+msgid "Record the resolution before closing an incident."
+msgstr "Record the resolution before closing an incident."
+
+msgid "Record why this import is authorized."
+msgstr "Record why this import is authorized."
+
+msgid "Recover volunteer application"
+msgstr "Recover volunteer application"
+
+msgid "Recover your account"
+msgstr "Recover your account"
+
+msgid "Recover your ticket link"
+msgstr "Recover your ticket link"
+
+msgid "Reference"
+msgstr "Reference"
+
+msgid "Refund Pending"
+msgstr "Refund Pending"
+
+msgid "Refunded"
+msgstr "Refunded"
+
+msgid "Registration"
+msgstr "Registration"
+
+msgid "Registration applications"
+msgstr "Registration applications"
+
+msgid "Registration closes after it opens."
+msgstr "Registration closes after it opens."
+
+msgid "Registration fields"
+msgstr "Registration fields"
+
+msgid "Registration is not open."
+msgstr "Registration is not open."
+
+msgid "Registration is outside its opening period."
+msgstr "Registration is outside its opening period."
+
+msgid "Registration mode"
+msgstr "Registration mode"
+
+msgid "Rehearsals"
+msgstr "Rehearsals"
+
+msgid "Rejected"
+msgstr "Rejected"
+
+msgid "Release received"
+msgstr "Release received"
+
+msgid "Reports"
+msgstr "Reports"
+
+msgid "Request data erasure"
+msgstr "Request data erasure"
+
+msgid "Request reset link"
+msgstr "Request reset link"
+
+msgid "Resolution"
+msgstr "Resolution"
+
+msgid "Resolved"
+msgstr "Resolved"
+
+msgid "Responsibilities"
+msgstr "Responsibilities"
+
+msgid "Responsibility"
+msgstr "Responsibility"
+
+msgid "Retention days"
+msgstr "Retention days"
+
+msgid "Retry"
+msgstr "Retry"
+
+msgid "Retry the same request"
+msgstr "Retry the same request"
+
+msgid "Return to event"
+msgstr "Return to event"
+
+msgid "Review"
+msgstr "Review"
+
+msgid "Review import"
+msgstr "Review import"
+
+msgid "Rights cleared"
+msgstr "Rights cleared"
+
+msgid "Rights notes"
+msgstr "Rights notes"
+
+msgid "Role"
+msgstr "Role"
+
+msgid "Roles & permissions"
+msgstr "Roles & permissions"
+
+msgid "Rotate"
+msgstr "Rotate"
+
+msgid "Rotation needs a reason and online operating mode."
+msgstr "Rotation needs a reason and online operating mode."
+
+msgid "Safety"
+msgstr "Safety"
+
+msgid "Save and continue"
+msgstr "Save and continue"
+
+msgid "Save password"
+msgstr "Save password"
+
+msgid "Save your recovery codes"
+msgstr "Save your recovery codes"
+
+msgid "Scan Status"
+msgstr "Scan Status"
+
+msgid "Scan status"
+msgstr "Scan status"
+
+msgid ""
+"Scan this private QR with your authenticator app, then enter its current "
+"code."
+msgstr ""
+"Scan this private QR with your authenticator app, then enter its current "
+"code."
+
+msgid "Schedule"
+msgstr "Schedule"
+
+msgid "Scope"
+msgstr "Scope"
+
+msgid "Search"
+msgstr "Search"
+
+msgid "Select the record that owns this private file."
+msgstr "Select the record that owns this private file."
+
+msgid "Select the talk for this program item."
+msgstr "Select the talk for this program item."
+
+msgid "Sending"
+msgstr "Sending"
+
+msgid "Sent"
+msgstr "Sent"
+
+msgid "Set a secure password"
+msgstr "Set a secure password"
+
+msgid "Set admission mode, capacity and registration dates first."
+msgstr "Set admission mode, capacity and registration dates first."
+
+msgid "Set up authenticator"
+msgstr "Set up authenticator"
+
+msgid "Set up your authenticator"
+msgstr "Set up your authenticator"
+
+msgid "Settings are frozen during manual admission and reconciliation."
+msgstr "Settings are frozen during manual admission and reconciliation."
+
+msgid "Settings changed. Reload before saving."
+msgstr "Settings changed. Reload before saving."
+
+msgid "Setup at"
+msgstr "Setup at"
+
+msgid "Severity"
+msgstr "Severity"
+
+msgid "Shift"
+msgstr "Shift"
+
+msgid "Shift assignments"
+msgstr "Shift assignments"
+
+msgid "Shifts"
+msgstr "Shifts"
+
+msgid "Sign in"
+msgstr "Sign in"
+
+msgid "Sign out"
+msgstr "Sign out"
+
+msgid "Size"
+msgstr "Size"
+
+msgid "Skills"
+msgstr "Skills"
+
+msgid "Skip to content"
+msgstr "Skip to content"
+
+msgid "Source"
+msgstr "Source"
+
+msgid "Speaker"
+msgstr "Speaker"
+
+msgid "Speaker Manager"
+msgstr "Speaker Manager"
+
+msgid "Speakers"
+msgstr "Speakers"
+
+msgid "Staff"
+msgstr "Staff"
+
+msgid "Start camera"
+msgstr "Start camera"
+
+msgid "Starts At"
+msgstr "Starts At"
+
+msgid "Starts at"
+msgstr "Starts at"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Status:"
+msgstr "Status:"
+
+msgid "Stop camera"
+msgstr "Stop camera"
+
+msgid "Subject"
+msgstr "Subject"
+
+msgid "Submit"
+msgstr "Submit"
+
+msgid "Submitted"
+msgstr "Submitted"
+
+msgid "Supervisor"
+msgstr "Supervisor"
+
+msgid "Suppressed"
+msgstr "Suppressed"
+
+msgid "Survey consent"
+msgstr "Survey consent"
+
+msgid "Switch to reconciliation mode before committing a manual ledger."
+msgstr "Switch to reconciliation mode before committing a manual ledger."
+
+msgid "Take part"
+msgstr "Take part"
+
+msgid "Talk"
+msgstr "Talk"
+
+msgid "Talk preparation"
+msgstr "Talk preparation"
+
+msgid "Target"
+msgstr "Target"
+
+msgid "Task"
+msgstr "Task"
+
+msgid "Task dependencies"
+msgstr "Task dependencies"
+
+msgid "Tasks"
+msgstr "Tasks"
+
+msgid "Team accounts"
+msgstr "Team accounts"
+
+msgid "Team sign in"
+msgstr "Team sign in"
+
+msgid "Team sign in →"
+msgstr "Team sign in →"
+
+msgid "Technical"
+msgstr "Technical"
+
+msgid "Technical requirements"
+msgstr "Technical requirements"
+
+msgid "Technology"
+msgstr "Technology"
+
+msgid "Template Key"
+msgstr "Template Key"
+
+msgid "Template braces are not balanced."
+msgstr "Template braces are not balanced."
+
+msgid "Template key"
+msgstr "Template key"
+
+msgid "Terms"
+msgstr "Terms"
+
+msgid ""
+"Thank you. The volunteer team will review eligible applications and contact "
+"you."
+msgstr ""
+"Thank you. The volunteer team will review eligible applications and contact "
+"you."
+
+msgid "The approved program will be published here."
+msgstr "The approved program will be published here."
+
+msgid ""
+"The configured event retention period has not elapsed. Resolve policy before"
+" erasure."
+msgstr ""
+"The configured event retention period has not elapsed. Resolve policy before"
+" erasure."
+
+msgid "The event"
+msgstr "The event"
+
+msgid "The event contact channel will be published here."
+msgstr "The event contact channel will be published here."
+
+msgid "The event team is preparing the official website."
+msgstr "The event team is preparing the official website."
+
+msgid "The file contains no records."
+msgstr "The file contains no records."
+
+msgid "The file did not pass the configured scanner."
+msgstr "The file did not pass the configured scanner."
+
+msgid "The speaker already has a rehearsal at this time."
+msgstr "The speaker already has a rehearsal at this time."
+
+msgid "Theme"
+msgstr "Theme"
+
+msgid ""
+"This account serves another event. Revoke its role here instead of changing "
+"the global account."
+msgstr ""
+"This account serves another event. Revoke its role here instead of changing "
+"the global account."
+
+msgid "This allocation path requires approved free registration."
+msgstr "This allocation path requires approved free registration."
+
+msgid "This application is already finalized."
+msgstr "This application is already finalized."
+
+msgid "This application link has expired."
+msgstr "This application link has expired."
+
+msgid "This dependency would create a cycle."
+msgstr "This dependency would create a cycle."
+
+msgid "This file scope is not permitted for your role."
+msgstr "This file scope is not permitted for your role."
+
+msgid ""
+"This link has expired or has already been used. Request a fresh email from "
+"the ticket recovery page."
+msgstr ""
+"This link has expired or has already been used. Request a fresh email from "
+"the ticket recovery page."
+
+msgid ""
+"This link is invalid or expired. Ask the organizer for a fresh invitation."
+msgstr ""
+"This link is invalid or expired. Ask the organizer for a fresh invitation."
+
+msgid "This record changed while you were editing. Reload it before saving."
+msgstr "This record changed while you were editing. Reload it before saving."
+
+msgid "This record is unavailable in your authorized scope."
+msgstr "This record is unavailable in your authorized scope."
+
+msgid "This registration already has a ticket. Use its lifecycle actions."
+msgstr "This registration already has a ticket. Use its lifecycle actions."
+
+msgid "This registration cannot move to that status."
+msgstr "This registration cannot move to that status."
+
+msgid "This session overlaps another public program item."
+msgstr "This session overlaps another public program item."
+
+msgid "This talk exceeds the configured event duration limit."
+msgstr "This talk exceeds the configured event duration limit."
+
+msgid "This username already exists."
+msgstr "This username already exists."
+
+msgid "This verification link has expired or was already used."
+msgstr "This verification link has expired or was already used."
+
+msgid "This volunteer already has an overlapping shift."
+msgstr "This volunteer already has an overlapping shift."
+
+msgid "Ticket Type"
+msgstr "Ticket Type"
+
+msgid "Ticket allocation is closed for event-day admission."
+msgstr "Ticket allocation is closed for event-day admission."
+
+msgid "Ticket changes are frozen during manual admission and reconciliation."
+msgstr "Ticket changes are frozen during manual admission and reconciliation."
+
+msgid "Ticket changes are frozen during manual admission."
+msgstr "Ticket changes are frozen during manual admission."
+
+msgid "Ticket does not belong to this attendee."
+msgstr "Ticket does not belong to this attendee."
+
+msgid "Ticket type"
+msgstr "Ticket type"
+
+msgid "Ticket types"
+msgstr "Ticket types"
+
+msgid "Tickets"
+msgstr "Tickets"
+
+msgid "Title"
+msgstr "Title"
+
+msgid "Too many attempts. Please try again later."
+msgstr "Too many attempts. Please try again later."
+
+msgid "Too many attempts. Please wait and try again."
+msgstr "Too many attempts. Please wait and try again."
+
+msgid "Too many login attempts. Try again later."
+msgstr "Too many login attempts. Try again later."
+
+msgid "Transition"
+msgstr "Transition"
+
+msgid "Türkçe"
+msgstr "Türkçe"
+
+msgid "Under Review"
+msgstr "Under Review"
+
+msgid "University community"
+msgstr "University community"
+
+msgid "Unsupported registration answers."
+msgstr "Unsupported registration answers."
+
+msgid "Update my details"
+msgstr "Update my details"
+
+msgid "Updated"
+msgstr "Updated"
+
+msgid "Updates will be published here when approved."
+msgstr "Updates will be published here when approved."
+
+msgid "Upload a PDF, PNG, JPEG or PPTX up to 25 MB."
+msgstr "Upload a PDF, PNG, JPEG or PPTX up to 25 MB."
+
+msgid "Upload private file"
+msgstr "Upload private file"
+
+msgid "Urgent"
+msgstr "Urgent"
+
+msgid "Use a clean, approved public-candidate image for this speaker."
+msgstr "Use a clean, approved public-candidate image for this speaker."
+
+msgid "Use a valid PNG/JPEG image of at most 25 megapixels."
+msgstr "Use a valid PNG/JPEG image of at most 25 megapixels."
+
+msgid "Use a valid UTF-8 CSV with ISO 8601 timestamps."
+msgstr "Use a valid UTF-8 CSV with ISO 8601 timestamps."
+
+msgid "Use at most 12 optional form fields."
+msgstr "Use at most 12 optional form fields."
+
+msgid "Use only plain {event}, {name}, {link}, and {status} placeholders."
+msgstr "Use only plain {event}, {name}, {link}, and {status} placeholders."
+
+msgid "Use the approval action to approve a reviewed talk."
+msgstr "Use the approval action to approve a reviewed talk."
+
+msgid "Use the public form when invitations or custom answers are required."
+msgstr "Use the public form when invitations or custom answers are required."
+
+msgid "Use your assigned account to access the event workspace."
+msgstr "Use your assigned account to access the event workspace."
+
+msgid "Used At"
+msgstr "Used At"
+
+msgid "Used at"
+msgstr "Used at"
+
+msgid "User"
+msgstr "User"
+
+msgid "Validate & check in"
+msgstr "Validate & check in"
+
+msgid "Venue"
+msgstr "Venue"
+
+msgid "Venue and arrival instructions will be published after confirmation."
+msgstr "Venue and arrival instructions will be published after confirmation."
+
+msgid "Venue confirmed"
+msgstr "Venue confirmed"
+
+msgid "Verified"
+msgstr "Verified"
+
+msgid "Verify code"
+msgstr "Verify code"
+
+msgid "Verify email"
+msgstr "Verify email"
+
+msgid "Verify the attendee email before allocating a ticket."
+msgstr "Verify the attendee email before allocating a ticket."
+
+msgid "Verify your authenticator again before this privileged action."
+msgstr "Verify your authenticator again before this privileged action."
+
+msgid "Verify your email"
+msgstr "Verify your email"
+
+msgid "Verify your sign-in"
+msgstr "Verify your sign-in"
+
+msgid "Volunteer"
+msgstr "Volunteer"
+
+msgid "Volunteer applications"
+msgstr "Volunteer applications"
+
+msgid "Volunteer applications are not open."
+msgstr "Volunteer applications are not open."
+
+msgid "Volunteer open"
+msgstr "Volunteer open"
+
+msgid "Volunteers"
+msgstr "Volunteers"
+
+msgid "Waitlisted"
+msgstr "Waitlisted"
+
+msgid "What must be true before this task is complete?"
+msgstr "What must be true before this task is complete?"
+
+msgid "Withdraw"
+msgstr "Withdraw"
+
+msgid "Withdraw application"
+msgstr "Withdraw application"
+
+msgid "Withdrawn"
+msgstr "Withdrawn"
+
+msgid "Write a comment of 1–4000 characters."
+msgstr "Write a comment of 1–4000 characters."
+
+msgid "You cannot deactivate your own account here."
+msgstr "You cannot deactivate your own account here."
+
+msgid "Your account is not authorized for this action."
+msgstr "Your account is not authorized for this action."
+
+msgid ""
+"Your account is signed in, but has no active event role. Contact the "
+"organizer for access."
+msgstr ""
+"Your account is signed in, but has no active event role. Contact the "
+"organizer for access."
+
+msgid ""
+"Your application has been updated. We will email you when a ticket is "
+"issued."
+msgstr ""
+"Your application has been updated. We will email you when a ticket is "
+"issued."
+
+msgid ""
+"Your application has been withdrawn. Active volunteer assignments were "
+"cancelled."
+msgstr ""
+"Your application has been withdrawn. Active volunteer assignments were "
+"cancelled."
+
+msgid "Your application is awaiting a ticket decision."
+msgstr "Your application is awaiting a ticket decision."
+
+msgid "Your details"
+msgstr "Your details"
+
+msgid "Your profile and survey preference were updated."
+msgstr "Your profile and survey preference were updated."
+
+msgid "Your registration"
+msgstr "Your registration"
+
+msgid "Your ticket has been cancelled."
+msgstr "Your ticket has been cancelled."
+
+msgid "Your verified erasure request has been recorded for review."
+msgstr "Your verified erasure request has been recorded for review."
+
+msgid "Your volunteer application"
+msgstr "Your volunteer application"
+
+msgid "of"
+msgstr "of"
+
+msgid "records in your scope"
+msgstr "records in your scope"
+
+msgid "rows."
+msgstr "rows."
+
+msgid "العربية"
+msgstr "العربية"
+
+msgid "← Event website"
+msgstr "← Event website"
+
+msgid "← Previous"
+msgstr "← Previous"
+
+msgid "Records table"
+msgstr "Records table"
+
+msgid "Automatic updates every 30 seconds"
+msgstr "Automatic updates every 30 seconds"
+
+msgid "Refresh dashboard"
+msgstr "Refresh dashboard"
+
+msgid "Authenticator enrollment QR"
+msgstr "Authenticator enrollment QR"
+
+msgid "Choose…"
+msgstr "Choose…"
+
+msgid "Pagination"
+msgstr "Pagination"
+
+msgid "QR camera preview"
+msgstr "QR camera preview"
+
+msgid "Your private admission QR code"
+msgstr "Your private admission QR code"
+
+msgid "Add"
+msgstr "Add"
+
+msgid "Admitted"
+msgstr "Admitted"
+
+msgid "CSV import / ledger"
+msgstr "CSV import / ledger"
+
+msgid "Change admission mode"
+msgstr "Change admission mode"
+
+msgid "Confirm action"
+msgstr "Confirm action"
+
+msgid "Consent-filtered survey export"
+msgstr "Consent-filtered survey export"
+
+msgid "Controlled entrance roster"
+msgstr "Controlled entrance roster"
+
+msgid "Edit"
+msgstr "Edit"
+
+msgid "Export"
+msgstr "Export"
+
+msgid "My visible open tasks"
+msgstr "My visible open tasks"
+
+msgid "No deadline"
+msgstr "No deadline"
+
+msgid "No session in progress"
+msgstr "No session in progress"
+
+msgid "No upcoming published session"
+msgstr "No upcoming published session"
+
+msgid "Operational procedure"
+msgstr "Operational procedure"
+
+msgid "Registrations"
+msgstr "Registrations"
+
+msgid "Visible open incidents"
+msgstr "Visible open incidents"
+
+msgid "Invalid saved scan result."
+msgstr "Invalid saved scan result."
+
+msgid "Admitted at"
+msgstr "Admitted at"
+
+msgid "Manual"
+msgstr "Manual"
+
+msgid "Qr"
+msgstr "Qr"
+
+msgid "Reconciled"
+msgstr "Reconciled"
+
+msgid "Ticket"
+msgstr "Ticket"
+
+msgid "Admission history"
+msgstr "Admission history"
+
+msgid "Admitted At"
+msgstr "Admitted At"
+
+msgid "Not admitted"
+msgstr "Not admitted"
+
+msgid "A university community. A shared space for ideas."
+msgstr "A university community. A shared space for ideas."
+
+msgid "Admission requires a confirmed ticket."
+msgstr "Admission requires a confirmed ticket."
+
+msgid "Before you arrive"
+msgstr "Before you arrive"
+
+msgid "Confirmed speakers and approved talk details will be added here."
+msgstr "Confirmed speakers and approved talk details will be added here."
+
+msgid "Date"
+msgstr "Date"
+
+msgid "Event at a glance"
+msgstr "Event at a glance"
+
+msgid ""
+"Explore volunteering in program preparation, production and audience "
+"hospitality."
+msgstr ""
+"Explore volunteering in program preparation, production and audience "
+"hospitality."
+
+msgid "Find answers about registration, tickets, access and participation."
+msgstr "Find answers about registration, tickets, access and participation."
+
+msgid "Follow program announcements, talk details and the final schedule."
+msgstr "Follow program announcements, talk details and the final schedule."
+
+msgid "Home"
+msgstr "Home"
+
+msgid "Ideas begin with the people around us."
+msgstr "Ideas begin with the people around us."
+
+msgid ""
+"Local preview — event details are being prepared. Applications are not open."
+msgstr ""
+"Local preview — event details are being prepared. Applications are not open."
+
+msgid "Registration information"
+msgstr "Registration information"
+
+msgid "Room to be announced"
+msgstr "Room to be announced"
+
+msgid "Speaker announcements are on the way."
+msgstr "Speaker announcements are on the way."
+
+msgid ""
+"Students, academics and researchers coming together to share ideas, "
+"experiences and new perspectives."
+msgstr ""
+"Students, academics and researchers coming together to share ideas, "
+"experiences and new perspectives."
+
+msgid "Event information, speakers and registration."
+msgstr "Event information, speakers and registration."
+
+msgid "Adding a speaker photo"
+msgstr "Adding a speaker photo"
+
+msgid "Additional registration questions"
+msgstr "Additional registration questions"
+
+msgid ""
+"Advanced JSON configuration for additional questions. Leave [] if no extra "
+"questions are needed. Do not collect unnecessary personal information."
+msgstr ""
+"Advanced JSON configuration for additional questions. Leave [] if no extra "
+"questions are needed. Do not collect unnecessary personal information."
+
+msgid ""
+"Applications are accepted only between the registration opening and closing "
+"times."
+msgstr ""
+"Applications are accepted only between the registration opening and closing "
+"times."
+
+msgid "Attendee registration and tickets"
+msgstr "Attendee registration and tickets"
+
+msgid ""
+"Choose review to approve applications individually. Closed disables attendee"
+" registration."
+msgstr ""
+"Choose review to approve applications individually. Closed disables attendee"
+" registration."
+
+msgid "Entrance check-in opening time, not the registration opening date."
+msgstr "Entrance check-in opening time, not the registration opening date."
+
+msgid "Event identity and location"
+msgstr "Event identity and location"
+
+msgid "Event timing"
+msgstr "Event timing"
+
+msgid ""
+"Identifier of the approved privacy notice version; update it when the notice"
+" changes."
+msgstr ""
+"Identifier of the approved privacy notice version; update it when the notice"
+" changes."
+
+msgid ""
+"Makes the event public. Registration and volunteer intake have separate "
+"switches. Publish approved CMS pages separately."
+msgstr ""
+"Makes the event public. Registration and volunteer intake have separate "
+"switches. Publish approved CMS pages separately."
+
+msgid ""
+"Must respect the event licence and cannot be lower than tickets already "
+"committed."
+msgstr ""
+"Must respect the event licence and cannot be lower than tickets already "
+"committed."
+
+msgid ""
+"Paid tickets require an implemented payment provider. Choose free only if "
+"participation is approved as free."
+msgstr ""
+"Paid tickets require an implemented payment provider. Choose free only if "
+"participation is approved as free."
+
+msgid ""
+"Photo is optional. Save the speaker first to avoid losing unsaved changes, "
+"upload the image, then return to edit the speaker and select it."
+msgstr ""
+"Photo is optional. Save the speaker first to avoid losing unsaved changes, "
+"upload the image, then return to edit the speaker and select it."
+
+msgid "Privacy and approvals"
+msgstr "Privacy and approvals"
+
+msgid ""
+"Requires a published event, approved privacy notice and notice version. "
+"Attendee registration may remain closed."
+msgstr ""
+"Requires a published event, approved privacy notice and notice version. "
+"Attendee registration may remain closed."
+
+msgid "Select only after the privacy notice has actually been approved."
+msgstr "Select only after the privacy notice has actually been approved."
+
+msgid "Select only after the registration policy has actually been approved."
+msgstr "Select only after the registration policy has actually been approved."
+
+msgid "Settings sections"
+msgstr "Settings sections"
+
+msgid ""
+"Supported language codes as JSON, for example [\"tr\", \"en\"]. This does "
+"not translate event content automatically."
+msgstr ""
+"Supported language codes as JSON, for example [\"tr\", \"en\"]. This does "
+"not translate event content automatically."
+
+msgid ""
+"The photo field selects an existing uploaded file. Upload a PNG or JPEG "
+"first, using the Public Candidate scope. The image must pass malware "
+"scanning before the speaker can be published."
+msgstr ""
+"The photo field selects an existing uploaded file. Upload a PNG or JPEG "
+"first, using the Public Candidate scope. The image must pass malware "
+"scanning before the speaker can be published."
+
+msgid "Time zone"
+msgstr "Time zone"
+
+msgid "Upload a photo in a new tab"
+msgstr "Upload a photo in a new tab"
+
+msgid "First Come"
+msgstr "First Come"
+
+msgid "Free"
+msgstr "Free"
+
+msgid "Online"
+msgstr "Online"
+
+msgid "Reconciling"
+msgstr "Reconciling"
+
+msgid "Undecided"
+msgstr "Undecided"
+
+msgid "Add the privacy notice"
+msgstr "Add the privacy notice"
+
+msgid ""
+"After the responsible organizer or university has approved the text, select "
+"Privacy approved. The system does not approve it for you."
+msgstr ""
+"After the responsible organizer or university has approved the text, select "
+"Privacy approved. The system does not approve it for you."
+
+msgid ""
+"Confirm approval of the privacy notice, or leave volunteer applications "
+"closed."
+msgstr ""
+"Confirm approval of the privacy notice, or leave volunteer applications "
+"closed."
+
+msgid "Confirm the notice approval"
+msgstr "Confirm the notice approval"
+
+msgid ""
+"Enter a version label, for example v1.0. This identifies the text applicants"
+" accepted; it is not an approval."
+msgstr ""
+"Enter a version label, for example v1.0. This identifies the text applicants"
+" accepted; it is not an approval."
+
+msgid "Enter the notice version, for example v1.0."
+msgstr "Enter the notice version, for example v1.0."
+
+msgid "Filled"
+msgstr "Filled"
+
+msgid ""
+"Follow these links to complete the required fields. Indicators reflect the "
+"current form; changes take effect only after saving."
+msgstr ""
+"Follow these links to complete the required fields. Indicators reflect the "
+"current form; changes take effect only after saving."
+
+msgid "Go to privacy notice"
+msgstr "Go to privacy notice"
+
+msgid "Name this notice version"
+msgstr "Name this notice version"
+
+msgid "Open volunteer applications"
+msgstr "Open volunteer applications"
+
+msgid "Open volunteer applications: step by step"
+msgstr "Open volunteer applications: step by step"
+
+msgid ""
+"Paste the approved notice shown to applicants. A title or a version number "
+"alone is not a notice."
+msgstr ""
+"Paste the approved notice shown to applicants. A title or a version number "
+"alone is not a notice."
+
+msgid ""
+"Paste the approved privacy notice before opening volunteer applications."
+msgstr ""
+"Paste the approved privacy notice before opening volunteer applications."
+
+msgid "Publish the event"
+msgstr "Publish the event"
+
+msgid ""
+"Select Volunteer open, then save settings. You can complete all steps and "
+"save once."
+msgstr ""
+"Select Volunteer open, then save settings. You can complete all steps and "
+"save once."
+
+msgid "Settings were not saved. Review these fields:"
+msgstr "Settings were not saved. Review these fields:"
+
+msgid "The event must be published for visitors to submit applications."
+msgstr "The event must be published for visitors to submit applications."
+
+msgid "To complete"
+msgstr "To complete"
+
+msgid "Advanced settings"
+msgstr "Advanced settings"
+
+msgid ""
+"Edit the event details and application status below. Prepared policy text "
+"and technical settings are available only when you need them."
+msgstr ""
+"Edit the event details and application status below. Prepared policy text "
+"and technical settings are available only when you need them."
+
+msgid "Entry mode"
+msgstr "Entry mode"
+
+msgid "Event"
+msgstr "Event"
+
+msgid "A clear view of your event, from preparation to arrival."
+msgstr "A clear view of your event, from preparation to arrival."
+
+msgid "Accounts, reporting and advanced administration."
+msgstr "Accounts, reporting and advanced administration."
+
+msgid "Add speaker"
+msgstr "Add speaker"
+
+msgid "All attendees"
+msgstr "All attendees"
+
+msgid ""
+"Applications are reviewed by the event team. A confirmed ticket secures your"
+" place."
+msgstr ""
+"Applications are reviewed by the event team. A confirmed ticket secures your"
+" place."
+
+msgid "Attendance"
+msgstr "Attendance"
+
+msgid "Attendees & tickets"
+msgstr "Attendees & tickets"
+
+msgid "Back to list"
+msgstr "Back to list"
+
+msgid "Back to speaker"
+msgstr "Back to speaker"
+
+msgid "Before you apply"
+msgstr "Before you apply"
+
+msgid "Breadcrumbs"
+msgstr "Breadcrumbs"
+
+msgid "Cancel your ticket? This action cannot be undone here."
+msgstr "Cancel your ticket? This action cannot be undone here."
+
+msgid "Change this account's access status?"
+msgstr "Change this account's access status?"
+
+msgid "Choose a PNG or JPEG speaker photo."
+msgstr "Choose a PNG or JPEG speaker photo."
+
+msgid "Clear filters"
+msgstr "Clear filters"
+
+msgid ""
+"Complete your details, verify your email, then follow your ticket status."
+msgstr ""
+"Complete your details, verify your email, then follow your ticket status."
+
+msgid "Confirmed tickets"
+msgstr "Confirmed tickets"
+
+msgid "Contact the team"
+msgstr "Contact the team"
+
+msgid "Event information, public content and the program."
+msgstr "Event information, public content and the program."
+
+msgid "Event website"
+msgstr "Event website"
+
+msgid "Find my ticket"
+msgstr "Find my ticket"
+
+msgid "In this section"
+msgstr "In this section"
+
+msgid "Manage profile"
+msgstr "Manage profile"
+
+msgid "Manage registration"
+msgstr "Manage registration"
+
+msgid "Manage ticket"
+msgstr "Manage ticket"
+
+msgid "Needs attention"
+msgstr "Needs attention"
+
+msgid "Newest first"
+msgstr "Newest first"
+
+msgid "No application"
+msgstr "No application"
+
+msgid "No open tasks or incidents in your scope."
+msgstr "No open tasks or incidents in your scope."
+
+msgid "No ticket"
+msgstr "No ticket"
+
+msgid "Not published"
+msgstr "Not published"
+
+msgid "Open in Google Maps"
+msgstr "Open in Google Maps"
+
+msgid "Optional"
+msgstr "Optional"
+
+msgid "Overview"
+msgstr "Overview"
+
+msgid "People, responsibilities and the work behind the event."
+msgstr "People, responsibilities and the work behind the event."
+
+msgid "Please review your information"
+msgstr "Please review your information"
+
+msgid "Prepare speaker profiles and manage their publication."
+msgstr "Prepare speaker profiles and manage their publication."
+
+msgid "Preview website"
+msgstr "Preview website"
+
+msgid "Print ticket"
+msgstr "Print ticket"
+
+msgid "QR check-in"
+msgstr "QR check-in"
+
+msgid "Quick actions"
+msgstr "Quick actions"
+
+msgid "Register"
+msgstr "Register"
+
+msgid "Registration Status"
+msgstr "Registration Status"
+
+msgid "Registration opens"
+msgstr "Registration opens"
+
+msgid "Registration steps"
+msgstr "Registration steps"
+
+msgid "Registration, tickets and arrival in one place."
+msgstr "Registration, tickets and arrival in one place."
+
+msgid "Related tools"
+msgstr "Related tools"
+
+msgid "Scan QR"
+msgstr "Scan QR"
+
+msgid "Settings"
+msgstr "Settings"
+
+msgid "Sort by"
+msgstr "Sort by"
+
+msgid "Speaker photo"
+msgstr "Speaker photo"
+
+msgid "Submit a personal-data erasure request for review?"
+msgstr "Submit a personal-data erasure request for review?"
+
+msgid "Team & operations"
+msgstr "Team & operations"
+
+msgid "Team updates & event-day details"
+msgstr "Team updates & event-day details"
+
+msgid "The photo could not be attached."
+msgstr "The photo could not be attached."
+
+msgid "Ticket Status"
+msgstr "Ticket Status"
+
+msgid "Time"
+msgstr "Time"
+
+msgid "Upload / replace photo"
+msgstr "Upload / replace photo"
+
+msgid ""
+"Upload a photo for this speaker. It will appear publicly after scanning and "
+"publication approval."
+msgstr ""
+"Upload a photo for this speaker. It will appear publicly after scanning and "
+"publication approval."
+
+msgid "Use the invitation sent to your email to apply for this event."
+msgstr "Use the invitation sent to your email to apply for this event."
+
+msgid "View tickets"
+msgstr "View tickets"
+
+msgid "Want to volunteer instead?"
+msgstr "Want to volunteer instead?"
+
+msgid "Withdraw your application and cancel active volunteer assignments?"
+msgstr "Withdraw your application and cancel active volunteer assignments?"
+
+msgid "Your event"
+msgstr "Your event"
+
+msgid "Your ticket"
+msgstr "Your ticket"
+
+msgid "Entrance desk"
+msgstr "Entrance desk"
+
+msgid "Qr Status"
+msgstr "Qr Status"
+
+msgid "File quarantined pending a configured malware scan."
+msgstr "File quarantined pending a configured malware scan."
+
+msgid "File uploaded."
+msgstr "File uploaded."
+
+msgid "Saved."
+msgstr "Saved."
+
+msgid "The file could not be validated."
+msgstr "The file could not be validated."
+
+msgid "Check-in attempts"
+msgstr "Check-in attempts"
+
+msgid "Applications awaiting review"
+msgstr "Applications awaiting review"
+
+msgid "Back"
+msgstr "Back"
+
+msgid "Confirm"
+msgstr "Confirm"
+
+msgid "More tools"
+msgstr "More tools"
+
+msgid "QR status"
+msgstr "QR status"
+
+msgid "Registration status"
+msgstr "Registration status"
+
+msgid "Review applications and help attendees plan their day."
+msgstr "Review applications and help attendees plan their day."
+
+msgid "Ticket status"
+msgstr "Ticket status"
+
+msgid "Access unavailable"
+msgstr "Access unavailable"
+
+msgid "Page not found"
+msgstr "Page not found"
+
+msgid "Something went wrong"
+msgstr "Something went wrong"
+
+msgid ""
+"This link may have expired or moved. Return to the event to find the "
+"information you need."
+msgstr ""
+"This link may have expired or moved. Return to the event to find the "
+"information you need."
+
+msgid "We could not load this page. Please try again shortly."
+msgstr "We could not load this page. Please try again shortly."
+
+msgid ""
+"Your account cannot open this page. Sign in with your assigned account or "
+"return to the event."
+msgstr ""
+"Your account cannot open this page. Sign in with your assigned account or "
+"return to the event."
+
+msgid "About"
+msgstr "About"
+
+msgid "First name"
+msgstr "First name"
+
+msgid "Last name"
+msgstr "Last name"
+
+msgid "Manual admission ledger"
+msgstr "Manual admission ledger"
+
+msgid "Registration requests (email verification required)"
+msgstr "Registration requests (email verification required)"
+
+msgid "Username"
+msgstr "Username"
+
+msgid "One day. New ideas. Shared perspectives."
+msgstr "One day. New ideas. Shared perspectives."
+
+msgid "The ideas that bring us together."
+msgstr "The ideas that bring us together."
+
+msgid "Meet the people behind the ideas."
+msgstr "Meet the people behind the ideas."
+
+msgid "Your day, at a glance."
+msgstr "Your day, at a glance."
+
+msgid "Everything you need to find your way here."
+msgstr "Everything you need to find your way here."
+
+msgid "A little clarity before you join us."
+msgstr "A little clarity before you join us."
+
+msgid "Questions about joining us? Start here."
+msgstr "Questions about joining us? Start here."
+
+msgid "Your information, explained clearly."
+msgstr "Your information, explained clearly."
+
+msgid "What to know before taking part."
+msgstr "What to know before taking part."
+
+msgid "Program details"
+msgstr "Program details"
+
+msgid "Plan your day"
+msgstr "Plan your day"
+
+msgid "Getting here"
+msgstr "Getting here"
+
+msgid "Let’s help you get ready."
+msgstr "Let’s help you get ready."
+
+msgid "The privacy notice has not been published."
+msgstr "The privacy notice has not been published."
+
+msgid "Explore"
+msgstr "Explore"
+
+msgid "Approve registration policy before opening registration."
+msgstr "Approve registration policy before opening registration."
+
+msgid "An approved privacy notice needs its text and version."
+msgstr "An approved privacy notice needs its text and version."
+
+msgid ""
+"Approve event policy, capacity and entrance opening time before admitting "
+"guests."
+msgstr ""
+"Approve event policy, capacity and entrance opening time before admitting "
+"guests."
+
+#~ msgid ""
+#~ "Approve event policy, privacy, capacity and entrance opening time before "
+#~ "admitting guests."
+#~ msgstr ""
+#~ "Approve event policy, privacy, capacity and entrance opening time before "
+#~ "admitting guests."
+
+#~ msgid "Apply language"
+#~ msgstr "Apply language"
+
+#~ msgid ""
+#~ "Approve registration policy and a versioned privacy notice before opening "
+#~ "registration."
+#~ msgstr ""
+#~ "Approve registration policy and a versioned privacy notice before opening "
+#~ "registration."
+
+#~ msgid "The privacy notice will be available before applications open."
+#~ msgstr "The privacy notice will be available before applications open."
+
+#~ msgid "Confirmed speakers will be announced here."
+#~ msgstr "Confirmed speakers will be announced here."
+
+#~ msgid "IDEAS · PEOPLE · POSSIBILITY"
+#~ msgstr "IDEAS · PEOPLE · POSSIBILITY"
+
+#~ msgid "Arrival information"
+#~ msgstr "Arrival information"
+
+#~ msgid "Audience limit"
+#~ msgstr "Audience limit"
+
+#~ msgid "Discover the proposed direction and the questions shaping the event."
+#~ msgstr "Discover the proposed direction and the questions shaping the event."
+
+#~ msgid "Explore the day"
+#~ msgstr "Explore the day"
+
+#~ msgid "From an idea to a conversation."
+#~ msgstr "From an idea to a conversation."
+
+#~ msgid "Planned program hours"
+#~ msgstr "Planned program hours"
+
+#~ msgid "QR scans"
+#~ msgstr "QR scans"
+
+#~ msgid "Entrance check-in"
+#~ msgstr "Entrance check-in"
+
+#~ msgid "Event settings"
+#~ msgstr "Event settings"
+
+#~ msgid "No approved sessions yet."
+#~ msgstr "No approved sessions yet."
+
+#~ msgid "No open incidents in your scope."
+#~ msgstr "No open incidents in your scope."
+
+#~ msgid "No open tasks in your scope."
+#~ msgstr "No open tasks in your scope."
+
+#~ msgid "OPERATIONS"
+#~ msgstr "OPERATIONS"
+
+#~ msgid "Open entrance ↗"
+#~ msgstr "Open entrance ↗"
+
+#~ msgid "Open incidents"
+#~ msgstr "Open incidents"
+
+#~ msgid "Published program"
+#~ msgstr "Published program"
+
+#~ msgid "Upcoming work"
+#~ msgstr "Upcoming work"
+
+#~ msgid "Verified At"
+#~ msgstr "Verified At"
+
+#~ msgid "Verified at"
+#~ msgstr "Verified at"
+
+#~ msgid "View location"
+#~ msgstr "View location"
+
+#~ msgid ""
+#~ "Your authorized work, current priorities and event updates. Refreshes every "
+#~ "30 seconds."
+#~ msgstr ""
+#~ "Your authorized work, current priorities and event updates. Refreshes every "
+#~ "30 seconds."
+
+#~ msgid "· NOW"
+#~ msgstr "· NOW"
+
+#~ msgid "Publication and volunteer applications"
+#~ msgstr "Publication and volunteer applications"
+
+#~ msgid ""
+#~ "Save settings after reviewing each section. Opening applications and "
+#~ "publishing content are separate actions."
+#~ msgstr ""
+#~ "Save settings after reviewing each section. Opening applications and "
+#~ "publishing content are separate actions."
+
+#~ msgid "staff"
+#~ msgstr "staff"
+
+#~ msgid "Event operations"
+#~ msgstr "Event operations"
+
+#~ msgid "A place for ideas and the people behind them."
+#~ msgstr "A place for ideas and the people behind them."
+
+#~ msgid "Discover opportunities to support the event as a volunteer."
+#~ msgstr "Discover opportunities to support the event as a volunteer."
+
+#~ msgid "Explore the program"
+#~ msgstr "Explore the program"
+
+#~ msgid "Join the audience"
+#~ msgstr "Join the audience"
+
+#~ msgid "Speaker announcements will appear here once confirmed."
+#~ msgstr "Speaker announcements will appear here once confirmed."
+
+#~ msgid "Announcement"
+#~ msgstr "Announcement"
+
+#~ msgid "Anonymized at"
+#~ msgstr "Anonymized at"
+
+#~ msgid "Answers"
+#~ msgstr "Answers"
+
+#~ msgid "Application"
+#~ msgstr "Application"
+
+#~ msgid "Approved at"
+#~ msgstr "Approved at"
+
+#~ msgid "Approved by"
+#~ msgstr "Approved by"
+
+#~ msgid "Archived at"
+#~ msgstr "Archived at"
+
+#~ msgid "Author"
+#~ msgstr "Author"
+
+#~ msgid "Ciphertext"
+#~ msgstr "Ciphertext"
+
+#~ msgid "Committed at"
+#~ msgstr "Committed at"
+
+#~ msgid "Content type"
+#~ msgstr "Content type"
+
+#~ msgid "Count"
+#~ msgstr "Count"
+
+#~ msgid "Counts capacity"
+#~ msgstr "Counts capacity"
+
+#~ msgid "Decision note"
+#~ msgstr "Decision note"
+
+#~ msgid "Deduplication key"
+#~ msgstr "Deduplication key"
+
+#~ msgid "Device"
+#~ msgstr "Device"
+
+#~ msgid "Digest"
+#~ msgstr "Digest"
+
+#~ msgid "Eligible at"
+#~ msgstr "Eligible at"
+
+#~ msgid "Exit"
+#~ msgstr "Exit"
+
+#~ msgid "External id"
+#~ msgstr "External id"
+
+#~ msgid "Fingerprint"
+#~ msgstr "Fingerprint"
+
+#~ msgid "Id"
+#~ msgstr "Id"
+
+#~ msgid "Incident"
+#~ msgstr "Incident"
+
+#~ msgid "Invited by"
+#~ msgstr "Invited by"
+
+#~ msgid "Item"
+#~ msgstr "Item"
+
+#~ msgid "Lease until"
+#~ msgstr "Lease until"
+
+#~ msgid "Ledger id"
+#~ msgstr "Ledger id"
+
+#~ msgid "Licensed capacity"
+#~ msgstr "Licensed capacity"
+
+#~ msgid "Manage"
+#~ msgstr "Manage"
+
+#~ msgid "Metadata"
+#~ msgstr "Metadata"
+
+#~ msgid "Notification language"
+#~ msgstr "Notification language"
+
+#~ msgid "Order"
+#~ msgstr "Order"
+
+#~ msgid "Original name"
+#~ msgstr "Original name"
+
+#~ msgid "Outcome"
+#~ msgstr "Outcome"
+
+#~ msgid "Payload ciphertext"
+#~ msgstr "Payload ciphertext"
+
+#~ msgid "Published snapshot"
+#~ msgstr "Published snapshot"
+
+#~ msgid "Purpose"
+#~ msgstr "Purpose"
+
+#~ msgid "Recipient"
+#~ msgstr "Recipient"
+
+#~ msgid "Reentry"
+#~ msgstr "Reentry"
+
+#~ msgid "Reporter"
+#~ msgstr "Reporter"
+
+#~ msgid "Request id"
+#~ msgstr "Request id"
+
+#~ msgid "Requested"
+#~ msgstr "Requested"
+
+#~ msgid "Requested by"
+#~ msgstr "Requested by"
+
+#~ msgid "Required registration fields"
+#~ msgstr "Required registration fields"
+
+#~ msgid "Reservation expires at"
+#~ msgstr "Reservation expires at"
+
+#~ msgid "Result"
+#~ msgstr "Result"
+
+#~ msgid "Revision"
+#~ msgstr "Revision"
+
+#~ msgid "Revoked at"
+#~ msgstr "Revoked at"
+
+#~ msgid "Rows"
+#~ msgstr "Rows"
+
+#~ msgid "Sent at"
+#~ msgstr "Sent at"
+
+#~ msgid "Sha256"
+#~ msgstr "Sha256"
+
+#~ msgid "Slug"
+#~ msgstr "Slug"
+
+#~ msgid "Snapshot"
+#~ msgstr "Snapshot"
+
+#~ msgid "Storage key"
+#~ msgstr "Storage key"
+
+#~ msgid "Timezone"
+#~ msgstr "Timezone"
+
+#~ msgid "Token digest"
+#~ msgstr "Token digest"
+
+#~ msgid "Updated at"
+#~ msgstr "Updated at"
+
+#~ msgid "Uploader"
+#~ msgstr "Uploader"
+
+#~ msgid "Verify"
+#~ msgstr "Verify"
+
+#~ msgid "Version"
+#~ msgstr "Version"
+
+#~ msgid "now %}current"
+#~ msgstr "now %}current"

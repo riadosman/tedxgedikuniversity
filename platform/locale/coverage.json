@@ -1,0 +1,26 @@
+{
+  "en/django": {
+    "messages": 756,
+    "untranslated": 0
+  },
+  "en/djangojs": {
+    "messages": 34,
+    "untranslated": 0
+  },
+  "tr/django": {
+    "messages": 756,
+    "untranslated": 0
+  },
+  "tr/djangojs": {
+    "messages": 34,
+    "untranslated": 0
+  },
+  "ar/django": {
+    "messages": 756,
+    "untranslated": 0
+  },
+  "ar/djangojs": {
+    "messages": 34,
+    "untranslated": 0
+  }
+}

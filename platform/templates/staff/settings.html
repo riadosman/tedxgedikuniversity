@@ -1,0 +1,13 @@
+{% extends 'staff/base.html' %}{% load i18n static %}
+{% block content %}<section class="form-page"><p class="eyebrow">{{ event.name }}</p><h1>{{ title }}</h1>
+<p>{% translate "Edit the event details and application status below. Prepared policy text and technical settings are available only when you need them." %}</p>
+<p class="muted">{% translate "Time zone" %}: {{ event.timezone }}</p>
+<details class="panel setup-guide"><summary>{% translate "Open volunteer applications: step by step" %}</summary><p>{% translate "Follow these links to complete the required fields. Indicators reflect the current form; changes take effect only after saving." %}</p><ol>{% for name,label,help,complete in form.volunteer_steps %}<li data-setup-field="id_{{ name }}"><a href="#id_{{ name }}">{{ label }}</a> <span class="setup-state" data-complete="{% translate 'Filled' %}" data-missing="{% translate 'To complete' %}">{% if complete %}{% translate 'Filled' %}{% else %}{% translate 'To complete' %}{% endif %}</span><p>{{ help }}</p></li>{% endfor %}</ol><a class="button secondary" href="#id_privacy_notice">{% translate "Go to privacy notice" %}</a></details>
+<nav class="page-links" aria-label="{% translate 'Settings sections' %}">{% for heading,fields in form.sections %}{% if forloop.counter <= 3 %}<a href="#settings-{{ forloop.counter }}">{{ heading }}</a>{% endif %}{% endfor %}</nav>
+<form method="post" class="settings-form">{% csrf_token %}<input type="hidden" name="version" value="{{ obj.version }}">
+{% if form.errors %}<div class="error-summary" role="alert" tabindex="-1"><h2>{% translate "Settings were not saved. Review these fields:" %}</h2><ul>{% for field in form %}{% for error in field.errors %}<li><a href="#{{ field.id_for_label }}">{{ error }}</a></li>{% endfor %}{% endfor %}</ul></div>{% endif %}
+{% if form.non_field_errors %}<div role="alert">{{ form.non_field_errors }}</div>{% endif %}
+{% for heading,fields in form.sections %}<details class="settings-disclosure" {% if form.errors or forloop.first %}open{% endif %}><summary>{{ heading }}</summary><fieldset class="settings-section" id="settings-{{ forloop.counter }}"><legend>{{ heading }}</legend>{% include 'components/form-fields.html' with fields=fields %}</fieldset></details>{% endfor %}
+<div class="actions"><button type="submit">{% translate 'Save and continue' %}</button><a href="{% url 'dashboard' event.slug %}">{% translate 'Back to dashboard' %}</a></div></form></section>{% endblock %}
+
+{% block scripts %}<script src="{% static 'settings-guide.js' %}" defer></script>{% endblock %}

@@ -1,0 +1,10 @@
+@font-face{font-family:Manrope;src:url('fonts/Manrope.ttf') format('truetype');font-weight:200 800;font-display:swap}
+@font-face{font-family:Arabic;src:url('fonts/NotoSansArabic.ttf') format('truetype');font-weight:100 900;font-display:swap}
+:root{
+ --red:#c42921;--accent:#e63128;--ink:#202522;--muted:#626962;--paper:#f5f6f3;--white:#fff;--surface:#fff;--line:#dce1d9;
+ --success:#246143;--success-bg:#eaf5ee;--warning:#7c541b;--warning-bg:#fff4df;--error:#aa2923;--error-bg:#fff0ee;--info:#255c89;
+ --font:Manrope,Arabic,Arial,sans-serif;--display:clamp(2.5rem,4.5vw,4.5rem);--h1:clamp(1.9rem,3vw,2.8rem);--h2:clamp(1.4rem,2vw,2rem);
+ --s1:.25rem;--s2:.5rem;--s3:.75rem;--s4:1rem;--s5:1.5rem;--s6:2rem;--s7:3rem;--s8:4rem;--s9:6rem;
+ --radius:8px;--shadow:0 4px 18px #20252206;--transition:150ms ease;--gutter:clamp(1.25rem,4vw,4rem);--content:1240px;
+}
+:lang(ar){--font:Arabic,Arial,sans-serif}

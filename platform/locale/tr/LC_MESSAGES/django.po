@@ -1,0 +1,2877 @@
+#
+msgid ""
+msgstr ""
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "A documented retention hold is still active."
+msgstr "Belgelenmiş saklama engeli hâlâ geçerli."
+
+msgid "A reconciled admission needs its actual, valid event-day timestamp."
+msgstr ""
+"Uzlaştırılan giriş için etkinlik günündeki gerçek ve geçerli giriş zamanı "
+"gerekir."
+
+msgid "A retry ID cannot be reused for a different request."
+msgstr "Yeniden deneme kimliği başka bir istek için kullanılamaz."
+
+msgid "A valid invitation for this email is required."
+msgstr "Bu e-posta adresi için geçerli bir davetiye gerekir."
+
+msgid "ACCOUNT SECURITY"
+msgstr "HESAP GÜVENLİĞİ"
+
+msgid "Absent"
+msgstr "Katılmadı"
+
+msgid "Acceptance"
+msgstr "Tamamlanma ölçütü"
+
+msgid "Accepted"
+msgstr "Kabul edildi"
+
+msgid "Access"
+msgstr "Erişim"
+
+msgid ""
+"Account activation and event roles are separate. Deactivation removes access"
+" immediately."
+msgstr ""
+"Hesabın etkinliği ve etkinlik rolleri ayrıdır. Devre dışı bırakma erişimi "
+"hemen kaldırır."
+
+msgid "Account invitation queued. Assign the appropriate event role next."
+msgstr "Hesap daveti kuyruğa alındı. Şimdi uygun etkinlik rolünü atayın."
+
+msgid "Account status changed. Access is rechecked on every request."
+msgstr "Hesap durumu değiştirildi. Erişim her istekte yeniden kontrol edilir."
+
+msgid "Acknowledge"
+msgstr "Okuduğumu onayla"
+
+msgid "Acknowledged At"
+msgstr "Onay zamanı"
+
+msgid "Acknowledged at"
+msgstr "Onay zamanı"
+
+msgid "Action"
+msgstr "İşlem"
+
+msgid "Action recorded."
+msgstr "İşlem kaydedildi."
+
+msgid "Activate"
+msgstr "Etkinleştir"
+
+msgid "Active"
+msgstr "Etkin"
+
+msgid "Actor"
+msgstr "İşlemi yapan"
+
+msgid "Add a reason or operational note."
+msgstr "Bir gerekçe veya operasyon notu ekleyin."
+
+msgid "Add comment"
+msgstr "Yorum ekle"
+
+msgid "Add record +"
+msgstr "Kayıt ekle +"
+
+msgid "Admission Status"
+msgstr "Giriş durumu"
+
+msgid "Admission opens at"
+msgstr "Giriş açılış zamanı"
+
+msgid "Admission policy is awaiting approval."
+msgstr "Giriş politikası onay bekliyor."
+
+msgid "All available categories count toward the approved audience capacity."
+msgstr "Mevcut tüm kategoriler onaylı katılımcı kapasitesine dahildir."
+
+msgid "All speakers"
+msgstr "Tüm konuşmacılar"
+
+msgid "All statuses"
+msgstr "Tüm durumlar"
+
+msgid "Already committed"
+msgstr "Daha önce uygulandı"
+
+msgid "Already registered? Recover your ticket link."
+msgstr "Zaten kayıtlı mısınız? Bilet bağlantınızı yeniden isteyin."
+
+msgid "Amount Minor"
+msgstr "En küçük para birimiyle tutar"
+
+msgid "Amount minor"
+msgstr "En küçük para birimiyle tutar"
+
+msgid "An erasure needs a verified request and an approval reason."
+msgstr "Silme işlemi için doğrulanmış bir talep ve onay gerekçesi gerekir."
+
+msgid "An independently organized TEDx event."
+msgstr "Bağımsız olarak düzenlenen bir TEDx etkinliği."
+
+msgid "Announcements"
+msgstr "Duyurular"
+
+msgid "Anonymize"
+msgstr "Anonimleştir"
+
+msgid "Answer is too long."
+msgstr "Yanıt çok uzun."
+
+msgid "Application received"
+msgstr "Başvuru alındı"
+
+msgid "Applications are not open yet. Please check back for an update."
+msgstr "Başvurular henüz açılmadı. Güncellemeler için tekrar kontrol edin."
+
+msgid "Approve"
+msgstr "Onayla"
+
+msgid ""
+"Approve a versioned privacy notice before opening volunteer applications."
+msgstr ""
+"Gönüllü başvurularını açmadan önce sürümlü gizlilik bildirimini onaylayın."
+
+msgid ""
+"Approve the event's contact and admission policy before issuing invitations."
+msgstr ""
+"Davet göndermeden önce etkinliğin iletişim ve giriş politikasını onaylayın."
+
+msgid ""
+"Approve the talk and publish its speaker before publishing this session."
+msgstr ""
+"Bu oturumu yayımlamadan önce konuşmayı onaylayın ve konuşmacısını "
+"yayımlayın."
+
+msgid "Approved"
+msgstr "Onaylandı"
+
+msgid "Approved runbook"
+msgstr "Onaylı operasyon kılavuzu"
+
+msgid "Archive"
+msgstr "Arşivle"
+
+msgid "Arrive"
+msgstr "Geldi olarak işaretle"
+
+msgid "Arrived At"
+msgstr "Varış zamanı"
+
+msgid "Arrived at"
+msgstr "Varış zamanı"
+
+msgid "Assign the volunteer to this department first."
+msgstr "Önce gönüllüyü bu departmana atayın."
+
+msgid "Assigned"
+msgstr "Atandı"
+
+msgid "Assigned To"
+msgstr "Atanan kişi"
+
+msgid "Assigned to"
+msgstr "Atanan kişi"
+
+msgid "At Risk"
+msgstr "Risk altında"
+
+msgid "Attachments"
+msgstr "Ekler"
+
+msgid "Attempts"
+msgstr "Denemeler"
+
+msgid "Attend the event"
+msgstr "Etkinliğe katılın"
+
+msgid "Attendee"
+msgstr "Katılımcı"
+
+msgid "Attendee invitations"
+msgstr "Katılımcı davetleri"
+
+msgid "Attendees"
+msgstr "Katılımcılar"
+
+msgid "Audience"
+msgstr "Hedef kitle"
+
+msgid "Audit records are append-only."
+msgstr "Denetim kayıtlarına yalnızca yeni kayıt eklenebilir."
+
+msgid "Audit records cannot be deleted through the application."
+msgstr "Denetim kayıtları uygulamadan silinemez."
+
+msgid "Audit trail"
+msgstr "Denetim geçmişi"
+
+msgid "Availability"
+msgstr "Uygunluk"
+
+msgid "Back to dashboard"
+msgstr "Gösterge paneline dön"
+
+msgid "Back to sign in"
+msgstr "Giriş sayfasına dön"
+
+msgid "Biography"
+msgstr "Biyografi"
+
+msgid "Blocked"
+msgstr "Engellendi"
+
+msgid "Body"
+msgstr "İçerik"
+
+msgid "Break"
+msgstr "Ara"
+
+msgid "Brief"
+msgstr "Bilgilendirildi olarak işaretle"
+
+msgid "Briefed At"
+msgstr "Bilgilendirme zamanı"
+
+msgid "Briefed at"
+msgstr "Bilgilendirme zamanı"
+
+msgid "CSV files must be smaller than 1 MB."
+msgstr "CSV dosyaları 1 MB'den küçük olmalıdır."
+
+msgid "Cancel"
+msgstr "İptal"
+
+msgid "Cancel ticket"
+msgstr "Bileti iptal et"
+
+msgid "Cancelled"
+msgstr "İptal edildi"
+
+msgid "Capacity"
+msgstr "Kapasite"
+
+msgid "Capacity cannot be lower than already committed tickets."
+msgstr "Kapasite, ayrılmış bilet sayısından düşük olamaz."
+
+msgid "Category"
+msgstr "Kategori"
+
+msgid "Change password"
+msgstr "Parolayı değiştir"
+
+msgid "Changes Required"
+msgstr "Değişiklik gerekli"
+
+msgid "Check your email"
+msgstr "E-postanızı kontrol edin"
+
+msgid "Check-in"
+msgstr "Giriş kontrolü"
+
+msgid "Checked in"
+msgstr "Giriş yaptı"
+
+msgid "Checkin"
+msgstr "Giriş kontrolü"
+
+msgid "Choice fields need 1–50 text options of at most 100 characters."
+msgstr ""
+"Seçim alanlarında en fazla 100 karakterlik 1–50 metin seçeneği olmalıdır."
+
+msgid "Choose supported language codes: en, tr, ar."
+msgstr "Desteklenen dil kodlarını seçin: en, tr, ar."
+
+msgid "Clean"
+msgstr "Temiz"
+
+msgid "Closed"
+msgstr "Kapalı"
+
+msgid "Closes at"
+msgstr "Kapanış zamanı"
+
+msgid "Closing"
+msgstr "Kapanış"
+
+msgid "Code"
+msgstr "Kod"
+
+msgid "Commit reviewed import"
+msgstr "İncelenen içe aktarımı uygula"
+
+msgid "Complete"
+msgstr "Tamamla"
+
+msgid "Complete prerequisite tasks first."
+msgstr "Önce ön koşul görevlerini tamamlayın."
+
+msgid "Complete release, fact checking and rights review before approval."
+msgstr ""
+"Onaylamadan önce izin, bilgi doğrulama ve hak incelemesini tamamlayın."
+
+msgid ""
+"Complete the release, fact checking and rights review before marking this "
+"talk ready."
+msgstr ""
+"Bu konuşmayı hazır olarak işaretlemeden önce izin, bilgi doğrulama ve hak "
+"incelemesini tamamlayın."
+
+msgid "Completed"
+msgstr "Tamamlandı"
+
+msgid "Completed At"
+msgstr "Tamamlanma zamanı"
+
+msgid "Completed at"
+msgstr "Tamamlanma zamanı"
+
+msgid "Configure an enabled admission ticket type first."
+msgstr "Önce etkin bir giriş bileti türü yapılandırın."
+
+msgid "Confirm the speaker and record publication consent first."
+msgstr "Önce konuşmacıyı teyit edin ve yayımlama iznini kaydedin."
+
+msgid "Confirm this email address to continue your application."
+msgstr "Başvurunuza devam etmek için bu e-posta adresini doğrulayın."
+
+msgid "Confirmed"
+msgstr "Teyit edildi"
+
+msgid "Confirmed tickets not admitted"
+msgstr "Henüz giriş yapmayan onaylı biletler"
+
+msgid "Contact"
+msgstr "İletişim"
+
+msgid "Contact email"
+msgstr "İletişim e-postası"
+
+msgid "Contingency"
+msgstr "Alternatif plan"
+
+msgid "Continue to workspace"
+msgstr "Çalışma alanına devam et"
+
+msgid "Correct"
+msgstr "Düzelt"
+
+msgid "Created"
+msgstr "Oluşturuldu"
+
+msgid "Created At"
+msgstr "Oluşturulma zamanı"
+
+msgid "Created at"
+msgstr "Oluşturulma zamanı"
+
+msgid "Critical"
+msgstr "Kritik"
+
+msgid "Cue At"
+msgstr "Operasyon işareti zamanı"
+
+msgid "Cue at"
+msgstr "Operasyon işareti zamanı"
+
+msgid "Currency"
+msgstr "Para birimi"
+
+msgid "Custom fields need unique keys, labels and supported types."
+msgstr ""
+"Özel alanların benzersiz anahtarları, etiketleri ve desteklenen türleri "
+"olmalıdır."
+
+msgid "Deactivate"
+msgstr "Devre dışı bırak"
+
+msgid "Declined"
+msgstr "Reddedildi"
+
+msgid "Default general admission"
+msgstr "Varsayılan genel giriş"
+
+msgid "Department"
+msgstr "Departman"
+
+msgid "Department memberships"
+msgstr "Departman üyelikleri"
+
+msgid "Department readiness"
+msgstr "Departman hazırlığı"
+
+msgid "Departments"
+msgstr "Departmanlar"
+
+msgid "Depends On"
+msgstr "Bağlı olduğu görev"
+
+msgid "Depends on"
+msgstr "Bağlı olduğu görev"
+
+msgid "Description"
+msgstr "Açıklama"
+
+msgid "Details"
+msgstr "Ayrıntılar"
+
+msgid "Device label"
+msgstr "Cihaz etiketi"
+
+msgid "Discover the event"
+msgstr "Etkinliği keşfedin"
+
+msgid "Discussion"
+msgstr "Tartışma"
+
+msgid "Done"
+msgstr "Bitti"
+
+msgid "Download file"
+msgstr "Dosyayı indir"
+
+msgid "Download my registration data"
+msgstr "Kayıt verilerimi indir"
+
+msgid "Draft"
+msgstr "Taslak"
+
+msgid "Due At"
+msgstr "Son tarih"
+
+msgid "Due at"
+msgstr "Son tarih"
+
+msgid "ENTRANCE OPERATIONS"
+msgstr "GİRİŞ OPERASYONLARI"
+
+msgid "EVENT OPERATIONS"
+msgstr "ETKİNLİK OPERASYONLARI"
+
+msgid "EVENT WORKSPACE"
+msgstr "ETKİNLİK ÇALIŞMA ALANI"
+
+msgid ""
+"Each code works once. Store them privately before continuing. They will not "
+"be shown again."
+msgstr ""
+"Her kod bir kez kullanılabilir. Devam etmeden önce güvenli bir yerde "
+"saklayın. Kodlar tekrar gösterilmeyecektir."
+
+msgid "Each field needs a concise label."
+msgstr "Her alanın kısa ve açık bir etiketi olmalıdır."
+
+msgid "Edit record"
+msgstr "Kaydı düzenle"
+
+msgid "Editor"
+msgstr "İçerik editörü"
+
+msgid "Email"
+msgstr "E-posta"
+
+msgid ""
+"Email changes require identity review. Keep this registration's verified "
+"address; cancel and re-register through the approved process if necessary."
+msgstr ""
+"E-posta değişikliği kimlik incelemesi gerektirir. Bu kaydın doğrulanmış "
+"adresini koruyun; gerekirse onaylı süreçle iptal edip yeniden kaydolun."
+
+msgid "Email delivery"
+msgstr "E-posta teslimatı"
+
+msgid "Email templates"
+msgstr "E-posta şablonları"
+
+msgid "Email verified"
+msgstr "E-posta doğrulandı"
+
+msgid "Enabled"
+msgstr "Etkinleştirildi"
+
+msgid "Enabled languages"
+msgstr "Etkin diller"
+
+msgid "Ends At"
+msgstr "Bitiş zamanı"
+
+msgid "Ends at"
+msgstr "Bitiş zamanı"
+
+msgid "English"
+msgstr "İngilizce"
+
+msgid "Enter a name of 1–150 characters."
+msgstr "1–150 karakter arasında bir ad girin."
+
+msgid ""
+"Enter your assigned account email. Resetting a password does not remove "
+"authenticator protection."
+msgstr ""
+"Size atanan hesabın e-posta adresini girin. Parola sıfırlama, doğrulayıcı "
+"korumasını kaldırmaz."
+
+msgid ""
+"Entrance opening must be after venue setup access and before the event ends."
+msgstr ""
+"Giriş açılışı, mekân hazırlık erişiminden sonra ve etkinlik bitmeden önce "
+"olmalıdır."
+
+msgid "Entry mode updated. Brief every admission desk."
+msgstr "Giriş modu güncellendi. Tüm giriş masalarını bilgilendirin."
+
+msgid "Equipment"
+msgstr "Ekipman"
+
+msgid "Erase"
+msgstr "Sil"
+
+msgid "Event & registration settings"
+msgstr "Etkinlik ve kayıt ayarları"
+
+msgid "Event Admin"
+msgstr "Etkinlik yöneticisi"
+
+msgid "Event information"
+msgstr "Etkinlik bilgileri"
+
+msgid "Event settings saved."
+msgstr "Etkinlik ayarları kaydedildi."
+
+msgid "Event-day dashboard"
+msgstr "Etkinlik günü paneli"
+
+msgid "Event-day runbook"
+msgstr "Etkinlik günü operasyon kılavuzu"
+
+msgid "Expanded presentation is too large."
+msgstr "Açılmış sunum dosyası çok büyük."
+
+msgid "Expired"
+msgstr "Süresi doldu"
+
+msgid "Expires At"
+msgstr "Son geçerlilik zamanı"
+
+msgid "Expires at"
+msgstr "Son geçerlilik zamanı"
+
+msgid ""
+"Explore the program, meet the speakers, and find the information you need to"
+" take part."
+msgstr ""
+"Programa göz atın, konuşmacıları tanıyın ve katılım için gereken bilgileri "
+"bulun."
+
+msgid "Export CSV"
+msgstr "CSV dışa aktar"
+
+msgid "Export consenting survey recipients"
+msgstr "Ankete izin veren alıcıları dışa aktar"
+
+msgid "Export controlled admission roster"
+msgstr "Kontrollü giriş listesini dışa aktar"
+
+msgid "Export minimum operational columns"
+msgstr "Asgari operasyon sütunlarını dışa aktar"
+
+msgid "FAQ"
+msgstr "Sık sorulan sorular"
+
+msgid "Fact check notes"
+msgstr "Bilgi doğrulama notları"
+
+msgid "Fact checked"
+msgstr "Bilgiler doğrulandı"
+
+msgid "Failed"
+msgstr "Başarısız"
+
+msgid "File content does not match its extension."
+msgstr "Dosya içeriği uzantısıyla eşleşmiyor."
+
+msgid "Finance"
+msgstr "Finans"
+
+msgid "Find an attendee"
+msgstr "Katılımcı bul"
+
+msgid "Footer navigation"
+msgstr "Alt bilgi gezinmesi"
+
+msgid "Forgot your password?"
+msgstr "Parolanızı mı unuttunuz?"
+
+msgid "Full name"
+msgstr "Ad soyad"
+
+msgid "Handover at"
+msgstr "Teslim zamanı"
+
+msgid "Help bring the day to life."
+msgstr "Bu günün gerçekleşmesine katkıda bulunun."
+
+msgid "High"
+msgstr "Yüksek"
+
+msgid "Hold Until"
+msgstr "Saklama engeli sonu"
+
+msgid "Hold until"
+msgstr "Saklama engeli sonu"
+
+msgid "I agree to receive the optional event survey"
+msgstr "İsteğe bağlı etkinlik anketini almayı kabul ediyorum"
+
+msgid "I have read the privacy notice"
+msgstr "Gizlilik bildirimini okudum"
+
+msgid ""
+"If a request times out, retry the same request before admitting anyone. "
+"Offline admission requires the supervisor’s controlled manual procedure."
+msgstr ""
+"İstek zaman aşımına uğrarsa kimseyi almadan önce aynı isteği yeniden "
+"deneyin. Çevrimdışı giriş için sorumlunun kontrollü manuel prosedürü "
+"gerekir."
+
+msgid ""
+"If that address has an application, we will send a private management link."
+msgstr "Bu adresle bir başvuru varsa özel yönetim bağlantısı göndereceğiz."
+
+msgid ""
+"If that address has an eligible account, we will send a password reset link."
+" Your authenticator remains required."
+msgstr ""
+"Bu adresle uygun bir hesap varsa parola sıfırlama bağlantısı göndereceğiz. "
+"Doğrulayıcınız yine gereklidir."
+
+msgid ""
+"If this address is eligible, a verification email will arrive shortly. A "
+"submission is not a confirmed seat."
+msgstr ""
+"Adres uygunsa kısa süre içinde doğrulama e-postası gelecektir. Başvuru, "
+"kesinleşmiş bir yer anlamına gelmez."
+
+msgid ""
+"If we have an eligible registration for that address, we will send a fresh "
+"link."
+msgstr "Bu adresle uygun bir kayıt varsa yeni bağlantı göndereceğiz."
+
+msgid "Import at most 1000 rows at a time."
+msgstr "Bir seferde en fazla 1000 satır içe aktarın."
+
+msgid "Import committed. Repeating this batch will not repeat the changes."
+msgstr ""
+"İçe aktarım uygulandı. Bu toplu işlemi tekrarlamak değişiklikleri yinelemez."
+
+msgid "Important"
+msgstr "Önemli"
+
+msgid "In Progress"
+msgstr "Devam ediyor"
+
+msgid "Inactive"
+msgstr "Etkin değil"
+
+msgid "Incidents"
+msgstr "Olaylar"
+
+msgid "Instructions"
+msgstr "Talimatlar"
+
+msgid "Interface language"
+msgstr "Arayüz dili"
+
+msgid "Internal cues"
+msgstr "Dahili sahne işaretleri"
+
+msgid "Internal notes"
+msgstr "Dahili notlar"
+
+msgid "Interview"
+msgstr "Görüşme"
+
+msgid "Invalid answer option."
+msgstr "Geçersiz yanıt seçeneği."
+
+msgid "Invalid custom-field definition."
+msgstr "Geçersiz özel alan tanımı."
+
+msgid "Invalid entry-mode transition or missing reason."
+msgstr "Geçersiz giriş modu geçişi veya eksik gerekçe."
+
+msgid "Invalid or already-used code. Wait for the next code and try again."
+msgstr "Kod geçersiz veya kullanılmış. Sonraki kodu bekleyip yeniden deneyin."
+
+msgid "Invalid or macro-enabled presentation."
+msgstr "Sunum geçersiz veya makro içeriyor."
+
+msgid "Invalid published program timestamp."
+msgstr "Yayımlanmış programın zaman bilgisi geçersiz."
+
+msgid "Investigating"
+msgstr "İnceleniyor"
+
+msgid "Invitation"
+msgstr "Davetli"
+
+msgid ""
+"Invitation queued. The recipient still verifies their email and receives a "
+"ticket only within capacity."
+msgstr ""
+"Davetiye kuyruğa alındı. Alıcı e-postasını doğrulamalıdır; bilet yalnızca "
+"kapasite varsa verilir."
+
+msgid "Invite a staff member"
+msgstr "Ekip üyesi davet et"
+
+msgid "Invite an attendee"
+msgstr "Katılımcı davet et"
+
+msgid "Invite staff member"
+msgstr "Ekip üyesi davet et"
+
+msgid "Invited"
+msgstr "Davet edildi"
+
+msgid "Join the volunteer team"
+msgstr "Gönüllü ekibine katılın"
+
+msgid "Keep at least one active organizer."
+msgstr "En az bir etkin organizatör bırakın."
+
+msgid "Keep this QR private. Entry staff will validate it at the event."
+msgstr "Bu QR kodunu gizli tutun. Giriş ekibi etkinlikte doğrulayacaktır."
+
+msgid "Key"
+msgstr "Anahtar"
+
+msgid "Kind"
+msgstr "Tür"
+
+msgid "Language"
+msgstr "Dil"
+
+msgid "Languages"
+msgstr "Diller"
+
+msgid "Last Error Code"
+msgstr "Son hata kodu"
+
+msgid "Last error code"
+msgstr "Son hata kodu"
+
+msgid "Leader"
+msgstr "Departman lideri"
+
+msgid "Leaders"
+msgstr "Liderler"
+
+msgid "Leadership"
+msgstr "Yönetim"
+
+msgid "Link unavailable"
+msgstr "Bağlantı kullanılamıyor"
+
+msgid ""
+"Live database totals. Export minimum columns from each authorized module."
+msgstr ""
+"Canlı veritabanı toplamları. Yetkili olduğunuz modüllerden asgari sütunları "
+"dışa aktarın."
+
+msgid "Location"
+msgstr "Konum"
+
+msgid "Low"
+msgstr "Düşük"
+
+msgid "Main navigation"
+msgstr "Ana gezinme"
+
+msgid "Manage admission mode"
+msgstr "Giriş modunu yönet"
+
+msgid "Manual admission requires a reason."
+msgstr "Manuel giriş için gerekçe gerekir."
+
+msgid "Map url"
+msgstr "Harita bağlantısı"
+
+msgid "Max talk minutes"
+msgstr "Azami konuşma süresi (dakika)"
+
+msgid "Medium"
+msgstr "Orta"
+
+msgid "Menu"
+msgstr "Menü"
+
+msgid "Mitigated"
+msgstr "Etkisi azaltıldı"
+
+msgid "More information soon."
+msgstr "Ayrıntılar yakında."
+
+msgid "NOW"
+msgstr "ŞİMDİ"
+
+msgid "Name"
+msgstr "Ad"
+
+msgid "Name or booking reference"
+msgstr "Ad veya rezervasyon referansı"
+
+msgid "Needs Review"
+msgstr "İnceleme gerekli"
+
+msgid "Next Attempt At"
+msgstr "Sonraki deneme zamanı"
+
+msgid "Next attempt at"
+msgstr "Sonraki deneme zamanı"
+
+msgid "Next →"
+msgstr "Sonraki →"
+
+msgid "Next:"
+msgstr "Sıradaki:"
+
+msgid "No announcements for your team."
+msgstr "Ekibiniz için duyuru yok."
+
+msgid "No approved runbook cues for your role."
+msgstr "Rolünüz için onaylı operasyon talimatı yok."
+
+msgid "No comments yet."
+msgstr "Henüz yorum yok."
+
+msgid "No contacts in your scope."
+msgstr "Yetki alanınızda iletişim kaydı yok."
+
+msgid "No departments in your scope."
+msgstr "Yetki alanınızda departman yok."
+
+msgid "No event access assigned"
+msgstr "Etkinlik erişimi atanmadı"
+
+msgid "No records found. Try another search or add the first record."
+msgstr "Kayıt bulunamadı. Başka bir arama yapın veya ilk kaydı ekleyin."
+
+msgid "No records yet."
+msgstr "Henüz kayıt yok."
+
+msgid ""
+"Non-counted ticket categories need a separately approved admission policy."
+msgstr ""
+"Kapasiteye dahil edilmeyen bilet kategorileri için ayrıca onaylanmış bir "
+"giriş politikası gerekir."
+
+msgid "Normal"
+msgstr "Normal"
+
+msgid "Not Started"
+msgstr "Başlamadı"
+
+msgid "Notes"
+msgstr "Notlar"
+
+msgid "Notice version"
+msgstr "Bildirim sürümü"
+
+msgid "On the stage"
+msgstr "Sahnede"
+
+msgid "Only failed delivery jobs can be retried, with a recorded reason."
+msgstr ""
+"Yalnızca başarısız teslimat işleri, gerekçe kaydedilerek yeniden "
+"denenebilir."
+
+msgid "Only published runbook revisions can be acknowledged."
+msgstr ""
+"Yalnızca yayımlanmış operasyon kılavuzu sürümleri için okuma onayı "
+"verilebilir."
+
+msgid "Only the responsible department leader can change this record."
+msgstr "Bu kaydı yalnızca sorumlu departman lideri değiştirebilir."
+
+msgid "Open"
+msgstr "Açık"
+
+msgid "Open →"
+msgstr "Aç →"
+
+msgid "Opening"
+msgstr "Açılış"
+
+msgid "Opens at"
+msgstr "Açılma zamanı"
+
+msgid "Operational contacts"
+msgstr "Operasyon iletişim kişileri"
+
+msgid "Operational reports"
+msgstr "Operasyon raporları"
+
+msgid "Operations navigation"
+msgstr "Operasyon gezinmesi"
+
+msgid "Organizer"
+msgstr "Organizatör"
+
+msgid "Organizers"
+msgstr "Organizatörler"
+
+msgid "Other"
+msgstr "Diğer"
+
+msgid "Overdue tasks"
+msgstr "Geciken görevler"
+
+msgid "Owner"
+msgstr "Sorumlu"
+
+msgid "Page"
+msgstr "Sayfa"
+
+msgid "Paid"
+msgstr "Ücretli"
+
+msgid ""
+"Paid registration is unavailable until a provider and merchant policy are "
+"approved and integrated."
+msgstr ""
+"Sağlayıcı ve satıcı politikası onaylanıp entegre edilene kadar ücretli kayıt"
+" kullanılamaz."
+
+msgid "Password updated"
+msgstr "Parola güncellendi"
+
+msgid "Payment mode"
+msgstr "Ödeme modu"
+
+msgid "Payment orders"
+msgstr "Ödeme siparişleri"
+
+msgid "Pending"
+msgstr "Bekliyor"
+
+msgid "Phone"
+msgstr "Telefon"
+
+msgid "Photo"
+msgstr "Fotoğraf"
+
+msgid "Placeholders: {event}, {name}, {link}, {status}. Plain text only."
+msgstr "Yer tutucular: {event}, {name}, {link}, {status}. Yalnızca düz metin."
+
+msgid "Planning"
+msgstr "Planlanıyor"
+
+msgid "Policy approved"
+msgstr "Politika onaylandı"
+
+msgid "Preferred Department"
+msgstr "Tercih edilen departman"
+
+msgid "Preferred department"
+msgstr "Tercih edilen departman"
+
+msgid "Preview a CSV import"
+msgstr "CSV içe aktarımını önizle"
+
+msgid "Priority"
+msgstr "Öncelik"
+
+msgid "Privacy"
+msgstr "Gizlilik"
+
+msgid "Privacy approved"
+msgstr "Gizlilik onaylandı"
+
+msgid "Privacy notice"
+msgstr "Gizlilik bildirimi"
+
+msgid "Privacy requests"
+msgstr "Gizlilik talepleri"
+
+msgid "Private files"
+msgstr "Özel dosyalar"
+
+msgid "Production"
+msgstr "Prodüksiyon"
+
+msgid "Production cues stay internal."
+msgstr "Prodüksiyon işaretleri dahili kalır."
+
+msgid "Program"
+msgstr "Program"
+
+msgid "Program & production schedule"
+msgstr "Program ve prodüksiyon takvimi"
+
+msgid "Promotions cutoff"
+msgstr "Bilet tahsisi son zamanı"
+
+msgid "Proposed"
+msgstr "Önerildi"
+
+msgid "Provide a cancellation reason."
+msgstr "İptal gerekçesi belirtin."
+
+msgid "Provider"
+msgstr "Sağlayıcı"
+
+msgid "Provider Reference"
+msgstr "Sağlayıcı referansı"
+
+msgid "Provider reference"
+msgstr "Sağlayıcı referansı"
+
+msgid "Public Candidate"
+msgstr "Yayımlama adayı"
+
+msgid "Public description"
+msgstr "Herkese açık açıklama"
+
+msgid "Public pages & FAQs"
+msgstr "Herkese açık sayfalar ve SSS"
+
+msgid "Public sessions must fit inside the event's public hours."
+msgstr ""
+"Herkese açık oturumlar etkinliğin ziyaretçi saatleri içinde olmalıdır."
+
+msgid "Publication consent"
+msgstr "Yayımlama izni"
+
+msgid "Publish"
+msgstr "Yayımla"
+
+msgid "Publish At"
+msgstr "Yayımlama zamanı"
+
+msgid "Publish at"
+msgstr "Yayımlama zamanı"
+
+msgid "Published"
+msgstr "Yayımlandı"
+
+msgid "Published At"
+msgstr "Yayımlandığı zaman"
+
+msgid "Published at"
+msgstr "Yayımlandığı zaman"
+
+msgid "QR credential or USB scanner input"
+msgstr "QR kimlik bilgisi veya USB tarayıcı girişi"
+
+msgid "Quarantined"
+msgstr "Karantinada"
+
+msgid "Read"
+msgstr "Okundu"
+
+msgid "Read the privacy notice"
+msgstr "Gizlilik bildirimini okuyun"
+
+msgid "Readiness"
+msgstr "Hazırlık durumu"
+
+msgid "Ready"
+msgstr "Hazır"
+
+msgid "Ready. Start the camera or scan a ticket."
+msgstr "Hazır. Kamerayı başlatın veya bilet tarayın."
+
+msgid "Reason"
+msgstr "Gerekçe"
+
+msgid "Reason / operational note"
+msgstr "Gerekçe / operasyon notu"
+
+msgid "Received"
+msgstr "Alındı"
+
+msgid "Recent admissions"
+msgstr "Son girişler"
+
+msgid "Record a decision reason."
+msgstr "Karar gerekçesini kaydedin."
+
+msgid "Record a reason for the account change."
+msgstr "Hesap değişikliği için gerekçe kaydedin."
+
+msgid "Record the resolution before closing an incident."
+msgstr "Olayı kapatmadan önce çözümü kaydedin."
+
+msgid "Record why this import is authorized."
+msgstr "Bu içe aktarımın neden yetkilendirildiğini kaydedin."
+
+msgid "Recover volunteer application"
+msgstr "Gönüllü başvurusunu kurtar"
+
+msgid "Recover your account"
+msgstr "Hesabınızı kurtarın"
+
+msgid "Recover your ticket link"
+msgstr "Bilet bağlantınızı yeniden isteyin"
+
+msgid "Reference"
+msgstr "Referans"
+
+msgid "Refund Pending"
+msgstr "İade bekleniyor"
+
+msgid "Refunded"
+msgstr "İade edildi"
+
+msgid "Registration"
+msgstr "Kayıt"
+
+msgid "Registration applications"
+msgstr "Kayıt başvuruları"
+
+msgid "Registration closes after it opens."
+msgstr "Kayıt kapanışı açılıştan sonra olmalıdır."
+
+msgid "Registration fields"
+msgstr "Kayıt alanları"
+
+msgid "Registration is not open."
+msgstr "Kayıt açık değil."
+
+msgid "Registration is outside its opening period."
+msgstr "Kayıt, açık olduğu zaman aralığının dışında."
+
+msgid "Registration mode"
+msgstr "Kayıt modu"
+
+msgid "Rehearsals"
+msgstr "Provalar"
+
+msgid "Rejected"
+msgstr "Reddedildi"
+
+msgid "Release received"
+msgstr "İzin belgesi alındı"
+
+msgid "Reports"
+msgstr "Raporlar"
+
+msgid "Request data erasure"
+msgstr "Veri silme talebi"
+
+msgid "Request reset link"
+msgstr "Sıfırlama bağlantısı iste"
+
+msgid "Resolution"
+msgstr "Çözüm"
+
+msgid "Resolved"
+msgstr "Çözüldü"
+
+msgid "Responsibilities"
+msgstr "Sorumluluklar"
+
+msgid "Responsibility"
+msgstr "Sorumluluk"
+
+msgid "Retention days"
+msgstr "Saklama süresi (gün)"
+
+msgid "Retry"
+msgstr "Yeniden dene"
+
+msgid "Retry the same request"
+msgstr "Aynı isteği yeniden dene"
+
+msgid "Return to event"
+msgstr "Etkinliğe dön"
+
+msgid "Review"
+msgstr "İnceleme"
+
+msgid "Review import"
+msgstr "İçe aktarımı incele"
+
+msgid "Rights cleared"
+msgstr "Haklar incelendi"
+
+msgid "Rights notes"
+msgstr "Hak inceleme notları"
+
+msgid "Role"
+msgstr "Rol"
+
+msgid "Roles & permissions"
+msgstr "Roller ve izinler"
+
+msgid "Rotate"
+msgstr "QR kimliğini yenile"
+
+msgid "Rotation needs a reason and online operating mode."
+msgstr "Yenileme için gerekçe ve çevrimiçi çalışma modu gerekir."
+
+msgid "Safety"
+msgstr "Güvenlik"
+
+msgid "Save and continue"
+msgstr "Kaydet ve devam et"
+
+msgid "Save password"
+msgstr "Parolayı kaydet"
+
+msgid "Save your recovery codes"
+msgstr "Kurtarma kodlarınızı saklayın"
+
+msgid "Scan Status"
+msgstr "Tarama durumu"
+
+msgid "Scan status"
+msgstr "Tarama durumu"
+
+msgid ""
+"Scan this private QR with your authenticator app, then enter its current "
+"code."
+msgstr ""
+"Bu özel QR kodunu doğrulayıcı uygulamanızla tarayın, ardından güncel kodunu "
+"girin."
+
+msgid "Schedule"
+msgstr "Takvim"
+
+msgid "Scope"
+msgstr "Kapsam"
+
+msgid "Search"
+msgstr "Ara"
+
+msgid "Select the record that owns this private file."
+msgstr "Bu özel dosyanın ait olduğu kaydı seçin."
+
+msgid "Select the talk for this program item."
+msgstr "Bu program öğesi için konuşmayı seçin."
+
+msgid "Sending"
+msgstr "Gönderiliyor"
+
+msgid "Sent"
+msgstr "Gönderildi"
+
+msgid "Set a secure password"
+msgstr "Güvenli bir parola belirleyin"
+
+msgid "Set admission mode, capacity and registration dates first."
+msgstr "Önce giriş modunu, kapasiteyi ve kayıt tarihlerini belirleyin."
+
+msgid "Set up authenticator"
+msgstr "Doğrulayıcı kur"
+
+msgid "Set up your authenticator"
+msgstr "Doğrulayıcınızı kurun"
+
+msgid "Settings are frozen during manual admission and reconciliation."
+msgstr "Manuel giriş ve uzlaştırma sırasında ayarlar dondurulur."
+
+msgid "Settings changed. Reload before saving."
+msgstr "Ayarlar değişti. Kaydetmeden önce yeniden yükleyin."
+
+msgid "Setup at"
+msgstr "Hazırlık başlangıcı"
+
+msgid "Severity"
+msgstr "Önem derecesi"
+
+msgid "Shift"
+msgstr "Vardiya"
+
+msgid "Shift assignments"
+msgstr "Vardiya atamaları"
+
+msgid "Shifts"
+msgstr "Vardiyalar"
+
+msgid "Sign in"
+msgstr "Giriş yap"
+
+msgid "Sign out"
+msgstr "Çıkış yap"
+
+msgid "Size"
+msgstr "Boyut"
+
+msgid "Skills"
+msgstr "Beceriler"
+
+msgid "Skip to content"
+msgstr "İçeriğe geç"
+
+msgid "Source"
+msgstr "Kaynak"
+
+msgid "Speaker"
+msgstr "Konuşmacı"
+
+msgid "Speaker Manager"
+msgstr "Konuşmacı sorumlusu"
+
+msgid "Speakers"
+msgstr "Konuşmacılar"
+
+msgid "Staff"
+msgstr "Ekip"
+
+msgid "Start camera"
+msgstr "Kamerayı başlat"
+
+msgid "Starts At"
+msgstr "Başlangıç zamanı"
+
+msgid "Starts at"
+msgstr "Başlangıç zamanı"
+
+msgid "Status"
+msgstr "Durum"
+
+msgid "Status:"
+msgstr "Durum:"
+
+msgid "Stop camera"
+msgstr "Kamerayı durdur"
+
+msgid "Subject"
+msgstr "Konu"
+
+msgid "Submit"
+msgstr "Gönder"
+
+msgid "Submitted"
+msgstr "Gönderildi"
+
+msgid "Supervisor"
+msgstr "Sorumlu yönetici"
+
+msgid "Suppressed"
+msgstr "Gönderimi durduruldu"
+
+msgid "Survey consent"
+msgstr "Anket izni"
+
+msgid "Switch to reconciliation mode before committing a manual ledger."
+msgstr "Manuel giriş defterini uygulamadan önce uzlaştırma moduna geçin."
+
+msgid "Take part"
+msgstr "Katılın"
+
+msgid "Talk"
+msgstr "Konuşma"
+
+msgid "Talk preparation"
+msgstr "Konuşma hazırlığı"
+
+msgid "Target"
+msgstr "Hedef"
+
+msgid "Task"
+msgstr "Görev"
+
+msgid "Task dependencies"
+msgstr "Görev bağımlılıkları"
+
+msgid "Tasks"
+msgstr "Görevler"
+
+msgid "Team accounts"
+msgstr "Ekip hesapları"
+
+msgid "Team sign in"
+msgstr "Ekip girişi"
+
+msgid "Team sign in →"
+msgstr "Ekip girişi →"
+
+msgid "Technical"
+msgstr "Teknik"
+
+msgid "Technical requirements"
+msgstr "Teknik gereksinimler"
+
+msgid "Technology"
+msgstr "Teknoloji"
+
+msgid "Template Key"
+msgstr "Şablon anahtarı"
+
+msgid "Template braces are not balanced."
+msgstr "Şablondaki süslü parantezler dengeli değil."
+
+msgid "Template key"
+msgstr "Şablon anahtarı"
+
+msgid "Terms"
+msgstr "Koşullar"
+
+msgid ""
+"Thank you. The volunteer team will review eligible applications and contact "
+"you."
+msgstr ""
+"Teşekkürler. Gönüllü ekibi uygun başvuruları inceleyip sizinle iletişime "
+"geçecektir."
+
+msgid "The approved program will be published here."
+msgstr "Onaylı program burada yayımlanacaktır."
+
+msgid ""
+"The configured event retention period has not elapsed. Resolve policy before"
+" erasure."
+msgstr ""
+"Belirlenen veri saklama süresi henüz dolmadı. Silmeden önce ilgili "
+"politikayı netleştirin."
+
+msgid "The event"
+msgstr "Etkinlik"
+
+msgid "The event contact channel will be published here."
+msgstr "Etkinliğin iletişim kanalı burada yayımlanacaktır."
+
+msgid "The event team is preparing the official website."
+msgstr "Etkinlik ekibi resmî web sitesini hazırlıyor."
+
+msgid "The file contains no records."
+msgstr "Dosyada kayıt yok."
+
+msgid "The file did not pass the configured scanner."
+msgstr "Dosya yapılandırılmış tarayıcıdan geçemedi."
+
+msgid "The speaker already has a rehearsal at this time."
+msgstr "Konuşmacının bu saatte başka bir provası var."
+
+msgid "Theme"
+msgstr "Tema"
+
+msgid ""
+"This account serves another event. Revoke its role here instead of changing "
+"the global account."
+msgstr ""
+"Bu hesap başka bir etkinlikte de kullanılıyor. Genel hesabı değiştirmek "
+"yerine buradaki rolünü kaldırın."
+
+msgid "This allocation path requires approved free registration."
+msgstr "Bu bilet tahsis yolu onaylı ücretsiz kayıt gerektirir."
+
+msgid "This application is already finalized."
+msgstr "Bu başvuru zaten sonuçlandırıldı."
+
+msgid "This application link has expired."
+msgstr "Bu başvuru bağlantısının süresi doldu."
+
+msgid "This dependency would create a cycle."
+msgstr "Bu bağımlılık döngü oluşturur."
+
+msgid "This file scope is not permitted for your role."
+msgstr "Rolünüz bu dosya kapsamına izin vermiyor."
+
+msgid ""
+"This link has expired or has already been used. Request a fresh email from "
+"the ticket recovery page."
+msgstr ""
+"Bu bağlantının süresi doldu veya bağlantı kullanıldı. Bilet kurtarma "
+"sayfasından yeni e-posta isteyin."
+
+msgid ""
+"This link is invalid or expired. Ask the organizer for a fresh invitation."
+msgstr ""
+"Bu bağlantı geçersiz veya süresi dolmuş. Organizatörden yeni davetiye "
+"isteyin."
+
+msgid "This record changed while you were editing. Reload it before saving."
+msgstr "Siz düzenlerken bu kayıt değişti. Kaydetmeden önce yeniden yükleyin."
+
+msgid "This record is unavailable in your authorized scope."
+msgstr "Bu kayıt yetkili olduğunuz kapsamda kullanılamıyor."
+
+msgid "This registration already has a ticket. Use its lifecycle actions."
+msgstr ""
+"Bu kaydın zaten bileti var. Biletin yaşam döngüsü işlemlerini kullanın."
+
+msgid "This registration cannot move to that status."
+msgstr "Bu kayıt bu duruma geçirilemez."
+
+msgid "This session overlaps another public program item."
+msgstr "Bu oturum başka bir genel program öğesiyle çakışıyor."
+
+msgid "This talk exceeds the configured event duration limit."
+msgstr "Bu konuşma etkinliğin belirlenen süre sınırını aşıyor."
+
+msgid "This username already exists."
+msgstr "Bu kullanıcı adı zaten var."
+
+msgid "This verification link has expired or was already used."
+msgstr "Bu doğrulama bağlantısının süresi doldu veya bağlantı kullanıldı."
+
+msgid "This volunteer already has an overlapping shift."
+msgstr "Bu gönüllünün çakışan bir vardiyası var."
+
+msgid "Ticket Type"
+msgstr "Bilet türü"
+
+msgid "Ticket allocation is closed for event-day admission."
+msgstr "Etkinlik günü girişi için bilet tahsisi kapandı."
+
+msgid "Ticket changes are frozen during manual admission and reconciliation."
+msgstr "Manuel giriş ve uzlaştırma sırasında bilet değişiklikleri dondurulur."
+
+msgid "Ticket changes are frozen during manual admission."
+msgstr "Manuel giriş sırasında bilet değişiklikleri dondurulur."
+
+msgid "Ticket does not belong to this attendee."
+msgstr "Bilet bu katılımcıya ait değil."
+
+msgid "Ticket type"
+msgstr "Bilet türü"
+
+msgid "Ticket types"
+msgstr "Bilet türleri"
+
+msgid "Tickets"
+msgstr "Biletler"
+
+msgid "Title"
+msgstr "Başlık"
+
+msgid "Too many attempts. Please try again later."
+msgstr "Çok fazla deneme. Lütfen daha sonra yeniden deneyin."
+
+msgid "Too many attempts. Please wait and try again."
+msgstr "Çok fazla deneme. Lütfen bekleyip yeniden deneyin."
+
+msgid "Too many login attempts. Try again later."
+msgstr "Çok fazla giriş denemesi. Daha sonra yeniden deneyin."
+
+msgid "Transition"
+msgstr "Geçiş"
+
+msgid "Türkçe"
+msgstr "Türkçe"
+
+msgid "Under Review"
+msgstr "İnceleniyor"
+
+msgid "University community"
+msgstr "Üniversite topluluğu"
+
+msgid "Unsupported registration answers."
+msgstr "Desteklenmeyen kayıt yanıtları."
+
+msgid "Update my details"
+msgstr "Bilgilerimi güncelle"
+
+msgid "Updated"
+msgstr "Güncellendi"
+
+msgid "Updates will be published here when approved."
+msgstr "Güncellemeler onaylandıktan sonra burada yayımlanacaktır."
+
+msgid "Upload a PDF, PNG, JPEG or PPTX up to 25 MB."
+msgstr "En fazla 25 MB boyutunda PDF, PNG, JPEG veya PPTX yükleyin."
+
+msgid "Upload private file"
+msgstr "Özel dosya yükle"
+
+msgid "Urgent"
+msgstr "Acil"
+
+msgid "Use a clean, approved public-candidate image for this speaker."
+msgstr ""
+"Bu konuşmacı için temiz, onaylı ve yayımlama adayı bir görsel kullanın."
+
+msgid "Use a valid PNG/JPEG image of at most 25 megapixels."
+msgstr ""
+"En fazla 25 megapiksel boyutunda geçerli bir PNG/JPEG görseli kullanın."
+
+msgid "Use a valid UTF-8 CSV with ISO 8601 timestamps."
+msgstr "ISO 8601 zaman bilgileri içeren geçerli bir UTF-8 CSV kullanın."
+
+msgid "Use at most 12 optional form fields."
+msgstr "En fazla 12 isteğe bağlı form alanı kullanın."
+
+msgid "Use only plain {event}, {name}, {link}, and {status} placeholders."
+msgstr ""
+"Yalnızca düz {event}, {name}, {link} ve {status} yer tutucularını kullanın."
+
+msgid "Use the approval action to approve a reviewed talk."
+msgstr "İncelenen konuşmayı onaylamak için onay işlemini kullanın."
+
+msgid "Use the public form when invitations or custom answers are required."
+msgstr "Davetiye veya özel yanıt gerektiğinde herkese açık formu kullanın."
+
+msgid "Use your assigned account to access the event workspace."
+msgstr "Etkinlik çalışma alanına erişmek için size atanan hesabı kullanın."
+
+msgid "Used At"
+msgstr "Kullanım zamanı"
+
+msgid "Used at"
+msgstr "Kullanım zamanı"
+
+msgid "User"
+msgstr "Kullanıcı"
+
+msgid "Validate & check in"
+msgstr "Doğrula ve giriş yap"
+
+msgid "Venue"
+msgstr "Mekân"
+
+msgid "Venue and arrival instructions will be published after confirmation."
+msgstr "Mekân ve ulaşım talimatları teyit edildikten sonra yayımlanacaktır."
+
+msgid "Venue confirmed"
+msgstr "Mekân teyit edildi"
+
+msgid "Verified"
+msgstr "Doğrulandı"
+
+msgid "Verify code"
+msgstr "Kodu doğrula"
+
+msgid "Verify email"
+msgstr "E-postayı doğrula"
+
+msgid "Verify the attendee email before allocating a ticket."
+msgstr "Bilet ayırmadan önce katılımcının e-posta adresini doğrulayın."
+
+msgid "Verify your authenticator again before this privileged action."
+msgstr "Bu ayrıcalıklı işlemden önce doğrulayıcınızı yeniden doğrulayın."
+
+msgid "Verify your email"
+msgstr "E-postanızı doğrulayın"
+
+msgid "Verify your sign-in"
+msgstr "Girişinizi doğrulayın"
+
+msgid "Volunteer"
+msgstr "Gönüllü"
+
+msgid "Volunteer applications"
+msgstr "Gönüllü başvuruları"
+
+msgid "Volunteer applications are not open."
+msgstr "Gönüllü başvuruları açık değil."
+
+msgid "Volunteer open"
+msgstr "Gönüllü başvuruları açık"
+
+msgid "Volunteers"
+msgstr "Gönüllüler"
+
+msgid "Waitlisted"
+msgstr "Bekleme listesinde"
+
+msgid "What must be true before this task is complete?"
+msgstr "Bu görevin tamamlanması için hangi koşullar sağlanmalıdır?"
+
+msgid "Withdraw"
+msgstr "Geri çek"
+
+msgid "Withdraw application"
+msgstr "Başvuruyu geri çek"
+
+msgid "Withdrawn"
+msgstr "Geri çekildi"
+
+msgid "Write a comment of 1–4000 characters."
+msgstr "1–4000 karakter arasında bir yorum yazın."
+
+msgid "You cannot deactivate your own account here."
+msgstr "Kendi hesabınızı buradan devre dışı bırakamazsınız."
+
+msgid "Your account is not authorized for this action."
+msgstr "Hesabınız bu işlem için yetkili değil."
+
+msgid ""
+"Your account is signed in, but has no active event role. Contact the "
+"organizer for access."
+msgstr ""
+"Hesabınızla giriş yaptınız ancak etkin bir etkinlik rolünüz yok. Erişim için"
+" organizatöre başvurun."
+
+msgid ""
+"Your application has been updated. We will email you when a ticket is "
+"issued."
+msgstr "Başvurunuz güncellendi. Bilet verildiğinde size e-posta göndereceğiz."
+
+msgid ""
+"Your application has been withdrawn. Active volunteer assignments were "
+"cancelled."
+msgstr "Başvurunuz geri çekildi. Etkin gönüllü atamaları iptal edildi."
+
+msgid "Your application is awaiting a ticket decision."
+msgstr "Başvurunuz bilet kararı bekliyor."
+
+msgid "Your details"
+msgstr "Bilgileriniz"
+
+msgid "Your profile and survey preference were updated."
+msgstr "Profiliniz ve anket tercihiniz güncellendi."
+
+msgid "Your registration"
+msgstr "Kaydınız"
+
+msgid "Your ticket has been cancelled."
+msgstr "Biletiniz iptal edildi."
+
+msgid "Your verified erasure request has been recorded for review."
+msgstr "Doğrulanmış silme talebiniz inceleme için kaydedildi."
+
+msgid "Your volunteer application"
+msgstr "Gönüllü başvurunuz"
+
+msgid "of"
+msgstr "/"
+
+msgid "records in your scope"
+msgstr "kayıt yetki alanınızda"
+
+msgid "rows."
+msgstr "satır."
+
+msgid "العربية"
+msgstr "العربية"
+
+msgid "← Event website"
+msgstr "← Etkinlik web sitesi"
+
+msgid "← Previous"
+msgstr "← Önceki"
+
+msgid "Records table"
+msgstr "Kayıt tablosu"
+
+msgid "Automatic updates every 30 seconds"
+msgstr "Her 30 saniyede otomatik güncelleme"
+
+msgid "Refresh dashboard"
+msgstr "Paneli yenile"
+
+msgid "Authenticator enrollment QR"
+msgstr "Doğrulayıcı kurulum QR kodu"
+
+msgid "Choose…"
+msgstr "Seçin…"
+
+msgid "Pagination"
+msgstr "Sayfalar"
+
+msgid "QR camera preview"
+msgstr "QR kamera önizlemesi"
+
+msgid "Your private admission QR code"
+msgstr "Özel giriş QR kodunuz"
+
+msgid "Add"
+msgstr "Ekle"
+
+msgid "Admitted"
+msgstr "Giriş yaptı"
+
+msgid "CSV import / ledger"
+msgstr "CSV içe aktarımı / kayıt defteri"
+
+msgid "Change admission mode"
+msgstr "Giriş modunu değiştir"
+
+msgid "Confirm action"
+msgstr "İşlemi onayla"
+
+msgid "Consent-filtered survey export"
+msgstr "İzne göre filtrelenmiş anket dışa aktarımı"
+
+msgid "Controlled entrance roster"
+msgstr "Kontrollü giriş listesi"
+
+msgid "Edit"
+msgstr "Düzenle"
+
+msgid "Export"
+msgstr "Dışa aktar"
+
+msgid "My visible open tasks"
+msgstr "Görebildiğim açık görevler"
+
+msgid "No deadline"
+msgstr "Son tarih yok"
+
+msgid "No session in progress"
+msgstr "Devam eden oturum yok"
+
+msgid "No upcoming published session"
+msgstr "Yaklaşan yayımlanmış oturum yok"
+
+msgid "Operational procedure"
+msgstr "Operasyon prosedürü"
+
+msgid "Registrations"
+msgstr "Kayıtlar"
+
+msgid "Visible open incidents"
+msgstr "Görülebilen açık olaylar"
+
+msgid "Invalid saved scan result."
+msgstr "Kaydedilmiş tarama sonucu geçersiz."
+
+msgid "Admitted at"
+msgstr "Giriş zamanı"
+
+msgid "Manual"
+msgstr "Elle"
+
+msgid "Qr"
+msgstr "QR"
+
+msgid "Reconciled"
+msgstr "Mutabık"
+
+msgid "Ticket"
+msgstr "Bilet"
+
+msgid "Admission history"
+msgstr "Giriş geçmişi"
+
+msgid "Admitted At"
+msgstr "Giriş Zamanı"
+
+msgid "Not admitted"
+msgstr "Giriş yapmadı"
+
+msgid "A university community. A shared space for ideas."
+msgstr "Bir üniversite topluluğu. Fikirler için ortak bir alan."
+
+msgid "Admission requires a confirmed ticket."
+msgstr "Giriş için onaylı bilet gereklidir."
+
+msgid "Before you arrive"
+msgstr "Gelmeden önce"
+
+msgid "Confirmed speakers and approved talk details will be added here."
+msgstr ""
+"Kesinleşen konuşmacılar ve onaylı konuşma bilgileri burada yer alacaktır."
+
+msgid "Date"
+msgstr "Tarih"
+
+msgid "Event at a glance"
+msgstr "Bir bakışta etkinlik"
+
+msgid ""
+"Explore volunteering in program preparation, production and audience "
+"hospitality."
+msgstr ""
+"Program hazırlığı, prodüksiyon ve katılımcı karşılama alanlarındaki "
+"gönüllülük olanaklarını keşfedin."
+
+msgid "Find answers about registration, tickets, access and participation."
+msgstr "Kayıt, bilet, giriş ve katılımla ilgili sorularınıza yanıt bulun."
+
+msgid "Follow program announcements, talk details and the final schedule."
+msgstr "Program duyurularını, konuşma bilgilerini ve kesin akışı takip edin."
+
+msgid "Home"
+msgstr "Ana sayfa"
+
+msgid "Ideas begin with the people around us."
+msgstr "Fikirler, çevremizdeki insanlarla başlar."
+
+msgid ""
+"Local preview — event details are being prepared. Applications are not open."
+msgstr ""
+"Yerel ön izleme — etkinlik bilgileri hazırlanıyor. Başvurular açık değildir."
+
+msgid "Registration information"
+msgstr "Kayıt bilgileri"
+
+msgid "Room to be announced"
+msgstr "Salon duyurulacak"
+
+msgid "Speaker announcements are on the way."
+msgstr "Konuşmacılar yakında duyurulacak."
+
+msgid ""
+"Students, academics and researchers coming together to share ideas, "
+"experiences and new perspectives."
+msgstr ""
+"Öğrenciler, akademisyenler ve araştırmacılar; fikirleri, deneyimleri ve yeni"
+" bakış açılarını paylaşmak için bir araya geliyor."
+
+msgid "Event information, speakers and registration."
+msgstr "Etkinlik bilgileri, konuşmacılar ve kayıt."
+
+msgid "Adding a speaker photo"
+msgstr "Konuşmacı fotoğrafı ekleme"
+
+msgid "Additional registration questions"
+msgstr "Ek kayıt soruları"
+
+msgid ""
+"Advanced JSON configuration for additional questions. Leave [] if no extra "
+"questions are needed. Do not collect unnecessary personal information."
+msgstr ""
+"Ek sorular için gelişmiş JSON ayarıdır. Ek soru gerekmiyorsa [] bırakın. "
+"Gereksiz kişisel bilgi toplamayın."
+
+msgid ""
+"Applications are accepted only between the registration opening and closing "
+"times."
+msgstr ""
+"Başvurular yalnızca kayıt açılış ve kapanış zamanları arasında kabul edilir."
+
+msgid "Attendee registration and tickets"
+msgstr "Katılımcı kaydı ve biletler"
+
+msgid ""
+"Choose review to approve applications individually. Closed disables attendee"
+" registration."
+msgstr ""
+"Başvuruları tek tek onaylamak için İnceleme seçin. Kapalı seçeneği katılımcı"
+" kaydını kapatır."
+
+msgid "Entrance check-in opening time, not the registration opening date."
+msgstr ""
+"Etkinlik girişinde bilet kontrolünün başlayacağı saattir; başvuru açılış "
+"tarihi değildir."
+
+msgid "Event identity and location"
+msgstr "Etkinlik kimliği ve mekân"
+
+msgid "Event timing"
+msgstr "Etkinlik tarihleri ve saatleri"
+
+msgid ""
+"Identifier of the approved privacy notice version; update it when the notice"
+" changes."
+msgstr ""
+"Onaylanan gizlilik metninin sürüm kimliğidir; metin değiştiğinde "
+"güncelleyin."
+
+msgid ""
+"Makes the event public. Registration and volunteer intake have separate "
+"switches. Publish approved CMS pages separately."
+msgstr ""
+"Etkinliği ziyaretçilere açar. Katılımcı ve gönüllü başvuruları ayrı "
+"ayarlarla açılır. Onaylanan içerik sayfalarını ayrıca yayımlayın."
+
+msgid ""
+"Must respect the event licence and cannot be lower than tickets already "
+"committed."
+msgstr ""
+"Etkinlik lisansına uygun olmalıdır; ayrılmış bilet sayısının altında olamaz."
+
+msgid ""
+"Paid tickets require an implemented payment provider. Choose free only if "
+"participation is approved as free."
+msgstr ""
+"Ücretli biletler için ödeme sağlayıcısı entegrasyonu gerekir. Yalnızca "
+"katılımın ücretsiz olması onaylandıysa Ücretsiz seçin."
+
+msgid ""
+"Photo is optional. Save the speaker first to avoid losing unsaved changes, "
+"upload the image, then return to edit the speaker and select it."
+msgstr ""
+"Fotoğraf isteğe bağlıdır. Değişiklikleri kaybetmemek için önce konuşmacıyı "
+"kaydedin, görseli yükleyin; ardından konuşmacıyı düzenleyip fotoğrafı seçin."
+
+msgid "Privacy and approvals"
+msgstr "Gizlilik ve onaylar"
+
+msgid ""
+"Requires a published event, approved privacy notice and notice version. "
+"Attendee registration may remain closed."
+msgstr ""
+"Etkinlik yayımlanmış, gizlilik metni onaylanmış ve metin sürümü girilmiş "
+"olmalıdır. Katılımcı kaydı kapalı kalabilir."
+
+msgid "Select only after the privacy notice has actually been approved."
+msgstr "Yalnızca gizlilik metni gerçekten onaylandıktan sonra işaretleyin."
+
+msgid "Select only after the registration policy has actually been approved."
+msgstr "Yalnızca kayıt politikası gerçekten onaylandıktan sonra işaretleyin."
+
+msgid "Settings sections"
+msgstr "Ayar bölümleri"
+
+msgid ""
+"Supported language codes as JSON, for example [\"tr\", \"en\"]. This does "
+"not translate event content automatically."
+msgstr ""
+"Desteklenen dil kodlarını JSON olarak girin; örneğin [\"tr\", \"en\"]. Bu "
+"ayar etkinlik içeriklerini otomatik çevirmez."
+
+msgid ""
+"The photo field selects an existing uploaded file. Upload a PNG or JPEG "
+"first, using the Public Candidate scope. The image must pass malware "
+"scanning before the speaker can be published."
+msgstr ""
+"Fotoğraf alanından önceden yüklenmiş bir dosya seçilir. Önce PNG veya JPEG "
+"dosyasını Yayımlama adayı kapsamında yükleyin. Konuşmacı yayımlanmadan önce "
+"görsel güvenlik taramasından geçmelidir."
+
+msgid "Time zone"
+msgstr "Saat dilimi"
+
+msgid "Upload a photo in a new tab"
+msgstr "Yeni sekmede fotoğraf yükle"
+
+msgid "First Come"
+msgstr "Başvuru sırasına göre"
+
+msgid "Free"
+msgstr "Ücretsiz"
+
+msgid "Online"
+msgstr "Çevrimiçi"
+
+msgid "Reconciling"
+msgstr "Mutabakat yapılıyor"
+
+msgid "Undecided"
+msgstr "Henüz kararlaştırılmadı"
+
+msgid "Add the privacy notice"
+msgstr "Gizlilik metnini ekleyin"
+
+msgid ""
+"After the responsible organizer or university has approved the text, select "
+"Privacy approved. The system does not approve it for you."
+msgstr ""
+"Sorumlu organizatör veya üniversite metni onayladıktan sonra Gizlilik "
+"onaylandı kutusunu işaretleyin. Sistem sizin yerinize onay vermez."
+
+msgid ""
+"Confirm approval of the privacy notice, or leave volunteer applications "
+"closed."
+msgstr ""
+"Gizlilik metninin onayını işaretleyin veya gönüllü başvurularını kapalı "
+"bırakın."
+
+msgid "Confirm the notice approval"
+msgstr "Gizlilik metninin onayını işaretleyin"
+
+msgid ""
+"Enter a version label, for example v1.0. This identifies the text applicants"
+" accepted; it is not an approval."
+msgstr ""
+"Örneğin v1.0 yazın. Bu numara, başvuru sahibinin kabul ettiği metni "
+"tanımlar; onay anlamına gelmez."
+
+msgid "Enter the notice version, for example v1.0."
+msgstr "Bildirim sürümünü girin; örneğin v1.0."
+
+msgid "Filled"
+msgstr "Dolduruldu"
+
+msgid ""
+"Follow these links to complete the required fields. Indicators reflect the "
+"current form; changes take effect only after saving."
+msgstr ""
+"Gerekli alanlara gitmek için aşağıdaki bağlantıları kullanın. Durumlar "
+"formdaki değişiklikleri gösterir; değişiklikler ancak kaydedince uygulanır."
+
+msgid "Go to privacy notice"
+msgstr "Gizlilik metnine git"
+
+msgid "Name this notice version"
+msgstr "Metne bir sürüm numarası verin"
+
+msgid "Open volunteer applications"
+msgstr "Gönüllü başvurularını açın"
+
+msgid "Open volunteer applications: step by step"
+msgstr "Gönüllü başvurularını açma rehberi"
+
+msgid ""
+"Paste the approved notice shown to applicants. A title or a version number "
+"alone is not a notice."
+msgstr ""
+"Başvuru sahiplerine gösterilecek onaylı metni buraya yapıştırın. Yalnızca "
+"başlık veya sürüm numarası yazmak yeterli değildir."
+
+msgid ""
+"Paste the approved privacy notice before opening volunteer applications."
+msgstr ""
+"Gönüllü başvurularını açmak için onaylı gizlilik metnini bu alana "
+"yapıştırın."
+
+msgid "Publish the event"
+msgstr "Etkinliği yayımlayın"
+
+msgid ""
+"Select Volunteer open, then save settings. You can complete all steps and "
+"save once."
+msgstr ""
+"Gönüllü başvuruları açık kutusunu işaretleyip ayarları kaydedin. Tüm "
+"adımları tamamlayıp tek seferde kaydedebilirsiniz."
+
+msgid "Settings were not saved. Review these fields:"
+msgstr "Ayarlar kaydedilmedi. Şu alanları kontrol edin:"
+
+msgid "The event must be published for visitors to submit applications."
+msgstr ""
+"Ziyaretçilerin başvuru gönderebilmesi için etkinlik yayımlanmış olmalıdır."
+
+msgid "To complete"
+msgstr "Tamamlanacak"
+
+msgid "Advanced settings"
+msgstr "Gelişmiş ayarlar"
+
+msgid ""
+"Edit the event details and application status below. Prepared policy text "
+"and technical settings are available only when you need them."
+msgstr ""
+"Etkinlik bilgilerini ve başvuru durumunu düzenleyin. Hazır metinleri ve "
+"teknik ayarları yalnızca ihtiyaç duyduğunuzda açabilirsiniz."
+
+msgid "Entry mode"
+msgstr "Giriş modu"
+
+msgid "Event"
+msgstr "Etkinlik"
+
+msgid "A clear view of your event, from preparation to arrival."
+msgstr "Hazırlıktan katılımcı girişine kadar etkinliğinize genel bakış."
+
+msgid "Accounts, reporting and advanced administration."
+msgstr "Hesaplar, raporlar ve gelişmiş yönetim."
+
+msgid "Add speaker"
+msgstr "Konuşmacı ekle"
+
+msgid "All attendees"
+msgstr "Tüm katılımcılar"
+
+msgid ""
+"Applications are reviewed by the event team. A confirmed ticket secures your"
+" place."
+msgstr ""
+"Başvurular etkinlik ekibi tarafından değerlendirilir. Yeriniz onaylanmış "
+"biletle kesinleşir."
+
+msgid "Attendance"
+msgstr "Katılım"
+
+msgid "Attendees & tickets"
+msgstr "Katılımcılar ve biletler"
+
+msgid "Back to list"
+msgstr "Listeye dön"
+
+msgid "Back to speaker"
+msgstr "Konuşmacıya dön"
+
+msgid "Before you apply"
+msgstr "Başvurmadan önce"
+
+msgid "Breadcrumbs"
+msgstr "Sayfa yolu"
+
+msgid "Cancel your ticket? This action cannot be undone here."
+msgstr ""
+"Biletinizi iptal etmek istiyor musunuz? Bu işlem buradan geri alınamaz."
+
+msgid "Change this account's access status?"
+msgstr "Bu hesabın erişim durumu değiştirilsin mi?"
+
+msgid "Choose a PNG or JPEG speaker photo."
+msgstr "PNG veya JPEG biçiminde bir konuşmacı fotoğrafı seçin."
+
+msgid "Clear filters"
+msgstr "Filtreleri temizle"
+
+msgid ""
+"Complete your details, verify your email, then follow your ticket status."
+msgstr ""
+"Bilgilerinizi girin, e-postanızı doğrulayın ve bilet durumunuzu takip edin."
+
+msgid "Confirmed tickets"
+msgstr "Onaylanmış biletler"
+
+msgid "Contact the team"
+msgstr "Ekiple iletişime geç"
+
+msgid "Event information, public content and the program."
+msgstr "Etkinlik bilgileri, herkese açık içerik ve program."
+
+msgid "Event website"
+msgstr "Etkinlik sitesi"
+
+msgid "Find my ticket"
+msgstr "Biletimi bul"
+
+msgid "In this section"
+msgstr "Bu bölümde"
+
+msgid "Manage profile"
+msgstr "Profili yönet"
+
+msgid "Manage registration"
+msgstr "Başvuruları yönet"
+
+msgid "Manage ticket"
+msgstr "Bileti yönet"
+
+msgid "Needs attention"
+msgstr "İlgilenilmesi gerekenler"
+
+msgid "Newest first"
+msgstr "Önce en yeniler"
+
+msgid "No application"
+msgstr "Başvuru yok"
+
+msgid "No open tasks or incidents in your scope."
+msgstr "Yetki alanınızda açık görev veya olay yok."
+
+msgid "No ticket"
+msgstr "Bilet yok"
+
+msgid "Not published"
+msgstr "Yayımlanmadı"
+
+msgid "Open in Google Maps"
+msgstr "Google Haritalar'da aç"
+
+msgid "Optional"
+msgstr "İsteğe bağlı"
+
+msgid "Overview"
+msgstr "Genel bakış"
+
+msgid "People, responsibilities and the work behind the event."
+msgstr "Etkinliğin arkasındaki ekip, sorumluluklar ve çalışmalar."
+
+msgid "Please review your information"
+msgstr "Lütfen bilgilerinizi kontrol edin"
+
+msgid "Prepare speaker profiles and manage their publication."
+msgstr "Konuşmacı profillerini hazırlayın ve yayımlanmasını yönetin."
+
+msgid "Preview website"
+msgstr "Siteyi önizle"
+
+msgid "Print ticket"
+msgstr "Bileti yazdır"
+
+msgid "QR check-in"
+msgstr "QR ile giriş"
+
+msgid "Quick actions"
+msgstr "Hızlı işlemler"
+
+msgid "Register"
+msgstr "Kayıt ol"
+
+msgid "Registration Status"
+msgstr "Başvuru durumu"
+
+msgid "Registration opens"
+msgstr "Kayıt başlangıcı"
+
+msgid "Registration steps"
+msgstr "Kayıt adımları"
+
+msgid "Registration, tickets and arrival in one place."
+msgstr "Başvurular, biletler ve giriş işlemleri bir arada."
+
+msgid "Related tools"
+msgstr "İlgili araçlar"
+
+msgid "Scan QR"
+msgstr "QR tara"
+
+msgid "Settings"
+msgstr "Ayarlar"
+
+msgid "Sort by"
+msgstr "Sıralama"
+
+msgid "Speaker photo"
+msgstr "Konuşmacı fotoğrafı"
+
+msgid "Submit a personal-data erasure request for review?"
+msgstr "Kişisel verilerinizin silinmesi için inceleme talebi gönderilsin mi?"
+
+msgid "Team & operations"
+msgstr "Ekip ve operasyon"
+
+msgid "Team updates & event-day details"
+msgstr "Ekip güncellemeleri ve etkinlik günü ayrıntıları"
+
+msgid "The photo could not be attached."
+msgstr "Fotoğraf eklenemedi."
+
+msgid "Ticket Status"
+msgstr "Bilet durumu"
+
+msgid "Time"
+msgstr "Saat"
+
+msgid "Upload / replace photo"
+msgstr "Fotoğraf yükle / değiştir"
+
+msgid ""
+"Upload a photo for this speaker. It will appear publicly after scanning and "
+"publication approval."
+msgstr ""
+"Bu konuşmacı için bir fotoğraf yükleyin. Güvenlik taraması ve yayın "
+"onayından sonra sitede görünür."
+
+msgid "Use the invitation sent to your email to apply for this event."
+msgstr "Bu etkinliğe başvurmak için e-postanıza gönderilen daveti kullanın."
+
+msgid "View tickets"
+msgstr "Biletleri görüntüle"
+
+msgid "Want to volunteer instead?"
+msgstr "Gönüllü olmak mı istiyorsunuz?"
+
+msgid "Withdraw your application and cancel active volunteer assignments?"
+msgstr ""
+"Başvurunuz geri çekilsin ve aktif gönüllü görevleriniz iptal edilsin mi?"
+
+msgid "Your event"
+msgstr "Etkinliğiniz"
+
+msgid "Your ticket"
+msgstr "Biletiniz"
+
+msgid "Entrance desk"
+msgstr "Giriş masası"
+
+msgid "Qr Status"
+msgstr "QR durumu"
+
+msgid "File quarantined pending a configured malware scan."
+msgstr ""
+"Dosya, yapılandırılmış güvenlik taraması tamamlanana kadar karantinada."
+
+msgid "File uploaded."
+msgstr "Dosya yüklendi."
+
+msgid "Saved."
+msgstr "Kaydedildi."
+
+msgid "The file could not be validated."
+msgstr "Dosya doğrulanamadı."
+
+msgid "Check-in attempts"
+msgstr "Giriş denemeleri"
+
+msgid "Applications awaiting review"
+msgstr "İnceleme bekleyen başvurular"
+
+msgid "Back"
+msgstr "Geri"
+
+msgid "Confirm"
+msgstr "Onayla"
+
+msgid "More tools"
+msgstr "Diğer araçlar"
+
+msgid "QR status"
+msgstr "QR durumu"
+
+msgid "Registration status"
+msgstr "Kayıt durumu"
+
+msgid "Review applications and help attendees plan their day."
+msgstr ""
+"Başvuruları inceleyerek katılımcıların günlerini planlamasına yardımcı olun."
+
+msgid "Ticket status"
+msgstr "Bilet durumu"
+
+msgid "Access unavailable"
+msgstr "Erişim sağlanamıyor"
+
+msgid "Page not found"
+msgstr "Sayfa bulunamadı"
+
+msgid "Something went wrong"
+msgstr "Bir sorun oluştu"
+
+msgid ""
+"This link may have expired or moved. Return to the event to find the "
+"information you need."
+msgstr ""
+"Bu bağlantının süresi dolmuş veya sayfa taşınmış olabilir. Aradığınız "
+"bilgilere ulaşmak için etkinliğe dönün."
+
+msgid "We could not load this page. Please try again shortly."
+msgstr "Bu sayfa yüklenemedi. Lütfen biraz sonra tekrar deneyin."
+
+msgid ""
+"Your account cannot open this page. Sign in with your assigned account or "
+"return to the event."
+msgstr ""
+"Hesabınızın bu sayfaya erişim izni yok. Size atanan hesapla giriş yapın veya"
+" etkinliğe dönün."
+
+msgid "About"
+msgstr "Hakkında"
+
+msgid "First name"
+msgstr "Ad"
+
+msgid "Last name"
+msgstr "Soyad"
+
+msgid "Manual admission ledger"
+msgstr "Manuel giriş kayıtları"
+
+msgid "Registration requests (email verification required)"
+msgstr "Kayıt başvuruları (e-posta doğrulaması gerekli)"
+
+msgid "Username"
+msgstr "Kullanıcı adı"
+
+msgid "One day. New ideas. Shared perspectives."
+msgstr "Bir gün. Yeni fikirler. Ortak bakış açıları."
+
+msgid "The ideas that bring us together."
+msgstr "Bizi bir araya getiren fikirler."
+
+msgid "Meet the people behind the ideas."
+msgstr "Fikirlerin arkasındaki insanlarla tanışın."
+
+msgid "Your day, at a glance."
+msgstr "Gününüzün akışı, tek bakışta."
+
+msgid "Everything you need to find your way here."
+msgstr "Etkinliğe ulaşmak için ihtiyacınız olan bilgiler."
+
+msgid "A little clarity before you join us."
+msgstr "Katılmadan önce merak ettikleriniz."
+
+msgid "Questions about joining us? Start here."
+msgstr "Katılımla ilgili sorularınız için buradayız."
+
+msgid "Your information, explained clearly."
+msgstr "Bilgileriniz hakkında açık bilgi."
+
+msgid "What to know before taking part."
+msgstr "Katılmadan önce bilmeniz gerekenler."
+
+msgid "Program details"
+msgstr "Program detayları"
+
+msgid "Plan your day"
+msgstr "Gününüzü planlayın"
+
+msgid "Getting here"
+msgstr "Ulaşım bilgileri"
+
+msgid "Let’s help you get ready."
+msgstr "Birlikte hazırlanalım."
+
+msgid "The privacy notice has not been published."
+msgstr "Gizlilik bildirimi henüz yayımlanmamıştır."
+
+msgid "Explore"
+msgstr "Keşfet"
+
+msgid "Approve registration policy before opening registration."
+msgstr "Kaydı açmadan önce kayıt politikasını onaylayın."
+
+msgid "An approved privacy notice needs its text and version."
+msgstr "Onaylı gizlilik bildiriminin metni ve sürümü gereklidir."
+
+msgid ""
+"Approve event policy, capacity and entrance opening time before admitting "
+"guests."
+msgstr ""
+"Katılımcıları kabul etmeden önce etkinlik politikasını, kapasiteyi ve giriş "
+"saatini onaylayın."
+
+msgid "Get my ticket"
+msgstr "Biletimi oluştur"
+
+msgid "Registered"
+msgstr "Kayıtlı"
+
+msgid "Checked In"
+msgstr "Giriş yaptı"
+
+msgid "Update my name"
+msgstr "Adımı güncelle"
+
+msgid ""
+"I acknowledge that I have been informed through the KVKK Aydınlatma Metni."
+msgstr "KVKK Aydınlatma Metni kapsamında bilgilendirildiğimi onaylıyorum."
+
+msgid ""
+"Register and receive your ticket immediately. No account or email "
+"verification is required."
+msgstr ""
+"Kaydolun ve biletinizi hemen alın. Hesap veya e-posta doğrulaması gerekmez."
+
+msgid "KVKK Aydınlatma Metni — information notice"
+msgstr "KVKK Aydınlatma Metni"
+
+msgid "Open the applicable KVKK information notice"
+msgstr "Geçerli KVKK Aydınlatma Metni’ni aç"
+
+msgid ""
+"We collect your name for admission and your email for event logistics and "
+"the post-event TEDx attendee survey process. No marketing permission is "
+"requested."
+msgstr ""
+"Adınızı giriş işlemleri, e-posta adresinizi etkinlik bilgilendirmeleri ve "
+"etkinlik sonrası TEDx katılımcı anketi süreci için topluyoruz. Pazarlama "
+"izni istenmez."
+
+msgid ""
+"The acknowledgement confirms that you were informed. It is not blanket "
+"consent for other uses of your information."
+msgstr ""
+"Bu onay, bilgilendirildiğinizi belirtir. Bilgilerinizin diğer amaçlarla "
+"kullanılması için genel bir açık rıza değildir."
+
+msgid ""
+"Save or print the ticket shown after registration. Keep your QR code private"
+" and show it to entrance staff."
+msgstr ""
+"Kayıt sonrasında gösterilen bileti kaydediniz veya yazdırınız. QR kodunu "
+"gizli tutunuz ve giriş görevlisine gösteriniz."
+
+msgid "Contact the organizing team"
+msgstr "Organizasyon ekibiyle iletişime geç"
+
+msgid ""
+"This email is already registered for this event. No additional ticket was "
+"created."
+msgstr ""
+"Bu e-posta adresi etkinlik için zaten kayıtlıdır. Ek bilet oluşturulmadı."
+
+msgid "The event is full. No registration or ticket was created."
+msgstr "Etkinlik kontenjanı dolmuştur. Kayıt veya bilet oluşturulmadı."
+
+msgid "Registration requires an approved KVKK information notice."
+msgstr "Kayıt için onaylanmış bir KVKK Aydınlatma Metni gerekir."
+
+#~ msgid ""
+#~ "Approve event policy, privacy, capacity and entrance opening time before "
+#~ "admitting guests."
+#~ msgstr ""
+#~ "Misafirleri almadan önce etkinlik politikasını, gizliliği, kapasiteyi ve "
+#~ "giriş saatini onaylayın."
+
+#~ msgid "Apply language"
+#~ msgstr "Dili uygula"
+
+#~ msgid ""
+#~ "Approve registration policy and a versioned privacy notice before opening "
+#~ "registration."
+#~ msgstr ""
+#~ "Kaydı açmadan önce kayıt politikasını ve sürümlü gizlilik bildirimini "
+#~ "onaylayın."
+
+#~ msgid "The privacy notice will be available before applications open."
+#~ msgstr "Gizlilik bildirimi başvurular açılmadan önce yayımlanacaktır."
+
+#~ msgid "Confirmed speakers will be announced here."
+#~ msgstr "Teyit edilen konuşmacılar burada duyurulacaktır."
+
+#~ msgid "IDEAS · PEOPLE · POSSIBILITY"
+#~ msgstr "FİKİRLER · İNSANLAR · OLASILIKLAR"
+
+#~ msgid "Arrival information"
+#~ msgstr "Geliş bilgileri"
+
+#~ msgid "Audience limit"
+#~ msgstr "Katılımcı üst sınırı"
+
+#~ msgid "Discover the proposed direction and the questions shaping the event."
+#~ msgstr "Önerilen yaklaşımı ve etkinliğe yön veren soruları keşfedin."
+
+#~ msgid "Explore the day"
+#~ msgstr "Günü keşfedin"
+
+#~ msgid "From an idea to a conversation."
+#~ msgstr "Bir fikirden bir sohbete."
+
+#~ msgid "Planned program hours"
+#~ msgstr "Planlanan program saatleri"
+
+#~ msgid "QR scans"
+#~ msgstr "QR taramaları"
+
+#~ msgid "Entrance check-in"
+#~ msgstr "Giriş kontrolü"
+
+#~ msgid "Event settings"
+#~ msgstr "Etkinlik ayarları"
+
+#~ msgid "No approved sessions yet."
+#~ msgstr "Henüz onaylı oturum yok."
+
+#~ msgid "No open incidents in your scope."
+#~ msgstr "Yetki alanınızda açık olay yok."
+
+#~ msgid "No open tasks in your scope."
+#~ msgstr "Yetki alanınızda açık görev yok."
+
+#~ msgid "OPERATIONS"
+#~ msgstr "OPERASYONLAR"
+
+#~ msgid "Open entrance ↗"
+#~ msgstr "Giriş ekranını aç ↗"
+
+#~ msgid "Open incidents"
+#~ msgstr "Açık olaylar"
+
+#~ msgid "Published program"
+#~ msgstr "Yayımlanmış program"
+
+#~ msgid "Upcoming work"
+#~ msgstr "Yaklaşan işler"
+
+#~ msgid "Verified At"
+#~ msgstr "Doğrulama zamanı"
+
+#~ msgid "Verified at"
+#~ msgstr "Doğrulama zamanı"
+
+#~ msgid "View location"
+#~ msgstr "Konumu görüntüle"
+
+#~ msgid ""
+#~ "Your authorized work, current priorities and event updates. Refreshes every "
+#~ "30 seconds."
+#~ msgstr ""
+#~ "Yetkili işleriniz, güncel öncelikler ve etkinlik güncellemeleri. Her 30 "
+#~ "saniyede güncellenir."
+
+#~ msgid "· NOW"
+#~ msgstr "· ŞİMDİ"
+
+#~ msgid "Publication and volunteer applications"
+#~ msgstr "Yayın ve gönüllü başvuruları"
+
+#~ msgid ""
+#~ "Save settings after reviewing each section. Opening applications and "
+#~ "publishing content are separate actions."
+#~ msgstr ""
+#~ "Her bölümü kontrol ettikten sonra ayarları kaydedin. Başvuruları açmak ve "
+#~ "içerik yayımlamak ayrı işlemlerdir."
+
+#~ msgid "staff"
+#~ msgstr "ekip"
+
+#~ msgid "Event operations"
+#~ msgstr "Etkinlik operasyonları"
+
+#~ msgid "A place for ideas and the people behind them."
+#~ msgstr "Fikirler ve onları geliştiren insanlar için bir buluşma noktası."
+
+#~ msgid "Discover opportunities to support the event as a volunteer."
+#~ msgstr "Etkinliği gönüllü olarak destekleme fırsatlarını keşfedin."
+
+#~ msgid "Explore the program"
+#~ msgstr "Programı keşfedin"
+
+#~ msgid "Join the audience"
+#~ msgstr "Katılımcılar arasına katılın"
+
+#~ msgid "Speaker announcements will appear here once confirmed."
+#~ msgstr "Konuşmacı duyuruları teyit edildikten sonra burada görünecektir."
+
+#~ msgid "Announcement"
+#~ msgstr ""
+
+#~ msgid "Anonymized at"
+#~ msgstr ""
+
+#~ msgid "Answers"
+#~ msgstr ""
+
+#~ msgid "Application"
+#~ msgstr ""
+
+#~ msgid "Approved at"
+#~ msgstr ""
+
+#~ msgid "Approved by"
+#~ msgstr ""
+
+#~ msgid "Archived at"
+#~ msgstr ""
+
+#~ msgid "Author"
+#~ msgstr ""
+
+#~ msgid "Ciphertext"
+#~ msgstr ""
+
+#~ msgid "Committed at"
+#~ msgstr ""
+
+#~ msgid "Content type"
+#~ msgstr ""
+
+#~ msgid "Count"
+#~ msgstr ""
+
+#~ msgid "Counts capacity"
+#~ msgstr ""
+
+#~ msgid "Decision note"
+#~ msgstr ""
+
+#~ msgid "Deduplication key"
+#~ msgstr ""
+
+#~ msgid "Device"
+#~ msgstr ""
+
+#~ msgid "Digest"
+#~ msgstr ""
+
+#~ msgid "Eligible at"
+#~ msgstr ""
+
+#~ msgid "Exit"
+#~ msgstr ""
+
+#~ msgid "External id"
+#~ msgstr ""
+
+#~ msgid "Fingerprint"
+#~ msgstr ""
+
+#~ msgid "Id"
+#~ msgstr ""
+
+#~ msgid "Incident"
+#~ msgstr ""
+
+#~ msgid "Invited by"
+#~ msgstr ""
+
+#~ msgid "Item"
+#~ msgstr ""
+
+#~ msgid "Lease until"
+#~ msgstr ""
+
+#~ msgid "Ledger id"
+#~ msgstr ""
+
+#~ msgid "Licensed capacity"
+#~ msgstr ""
+
+#~ msgid "Manage"
+#~ msgstr ""
+
+#~ msgid "Metadata"
+#~ msgstr ""
+
+#~ msgid "Notification language"
+#~ msgstr ""
+
+#~ msgid "Order"
+#~ msgstr ""
+
+#~ msgid "Original name"
+#~ msgstr ""
+
+#~ msgid "Outcome"
+#~ msgstr ""
+
+#~ msgid "Payload ciphertext"
+#~ msgstr ""
+
+#~ msgid "Published snapshot"
+#~ msgstr ""
+
+#~ msgid "Purpose"
+#~ msgstr ""
+
+#~ msgid "Recipient"
+#~ msgstr ""
+
+#~ msgid "Reentry"
+#~ msgstr ""
+
+#~ msgid "Reporter"
+#~ msgstr ""
+
+#~ msgid "Request id"
+#~ msgstr ""
+
+#~ msgid "Requested"
+#~ msgstr ""
+
+#~ msgid "Requested by"
+#~ msgstr ""
+
+#~ msgid "Required registration fields"
+#~ msgstr ""
+
+#~ msgid "Reservation expires at"
+#~ msgstr ""
+
+#~ msgid "Result"
+#~ msgstr ""
+
+#~ msgid "Revision"
+#~ msgstr ""
+
+#~ msgid "Revoked at"
+#~ msgstr ""
+
+#~ msgid "Rows"
+#~ msgstr ""
+
+#~ msgid "Sent at"
+#~ msgstr ""
+
+#~ msgid "Sha256"
+#~ msgstr ""
+
+#~ msgid "Slug"
+#~ msgstr ""
+
+#~ msgid "Snapshot"
+#~ msgstr ""
+
+#~ msgid "Storage key"
+#~ msgstr ""
+
+#~ msgid "Timezone"
+#~ msgstr ""
+
+#~ msgid "Token digest"
+#~ msgstr ""
+
+#~ msgid "Updated at"
+#~ msgstr ""
+
+#~ msgid "Uploader"
+#~ msgstr ""
+
+#~ msgid "Verify"
+#~ msgstr ""
+
+#~ msgid "Version"
+#~ msgstr ""
+
+#~ msgid "now %}current"
+#~ msgstr ""

@@ -1,0 +1,17 @@
+# Staging deployment
+
+Use the existing full modular monolith with synthetic data and private access until gates pass. This guide does not authorize production deployment.
+
+1. Operator provides Linux container hosting, a compatibility-tested PostgreSQL version, private database network, persistent private media and controlled HTTPS proxy. Image uses UID 10001. Measure memory/CPU/disk with expected uploads, scanning and backup volume rather than assuming the small local test proves capacity.
+2. Supply independent Django/credential/backup keys through a secret store and preserve recovery copies. Follow `platform/.env.example` and [production environment reference](production.md). Set production mode, explicit hostnames, exact HTTPS public origin, explicit HTTPS CSRF origins and required MFA.
+3. Restrict direct Gunicorn access. Strip client-supplied forwarded scheme headers before enabling `TRUST_PROXY_HTTPS=true`. Leave HSTS subdomain/preload off until ownership and HTTPS coverage are verified. Apply request-body/edge rate limits compatible with 25 MB uploads. Never trust arbitrary forwarded client IP headers for throttling.
+4. Separate migration owner and runtime database accounts. Runtime must not own tables or be superuser. Grant required DML/sequence access; additionally revoke UPDATE/DELETE on immutable audit/admission tables. Require verified TLS for remote PostgreSQL and no public database port.
+5. Build `docker build -t tedxgedik-platform:staging platform`. Run migrations once as owner, then `python manage.py check --deploy --fail-level WARNING`. The runbook snapshot migration withdraws old snapshots lacking audience metadata: explicitly review/republish them. Enum constraint changes require a migration when adding future values. Start the Gunicorn entry point, not runserver. Static files/catalogs are in the image; private media must never be publicly served.
+6. Configure [email](email-setup.md), [scanner](../security/file-scanning.md), [monitoring](../operations/monitoring.md) and [backups](../operations/disaster-recovery.md). Mount private files for UID 10001 only. Schedule email each minute, maintenance hourly and quarantine scanning after engine setup. Set `EXPECT_BACKGROUND_JOBS=true`, backup directory/freshness and off-host custody.
+7. Follow [organizer setup](../operations/organizer-setup.md), publish only reviewed test content and execute the [rehearsal](../event-day/rehearsal-report.md) through the actual HTTPS domain. Check CSRF POSTs, login/MFA, private downloads, recovery links, camera permissions, device behavior and real provider delivery.
+
+## Release and rollback
+
+Record image digest, migrations, backup ID, key custody and approver. A compatible code rollback restarts the prior reviewed image against a compatible schema. Data recovery restores a NEW database/media path, validates and reconciles later admissions/revocations, then changes connections under the recovery lead. Do not blindly reverse data migrations or run concurrent writable states. Preserve the previous environment until verification. Production remains blocked by the readiness checklist and actual operator/device rehearsal.
+
+The production check intentionally suppresses only advisory `security.W005` and `security.W021` while domain-wide HSTS/preload are disabled. Host HTTPS, secure cookies and one-year host HSTS remain enforced. Domain-owner approval is required before enabling subdomain coverage/preload; all other deployment warnings remain fatal at startup.

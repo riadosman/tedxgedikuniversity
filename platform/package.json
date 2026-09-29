@@ -1,0 +1,1 @@
+{"name":"tedx-event-browser-assets","private":true,"version":"0.1.0","dependencies":{"jsqr":"1.4.0"},"scripts":{"vendor":"node scripts/vendor.mjs"},"devDependencies":{"axe-core":"^4.13.0"}}

@@ -1,0 +1,19 @@
+# Security and privacy implementation
+
+The implementation uses server-side session authentication and event/object authorization. Hidden navigation is convenience only. `core/permissions.py` and constrained form querysets enforce access to direct IDs, lists, actions, downloads and exports. Multiple role scopes must not combine into a wider department grant; targeted regression tests cover leader-in-A plus volunteer-in-B.
+
+Passwords use Argon2 and Django's validation. TOTP enrollment, replay checking and recovery codes use django-otp. Staff sessions have a 30-minute idle limit and an eight-hour absolute limit. Privileged role/account/settings actions require recent MFA. Account deactivation and expired/revoked grants are checked on every request. CSRF applies to all cookie-authenticated mutations, including check-in and attendee action links. Logout is POST.
+
+QR credentials contain event UUID plus 256-bit randomness, no personal fields. They confer admission presentation only. Separate 30-minute management tokens authorize attendee self-service. Credentials are digest-indexed with encrypted delivery material. Rotation/cancellation revoke prior credentials without resetting admission history. Request logs record route names and IDs rather than token-bearing URLs; a redaction filter removes common private-link/QR/email patterns. Configure reverse-proxy logs with the same exclusions.
+
+The application renders plain text with template escaping. It does not accept raw HTML/SVG. CSP restricts scripts, styles and connections to the application origin; no third-party QR generator or analytics runs on ticket pages. Same-origin referrer policy preserves legitimate CSRF form behavior while suppressing cross-origin referrers. Staff/ticket/auth responses are private and non-cacheable. TLS/secure cookie settings are enabled only by production mode and checked before deployment.
+
+Uploads enforce size, extension and signature checks, reject suspicious PPTX archives and remain quarantined unless the configured malware scanner accepts them. A filename never determines the private storage path. Download paths are resolved within the private root and require fresh authorization. A public speaker photo is exposed only through an approved snapshot referencing a clean public-candidate image.
+
+Database composite foreign keys enforce event boundaries; ticket/registration/attendee identity is constrained. Unique admission rows and serialized admission services enforce replay/concurrency rules. Immutable audit and admission triggers supplement model protections. Use a non-owner runtime database account; an infrastructure administrator with database/secret access is outside application RBAC and must follow the custody/access process.
+
+Privacy approval gates collection. Survey permission is optional and separate. Self-service corrections and verified erasure requests exist. Anonymization requires a verified request, expired retention period and no active hold; it preserves historical admission identity as a pseudonymous row. Free-text notes, exported files, staff user records, external provider data, release evidence and backup copies require explicit retention review; the application must not claim blanket legal erasure of all external copies.
+
+No payment provider is selected. Paid intake fails closed. The provider interface does not make a frontend redirect authoritative and contains no card fields. Provider signatures, webhook idempotency, refund contracts, settlement and merchant requirements must be integrated and verified before any paid launch.
+
+External gates remain the current TEDx licence/branding approval, university/venue policies, applicable privacy/controller review, approved hosting/transfers and real production provider configuration. This document describes engineering controls, not a legal-compliance certification.

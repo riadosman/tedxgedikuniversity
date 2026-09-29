@@ -1,0 +1,126 @@
+#
+msgid ""
+msgstr ""
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid " · Already admitted"
+msgstr " · Daha önce giriş yaptı"
+
+msgid "ADMIT — ticket accepted"
+msgstr "GİRİŞE İZİN VER — bilet kabul edildi"
+
+msgid "An admission request is unresolved."
+msgstr "Bir giriş isteğinin sonucu belirsiz."
+
+msgid "CANCELLED — ticket rejected"
+msgstr "İPTAL EDİLDİ — bilet reddedildi"
+
+msgid ""
+"Camera unavailable. Allow camera access over HTTPS, use a USB scanner, or "
+"ask the supervisor for manual lookup."
+msgstr ""
+"Kamera kullanılamıyor. HTTPS üzerinden kamera erişimine izin verin, USB "
+"tarayıcı kullanın veya sorumludan manuel arama isteyin."
+
+msgid "Confirmed tickets"
+msgstr "Teyit edilmiş biletler"
+
+msgid "DO NOT ADMIT AGAIN — already checked in"
+msgstr "TEKRAR GİRİŞE İZİN VERME — daha önce giriş yaptı"
+
+msgid "Dashboard unavailable"
+msgstr "Panel kullanılamıyor"
+
+msgid "Dashboard unavailable. Check your connection and sign-in."
+msgstr "Panel kullanılamıyor. Bağlantınızı ve oturumunuzu kontrol edin."
+
+msgid "ENTRY CLOSED — outside admission hours"
+msgstr "GİRİŞ KAPALI — giriş saatleri dışında"
+
+msgid "ENTRY PAUSED — follow the supervisor’s instructions"
+msgstr "GİRİŞ DURAKLATILDI — sorumlunun talimatlarını izleyin"
+
+msgid "EXPIRED — ask the supervisor"
+msgstr "SÜRESİ DOLDU — sorumluya başvurun"
+
+msgid "Entry mode"
+msgstr "Giriş modu"
+
+msgid ""
+"Live counts unavailable — displayed totals may be stale. Check the "
+"connection."
+msgstr ""
+"Canlı sayılar kullanılamıyor; gösterilen toplamlar güncel olmayabilir. "
+"Bağlantıyı kontrol edin."
+
+msgid "Live counts updated "
+msgstr "Canlı sayılar güncellendi: "
+
+msgid "Manual check-in"
+msgstr "Manuel giriş"
+
+msgid "NOT VALID — ask the supervisor"
+msgstr "GEÇERSİZ — sorumluya başvurun"
+
+msgid "Next attendee"
+msgstr "Sonraki katılımcı"
+
+msgid "No attendee found. Refer to the supervisor."
+msgstr "Katılımcı bulunamadı. Sorumluya yönlendirin."
+
+msgid ""
+"OUTCOME UNKNOWN — do not admit. Restore the connection and retry this same "
+"request."
+msgstr ""
+"SONUÇ BELİRSİZ — girişe izin vermeyin. Bağlantıyı düzeltip aynı isteği "
+"yeniden deneyin."
+
+msgid "REPLACED / REVOKED — use the latest ticket"
+msgstr "DEĞİŞTİRİLDİ / İPTAL EDİLDİ — en yeni bileti kullanın"
+
+msgid "Ready for the next attendee."
+msgstr "Sonraki katılımcı için hazır."
+
+msgid "Record the reason for manual admission:"
+msgstr "Manuel giriş gerekçesini kaydedin:"
+
+msgid "Search unavailable. Check the connection."
+msgstr "Arama kullanılamıyor. Bağlantıyı kontrol edin."
+
+msgid ""
+"Sign in again in another tab if your session expired, then retry. Do not "
+"admit while the outcome is unknown."
+msgstr ""
+"Oturumunuz bittiyse başka sekmede yeniden giriş yapıp tekrar deneyin. Sonuç "
+"belirsizken girişe izin vermeyin."
+
+msgid "The server could not confirm this request. Check sign-in and retry."
+msgstr ""
+"Sunucu bu isteği doğrulayamadı. Oturumunuzu kontrol edip yeniden deneyin."
+
+msgid "Validating… Do not admit yet."
+msgstr "Doğrulanıyor… Henüz girişe izin vermeyin."
+
+msgid "WRONG EVENT — ticket rejected"
+msgstr "YANLIŞ ETKİNLİK — bilet reddedildi"
+
+msgid "Working…"
+msgstr "İşleniyor…"
+
+msgid "Dashboard updated."
+msgstr "Panel güncellendi."
+
+msgid "Updates unavailable. Displayed information may be stale."
+msgstr "Güncellemeler kullanılamıyor. Gösterilen bilgiler eski olabilir."
+
+msgid "Admitted"
+msgstr "Giriş yaptı"
+
+msgid "Remaining"
+msgstr "Kalan"
+
+msgid "Confirm"
+msgstr "Onayla"

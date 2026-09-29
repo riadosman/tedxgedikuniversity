@@ -1,0 +1,76 @@
+{
+  "recorded_at_utc": "2026-09-17T11:43:24.386394+00:00",
+  "environment": "Windows / isolated local PostgreSQL / Chromium; Linux production-container rehearsal",
+  "suite": {
+    "passed": 58,
+    "failed": 0,
+    "seconds": 67.27,
+    "warning": "Django 6 transitional URLField setting deprecation"
+  },
+  "type_check": {
+    "files": 60,
+    "passed": true,
+    "repository_wide_strict": false
+  },
+  "sustained_load": {
+    "duration_seconds": 300,
+    "requests": 3000,
+    "target_requests_per_second": 10,
+    "clients": 5,
+    "new_admissions": 100,
+    "p95_service_ms": 166.25,
+    "p99_service_ms": 253.63,
+    "elapsed_seconds": 300.06,
+    "environment": "isolated local PostgreSQL; service boundary, excluding HTTP/network"
+  },
+  "final_short_load": {
+    "duration_seconds": 2,
+    "requests": 20,
+    "target_requests_per_second": 10,
+    "clients": 5,
+    "new_admissions": 20,
+    "p95_service_ms": 194.4,
+    "p99_service_ms": 194.4,
+    "elapsed_seconds": 2.02,
+    "environment": "isolated local PostgreSQL; service boundary, excluding HTTP/network"
+  },
+  "contention": {
+    "workers": 16,
+    "injected_lock_delay_ms": 300,
+    "new_admissions": 1,
+    "already_admitted": 15
+  },
+  "recovery": {
+    "tables": 57,
+    "private_files": 1,
+    "disposable": true,
+    "retained": true,
+    "credential_decryption_verified": true,
+    "production_overwritten": false
+  },
+  "container": {
+    "passed": true,
+    "uid": 10001,
+    "fresh_migrations": true,
+    "headers_and_health": true
+  },
+  "original_documents": {
+    "verified_unchanged": 41
+  },
+  "preview": {
+    "url": "http://127.0.0.1:8010/",
+    "home_status": 200,
+    "login_status": 200,
+    "database_health": "ok",
+    "production_deployment": false
+  },
+  "not_tested": [
+    "Physical cameras/devices",
+    "Screen readers",
+    "Actual SMTP inboxes",
+    "Live malware engine",
+    "Off-host recovery",
+    "Venue/manual-admission staff rehearsal"
+  ],
+  "production_status": "NOT READY"
+}

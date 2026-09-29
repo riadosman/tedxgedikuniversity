@@ -1,0 +1,123 @@
+#
+msgid ""
+msgstr ""
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+
+msgid " · Already admitted"
+msgstr " · دخل سابقًا"
+
+msgid "ADMIT — ticket accepted"
+msgstr "اسمح بالدخول — التذكرة مقبولة"
+
+msgid "An admission request is unresolved."
+msgstr "لم تُحسم نتيجة طلب دخول."
+
+msgid "CANCELLED — ticket rejected"
+msgstr "ملغاة — التذكرة مرفوضة"
+
+msgid ""
+"Camera unavailable. Allow camera access over HTTPS, use a USB scanner, or "
+"ask the supervisor for manual lookup."
+msgstr ""
+"الكاميرا غير متاحة. اسمح بالوصول إليها عبر HTTPS أو استخدم ماسح USB أو اطلب "
+"البحث اليدوي من المشرف."
+
+msgid "Confirmed tickets"
+msgstr "التذاكر المؤكدة"
+
+msgid "DO NOT ADMIT AGAIN — already checked in"
+msgstr "لا تسمح بالدخول مجددًا — تم الدخول سابقًا"
+
+msgid "Dashboard unavailable"
+msgstr "لوحة التحكم غير متاحة"
+
+msgid "Dashboard unavailable. Check your connection and sign-in."
+msgstr "لوحة التحكم غير متاحة. تحقق من الاتصال وتسجيل الدخول."
+
+msgid "ENTRY CLOSED — outside admission hours"
+msgstr "الدخول مغلق — خارج ساعات الدخول"
+
+msgid "ENTRY PAUSED — follow the supervisor’s instructions"
+msgstr "الدخول معلّق — اتبع تعليمات المشرف"
+
+msgid "EXPIRED — ask the supervisor"
+msgstr "منتهية الصلاحية — راجع المشرف"
+
+msgid "Entry mode"
+msgstr "وضع الدخول"
+
+msgid ""
+"Live counts unavailable — displayed totals may be stale. Check the "
+"connection."
+msgstr ""
+"الأعداد المباشرة غير متاحة؛ قد تكون الإجماليات المعروضة قديمة. تحقق من "
+"الاتصال."
+
+msgid "Live counts updated "
+msgstr "آخر تحديث للأعداد: "
+
+msgid "Manual check-in"
+msgstr "تسجيل الدخول اليدوي"
+
+msgid "NOT VALID — ask the supervisor"
+msgstr "غير صالحة — راجع المشرف"
+
+msgid "Next attendee"
+msgstr "الحاضر التالي"
+
+msgid "No attendee found. Refer to the supervisor."
+msgstr "لم يُعثر على الحاضر. أحِل الأمر إلى المشرف."
+
+msgid ""
+"OUTCOME UNKNOWN — do not admit. Restore the connection and retry this same "
+"request."
+msgstr "النتيجة غير معروفة — لا تسمح بالدخول. أعد الاتصال وكرر الطلب نفسه."
+
+msgid "REPLACED / REVOKED — use the latest ticket"
+msgstr "مستبدلة / ملغاة — استخدم أحدث تذكرة"
+
+msgid "Ready for the next attendee."
+msgstr "جاهز للحاضر التالي."
+
+msgid "Record the reason for manual admission:"
+msgstr "سجّل سبب الدخول اليدوي:"
+
+msgid "Search unavailable. Check the connection."
+msgstr "البحث غير متاح. تحقق من الاتصال."
+
+msgid ""
+"Sign in again in another tab if your session expired, then retry. Do not "
+"admit while the outcome is unknown."
+msgstr ""
+"إذا انتهت جلستك، فسجّل الدخول في تبويب آخر ثم أعد المحاولة. لا تسمح بالدخول "
+"ما دامت النتيجة غير معروفة."
+
+msgid "The server could not confirm this request. Check sign-in and retry."
+msgstr "تعذر على الخادم تأكيد الطلب. تحقق من تسجيل الدخول وحاول مجددًا."
+
+msgid "Validating… Do not admit yet."
+msgstr "جارٍ التحقق… لا تسمح بالدخول بعد."
+
+msgid "WRONG EVENT — ticket rejected"
+msgstr "فعالية مختلفة — التذكرة مرفوضة"
+
+msgid "Working…"
+msgstr "جارٍ التنفيذ…"
+
+msgid "Dashboard updated."
+msgstr "تم تحديث لوحة التحكم."
+
+msgid "Updates unavailable. Displayed information may be stale."
+msgstr "التحديثات غير متاحة. قد تكون المعلومات المعروضة قديمة."
+
+msgid "Admitted"
+msgstr "تم الدخول"
+
+msgid "Remaining"
+msgstr "المتبقي"
+
+msgid "Confirm"
+msgstr "تأكيد"

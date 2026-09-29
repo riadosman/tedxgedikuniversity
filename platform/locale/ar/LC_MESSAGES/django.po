@@ -1,0 +1,2806 @@
+#
+msgid ""
+msgstr ""
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+
+msgid "A documented retention hold is still active."
+msgstr "لا يزال تعليق الحذف الموثق ساريًا."
+
+msgid "A reconciled admission needs its actual, valid event-day timestamp."
+msgstr "تتطلب تسوية الدخول وقت الدخول الفعلي والصحيح في يوم الفعالية."
+
+msgid "A retry ID cannot be reused for a different request."
+msgstr "لا يمكن استخدام معرّف إعادة المحاولة لطلب مختلف."
+
+msgid "A valid invitation for this email is required."
+msgstr "تلزم دعوة صالحة لهذا البريد الإلكتروني."
+
+msgid "ACCOUNT SECURITY"
+msgstr "أمان الحساب"
+
+msgid "Absent"
+msgstr "غائب"
+
+msgid "Acceptance"
+msgstr "معيار الإنجاز"
+
+msgid "Accepted"
+msgstr "مقبول"
+
+msgid "Access"
+msgstr "الوصول"
+
+msgid ""
+"Account activation and event roles are separate. Deactivation removes access"
+" immediately."
+msgstr ""
+"تفعيل الحساب وأدوار الفعالية أمران منفصلان. يؤدي التعطيل إلى إيقاف الوصول "
+"فورًا."
+
+msgid "Account invitation queued. Assign the appropriate event role next."
+msgstr "أُضيفت دعوة الحساب إلى قائمة الإرسال. عيّن دور الفعالية المناسب الآن."
+
+msgid "Account status changed. Access is rechecked on every request."
+msgstr "تم تغيير حالة الحساب. يُتحقق من صلاحية الوصول في كل طلب."
+
+msgid "Acknowledge"
+msgstr "تأكيد الاطلاع"
+
+msgid "Acknowledged At"
+msgstr "وقت تأكيد الاطلاع"
+
+msgid "Acknowledged at"
+msgstr "وقت تأكيد الاطلاع"
+
+msgid "Action"
+msgstr "الإجراء"
+
+msgid "Action recorded."
+msgstr "تم تسجيل الإجراء."
+
+msgid "Activate"
+msgstr "تفعيل"
+
+msgid "Active"
+msgstr "نشط"
+
+msgid "Actor"
+msgstr "منفذ الإجراء"
+
+msgid "Add a reason or operational note."
+msgstr "أضف سببًا أو ملاحظة تشغيلية."
+
+msgid "Add comment"
+msgstr "إضافة تعليق"
+
+msgid "Add record +"
+msgstr "إضافة سجل +"
+
+msgid "Admission Status"
+msgstr "حالة الدخول"
+
+msgid "Admission opens at"
+msgstr "وقت فتح الدخول"
+
+msgid "Admission policy is awaiting approval."
+msgstr "سياسة الدخول بانتظار الاعتماد."
+
+msgid "All available categories count toward the approved audience capacity."
+msgstr "تُحتسب جميع الفئات المتاحة ضمن السعة المعتمدة للحضور."
+
+msgid "All speakers"
+msgstr "جميع المتحدثين"
+
+msgid "All statuses"
+msgstr "جميع الحالات"
+
+msgid "Already committed"
+msgstr "تم تطبيقه سابقًا"
+
+msgid "Already registered? Recover your ticket link."
+msgstr "هل سجّلت سابقًا؟ استعد رابط تذكرتك."
+
+msgid "Amount Minor"
+msgstr "المبلغ بوحدات العملة الصغرى"
+
+msgid "Amount minor"
+msgstr "المبلغ بوحدات العملة الصغرى"
+
+msgid "An erasure needs a verified request and an approval reason."
+msgstr "يتطلب الحذف طلبًا موثّقًا وسببًا للاعتماد."
+
+msgid "An independently organized TEDx event."
+msgstr "فعالية TEDx منظمة بشكل مستقل."
+
+msgid "Announcements"
+msgstr "الإعلانات"
+
+msgid "Anonymize"
+msgstr "إخفاء الهوية"
+
+msgid "Answer is too long."
+msgstr "الإجابة طويلة جدًا."
+
+msgid "Application received"
+msgstr "تم استلام الطلب"
+
+msgid "Applications are not open yet. Please check back for an update."
+msgstr "لم تُفتح الطلبات بعد. يرجى العودة للاطلاع على المستجدات."
+
+msgid "Approve"
+msgstr "اعتماد"
+
+msgid ""
+"Approve a versioned privacy notice before opening volunteer applications."
+msgstr "اعتمد إشعار خصوصية ذا رقم إصدار قبل فتح طلبات التطوع."
+
+msgid ""
+"Approve the event's contact and admission policy before issuing invitations."
+msgstr "اعتمد سياسة التواصل والدخول للفعالية قبل إصدار الدعوات."
+
+msgid ""
+"Approve the talk and publish its speaker before publishing this session."
+msgstr "اعتمد الحديث وانشر ملف المتحدث قبل نشر هذه الجلسة."
+
+msgid "Approved"
+msgstr "معتمد"
+
+msgid "Approved runbook"
+msgstr "دليل التشغيل المعتمد"
+
+msgid "Archive"
+msgstr "أرشفة"
+
+msgid "Arrive"
+msgstr "تسجيل الوصول"
+
+msgid "Arrived At"
+msgstr "وقت الوصول"
+
+msgid "Arrived at"
+msgstr "وقت الوصول"
+
+msgid "Assign the volunteer to this department first."
+msgstr "عيّن المتطوع في هذا القسم أولًا."
+
+msgid "Assigned"
+msgstr "مُعيّن"
+
+msgid "Assigned To"
+msgstr "الشخص المكلّف"
+
+msgid "Assigned to"
+msgstr "الشخص المكلّف"
+
+msgid "At Risk"
+msgstr "معرّض للخطر"
+
+msgid "Attachments"
+msgstr "المرفقات"
+
+msgid "Attempts"
+msgstr "المحاولات"
+
+msgid "Attend the event"
+msgstr "احضر الفعالية"
+
+msgid "Attendee"
+msgstr "المشارك"
+
+msgid "Attendee invitations"
+msgstr "دعوات الحضور"
+
+msgid "Attendees"
+msgstr "الحضور"
+
+msgid "Audience"
+msgstr "الجمهور المستهدف"
+
+msgid "Audit records are append-only."
+msgstr "سجل التدقيق يقبل إضافة سجلات جديدة فقط."
+
+msgid "Audit records cannot be deleted through the application."
+msgstr "لا يمكن حذف سجلات التدقيق من التطبيق."
+
+msgid "Audit trail"
+msgstr "سجل التدقيق"
+
+msgid "Availability"
+msgstr "أوقات التفرغ"
+
+msgid "Back to dashboard"
+msgstr "العودة إلى لوحة التحكم"
+
+msgid "Back to sign in"
+msgstr "العودة إلى تسجيل الدخول"
+
+msgid "Biography"
+msgstr "السيرة التعريفية"
+
+msgid "Blocked"
+msgstr "متعطّل"
+
+msgid "Body"
+msgstr "المحتوى"
+
+msgid "Break"
+msgstr "استراحة"
+
+msgid "Brief"
+msgstr "تسجيل إتمام الإحاطة"
+
+msgid "Briefed At"
+msgstr "وقت الإحاطة"
+
+msgid "Briefed at"
+msgstr "وقت الإحاطة"
+
+msgid "CSV files must be smaller than 1 MB."
+msgstr "يجب أن يكون حجم ملفات CSV أقل من 1 ميغابايت."
+
+msgid "Cancel"
+msgstr "إلغاء"
+
+msgid "Cancel ticket"
+msgstr "إلغاء التذكرة"
+
+msgid "Cancelled"
+msgstr "ملغى"
+
+msgid "Capacity"
+msgstr "السعة"
+
+msgid "Capacity cannot be lower than already committed tickets."
+msgstr "لا يمكن أن تقل السعة عن عدد التذاكر المحجوزة بالفعل."
+
+msgid "Category"
+msgstr "الفئة"
+
+msgid "Change password"
+msgstr "تغيير كلمة المرور"
+
+msgid "Changes Required"
+msgstr "تعديلات مطلوبة"
+
+msgid "Check your email"
+msgstr "تحقق من بريدك الإلكتروني"
+
+msgid "Check-in"
+msgstr "تسجيل الدخول للفعالية"
+
+msgid "Checked in"
+msgstr "تم تسجيل الدخول للفعالية"
+
+msgid "Checkin"
+msgstr "تسجيل الدخول للفعالية"
+
+msgid "Choice fields need 1–50 text options of at most 100 characters."
+msgstr "تحتاج حقول الاختيار إلى 1–50 خيارًا نصيًا، بحد أقصى 100 حرف لكل خيار."
+
+msgid "Choose supported language codes: en, tr, ar."
+msgstr "اختر رموز اللغات المدعومة: en أو tr أو ar."
+
+msgid "Clean"
+msgstr "سليم"
+
+msgid "Closed"
+msgstr "مغلق"
+
+msgid "Closes at"
+msgstr "وقت الإغلاق"
+
+msgid "Closing"
+msgstr "الختام"
+
+msgid "Code"
+msgstr "الرمز"
+
+msgid "Commit reviewed import"
+msgstr "تطبيق الاستيراد المُراجع"
+
+msgid "Complete"
+msgstr "إكمال"
+
+msgid "Complete prerequisite tasks first."
+msgstr "أكمل المهام السابقة المطلوبة أولًا."
+
+msgid "Complete release, fact checking and rights review before approval."
+msgstr "أكمل الإقرار والتحقق من الحقائق ومراجعة الحقوق قبل الاعتماد."
+
+msgid ""
+"Complete the release, fact checking and rights review before marking this "
+"talk ready."
+msgstr ""
+"أكمل الإقرار والتحقق من الحقائق ومراجعة الحقوق قبل اعتبار الحديث جاهزًا."
+
+msgid "Completed"
+msgstr "مكتمل"
+
+msgid "Completed At"
+msgstr "وقت الإنجاز"
+
+msgid "Completed at"
+msgstr "وقت الإنجاز"
+
+msgid "Configure an enabled admission ticket type first."
+msgstr "أعدّ نوع تذكرة دخول مفعّلًا أولًا."
+
+msgid "Confirm the speaker and record publication consent first."
+msgstr "أكد مشاركة المتحدث وسجّل موافقته على النشر أولًا."
+
+msgid "Confirm this email address to continue your application."
+msgstr "أكد هذا البريد الإلكتروني لمتابعة طلبك."
+
+msgid "Confirmed"
+msgstr "مؤكد"
+
+msgid "Confirmed tickets not admitted"
+msgstr "التذاكر المؤكدة التي لم تدخل بعد"
+
+msgid "Contact"
+msgstr "التواصل"
+
+msgid "Contact email"
+msgstr "بريد التواصل"
+
+msgid "Contingency"
+msgstr "الخطة البديلة"
+
+msgid "Continue to workspace"
+msgstr "المتابعة إلى مساحة العمل"
+
+msgid "Correct"
+msgstr "تصحيح"
+
+msgid "Created"
+msgstr "تم الإنشاء"
+
+msgid "Created At"
+msgstr "وقت الإنشاء"
+
+msgid "Created at"
+msgstr "وقت الإنشاء"
+
+msgid "Critical"
+msgstr "حرج"
+
+msgid "Cue At"
+msgstr "وقت الإشارة التشغيلية"
+
+msgid "Cue at"
+msgstr "وقت الإشارة التشغيلية"
+
+msgid "Currency"
+msgstr "العملة"
+
+msgid "Custom fields need unique keys, labels and supported types."
+msgstr "يجب أن تتضمن الحقول المخصصة مفاتيح فريدة وتسميات وأنواعًا مدعومة."
+
+msgid "Deactivate"
+msgstr "تعطيل"
+
+msgid "Declined"
+msgstr "مرفوض"
+
+msgid "Default general admission"
+msgstr "الدخول العام الافتراضي"
+
+msgid "Department"
+msgstr "القسم"
+
+msgid "Department memberships"
+msgstr "عضويات الأقسام"
+
+msgid "Department readiness"
+msgstr "جاهزية الأقسام"
+
+msgid "Departments"
+msgstr "الأقسام"
+
+msgid "Depends On"
+msgstr "المهمة السابقة المطلوبة"
+
+msgid "Depends on"
+msgstr "المهمة السابقة المطلوبة"
+
+msgid "Description"
+msgstr "الوصف"
+
+msgid "Details"
+msgstr "التفاصيل"
+
+msgid "Device label"
+msgstr "اسم الجهاز"
+
+msgid "Discover the event"
+msgstr "تعرّف إلى الفعالية"
+
+msgid "Discussion"
+msgstr "النقاش"
+
+msgid "Done"
+msgstr "تم"
+
+msgid "Download file"
+msgstr "تنزيل الملف"
+
+msgid "Download my registration data"
+msgstr "تنزيل بيانات تسجيلي"
+
+msgid "Draft"
+msgstr "مسودة"
+
+msgid "Due At"
+msgstr "الموعد النهائي"
+
+msgid "Due at"
+msgstr "الموعد النهائي"
+
+msgid "ENTRANCE OPERATIONS"
+msgstr "عمليات الدخول"
+
+msgid "EVENT OPERATIONS"
+msgstr "عمليات الفعالية"
+
+msgid "EVENT WORKSPACE"
+msgstr "مساحة عمل الفعالية"
+
+msgid ""
+"Each code works once. Store them privately before continuing. They will not "
+"be shown again."
+msgstr ""
+"يُستخدم كل رمز مرة واحدة. احفظها في مكان خاص قبل المتابعة، فلن تظهر مجددًا."
+
+msgid "Each field needs a concise label."
+msgstr "يحتاج كل حقل إلى تسمية موجزة وواضحة."
+
+msgid "Edit record"
+msgstr "تعديل السجل"
+
+msgid "Editor"
+msgstr "محرر المحتوى"
+
+msgid "Email"
+msgstr "بريد إلكتروني"
+
+msgid ""
+"Email changes require identity review. Keep this registration's verified "
+"address; cancel and re-register through the approved process if necessary."
+msgstr ""
+"يتطلب تغيير البريد مراجعة الهوية. احتفظ بالعنوان الموثق لهذا التسجيل؛ وإذا "
+"لزم الأمر، ألغِ التسجيل وأعده وفق الإجراء المعتمد."
+
+msgid "Email delivery"
+msgstr "تسليم البريد الإلكتروني"
+
+msgid "Email templates"
+msgstr "قوالب البريد الإلكتروني"
+
+msgid "Email verified"
+msgstr "تم تأكيد البريد الإلكتروني"
+
+msgid "Enabled"
+msgstr "مفعّل"
+
+msgid "Enabled languages"
+msgstr "اللغات المفعّلة"
+
+msgid "Ends At"
+msgstr "وقت النهاية"
+
+msgid "Ends at"
+msgstr "وقت النهاية"
+
+msgid "English"
+msgstr "الإنجليزيّة"
+
+msgid "Enter a name of 1–150 characters."
+msgstr "أدخل اسمًا من 1 إلى 150 حرفًا."
+
+msgid ""
+"Enter your assigned account email. Resetting a password does not remove "
+"authenticator protection."
+msgstr ""
+"أدخل بريد الحساب المخصص لك. لا تؤدي إعادة تعيين كلمة المرور إلى إلغاء "
+"الحماية بتطبيق المصادقة."
+
+msgid ""
+"Entrance opening must be after venue setup access and before the event ends."
+msgstr "يجب أن يكون فتح الدخول بعد إتاحة المكان للتجهيز وقبل انتهاء الفعالية."
+
+msgid "Entry mode updated. Brief every admission desk."
+msgstr "تم تحديث وضع الدخول. أبلغ جميع نقاط الاستقبال."
+
+msgid "Equipment"
+msgstr "المعدات"
+
+msgid "Erase"
+msgstr "حذف"
+
+msgid "Event & registration settings"
+msgstr "إعدادات الفعالية والتسجيل"
+
+msgid "Event Admin"
+msgstr "مدير الفعالية"
+
+msgid "Event information"
+msgstr "معلومات الفعالية"
+
+msgid "Event settings saved."
+msgstr "تم حفظ إعدادات الفعالية."
+
+msgid "Event-day dashboard"
+msgstr "لوحة يوم الفعالية"
+
+msgid "Event-day runbook"
+msgstr "دليل تشغيل يوم الفعالية"
+
+msgid "Expanded presentation is too large."
+msgstr "حجم العرض بعد فك الضغط كبير جدًا."
+
+msgid "Expired"
+msgstr "منتهي الصلاحية"
+
+msgid "Expires At"
+msgstr "وقت انتهاء الصلاحية"
+
+msgid "Expires at"
+msgstr "وقت انتهاء الصلاحية"
+
+msgid ""
+"Explore the program, meet the speakers, and find the information you need to"
+" take part."
+msgstr ""
+"استكشف البرنامج وتعرّف إلى المتحدثين واطّلع على المعلومات اللازمة للمشاركة."
+
+msgid "Export CSV"
+msgstr "تصدير CSV"
+
+msgid "Export consenting survey recipients"
+msgstr "تصدير المستلمين الموافقين على الاستبيان"
+
+msgid "Export controlled admission roster"
+msgstr "تصدير قائمة الدخول الخاضعة للضبط"
+
+msgid "Export minimum operational columns"
+msgstr "تصدير الحد الأدنى من الأعمدة التشغيلية"
+
+msgid "FAQ"
+msgstr "الأسئلة الشائعة"
+
+msgid "Fact check notes"
+msgstr "ملاحظات التحقق من الحقائق"
+
+msgid "Fact checked"
+msgstr "تم التحقق من الحقائق"
+
+msgid "Failed"
+msgstr "فشل"
+
+msgid "File content does not match its extension."
+msgstr "محتوى الملف لا يطابق امتداده."
+
+msgid "Finance"
+msgstr "المالية"
+
+msgid "Find an attendee"
+msgstr "البحث عن حاضر"
+
+msgid "Footer navigation"
+msgstr "التنقل في تذييل الصفحة"
+
+msgid "Forgot your password?"
+msgstr "هل نسيت كلمة المرور؟"
+
+msgid "Full name"
+msgstr "الاسم الكامل"
+
+msgid "Handover at"
+msgstr "وقت التسليم"
+
+msgid "Help bring the day to life."
+msgstr "ساهم في إنجاح هذا اليوم."
+
+msgid "High"
+msgstr "مرتفع"
+
+msgid "Hold Until"
+msgstr "نهاية تعليق الحذف"
+
+msgid "Hold until"
+msgstr "نهاية تعليق الحذف"
+
+msgid "I agree to receive the optional event survey"
+msgstr "أوافق على تلقي استبيان الفعالية الاختياري"
+
+msgid "I have read the privacy notice"
+msgstr "قرأت إشعار الخصوصية"
+
+msgid ""
+"If a request times out, retry the same request before admitting anyone. "
+"Offline admission requires the supervisor’s controlled manual procedure."
+msgstr ""
+"إذا انتهت مهلة الطلب، أعد المحاولة بالطلب نفسه قبل السماح بالدخول. يتطلب "
+"الدخول دون اتصال الإجراء اليدوي المنضبط الذي يديره المشرف."
+
+msgid ""
+"If that address has an application, we will send a private management link."
+msgstr "إذا كان لهذا العنوان طلب مسجل، فسنرسل رابط إدارة خاصًا."
+
+msgid ""
+"If that address has an eligible account, we will send a password reset link."
+" Your authenticator remains required."
+msgstr ""
+"إذا كان لهذا العنوان حساب مؤهل، فسنرسل رابط إعادة تعيين كلمة المرور. سيظل "
+"تطبيق المصادقة مطلوبًا."
+
+msgid ""
+"If this address is eligible, a verification email will arrive shortly. A "
+"submission is not a confirmed seat."
+msgstr ""
+"إذا كان العنوان مؤهلًا، فستصلك رسالة تحقق قريبًا. تقديم الطلب لا يعني تأكيد "
+"مقعد."
+
+msgid ""
+"If we have an eligible registration for that address, we will send a fresh "
+"link."
+msgstr "إذا كان لدينا تسجيل مؤهل بهذا العنوان، فسنرسل رابطًا جديدًا."
+
+msgid "Import at most 1000 rows at a time."
+msgstr "استورد 1000 صف كحد أقصى في كل مرة."
+
+msgid "Import committed. Repeating this batch will not repeat the changes."
+msgstr "تم تطبيق الاستيراد. لن تؤدي إعادة هذه الدفعة إلى تكرار التغييرات."
+
+msgid "Important"
+msgstr "مهم"
+
+msgid "In Progress"
+msgstr "قيد التنفيذ"
+
+msgid "Inactive"
+msgstr "غير نشط"
+
+msgid "Incidents"
+msgstr "الحوادث"
+
+msgid "Instructions"
+msgstr "التعليمات"
+
+msgid "Interface language"
+msgstr "لغة الواجهة"
+
+msgid "Internal cues"
+msgstr "إشارات التشغيل الداخلية"
+
+msgid "Internal notes"
+msgstr "ملاحظات داخلية"
+
+msgid "Interview"
+msgstr "مقابلة"
+
+msgid "Invalid answer option."
+msgstr "خيار إجابة غير صالح."
+
+msgid "Invalid custom-field definition."
+msgstr "تعريف الحقل المخصص غير صالح."
+
+msgid "Invalid entry-mode transition or missing reason."
+msgstr "انتقال غير صالح بين أوضاع الدخول أو سبب مفقود."
+
+msgid "Invalid or already-used code. Wait for the next code and try again."
+msgstr "الرمز غير صالح أو استُخدم سابقًا. انتظر الرمز التالي وحاول مجددًا."
+
+msgid "Invalid or macro-enabled presentation."
+msgstr "العرض غير صالح أو يتضمن وحدات ماكرو."
+
+msgid "Invalid published program timestamp."
+msgstr "وقت البرنامج المنشور غير صالح."
+
+msgid "Investigating"
+msgstr "قيد التحقيق"
+
+msgid "Invitation"
+msgstr "بدعوة"
+
+msgid ""
+"Invitation queued. The recipient still verifies their email and receives a "
+"ticket only within capacity."
+msgstr ""
+"أُضيفت الدعوة إلى قائمة الإرسال. يجب على المستلم تأكيد بريده، ولا تُصدر "
+"التذكرة إلا ضمن السعة المتاحة."
+
+msgid "Invite a staff member"
+msgstr "دعوة عضو في الفريق"
+
+msgid "Invite an attendee"
+msgstr "دعوة حاضر"
+
+msgid "Invite staff member"
+msgstr "دعوة عضو في الفريق"
+
+msgid "Invited"
+msgstr "تمت دعوته"
+
+msgid "Join the volunteer team"
+msgstr "انضم إلى فريق المتطوعين"
+
+msgid "Keep at least one active organizer."
+msgstr "أبقِ منظمًا نشطًا واحدًا على الأقل."
+
+msgid "Keep this QR private. Entry staff will validate it at the event."
+msgstr "احتفظ بهذا الرمز بشكل خاص. سيتحقق منه فريق الدخول في الفعالية."
+
+msgid "Key"
+msgstr "المفتاح"
+
+msgid "Kind"
+msgstr "النوع"
+
+msgid "Language"
+msgstr "اللغة"
+
+msgid "Languages"
+msgstr "اللغات"
+
+msgid "Last Error Code"
+msgstr "رمز آخر خطأ"
+
+msgid "Last error code"
+msgstr "رمز آخر خطأ"
+
+msgid "Leader"
+msgstr "قائد القسم"
+
+msgid "Leaders"
+msgstr "القادة"
+
+msgid "Leadership"
+msgstr "القيادة"
+
+msgid "Link unavailable"
+msgstr "الرابط غير متاح"
+
+msgid ""
+"Live database totals. Export minimum columns from each authorized module."
+msgstr ""
+"إجماليات مباشرة من قاعدة البيانات. صدّر الحد الأدنى من الأعمدة من الوحدات "
+"المصرح لك بها."
+
+msgid "Location"
+msgstr "الموقع"
+
+msgid "Low"
+msgstr "منخفض"
+
+msgid "Main navigation"
+msgstr "التنقل الرئيسي"
+
+msgid "Manage admission mode"
+msgstr "إدارة وضع الدخول"
+
+msgid "Manual admission requires a reason."
+msgstr "يتطلب الدخول اليدوي ذكر السبب."
+
+msgid "Map url"
+msgstr "رابط الخريطة"
+
+msgid "Max talk minutes"
+msgstr "الحد الأقصى لدقائق الحديث"
+
+msgid "Medium"
+msgstr "متوسط"
+
+msgid "Menu"
+msgstr "القائمة"
+
+msgid "Mitigated"
+msgstr "تم تخفيف الأثر"
+
+msgid "More information soon."
+msgstr "المزيد من المعلومات قريبًا."
+
+msgid "NOW"
+msgstr "الآن"
+
+msgid "Name"
+msgstr "الاسم"
+
+msgid "Name or booking reference"
+msgstr "الاسم أو مرجع الحجز"
+
+msgid "Needs Review"
+msgstr "بحاجة إلى مراجعة"
+
+msgid "Next Attempt At"
+msgstr "وقت المحاولة التالية"
+
+msgid "Next attempt at"
+msgstr "وقت المحاولة التالية"
+
+msgid "Next →"
+msgstr "التالي ←"
+
+msgid "Next:"
+msgstr "التالي:"
+
+msgid "No announcements for your team."
+msgstr "لا توجد إعلانات لفريقك."
+
+msgid "No approved runbook cues for your role."
+msgstr "لا توجد تعليمات تشغيل معتمدة لدورك."
+
+msgid "No comments yet."
+msgstr "لا توجد تعليقات بعد."
+
+msgid "No contacts in your scope."
+msgstr "لا توجد جهات اتصال ضمن نطاقك."
+
+msgid "No departments in your scope."
+msgstr "لا توجد أقسام ضمن نطاقك."
+
+msgid "No event access assigned"
+msgstr "لم تُمنح صلاحية الوصول إلى الفعالية"
+
+msgid "No records found. Try another search or add the first record."
+msgstr "لم يُعثر على سجلات. جرّب بحثًا آخر أو أضف أول سجل."
+
+msgid "No records yet."
+msgstr "لا توجد سجلات بعد."
+
+msgid ""
+"Non-counted ticket categories need a separately approved admission policy."
+msgstr ""
+"تحتاج فئات التذاكر غير المحتسبة ضمن السعة إلى سياسة دخول معتمدة بشكل منفصل."
+
+msgid "Normal"
+msgstr "عادي"
+
+msgid "Not Started"
+msgstr "لم يبدأ"
+
+msgid "Notes"
+msgstr "الملاحظات"
+
+msgid "Notice version"
+msgstr "إصدار الإشعار"
+
+msgid "On the stage"
+msgstr "على المنصة"
+
+msgid "Only failed delivery jobs can be retried, with a recorded reason."
+msgstr "يمكن إعادة محاولة مهام التسليم الفاشلة فقط، مع تسجيل السبب."
+
+msgid "Only published runbook revisions can be acknowledged."
+msgstr "يمكن تأكيد الاطلاع على إصدارات دليل التشغيل المنشورة فقط."
+
+msgid "Only the responsible department leader can change this record."
+msgstr "يمكن لقائد القسم المسؤول فقط تعديل هذا السجل."
+
+msgid "Open"
+msgstr "مفتوح"
+
+msgid "Open →"
+msgstr "فتح ←"
+
+msgid "Opening"
+msgstr "الافتتاح"
+
+msgid "Opens at"
+msgstr "وقت الفتح"
+
+msgid "Operational contacts"
+msgstr "جهات الاتصال التشغيلية"
+
+msgid "Operational reports"
+msgstr "التقارير التشغيلية"
+
+msgid "Operations navigation"
+msgstr "التنقل بين العمليات"
+
+msgid "Organizer"
+msgstr "المنظم"
+
+msgid "Organizers"
+msgstr "المنظمون"
+
+msgid "Other"
+msgstr "أخرى"
+
+msgid "Overdue tasks"
+msgstr "المهام المتأخرة"
+
+msgid "Owner"
+msgstr "المسؤول"
+
+msgid "Page"
+msgstr "الصفحة"
+
+msgid "Paid"
+msgstr "مدفوع"
+
+msgid ""
+"Paid registration is unavailable until a provider and merchant policy are "
+"approved and integrated."
+msgstr ""
+"التسجيل المدفوع غير متاح حتى اعتماد مزود الدفع وسياسة التاجر وإتمام التكامل."
+
+msgid "Password updated"
+msgstr "تم تحديث كلمة المرور"
+
+msgid "Payment mode"
+msgstr "نمط الدفع"
+
+msgid "Payment orders"
+msgstr "طلبات الدفع"
+
+msgid "Pending"
+msgstr "قيد الانتظار"
+
+msgid "Phone"
+msgstr "الهاتف"
+
+msgid "Photo"
+msgstr "الصورة"
+
+msgid "Placeholders: {event}, {name}, {link}, {status}. Plain text only."
+msgstr "العناصر النائبة: {event} و{name} و{link} و{status}. نص عادي فقط."
+
+msgid "Planning"
+msgstr "قيد التخطيط"
+
+msgid "Policy approved"
+msgstr "تم اعتماد السياسة"
+
+msgid "Preferred Department"
+msgstr "القسم المفضل"
+
+msgid "Preferred department"
+msgstr "القسم المفضل"
+
+msgid "Preview a CSV import"
+msgstr "معاينة استيراد CSV"
+
+msgid "Priority"
+msgstr "الأولوية"
+
+msgid "Privacy"
+msgstr "الخصوصية"
+
+msgid "Privacy approved"
+msgstr "تم اعتماد الخصوصية"
+
+msgid "Privacy notice"
+msgstr "إشعار الخصوصية"
+
+msgid "Privacy requests"
+msgstr "طلبات الخصوصية"
+
+msgid "Private files"
+msgstr "الملفات الخاصة"
+
+msgid "Production"
+msgstr "الإنتاج"
+
+msgid "Production cues stay internal."
+msgstr "تبقى إشارات الإنتاج داخلية."
+
+msgid "Program"
+msgstr "البرنامج"
+
+msgid "Program & production schedule"
+msgstr "جدول البرنامج والإنتاج"
+
+msgid "Promotions cutoff"
+msgstr "الموعد النهائي لتخصيص التذاكر"
+
+msgid "Proposed"
+msgstr "مقترح"
+
+msgid "Provide a cancellation reason."
+msgstr "اذكر سبب الإلغاء."
+
+msgid "Provider"
+msgstr "المزود"
+
+msgid "Provider Reference"
+msgstr "مرجع المزود"
+
+msgid "Provider reference"
+msgstr "مرجع المزود"
+
+msgid "Public Candidate"
+msgstr "مرشح للنشر العام"
+
+msgid "Public description"
+msgstr "الوصف العام"
+
+msgid "Public pages & FAQs"
+msgstr "الصفحات العامة والأسئلة الشائعة"
+
+msgid "Public sessions must fit inside the event's public hours."
+msgstr "يجب أن تقع الجلسات العامة ضمن ساعات الفعالية المعلنة للجمهور."
+
+msgid "Publication consent"
+msgstr "موافقة النشر"
+
+msgid "Publish"
+msgstr "نشر"
+
+msgid "Publish At"
+msgstr "وقت النشر"
+
+msgid "Publish at"
+msgstr "وقت النشر"
+
+msgid "Published"
+msgstr "منشور"
+
+msgid "Published At"
+msgstr "تاريخ النشر"
+
+msgid "Published at"
+msgstr "تاريخ النشر"
+
+msgid "QR credential or USB scanner input"
+msgstr "بيانات رمز QR أو إدخال الماسح عبر USB"
+
+msgid "Quarantined"
+msgstr "في الحجر"
+
+msgid "Read"
+msgstr "مقروء"
+
+msgid "Read the privacy notice"
+msgstr "اقرأ إشعار الخصوصية"
+
+msgid "Readiness"
+msgstr "الجاهزية"
+
+msgid "Ready"
+msgstr "جاهز"
+
+msgid "Ready. Start the camera or scan a ticket."
+msgstr "جاهز. شغّل الكاميرا أو امسح تذكرة."
+
+msgid "Reason"
+msgstr "السبب"
+
+msgid "Reason / operational note"
+msgstr "السبب / الملاحظة التشغيلية"
+
+msgid "Received"
+msgstr "تم الاستلام"
+
+msgid "Recent admissions"
+msgstr "آخر عمليات الدخول"
+
+msgid "Record a decision reason."
+msgstr "سجّل سبب القرار."
+
+msgid "Record a reason for the account change."
+msgstr "سجّل سبب تغيير الحساب."
+
+msgid "Record the resolution before closing an incident."
+msgstr "سجّل الحل قبل إغلاق الحادث."
+
+msgid "Record why this import is authorized."
+msgstr "سجّل سبب السماح بهذا الاستيراد."
+
+msgid "Recover volunteer application"
+msgstr "استعادة طلب التطوع"
+
+msgid "Recover your account"
+msgstr "استعد حسابك"
+
+msgid "Recover your ticket link"
+msgstr "استعد رابط تذكرتك"
+
+msgid "Reference"
+msgstr "المرجع"
+
+msgid "Refund Pending"
+msgstr "استرداد قيد الانتظار"
+
+msgid "Refunded"
+msgstr "تم الاسترداد"
+
+msgid "Registration"
+msgstr "التسجيل"
+
+msgid "Registration applications"
+msgstr "طلبات التسجيل"
+
+msgid "Registration closes after it opens."
+msgstr "يجب أن يأتي إغلاق التسجيل بعد فتحه."
+
+msgid "Registration fields"
+msgstr "حقول التسجيل"
+
+msgid "Registration is not open."
+msgstr "التسجيل غير مفتوح."
+
+msgid "Registration is outside its opening period."
+msgstr "التسجيل خارج فترة الإتاحة."
+
+msgid "Registration mode"
+msgstr "نمط التسجيل"
+
+msgid "Rehearsals"
+msgstr "البروفات"
+
+msgid "Rejected"
+msgstr "مرفوض"
+
+msgid "Release received"
+msgstr "تم استلام الإقرار"
+
+msgid "Reports"
+msgstr "التقارير"
+
+msgid "Request data erasure"
+msgstr "طلب حذف البيانات"
+
+msgid "Request reset link"
+msgstr "طلب رابط إعادة التعيين"
+
+msgid "Resolution"
+msgstr "الحل"
+
+msgid "Resolved"
+msgstr "تم الحل"
+
+msgid "Responsibilities"
+msgstr "المسؤوليات"
+
+msgid "Responsibility"
+msgstr "المسؤولية"
+
+msgid "Retention days"
+msgstr "مدة الاحتفاظ بالأيام"
+
+msgid "Retry"
+msgstr "إعادة المحاولة"
+
+msgid "Retry the same request"
+msgstr "إعادة المحاولة بالطلب نفسه"
+
+msgid "Return to event"
+msgstr "العودة إلى الفعالية"
+
+msgid "Review"
+msgstr "المراجعة"
+
+msgid "Review import"
+msgstr "مراجعة الاستيراد"
+
+msgid "Rights cleared"
+msgstr "تمت مراجعة الحقوق"
+
+msgid "Rights notes"
+msgstr "ملاحظات الحقوق"
+
+msgid "Role"
+msgstr "الدور"
+
+msgid "Roles & permissions"
+msgstr "الأدوار والصلاحيات"
+
+msgid "Rotate"
+msgstr "تجديد رمز التذكرة"
+
+msgid "Rotation needs a reason and online operating mode."
+msgstr "يتطلب التجديد ذكر السبب وتفعيل وضع التشغيل المتصل."
+
+msgid "Safety"
+msgstr "السلامة"
+
+msgid "Save and continue"
+msgstr "الحفظ والمتابعة"
+
+msgid "Save password"
+msgstr "حفظ كلمة المرور"
+
+msgid "Save your recovery codes"
+msgstr "احفظ رموز الاسترداد"
+
+msgid "Scan Status"
+msgstr "حالة الفحص"
+
+msgid "Scan status"
+msgstr "حالة الفحص"
+
+msgid ""
+"Scan this private QR with your authenticator app, then enter its current "
+"code."
+msgstr ""
+"امسح هذا الرمز الخاص بتطبيق المصادقة ثم أدخل الرمز الحالي الذي يظهر فيه."
+
+msgid "Schedule"
+msgstr "الجدول"
+
+msgid "Scope"
+msgstr "النطاق"
+
+msgid "Search"
+msgstr "بحث"
+
+msgid "Select the record that owns this private file."
+msgstr "اختر السجل الذي يتبع له هذا الملف الخاص."
+
+msgid "Select the talk for this program item."
+msgstr "اختر الحديث لهذا العنصر من البرنامج."
+
+msgid "Sending"
+msgstr "جارٍ الإرسال"
+
+msgid "Sent"
+msgstr "مُرسل"
+
+msgid "Set a secure password"
+msgstr "عيّن كلمة مرور آمنة"
+
+msgid "Set admission mode, capacity and registration dates first."
+msgstr "اضبط نمط الدخول والسعة وتواريخ التسجيل أولًا."
+
+msgid "Set up authenticator"
+msgstr "إعداد تطبيق المصادقة"
+
+msgid "Set up your authenticator"
+msgstr "أعدّ تطبيق المصادقة"
+
+msgid "Settings are frozen during manual admission and reconciliation."
+msgstr "تُجمّد الإعدادات أثناء الدخول اليدوي والتسوية."
+
+msgid "Settings changed. Reload before saving."
+msgstr "تغيرت الإعدادات. أعد تحميل الصفحة قبل الحفظ."
+
+msgid "Setup at"
+msgstr "بداية التجهيز"
+
+msgid "Severity"
+msgstr "الخطورة"
+
+msgid "Shift"
+msgstr "المناوبة"
+
+msgid "Shift assignments"
+msgstr "تعيينات المناوبات"
+
+msgid "Shifts"
+msgstr "المناوبات"
+
+msgid "Sign in"
+msgstr "تسجيل الدخول"
+
+msgid "Sign out"
+msgstr "تسجيل الخروج"
+
+msgid "Size"
+msgstr "الحجم"
+
+msgid "Skills"
+msgstr "المهارات"
+
+msgid "Skip to content"
+msgstr "الانتقال إلى المحتوى"
+
+msgid "Source"
+msgstr "المصدر"
+
+msgid "Speaker"
+msgstr "المتحدث"
+
+msgid "Speaker Manager"
+msgstr "مسؤول المتحدثين"
+
+msgid "Speakers"
+msgstr "المتحدثون"
+
+msgid "Staff"
+msgstr "الفريق"
+
+msgid "Start camera"
+msgstr "تشغيل الكاميرا"
+
+msgid "Starts At"
+msgstr "وقت البداية"
+
+msgid "Starts at"
+msgstr "وقت البداية"
+
+msgid "Status"
+msgstr "الحالة"
+
+msgid "Status:"
+msgstr "الحالة:"
+
+msgid "Stop camera"
+msgstr "إيقاف الكاميرا"
+
+msgid "Subject"
+msgstr "الموضوع"
+
+msgid "Submit"
+msgstr "إرسال"
+
+msgid "Submitted"
+msgstr "تم التقديم"
+
+msgid "Supervisor"
+msgstr "المشرف"
+
+msgid "Suppressed"
+msgstr "موقوف الإرسال"
+
+msgid "Survey consent"
+msgstr "الموافقة على الاستبيان"
+
+msgid "Switch to reconciliation mode before committing a manual ledger."
+msgstr "انتقل إلى وضع التسوية قبل تطبيق سجل الدخول اليدوي."
+
+msgid "Take part"
+msgstr "شارك"
+
+msgid "Talk"
+msgstr "الحديث"
+
+msgid "Talk preparation"
+msgstr "إعداد الحديث"
+
+msgid "Target"
+msgstr "الهدف"
+
+msgid "Task"
+msgstr "المهمة"
+
+msgid "Task dependencies"
+msgstr "تبعيات المهام"
+
+msgid "Tasks"
+msgstr "المهام"
+
+msgid "Team accounts"
+msgstr "حسابات الفريق"
+
+msgid "Team sign in"
+msgstr "دخول الفريق"
+
+msgid "Team sign in →"
+msgstr "دخول الفريق ←"
+
+msgid "Technical"
+msgstr "تقني"
+
+msgid "Technical requirements"
+msgstr "المتطلبات التقنية"
+
+msgid "Technology"
+msgstr "التقنية"
+
+msgid "Template Key"
+msgstr "مفتاح القالب"
+
+msgid "Template braces are not balanced."
+msgstr "الأقواس المعقوفة في القالب غير متوازنة."
+
+msgid "Template key"
+msgstr "مفتاح القالب"
+
+msgid "Terms"
+msgstr "الشروط"
+
+msgid ""
+"Thank you. The volunteer team will review eligible applications and contact "
+"you."
+msgstr "شكرًا لك. سيراجع فريق المتطوعين الطلبات المؤهلة ويتواصل معك."
+
+msgid "The approved program will be published here."
+msgstr "سيُنشر البرنامج المعتمد هنا."
+
+msgid ""
+"The configured event retention period has not elapsed. Resolve policy before"
+" erasure."
+msgstr "لم تنتهِ مدة الاحتفاظ المحددة للفعالية. احسم السياسة قبل الحذف."
+
+msgid "The event"
+msgstr "الفعالية"
+
+msgid "The event contact channel will be published here."
+msgstr "ستُنشر وسيلة التواصل الخاصة بالفعالية هنا."
+
+msgid "The event team is preparing the official website."
+msgstr "يعمل فريق الفعالية على إعداد الموقع الرسمي."
+
+msgid "The file contains no records."
+msgstr "لا يحتوي الملف على سجلات."
+
+msgid "The file did not pass the configured scanner."
+msgstr "لم يجتز الملف أداة الفحص المضبوطة."
+
+msgid "The speaker already has a rehearsal at this time."
+msgstr "لدى المتحدث بروفة أخرى في هذا الوقت."
+
+msgid "Theme"
+msgstr "المحور"
+
+msgid ""
+"This account serves another event. Revoke its role here instead of changing "
+"the global account."
+msgstr ""
+"يُستخدم هذا الحساب في فعالية أخرى. ألغِ دوره هنا بدلًا من تغيير الحساب "
+"العام."
+
+msgid "This allocation path requires approved free registration."
+msgstr "يتطلب مسار تخصيص التذاكر هذا تسجيلًا مجانيًا معتمدًا."
+
+msgid "This application is already finalized."
+msgstr "حُسم هذا الطلب بالفعل."
+
+msgid "This application link has expired."
+msgstr "انتهت صلاحية رابط الطلب."
+
+msgid "This dependency would create a cycle."
+msgstr "ستؤدي هذه التبعية إلى إنشاء حلقة."
+
+msgid "This file scope is not permitted for your role."
+msgstr "دورك لا يسمح بهذا النطاق للملف."
+
+msgid ""
+"This link has expired or has already been used. Request a fresh email from "
+"the ticket recovery page."
+msgstr ""
+"انتهت صلاحية هذا الرابط أو استُخدم سابقًا. اطلب رسالة جديدة من صفحة استعادة "
+"التذكرة."
+
+msgid ""
+"This link is invalid or expired. Ask the organizer for a fresh invitation."
+msgstr "هذا الرابط غير صالح أو منتهي الصلاحية. اطلب دعوة جديدة من المنظم."
+
+msgid "This record changed while you were editing. Reload it before saving."
+msgstr "تغيّر هذا السجل أثناء تعديله. أعد تحميله قبل الحفظ."
+
+msgid "This record is unavailable in your authorized scope."
+msgstr "هذا السجل غير متاح ضمن نطاق صلاحياتك."
+
+msgid "This registration already has a ticket. Use its lifecycle actions."
+msgstr "لهذا التسجيل تذكرة بالفعل. استخدم إجراءات إدارة التذكرة."
+
+msgid "This registration cannot move to that status."
+msgstr "لا يمكن نقل هذا التسجيل إلى هذه الحالة."
+
+msgid "This session overlaps another public program item."
+msgstr "تتداخل هذه الجلسة مع عنصر آخر من البرنامج العام."
+
+msgid "This talk exceeds the configured event duration limit."
+msgstr "يتجاوز هذا الحديث الحد الزمني المحدد للفعالية."
+
+msgid "This username already exists."
+msgstr "اسم المستخدم موجود بالفعل."
+
+msgid "This verification link has expired or was already used."
+msgstr "انتهت صلاحية رابط التحقق أو استُخدم سابقًا."
+
+msgid "This volunteer already has an overlapping shift."
+msgstr "لدى هذا المتطوع مناوبة متداخلة."
+
+msgid "Ticket Type"
+msgstr "نوع التذكرة"
+
+msgid "Ticket allocation is closed for event-day admission."
+msgstr "أُغلق تخصيص التذاكر لدخول يوم الفعالية."
+
+msgid "Ticket changes are frozen during manual admission and reconciliation."
+msgstr "تُجمّد تغييرات التذاكر أثناء الدخول اليدوي والتسوية."
+
+msgid "Ticket changes are frozen during manual admission."
+msgstr "تُجمّد تغييرات التذاكر أثناء الدخول اليدوي."
+
+msgid "Ticket does not belong to this attendee."
+msgstr "التذكرة لا تخص هذا الحاضر."
+
+msgid "Ticket type"
+msgstr "نوع التذكرة"
+
+msgid "Ticket types"
+msgstr "أنواع التذاكر"
+
+msgid "Tickets"
+msgstr "التذاكر"
+
+msgid "Title"
+msgstr "العنوان"
+
+msgid "Too many attempts. Please try again later."
+msgstr "محاولات كثيرة جدًا. يرجى المحاولة لاحقًا."
+
+msgid "Too many attempts. Please wait and try again."
+msgstr "محاولات كثيرة جدًا. انتظر ثم حاول مجددًا."
+
+msgid "Too many login attempts. Try again later."
+msgstr "محاولات تسجيل دخول كثيرة جدًا. حاول لاحقًا."
+
+msgid "Transition"
+msgstr "انتقال"
+
+msgid "Türkçe"
+msgstr "Türkçe"
+
+msgid "Under Review"
+msgstr "قيد المراجعة"
+
+msgid "University community"
+msgstr "المجتمع الجامعي"
+
+msgid "Unsupported registration answers."
+msgstr "إجابات تسجيل غير مدعومة."
+
+msgid "Update my details"
+msgstr "تحديث بياناتي"
+
+msgid "Updated"
+msgstr "تم التحديث"
+
+msgid "Updates will be published here when approved."
+msgstr "ستُنشر المستجدات هنا بعد اعتمادها."
+
+msgid "Upload a PDF, PNG, JPEG or PPTX up to 25 MB."
+msgstr "ارفع ملف PDF أو PNG أو JPEG أو PPTX لا يتجاوز 25 ميغابايت."
+
+msgid "Upload private file"
+msgstr "رفع ملف خاص"
+
+msgid "Urgent"
+msgstr "عاجل"
+
+msgid "Use a clean, approved public-candidate image for this speaker."
+msgstr "استخدم لهذا المتحدث صورة سليمة ومعتمدة ومرشحة للنشر العام."
+
+msgid "Use a valid PNG/JPEG image of at most 25 megapixels."
+msgstr "استخدم صورة PNG أو JPEG صالحة لا تتجاوز 25 ميغابكسل."
+
+msgid "Use a valid UTF-8 CSV with ISO 8601 timestamps."
+msgstr "استخدم ملف CSV صالحًا بترميز UTF-8 وأوقات بصيغة ISO 8601."
+
+msgid "Use at most 12 optional form fields."
+msgstr "استخدم 12 حقلًا اختياريًا كحد أقصى في النموذج."
+
+msgid "Use only plain {event}, {name}, {link}, and {status} placeholders."
+msgstr "استخدم العناصر النائبة البسيطة {event} و{name} و{link} و{status} فقط."
+
+msgid "Use the approval action to approve a reviewed talk."
+msgstr "استخدم إجراء الاعتماد لاعتماد حديث تمت مراجعته."
+
+msgid "Use the public form when invitations or custom answers are required."
+msgstr "استخدم النموذج العام عند الحاجة إلى دعوات أو إجابات مخصصة."
+
+msgid "Use your assigned account to access the event workspace."
+msgstr "استخدم حسابك المخصص للوصول إلى مساحة عمل الفعالية."
+
+msgid "Used At"
+msgstr "وقت الاستخدام"
+
+msgid "Used at"
+msgstr "وقت الاستخدام"
+
+msgid "User"
+msgstr "المستخدم"
+
+msgid "Validate & check in"
+msgstr "التحقق وتسجيل الدخول للفعالية"
+
+msgid "Venue"
+msgstr "المكان"
+
+msgid "Venue and arrival instructions will be published after confirmation."
+msgstr "سيُنشر المكان وتعليمات الوصول بعد التأكيد."
+
+msgid "Venue confirmed"
+msgstr "تم تأكيد المكان"
+
+msgid "Verified"
+msgstr "موثّق"
+
+msgid "Verify code"
+msgstr "التحقق من الرمز"
+
+msgid "Verify email"
+msgstr "تأكيد البريد الإلكتروني"
+
+msgid "Verify the attendee email before allocating a ticket."
+msgstr "أكد البريد الإلكتروني للحاضر قبل تخصيص التذكرة."
+
+msgid "Verify your authenticator again before this privileged action."
+msgstr "أعد التحقق بتطبيق المصادقة قبل هذا الإجراء ذي الصلاحية العالية."
+
+msgid "Verify your email"
+msgstr "أكد بريدك الإلكتروني"
+
+msgid "Verify your sign-in"
+msgstr "أكد تسجيل الدخول"
+
+msgid "Volunteer"
+msgstr "متطوع"
+
+msgid "Volunteer applications"
+msgstr "طلبات التطوع"
+
+msgid "Volunteer applications are not open."
+msgstr "طلبات التطوع غير مفتوحة."
+
+msgid "Volunteer open"
+msgstr "طلبات التطوع مفتوحة"
+
+msgid "Volunteers"
+msgstr "المتطوعون"
+
+msgid "Waitlisted"
+msgstr "على قائمة الانتظار"
+
+msgid "What must be true before this task is complete?"
+msgstr "ما الشروط التي يجب تحققها قبل اكتمال هذه المهمة؟"
+
+msgid "Withdraw"
+msgstr "سحب"
+
+msgid "Withdraw application"
+msgstr "سحب الطلب"
+
+msgid "Withdrawn"
+msgstr "مسحوب"
+
+msgid "Write a comment of 1–4000 characters."
+msgstr "اكتب تعليقًا من 1 إلى 4000 حرف."
+
+msgid "You cannot deactivate your own account here."
+msgstr "لا يمكنك تعطيل حسابك من هنا."
+
+msgid "Your account is not authorized for this action."
+msgstr "حسابك غير مخوّل لتنفيذ هذا الإجراء."
+
+msgid ""
+"Your account is signed in, but has no active event role. Contact the "
+"organizer for access."
+msgstr ""
+"سجّلت الدخول إلى حسابك، لكن ليس لديك دور نشط في الفعالية. تواصل مع المنظم "
+"للحصول على الصلاحية."
+
+msgid ""
+"Your application has been updated. We will email you when a ticket is "
+"issued."
+msgstr "تم تحديث طلبك. سنرسل إليك رسالة عند إصدار التذكرة."
+
+msgid ""
+"Your application has been withdrawn. Active volunteer assignments were "
+"cancelled."
+msgstr "تم سحب طلبك وإلغاء تكليفات التطوع النشطة."
+
+msgid "Your application is awaiting a ticket decision."
+msgstr "طلبك بانتظار قرار إصدار التذكرة."
+
+msgid "Your details"
+msgstr "بياناتك"
+
+msgid "Your profile and survey preference were updated."
+msgstr "تم تحديث ملفك وتفضيلك المتعلق بالاستبيان."
+
+msgid "Your registration"
+msgstr "تسجيلك"
+
+msgid "Your ticket has been cancelled."
+msgstr "تم إلغاء تذكرتك."
+
+msgid "Your verified erasure request has been recorded for review."
+msgstr "تم تسجيل طلب الحذف الموثّق للمراجعة."
+
+msgid "Your volunteer application"
+msgstr "طلب تطوعك"
+
+msgid "of"
+msgstr "من"
+
+msgid "records in your scope"
+msgstr "سجلًا ضمن نطاقك"
+
+msgid "rows."
+msgstr "صفوف."
+
+msgid "العربية"
+msgstr "العربية"
+
+msgid "← Event website"
+msgstr "موقع الفعالية →"
+
+msgid "← Previous"
+msgstr "السابق →"
+
+msgid "Records table"
+msgstr "جدول السجلات"
+
+msgid "Automatic updates every 30 seconds"
+msgstr "تحديث تلقائي كل 30 ثانية"
+
+msgid "Refresh dashboard"
+msgstr "تحديث لوحة التحكم"
+
+msgid "Authenticator enrollment QR"
+msgstr "رمز إعداد تطبيق المصادقة"
+
+msgid "Choose…"
+msgstr "اختر…"
+
+msgid "Pagination"
+msgstr "التنقل بين الصفحات"
+
+msgid "QR camera preview"
+msgstr "معاينة كاميرا QR"
+
+msgid "Your private admission QR code"
+msgstr "رمز الدخول الخاص بك"
+
+msgid "Add"
+msgstr "إضافة"
+
+msgid "Admitted"
+msgstr "تم إدخاله"
+
+msgid "CSV import / ledger"
+msgstr "استيراد CSV / سجل الدخول"
+
+msgid "Change admission mode"
+msgstr "تغيير وضع الدخول"
+
+msgid "Confirm action"
+msgstr "تأكيد الإجراء"
+
+msgid "Consent-filtered survey export"
+msgstr "تصدير الاستبيان حسب الموافقة"
+
+msgid "Controlled entrance roster"
+msgstr "قائمة الدخول المعتمدة"
+
+msgid "Edit"
+msgstr "تعديل"
+
+msgid "Export"
+msgstr "تصدير"
+
+msgid "My visible open tasks"
+msgstr "المهام المفتوحة المتاحة لي"
+
+msgid "No deadline"
+msgstr "لا يوجد موعد نهائي"
+
+msgid "No session in progress"
+msgstr "لا توجد جلسة جارية"
+
+msgid "No upcoming published session"
+msgstr "لا توجد جلسة منشورة قادمة"
+
+msgid "Operational procedure"
+msgstr "إجراء تشغيلي"
+
+msgid "Registrations"
+msgstr "التسجيلات"
+
+msgid "Visible open incidents"
+msgstr "البلاغات المفتوحة المتاحة"
+
+msgid "Invalid saved scan result."
+msgstr "نتيجة المسح المحفوظة غير صالحة."
+
+msgid "Admitted at"
+msgstr "وقت الدخول"
+
+msgid "Manual"
+msgstr "يدوي"
+
+msgid "Qr"
+msgstr "QR"
+
+msgid "Reconciled"
+msgstr "تمت تسويته"
+
+msgid "Ticket"
+msgstr "تذكرة"
+
+msgid "Admission history"
+msgstr "سجل الدخول"
+
+msgid "Admitted At"
+msgstr "وقت الدخول"
+
+msgid "Not admitted"
+msgstr "لم يدخل"
+
+msgid "A university community. A shared space for ideas."
+msgstr "مجتمع جامعي ومساحة مشتركة للأفكار."
+
+msgid "Admission requires a confirmed ticket."
+msgstr "يتطلب الدخول تذكرة مؤكدة."
+
+msgid "Before you arrive"
+msgstr "قبل وصولك"
+
+msgid "Confirmed speakers and approved talk details will be added here."
+msgstr "ستضاف هنا أسماء المتحدثين المؤكدين وتفاصيل المحاضرات المعتمدة."
+
+msgid "Date"
+msgstr "التاريخ"
+
+msgid "Event at a glance"
+msgstr "الفعالية في لمحة"
+
+msgid ""
+"Explore volunteering in program preparation, production and audience "
+"hospitality."
+msgstr "تعرّف على فرص التطوع في إعداد البرنامج والإنتاج واستقبال الحضور."
+
+msgid "Find answers about registration, tickets, access and participation."
+msgstr "اعثر على إجابات حول التسجيل والتذاكر والدخول والمشاركة."
+
+msgid "Follow program announcements, talk details and the final schedule."
+msgstr "تابع إعلانات البرنامج وتفاصيل المحاضرات والجدول النهائي."
+
+msgid "Home"
+msgstr "الرئيسية"
+
+msgid "Ideas begin with the people around us."
+msgstr "تبدأ الأفكار من الأشخاص حولنا."
+
+msgid ""
+"Local preview — event details are being prepared. Applications are not open."
+msgstr "معاينة محلية — يجري إعداد تفاصيل الفعالية. التقديم غير متاح حاليًا."
+
+msgid "Registration information"
+msgstr "معلومات التسجيل"
+
+msgid "Room to be announced"
+msgstr "سيُعلن عن القاعة لاحقًا"
+
+msgid "Speaker announcements are on the way."
+msgstr "إعلانات المتحدثين قريبًا."
+
+msgid ""
+"Students, academics and researchers coming together to share ideas, "
+"experiences and new perspectives."
+msgstr ""
+"يجتمع الطلاب والأكاديميون والباحثون لتبادل الأفكار والتجارب ووجهات النظر "
+"الجديدة."
+
+msgid "Event information, speakers and registration."
+msgstr "معلومات الفعالية والمتحدثون والتسجيل."
+
+msgid "Adding a speaker photo"
+msgstr "إضافة صورة المتحدث"
+
+msgid "Additional registration questions"
+msgstr "أسئلة التسجيل الإضافية"
+
+msgid ""
+"Advanced JSON configuration for additional questions. Leave [] if no extra "
+"questions are needed. Do not collect unnecessary personal information."
+msgstr ""
+"إعداد JSON متقدم للأسئلة الإضافية. اترك [] إذا لم تحتج إلى أسئلة إضافية. لا "
+"تجمع معلومات شخصية غير ضرورية."
+
+msgid ""
+"Applications are accepted only between the registration opening and closing "
+"times."
+msgstr "تُقبل الطلبات فقط بين موعدي فتح التسجيل وإغلاقه."
+
+msgid "Attendee registration and tickets"
+msgstr "تسجيل الحضور والتذاكر"
+
+msgid ""
+"Choose review to approve applications individually. Closed disables attendee"
+" registration."
+msgstr ""
+"اختر المراجعة للموافقة على الطلبات فردياً. خيار مغلق يعطل تسجيل الحضور."
+
+msgid "Entrance check-in opening time, not the registration opening date."
+msgstr "موعد بدء التحقق من التذاكر عند المدخل، وليس تاريخ فتح التسجيل."
+
+msgid "Event identity and location"
+msgstr "هوية الفعالية ومكانها"
+
+msgid "Event timing"
+msgstr "مواعيد الفعالية"
+
+msgid ""
+"Identifier of the approved privacy notice version; update it when the notice"
+" changes."
+msgstr "معرّف إصدار إشعار الخصوصية المعتمد؛ حدّثه عند تغيير الإشعار."
+
+msgid ""
+"Makes the event public. Registration and volunteer intake have separate "
+"switches. Publish approved CMS pages separately."
+msgstr ""
+"ينشر الفعالية للزوار. لتسجيل الحضور والتطوع إعدادات مستقلة. انشر صفحات "
+"المحتوى المعتمدة بشكل منفصل."
+
+msgid ""
+"Must respect the event licence and cannot be lower than tickets already "
+"committed."
+msgstr "يجب أن يلتزم بترخيص الفعالية وألا يقل عن عدد التذاكر المحجوزة."
+
+msgid ""
+"Paid tickets require an implemented payment provider. Choose free only if "
+"participation is approved as free."
+msgstr ""
+"تتطلب التذاكر المدفوعة تكاملاً مع مزود دفع. اختر مجاناً فقط إذا اعتُمدت "
+"المشاركة المجانية."
+
+msgid ""
+"Photo is optional. Save the speaker first to avoid losing unsaved changes, "
+"upload the image, then return to edit the speaker and select it."
+msgstr ""
+"الصورة اختيارية. احفظ المتحدث أولاً لتجنب فقدان التعديلات، ثم ارفع الصورة "
+"وعُد لتعديل المتحدث واختيارها."
+
+msgid "Privacy and approvals"
+msgstr "الخصوصية والموافقات"
+
+msgid ""
+"Requires a published event, approved privacy notice and notice version. "
+"Attendee registration may remain closed."
+msgstr ""
+"يتطلب فعالية منشورة وإشعار خصوصية معتمداً ورقم إصداره. يمكن إبقاء تسجيل "
+"الحضور مغلقاً."
+
+msgid "Select only after the privacy notice has actually been approved."
+msgstr "حدد هذا الخيار فقط بعد اعتماد إشعار الخصوصية فعلياً."
+
+msgid "Select only after the registration policy has actually been approved."
+msgstr "حدد هذا الخيار فقط بعد اعتماد سياسة التسجيل فعلياً."
+
+msgid "Settings sections"
+msgstr "أقسام الإعدادات"
+
+msgid ""
+"Supported language codes as JSON, for example [\"tr\", \"en\"]. This does "
+"not translate event content automatically."
+msgstr ""
+"أدخل رموز اللغات المدعومة بصيغة JSON، مثل [\"tr\", \"en\"]. هذا لا يترجم "
+"محتوى الفعالية تلقائياً."
+
+msgid ""
+"The photo field selects an existing uploaded file. Upload a PNG or JPEG "
+"first, using the Public Candidate scope. The image must pass malware "
+"scanning before the speaker can be published."
+msgstr ""
+"حقل الصورة يختار ملفاً مرفوعاً مسبقاً. ارفع PNG أو JPEG بنطاق Public "
+"Candidate (مرشح للنشر العام). يجب أن تجتاز الصورة فحص البرمجيات الضارة قبل "
+"نشر المتحدث."
+
+msgid "Time zone"
+msgstr "المنطقة الزمنية"
+
+msgid "Upload a photo in a new tab"
+msgstr "رفع صورة في علامة تبويب جديدة"
+
+msgid "First Come"
+msgstr "حسب أسبقية التسجيل"
+
+msgid "Free"
+msgstr "مجاني"
+
+msgid "Online"
+msgstr "متصل"
+
+msgid "Reconciling"
+msgstr "جارٍ المطابقة"
+
+msgid "Undecided"
+msgstr "لم يُحدد بعد"
+
+msgid "Add the privacy notice"
+msgstr "أضف إشعار الخصوصية"
+
+msgid ""
+"After the responsible organizer or university has approved the text, select "
+"Privacy approved. The system does not approve it for you."
+msgstr ""
+"بعد اعتماد النص من المنظم المسؤول أو الجامعة، حدد اعتماد الخصوصية. النظام لا"
+" يعتمد النص نيابة عنك."
+
+msgid ""
+"Confirm approval of the privacy notice, or leave volunteer applications "
+"closed."
+msgstr "أكد اعتماد إشعار الخصوصية أو اترك طلبات التطوع مغلقة."
+
+msgid "Confirm the notice approval"
+msgstr "أكد اعتماد الإشعار"
+
+msgid ""
+"Enter a version label, for example v1.0. This identifies the text applicants"
+" accepted; it is not an approval."
+msgstr ""
+"أدخل مثلاً v1.0. يحدد ذلك النص الذي وافق عليه المتقدم ولا يمثل اعتماداً له."
+
+msgid "Enter the notice version, for example v1.0."
+msgstr "أدخل إصدار الإشعار، مثلاً v1.0."
+
+msgid "Filled"
+msgstr "مكتمل"
+
+msgid ""
+"Follow these links to complete the required fields. Indicators reflect the "
+"current form; changes take effect only after saving."
+msgstr ""
+"استخدم الروابط لإكمال الحقول المطلوبة. تعكس المؤشرات حالة النموذج الحالية "
+"ولا تسري التغييرات إلا بعد الحفظ."
+
+msgid "Go to privacy notice"
+msgstr "انتقل إلى إشعار الخصوصية"
+
+msgid "Name this notice version"
+msgstr "حدد إصدار الإشعار"
+
+msgid "Open volunteer applications"
+msgstr "افتح طلبات التطوع"
+
+msgid "Open volunteer applications: step by step"
+msgstr "دليل فتح طلبات التطوع خطوة بخطوة"
+
+msgid ""
+"Paste the approved notice shown to applicants. A title or a version number "
+"alone is not a notice."
+msgstr ""
+"ألصق النص المعتمد الذي سيظهر للمتقدمين. العنوان أو رقم الإصدار وحده لا يكفي."
+
+msgid ""
+"Paste the approved privacy notice before opening volunteer applications."
+msgstr "ألصق إشعار الخصوصية المعتمد قبل فتح طلبات التطوع."
+
+msgid "Publish the event"
+msgstr "انشر الفعالية"
+
+msgid ""
+"Select Volunteer open, then save settings. You can complete all steps and "
+"save once."
+msgstr ""
+"حدد فتح طلبات التطوع ثم احفظ الإعدادات. يمكنك إتمام جميع الخطوات وحفظها "
+"معاً."
+
+msgid "Settings were not saved. Review these fields:"
+msgstr "لم تُحفظ الإعدادات. راجع هذه الحقول:"
+
+msgid "The event must be published for visitors to submit applications."
+msgstr "يجب نشر الفعالية ليتمكن الزوار من تقديم الطلبات."
+
+msgid "To complete"
+msgstr "غير مكتمل"
+
+msgid "Advanced settings"
+msgstr "إعدادات متقدمة"
+
+msgid ""
+"Edit the event details and application status below. Prepared policy text "
+"and technical settings are available only when you need them."
+msgstr ""
+"عدّل معلومات الفعالية وحالة الطلبات. يمكنك فتح النصوص المعدّة والإعدادات "
+"التقنية عند الحاجة فقط."
+
+msgid "Entry mode"
+msgstr "وضع الدخول"
+
+msgid "Event"
+msgstr "الفعالية"
+
+msgid "A clear view of your event, from preparation to arrival."
+msgstr "نظرة واضحة على فعاليتك، من التحضير إلى استقبال الحضور."
+
+msgid "Accounts, reporting and advanced administration."
+msgstr "الحسابات والتقارير والإدارة المتقدمة."
+
+msgid "Add speaker"
+msgstr "إضافة متحدث"
+
+msgid "All attendees"
+msgstr "جميع الحضور"
+
+msgid ""
+"Applications are reviewed by the event team. A confirmed ticket secures your"
+" place."
+msgstr "يراجع فريق الفعالية الطلبات. التذكرة المؤكدة هي التي تضمن مقعدك."
+
+msgid "Attendance"
+msgstr "الحضور"
+
+msgid "Attendees & tickets"
+msgstr "الحضور والتذاكر"
+
+msgid "Back to list"
+msgstr "العودة إلى القائمة"
+
+msgid "Back to speaker"
+msgstr "العودة إلى المتحدث"
+
+msgid "Before you apply"
+msgstr "قبل تقديم الطلب"
+
+msgid "Breadcrumbs"
+msgstr "مسار التنقل"
+
+msgid "Cancel your ticket? This action cannot be undone here."
+msgstr "هل تريد إلغاء تذكرتك؟ لا يمكن التراجع عن هذا الإجراء هنا."
+
+msgid "Change this account's access status?"
+msgstr "هل تريد تغيير حالة الوصول لهذا الحساب؟"
+
+msgid "Choose a PNG or JPEG speaker photo."
+msgstr "اختر صورة للمتحدث بصيغة PNG أو JPEG."
+
+msgid "Clear filters"
+msgstr "مسح الفلاتر"
+
+msgid ""
+"Complete your details, verify your email, then follow your ticket status."
+msgstr "أكمل بياناتك، وأكّد بريدك الإلكتروني، ثم تابع حالة تذكرتك."
+
+msgid "Confirmed tickets"
+msgstr "التذاكر المؤكدة"
+
+msgid "Contact the team"
+msgstr "التواصل مع الفريق"
+
+msgid "Event information, public content and the program."
+msgstr "معلومات الفعالية والمحتوى العام والبرنامج."
+
+msgid "Event website"
+msgstr "موقع الفعالية"
+
+msgid "Find my ticket"
+msgstr "العثور على تذكرتي"
+
+msgid "In this section"
+msgstr "في هذا القسم"
+
+msgid "Manage profile"
+msgstr "إدارة الملف"
+
+msgid "Manage registration"
+msgstr "إدارة التسجيل"
+
+msgid "Manage ticket"
+msgstr "إدارة التذكرة"
+
+msgid "Needs attention"
+msgstr "يحتاج إلى متابعة"
+
+msgid "Newest first"
+msgstr "الأحدث أولًا"
+
+msgid "No application"
+msgstr "لا يوجد طلب"
+
+msgid "No open tasks or incidents in your scope."
+msgstr "لا توجد مهام أو بلاغات مفتوحة ضمن صلاحياتك."
+
+msgid "No ticket"
+msgstr "لا توجد تذكرة"
+
+msgid "Not published"
+msgstr "غير منشور"
+
+msgid "Open in Google Maps"
+msgstr "فتح في خرائط Google"
+
+msgid "Optional"
+msgstr "اختياري"
+
+msgid "Overview"
+msgstr "نظرة عامة"
+
+msgid "People, responsibilities and the work behind the event."
+msgstr "الفريق والمسؤوليات والأعمال اللازمة لتنظيم الفعالية."
+
+msgid "Please review your information"
+msgstr "يرجى مراجعة بياناتك"
+
+msgid "Prepare speaker profiles and manage their publication."
+msgstr "أعدّ ملفات المتحدثين وتحكّم في نشرها."
+
+msgid "Preview website"
+msgstr "معاينة الموقع"
+
+msgid "Print ticket"
+msgstr "طباعة التذكرة"
+
+msgid "QR check-in"
+msgstr "تسجيل الدخول عبر QR"
+
+msgid "Quick actions"
+msgstr "إجراءات سريعة"
+
+msgid "Register"
+msgstr "التسجيل"
+
+msgid "Registration Status"
+msgstr "حالة التسجيل"
+
+msgid "Registration opens"
+msgstr "يفتح التسجيل"
+
+msgid "Registration steps"
+msgstr "خطوات التسجيل"
+
+msgid "Registration, tickets and arrival in one place."
+msgstr "التسجيل والتذاكر والوصول في مكان واحد."
+
+msgid "Related tools"
+msgstr "أدوات ذات صلة"
+
+msgid "Scan QR"
+msgstr "مسح QR"
+
+msgid "Settings"
+msgstr "الإعدادات"
+
+msgid "Sort by"
+msgstr "ترتيب حسب"
+
+msgid "Speaker photo"
+msgstr "صورة المتحدث"
+
+msgid "Submit a personal-data erasure request for review?"
+msgstr "هل تريد إرسال طلب حذف بياناتك الشخصية للمراجعة؟"
+
+msgid "Team & operations"
+msgstr "الفريق والتشغيل"
+
+msgid "Team updates & event-day details"
+msgstr "مستجدات الفريق وتفاصيل يوم الفعالية"
+
+msgid "The photo could not be attached."
+msgstr "تعذّر إرفاق الصورة."
+
+msgid "Ticket Status"
+msgstr "حالة التذكرة"
+
+msgid "Time"
+msgstr "الوقت"
+
+msgid "Upload / replace photo"
+msgstr "رفع الصورة أو استبدالها"
+
+msgid ""
+"Upload a photo for this speaker. It will appear publicly after scanning and "
+"publication approval."
+msgstr ""
+"ارفع صورة لهذا المتحدث. ستظهر للزوار بعد فحص الملف والموافقة على النشر."
+
+msgid "Use the invitation sent to your email to apply for this event."
+msgstr "استخدم الدعوة المرسلة إلى بريدك الإلكتروني للتسجيل في هذه الفعالية."
+
+msgid "View tickets"
+msgstr "عرض التذاكر"
+
+msgid "Want to volunteer instead?"
+msgstr "هل ترغب في التطوع بدلًا من الحضور؟"
+
+msgid "Withdraw your application and cancel active volunteer assignments?"
+msgstr "هل تريد سحب طلبك وإلغاء تكليفات التطوع النشطة؟"
+
+msgid "Your event"
+msgstr "فعاليتك"
+
+msgid "Your ticket"
+msgstr "تذكرتك"
+
+msgid "Entrance desk"
+msgstr "مكتب الاستقبال"
+
+msgid "Qr Status"
+msgstr "حالة رمز QR"
+
+msgid "File quarantined pending a configured malware scan."
+msgstr "الملف معزول بانتظار فحص البرمجيات الضارة المهيأ للنظام."
+
+msgid "File uploaded."
+msgstr "تم رفع الملف."
+
+msgid "Saved."
+msgstr "تم الحفظ."
+
+msgid "The file could not be validated."
+msgstr "تعذّر التحقق من الملف."
+
+msgid "Check-in attempts"
+msgstr "محاولات تسجيل الدخول"
+
+msgid "Applications awaiting review"
+msgstr "طلبات بانتظار المراجعة"
+
+msgid "Back"
+msgstr "رجوع"
+
+msgid "Confirm"
+msgstr "تأكيد"
+
+msgid "More tools"
+msgstr "أدوات أخرى"
+
+msgid "QR status"
+msgstr "حالة QR"
+
+msgid "Registration status"
+msgstr "حالة التسجيل"
+
+msgid "Review applications and help attendees plan their day."
+msgstr "راجع الطلبات وساعد الحضور على التخطيط ليوم الفعالية."
+
+msgid "Ticket status"
+msgstr "حالة التذكرة"
+
+msgid "Access unavailable"
+msgstr "لا يمكن الوصول إلى الصفحة"
+
+msgid "Page not found"
+msgstr "الصفحة غير موجودة"
+
+msgid "Something went wrong"
+msgstr "تعذّر تحميل الصفحة"
+
+msgid ""
+"This link may have expired or moved. Return to the event to find the "
+"information you need."
+msgstr ""
+"ربما انتهت صلاحية هذا الرابط أو تغيّر مكان الصفحة. عد إلى الفعالية للوصول "
+"إلى المعلومات التي تحتاجها."
+
+msgid "We could not load this page. Please try again shortly."
+msgstr "لم نتمكن من تحميل هذه الصفحة. يرجى المحاولة مجددًا بعد قليل."
+
+msgid ""
+"Your account cannot open this page. Sign in with your assigned account or "
+"return to the event."
+msgstr ""
+"لا يملك حسابك صلاحية فتح هذه الصفحة. سجّل الدخول بحسابك المخصص أو عد إلى "
+"الفعالية."
+
+msgid "About"
+msgstr "عن الفعالية"
+
+msgid "First name"
+msgstr "الاسم الأول"
+
+msgid "Last name"
+msgstr "اسم العائلة"
+
+msgid "Manual admission ledger"
+msgstr "سجل الدخول اليدوي"
+
+msgid "Registration requests (email verification required)"
+msgstr "طلبات التسجيل (تأكيد البريد الإلكتروني مطلوب)"
+
+msgid "Username"
+msgstr "اسم المستخدم"
+
+msgid "One day. New ideas. Shared perspectives."
+msgstr "يوم واحد. أفكار جديدة. رؤى نتشاركها."
+
+msgid "The ideas that bring us together."
+msgstr "الأفكار التي تجمعنا."
+
+msgid "Meet the people behind the ideas."
+msgstr "تعرّف على الأشخاص وراء الأفكار."
+
+msgid "Your day, at a glance."
+msgstr "برنامج يومك في لمحة."
+
+msgid "Everything you need to find your way here."
+msgstr "كل ما تحتاجه للوصول إلى الفعالية."
+
+msgid "A little clarity before you join us."
+msgstr "إجابات واضحة قبل مشاركتك."
+
+msgid "Questions about joining us? Start here."
+msgstr "نحن هنا للإجابة عن أسئلتك حول المشاركة."
+
+msgid "Your information, explained clearly."
+msgstr "معلومات واضحة عن بياناتك."
+
+msgid "What to know before taking part."
+msgstr "ما تحتاج إلى معرفته قبل المشاركة."
+
+msgid "Program details"
+msgstr "تفاصيل البرنامج"
+
+msgid "Plan your day"
+msgstr "خطّط ليومك"
+
+msgid "Getting here"
+msgstr "الوصول إلى المكان"
+
+msgid "Let’s help you get ready."
+msgstr "نساعدك على الاستعداد."
+
+msgid "The privacy notice has not been published."
+msgstr "لم يُنشر إشعار الخصوصية بعد."
+
+msgid "Explore"
+msgstr "استكشف"
+
+msgid "Approve registration policy before opening registration."
+msgstr "اعتمد سياسة التسجيل قبل فتح التسجيل."
+
+msgid "An approved privacy notice needs its text and version."
+msgstr "يجب أن يتضمن إشعار الخصوصية المعتمد نصه ورقم إصداره."
+
+msgid ""
+"Approve event policy, capacity and entrance opening time before admitting "
+"guests."
+msgstr "اعتمد سياسة الفعالية والسعة ووقت فتح الأبواب قبل استقبال المشاركين."
+
+msgid "Get my ticket"
+msgstr "إنشاء تذكرتي"
+
+msgid "Registered"
+msgstr "مسجل"
+
+msgid "Checked In"
+msgstr "تم تسجيل الدخول"
+
+msgid "Update my name"
+msgstr "تحديث اسمي"
+
+msgid ""
+"I acknowledge that I have been informed through the KVKK Aydınlatma Metni."
+msgstr "أقر بأنني أُبلغت من خلال نص الإحاطة KVKK Aydınlatma Metni."
+
+msgid ""
+"Register and receive your ticket immediately. No account or email "
+"verification is required."
+msgstr "سجّل واحصل على تذكرتك فورًا. لا يلزم حساب أو تأكيد البريد الإلكتروني."
+
+msgid "KVKK Aydınlatma Metni — information notice"
+msgstr "KVKK Aydınlatma Metni — نص الإحاطة"
+
+msgid "Open the applicable KVKK information notice"
+msgstr "فتح نص الإحاطة KVKK المعمول به"
+
+msgid ""
+"We collect your name for admission and your email for event logistics and "
+"the post-event TEDx attendee survey process. No marketing permission is "
+"requested."
+msgstr ""
+"نجمع اسمك لإجراءات الدخول وبريدك لتفاصيل الفعالية واستبيان الحضور بعد فعالية"
+" TEDx. لا نطلب إذنًا للتسويق."
+
+msgid ""
+"The acknowledgement confirms that you were informed. It is not blanket "
+"consent for other uses of your information."
+msgstr ""
+"يؤكد الإقرار أنك تلقيت المعلومات، ولا يمثل موافقة شاملة على استخدامات أخرى "
+"لبياناتك."
+
+msgid ""
+"Save or print the ticket shown after registration. Keep your QR code private"
+" and show it to entrance staff."
+msgstr ""
+"احفظ التذكرة المعروضة بعد التسجيل أو اطبعها. احتفظ برمز QR بشكل خاص وأبرزه "
+"لموظفي الدخول."
+
+msgid "Contact the organizing team"
+msgstr "التواصل مع فريق التنظيم"
+
+msgid ""
+"This email is already registered for this event. No additional ticket was "
+"created."
+msgstr "هذا البريد مسجل بالفعل لهذه الفعالية. لم تُنشأ تذكرة إضافية."
+
+msgid "The event is full. No registration or ticket was created."
+msgstr "اكتملت سعة الفعالية. لم يُنشأ تسجيل أو تذكرة."
+
+msgid "Registration requires an approved KVKK information notice."
+msgstr "يتطلب التسجيل نص إحاطة KVKK معتمدًا."
+
+#~ msgid ""
+#~ "Approve event policy, privacy, capacity and entrance opening time before "
+#~ "admitting guests."
+#~ msgstr ""
+#~ "اعتمد سياسة الفعالية والخصوصية والسعة ووقت فتح الدخول قبل استقبال الضيوف."
+
+#~ msgid "Apply language"
+#~ msgstr "تطبيق اللغة"
+
+#~ msgid ""
+#~ "Approve registration policy and a versioned privacy notice before opening "
+#~ "registration."
+#~ msgstr "اعتمد سياسة التسجيل وإشعار خصوصية ذا رقم إصدار قبل فتح التسجيل."
+
+#~ msgid "The privacy notice will be available before applications open."
+#~ msgstr "سيتاح إشعار الخصوصية قبل فتح الطلبات."
+
+#~ msgid "Confirmed speakers will be announced here."
+#~ msgstr "سيُعلن عن المتحدثين المؤكدين هنا."
+
+#~ msgid "IDEAS · PEOPLE · POSSIBILITY"
+#~ msgstr "أفكار · أشخاص · إمكانات"
+
+#~ msgid "Arrival information"
+#~ msgstr "معلومات الوصول"
+
+#~ msgid "Audience limit"
+#~ msgstr "الحد الأقصى للحضور"
+
+#~ msgid "Discover the proposed direction and the questions shaping the event."
+#~ msgstr "تعرّف على التوجه المقترح والأسئلة التي تشكّل الفعالية."
+
+#~ msgid "Explore the day"
+#~ msgstr "اكتشف برنامج اليوم"
+
+#~ msgid "From an idea to a conversation."
+#~ msgstr "من فكرة إلى حوار."
+
+#~ msgid "Planned program hours"
+#~ msgstr "ساعات البرنامج المخططة"
+
+#~ msgid "QR scans"
+#~ msgstr "عمليات مسح QR"
+
+#~ msgid "Entrance check-in"
+#~ msgstr "التحقق عند المدخل"
+
+#~ msgid "Event settings"
+#~ msgstr "إعدادات الفعالية"
+
+#~ msgid "No approved sessions yet."
+#~ msgstr "لا توجد جلسات معتمدة بعد."
+
+#~ msgid "No open incidents in your scope."
+#~ msgstr "لا توجد حوادث مفتوحة ضمن نطاقك."
+
+#~ msgid "No open tasks in your scope."
+#~ msgstr "لا توجد مهام مفتوحة ضمن نطاقك."
+
+#~ msgid "OPERATIONS"
+#~ msgstr "العمليات"
+
+#~ msgid "Open entrance ↗"
+#~ msgstr "فتح شاشة الدخول ↖"
+
+#~ msgid "Open incidents"
+#~ msgstr "الحوادث المفتوحة"
+
+#~ msgid "Published program"
+#~ msgstr "البرنامج المنشور"
+
+#~ msgid "Upcoming work"
+#~ msgstr "الأعمال القادمة"
+
+#~ msgid "Verified At"
+#~ msgstr "وقت التحقق"
+
+#~ msgid "Verified at"
+#~ msgstr "وقت التحقق"
+
+#~ msgid "View location"
+#~ msgstr "عرض الموقع"
+
+#~ msgid ""
+#~ "Your authorized work, current priorities and event updates. Refreshes every "
+#~ "30 seconds."
+#~ msgstr ""
+#~ "أعمالك المصرح بها وأولوياتك الحالية ومستجدات الفعالية. تُحدّث كل 30 ثانية."
+
+#~ msgid "· NOW"
+#~ msgstr "· الآن"
+
+#~ msgid "Publication and volunteer applications"
+#~ msgstr "النشر وطلبات التطوع"
+
+#~ msgid ""
+#~ "Save settings after reviewing each section. Opening applications and "
+#~ "publishing content are separate actions."
+#~ msgstr ""
+#~ "احفظ الإعدادات بعد مراجعة كل قسم. فتح الطلبات ونشر المحتوى عمليتان منفصلتان."
+
+#~ msgid "staff"
+#~ msgstr "الفريق"
+
+#~ msgid "Event operations"
+#~ msgstr "عمليات الفعالية"
+
+#~ msgid "A place for ideas and the people behind them."
+#~ msgstr "مساحة للأفكار وللأشخاص الذين يقفون وراءها."
+
+#~ msgid "Discover opportunities to support the event as a volunteer."
+#~ msgstr "تعرّف إلى فرص دعم الفعالية بالتطوع."
+
+#~ msgid "Explore the program"
+#~ msgstr "استكشف البرنامج"
+
+#~ msgid "Join the audience"
+#~ msgstr "انضم إلى الحضور"
+
+#~ msgid "Speaker announcements will appear here once confirmed."
+#~ msgstr "ستظهر إعلانات المتحدثين هنا بعد تأكيدها."
+
+#~ msgid "Announcement"
+#~ msgstr ""
+
+#~ msgid "Anonymized at"
+#~ msgstr ""
+
+#~ msgid "Answers"
+#~ msgstr ""
+
+#~ msgid "Application"
+#~ msgstr ""
+
+#~ msgid "Approved at"
+#~ msgstr ""
+
+#~ msgid "Approved by"
+#~ msgstr ""
+
+#~ msgid "Archived at"
+#~ msgstr ""
+
+#~ msgid "Author"
+#~ msgstr ""
+
+#~ msgid "Ciphertext"
+#~ msgstr ""
+
+#~ msgid "Committed at"
+#~ msgstr ""
+
+#~ msgid "Content type"
+#~ msgstr ""
+
+#~ msgid "Count"
+#~ msgstr ""
+
+#~ msgid "Counts capacity"
+#~ msgstr ""
+
+#~ msgid "Decision note"
+#~ msgstr ""
+
+#~ msgid "Deduplication key"
+#~ msgstr ""
+
+#~ msgid "Device"
+#~ msgstr ""
+
+#~ msgid "Digest"
+#~ msgstr ""
+
+#~ msgid "Eligible at"
+#~ msgstr ""
+
+#~ msgid "Exit"
+#~ msgstr ""
+
+#~ msgid "External id"
+#~ msgstr ""
+
+#~ msgid "Fingerprint"
+#~ msgstr ""
+
+#~ msgid "Id"
+#~ msgstr ""
+
+#~ msgid "Incident"
+#~ msgstr ""
+
+#~ msgid "Invited by"
+#~ msgstr ""
+
+#~ msgid "Item"
+#~ msgstr ""
+
+#~ msgid "Lease until"
+#~ msgstr ""
+
+#~ msgid "Ledger id"
+#~ msgstr ""
+
+#~ msgid "Licensed capacity"
+#~ msgstr ""
+
+#~ msgid "Manage"
+#~ msgstr ""
+
+#~ msgid "Metadata"
+#~ msgstr ""
+
+#~ msgid "Notification language"
+#~ msgstr ""
+
+#~ msgid "Order"
+#~ msgstr ""
+
+#~ msgid "Original name"
+#~ msgstr ""
+
+#~ msgid "Outcome"
+#~ msgstr ""
+
+#~ msgid "Payload ciphertext"
+#~ msgstr ""
+
+#~ msgid "Published snapshot"
+#~ msgstr ""
+
+#~ msgid "Purpose"
+#~ msgstr ""
+
+#~ msgid "Recipient"
+#~ msgstr ""
+
+#~ msgid "Reentry"
+#~ msgstr ""
+
+#~ msgid "Reporter"
+#~ msgstr ""
+
+#~ msgid "Request id"
+#~ msgstr ""
+
+#~ msgid "Requested"
+#~ msgstr ""
+
+#~ msgid "Requested by"
+#~ msgstr ""
+
+#~ msgid "Required registration fields"
+#~ msgstr ""
+
+#~ msgid "Reservation expires at"
+#~ msgstr ""
+
+#~ msgid "Result"
+#~ msgstr ""
+
+#~ msgid "Revision"
+#~ msgstr ""
+
+#~ msgid "Revoked at"
+#~ msgstr ""
+
+#~ msgid "Rows"
+#~ msgstr ""
+
+#~ msgid "Sent at"
+#~ msgstr ""
+
+#~ msgid "Sha256"
+#~ msgstr ""
+
+#~ msgid "Slug"
+#~ msgstr ""
+
+#~ msgid "Snapshot"
+#~ msgstr ""
+
+#~ msgid "Storage key"
+#~ msgstr ""
+
+#~ msgid "Timezone"
+#~ msgstr ""
+
+#~ msgid "Token digest"
+#~ msgstr ""
+
+#~ msgid "Updated at"
+#~ msgstr ""
+
+#~ msgid "Uploader"
+#~ msgstr ""
+
+#~ msgid "Verify"
+#~ msgstr ""
+
+#~ msgid "Version"
+#~ msgstr ""
+
+#~ msgid "now %}current"
+#~ msgstr ""
