@@ -2,15 +2,16 @@
 
 import os
 from pathlib import Path
-from urllib.parse import unquote, urlparse
+from urllib.parse import parse_qs, unquote, urlparse
 
 from django.core.exceptions import ImproperlyConfigured
 from dotenv import load_dotenv
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 ROOT_DIR = BASE_DIR.parent
-load_dotenv(ROOT_DIR / ".env")
-PRODUCTION = os.getenv("DJANGO_ENV", "development") == "production"
+load_dotenv(os.getenv("TEDX_ENV_FILE", str(ROOT_DIR / ".env")))
+VERCEL = os.getenv("VERCEL") == "1"
+PRODUCTION = VERCEL or os.getenv("DJANGO_ENV", "development") == "production"
 DEBUG = not PRODUCTION
 LOCAL_EVENT_PREVIEW = not PRODUCTION
 DEV_ONE_CLICK_LOGIN = os.getenv("DEV_ONE_CLICK_LOGIN", "false").lower() == "true"
@@ -28,24 +29,45 @@ try:
     Fernet(CREDENTIAL_KEY.encode())
 except (ValueError, TypeError) as error:
     raise ImproperlyConfigured("CREDENTIAL_KEY must be a valid Fernet key.") from error
-ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", "127.0.0.1,localhost").split(",")
+ALLOWED_HOSTS = [
+    host.strip() for host in os.getenv("ALLOWED_HOSTS", "127.0.0.1,localhost").split(",") if host.strip()
+]
+if VERCEL:
+    # Deployment, branch alias and production domain are different hostnames.
+    # Trust only this project's platform-provided names, not every vercel.app site.
+    for variable in ("VERCEL_URL", "VERCEL_BRANCH_URL", "VERCEL_PROJECT_PRODUCTION_URL"):
+        host = os.getenv(variable, "").strip()
+        if host and host not in ALLOWED_HOSTS:
+            ALLOWED_HOSTS.append(host)
 PUBLIC_BASE_URL = os.getenv("PUBLIC_BASE_URL", "http://127.0.0.1:8000").rstrip("/")
-CSRF_TRUSTED_ORIGINS = os.getenv("CSRF_TRUSTED_ORIGINS", PUBLIC_BASE_URL).split(",")
+CSRF_TRUSTED_ORIGINS = [
+    origin.strip()
+    for origin in os.getenv("CSRF_TRUSTED_ORIGINS", PUBLIC_BASE_URL).split(",")
+    if origin.strip()
+]
 db = urlparse(os.environ["DATABASE_URL"])
 if db.scheme not in {"postgres", "postgresql"}:
     raise ImproperlyConfigured("PostgreSQL is required, including for transaction tests.")
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": db.path.lstrip("/"),
+        "NAME": unquote(db.path.lstrip("/")),
         "USER": unquote(db.username or ""),
         "PASSWORD": unquote(db.password or ""),
         "HOST": db.hostname,
         "PORT": db.port or 5432,
-        "CONN_MAX_AGE": 60,
-        "OPTIONS": {"sslmode": os.getenv("DB_SSLMODE", "prefer")},
+        "CONN_MAX_AGE": 0 if VERCEL else 60,
+        "CONN_HEALTH_CHECKS": True,
+        "DISABLE_SERVER_SIDE_CURSORS": VERCEL,
+        "OPTIONS": {
+            "sslmode": os.getenv("DB_SSLMODE")
+            or parse_qs(db.query).get("sslmode", ["require" if PRODUCTION else "prefer"])[0],
+            "connect_timeout": 10,
+        },
     }
 }
+if os.getenv("TEST_DATABASE_NAME"):
+    DATABASES["default"]["TEST"] = {"NAME": os.environ["TEST_DATABASE_NAME"]}
 INSTALLED_APPS = [
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -125,7 +147,10 @@ STORAGES = {
         else "core.storage.PreviewStaticFilesStorage"
     },
 }
-MEDIA_ROOT = Path(os.getenv("PRIVATE_MEDIA_ROOT", str(ROOT_DIR / ".local" / "media")))
+MEDIA_ROOT = Path(
+    os.getenv("PRIVATE_MEDIA_ROOT", "/tmp/tedx-media" if VERCEL else str(ROOT_DIR / ".local" / "media"))
+)
+FILE_UPLOADS_ENABLED = not VERCEL
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 LOGIN_URL = "/accounts/login/"
 LOGIN_REDIRECT_URL = "/staff/"
@@ -137,7 +162,7 @@ CSRF_COOKIE_SECURE = PRODUCTION
 SESSION_COOKIE_AGE = 8 * 3600
 SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 SECURE_SSL_REDIRECT = PRODUCTION
-if os.getenv("TRUST_PROXY_HTTPS", "false").lower() == "true":
+if VERCEL or os.getenv("TRUST_PROXY_HTTPS", "false").lower() == "true":
     SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
 SECURE_HSTS_SECONDS = 31536000 if PRODUCTION else 0
 SECURE_HSTS_INCLUDE_SUBDOMAINS = (
@@ -178,18 +203,27 @@ if not OUTGOING_EMAIL_ENABLED:
 DEFAULT_FROM_EMAIL = os.getenv("DEFAULT_FROM_EMAIL", "")
 if PRODUCTION and (len(SECRET_KEY) < 50 or not PUBLIC_BASE_URL.startswith("https://") or not MFA_REQUIRED):
     raise ImproperlyConfigured("Production requires a strong secret, HTTPS origin and MFA.")
-if PRODUCTION and OUTGOING_EMAIL_ENABLED and (
-    not DEFAULT_FROM_EMAIL
-    or EMAIL_BACKEND
-    in {
-        "django.core.mail.backends.filebased.EmailBackend",
-        "django.core.mail.backends.console.EmailBackend",
-        "django.core.mail.backends.locmem.EmailBackend",
-        "django.core.mail.backends.dummy.EmailBackend",
-    }
+if (
+    PRODUCTION
+    and OUTGOING_EMAIL_ENABLED
+    and (
+        not DEFAULT_FROM_EMAIL
+        or EMAIL_BACKEND
+        in {
+            "django.core.mail.backends.filebased.EmailBackend",
+            "django.core.mail.backends.console.EmailBackend",
+            "django.core.mail.backends.locmem.EmailBackend",
+            "django.core.mail.backends.dummy.EmailBackend",
+        }
+    )
 ):
     raise ImproperlyConfigured("Configure a real transactional email backend for production.")
-if PRODUCTION and OUTGOING_EMAIL_ENABLED and EMAIL_BACKEND.endswith("smtp.EmailBackend") and (not EMAIL_HOST or not EMAIL_USE_TLS):
+if (
+    PRODUCTION
+    and OUTGOING_EMAIL_ENABLED
+    and EMAIL_BACKEND.endswith("smtp.EmailBackend")
+    and (not EMAIL_HOST or not EMAIL_USE_TLS)
+):
     raise ImproperlyConfigured("Production SMTP requires an explicit host and TLS.")
 if PRODUCTION and "*" in ALLOWED_HOSTS:
     raise ImproperlyConfigured("Production requires explicit allowed hostnames.")

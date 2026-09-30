@@ -1,5 +1,7 @@
 # TEDxGedik event operations
 
+Vercel deployment (Django + Neon, free QR tickets): [Türkçe kurulum ve yönetici giriş rehberi](../docs/deployment/vercel.md).
+
 Ticketing now uses immediate registration without mandatory email verification. See the [ticketing operating guide](../docs/operations/immediate-ticketing.md) and [printable guide](../output/ticket-review/operating-guide.pdf) for setup, migration, check-in and exports.
 
 Django 5.2 LTS modular monolith with PostgreSQL, server-rendered public/staff interfaces, database-backed workflows and an authenticated mobile QR scanner. Original event documents stay outside the application build context.

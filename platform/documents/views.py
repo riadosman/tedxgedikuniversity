@@ -9,7 +9,7 @@ from django import forms
 from django.conf import settings
 from django.contrib import messages
 from django.core.exceptions import ValidationError
-from django.http import FileResponse, Http404
+from django.http import FileResponse, Http404, HttpResponse
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.decorators import login_required
 from django.db import transaction
@@ -32,6 +32,13 @@ def upload(request, event, *, speaker=None):
     from core.views import staff_context
 
     require(request.user, event, "files", "create")
+    if not settings.FILE_UPLOADS_ENABLED:
+        return HttpResponse(
+            "File uploads require persistent storage and a malware scanner. "
+            "They are unavailable on this Vercel deployment.",
+            status=503,
+            content_type="text/plain; charset=utf-8",
+        )
     form = resource_form(RESOURCES["files"], request.user, event, request.POST or None)
     form.fields["file"] = forms.FileField()
     if speaker is not None:

@@ -36,3 +36,5 @@ arabic_guides/
 *.key
 *.p12
 *.pfx
+.vercel/
+!platform/.env.vercel.example
