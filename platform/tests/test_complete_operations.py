@@ -28,6 +28,7 @@ def test_team_program_and_operations_rehearsal(client, event, organizer, setting
     from admissions.services import notice_digest
     response = client.post(reverse("register", args=[event.slug]), {
         "name": "Rehearsal attendee", "email": "attendee@example.invalid", "privacy": "on",
+        "phone": "+90 532 123 45 67", "arrives_by_car": "no",
         "notice_version": event.notice_version, "notice_hash": notice_digest(event),
     })
     assert response.status_code == 302

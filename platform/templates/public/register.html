@@ -3,10 +3,11 @@
 <section class="section application-layout"><div>
   <h1>{% translate 'Attend the event' %}</h1>
   <p>{% translate 'Register and receive your ticket immediately. No account or email verification is required.' %}</p>
+  {% include 'components/attendance-rules.html' %}
   {% if closed %}
     <div class="notice warning" role="status">{{ closed_reason }}</div>
   {% else %}
-    <p>{% translate 'We collect your name for admission and your email for event logistics and the post-event TEDx attendee survey process. No marketing permission is requested.' %}</p>
+    <p>{% translate 'We collect your name for admission, your email for event logistics and the post-event TEDx attendee survey process, your phone number to reach you about the event day, and your vehicle plate only if you come by car, to reserve parking. No marketing permission is requested.' %}</p>
     <details id="information-notice"><summary>{% translate 'KVKK Aydınlatma Metni — information notice' %}</summary><div class="prose">{{ notice|linebreaks }}</div><p>{{ event.notice_version }}</p></details>
     <p><a href="{% url 'public-page' event.slug 'privacy' %}" target="_blank" rel="noopener">{% translate 'Open the applicable KVKK information notice' %}</a></p>
     <form method="post" class="form-stack">{% csrf_token %}{% include 'components/form-fields.html' %}<button type="submit">{% translate 'Get my ticket' %}</button></form>

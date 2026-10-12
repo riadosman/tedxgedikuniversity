@@ -1,6 +1,6 @@
 # 01 — Event facts, repository findings and source map
 
-Status: evidence baseline, 17 September 2026. See [external verification](14-external-constraints.md) for current rules; see [decisions](13-decisions-and-open-questions.md) for resolutions still needed.
+Status: evidence baseline, 17 September 2026; current event logistics and program updated with organizer confirmation on 4 October 2026. See [external verification](14-external-constraints.md) for current rules; see [decisions](13-decisions-and-open-questions.md) for resolutions still needed.
 
 ## Inspection method and boundaries
 
@@ -43,6 +43,8 @@ Paths are relative to the workspace root; these are private review links, not pu
 | S14 | [Poster concept](../../TEDx_Afis_Tasarimlari/Gemini_Generated_Image_h3i0pdh3i0pdh3i0.jpg) and other files in that folder | Text names Kartal conference hall and a different headline; registration QR areas are placeholders |
 | S15 | `tedx_logo/`, `tedx_logo_from_files.png`, `TEDx_Sertifika_Tasarimlari/`, `TEDx_Sertifika_Tasarimlari_guncel/` | Logo/certificate visual concepts, placeholders; no documented final selection |
 | S16 | [Formatting rules](../../قواعد%20إنشاء%20الملفات.md) and Turkish counterpart | File-production process only; not event facts |
+| U03 | Organizer-provided TED event profile and explicit radio-button confirmation, 4 October 2026 | Theme: From Ideas to Impact; exact description in platform/content/confirmed-event.json; open to public; seats available as of confirmation; registration https://tedxgedik.vercel.app/ |
+| U02 | Organizer-provided TED event manager details, 4 October 2026 | Confirmed date: 21 November 2026, 13:00–16:00 +03; venue: Kartal conference, Istanbul, İstanbul, Türkiye; University licence; term 17 August 2026 02:00 +03 to 17 August 2027 02:00 +03. Supersedes earlier date and venue uncertainty. Organizer also approved the six-section program and 12:45 check-in in this conversation. |
 | U01 | Organizer's current discovery request | Requester acts as Event Organizer and Technology Lead; requirements documentation only; no implementation |
 
 ## Source-supported facts and plans
@@ -50,42 +52,42 @@ Paths are relative to the workspace root; these are private review links, not pu
 | ID | Finding | Classification and source | System consequence |
 |---|---|---|---|
 | F01 | Licensed name in email is `TEDxGedik University` | Confirmed from S01 licence details; C01 remains | Store canonical name separately from URL slug; publication requires reconciliation |
-| F02 | 21 October 2026; University type, Community tier, one event | Confirmed from S01 | Single-event implementation; do not build multi-tenant SaaS |
+| F02 | 21 November 2026; University type, Community tier, one event | Date and University type confirmed U02; tier and event count S01 | Current event date supersedes the earlier October date |
 | F03 | Up to 100 attendees | Confirmed from S01/S02 | Hard ticket allocation ceiling; no oversubscription disguised as occupancy |
-| F04 | Audience 13:00–16:00; team 12:00–17:00 | Documented plan S05 §3/S06 | Separate public schedule and private setup runbook |
-| F05 | University location link is recorded | S05 header/§6; exact room conflicts with S14 | Venue publication gate; no inferred postal address or map coordinates |
+| F04 | Audience 13:00–16:00; team 12:00–17:00 | Audience hours confirmed U02; team access remains a plan from S05/S06 | Check-in approved for 12:45; team access still requires venue booking confirmation |
+| F05 | Kartal conference, Istanbul, İstanbul, Türkiye | Confirmed U02, TED event manager details supplied by organizer | Venue name confirmed; street address, map and accessibility instructions remain to be supplied |
 | F06 | Riad Osman is organizer/licence contact; requester is technology lead | S01–S04/U01 | Organizer and technical roles may belong to one person but remain separate permissions |
 | F07 | Permission to read opening-video script | Confirmed S03 | Store approval reference privately; opening content needs exact approved script |
 | F08 | Main focus: students, faculty, researchers; selected other community voices | S04/S08 | Public audience copy and speaker curation; not student-only eligibility by inference |
-| F09 | 8–10 talks and 2–3 reserves | Planning target S05 §§3–4/S07 | No invented speaker records or fixed count in public schedule |
+| F09 | 8 talks, 15 minutes each, in two sessions of four | Organizer approved U02 | Six-section program and stream descriptions in docs/event-day/runbook.md; names and talk order remain pending |
 | F10 | Talks up to 18 minutes in event correspondence | S02; S05 §3 | Validate event policy; do not generalize new web exceptions into this licence |
-| F11 | “Ideas from where we stand” theme | Proposed S05 §2/S09 §1 | Draft content; not a confirmed public title |
+| F11 | From Ideas to Impact | Confirmed U03 | Official description: Bridging Theoretical Knowledge with Real-World Practice; exact English text in platform/content/confirmed-event.json |
 | F12 | Tuka Al-Fallah: program; Atika: production/venue; Mahmoud Tabaq: audience; fifth manager unnamed | Proposed S07 first page/S11 administrative p1 | Seed no real permissions until assignments are approved; confirm Latin spellings |
 | F13 | Sources/slides/rights/releases/rehearsal must be tracked | Documented workflow S05 §§4–5/S12/S13 | Separate public biography from internal evidence and readiness |
 | F14 | Tasks, decisions, risk logs, deputies and short coordination meetings | Documented workflow S05 §7/S07 | Minimal roster, responsibilities and issue escalation; chat is not authoritative |
-| F15 | No final admission price, ticket provider, registration URL or policy found | Unknown S05 §8/S09 §§1,5; S14 placeholder | Free is a proposal; no payment vendor selection |
+| F15 | Open to public; seats available; registration https://tedxgedik.vercel.app/ | Confirmed U03, 4 October 2026 | Availability is a dated status, not a permanent capacity guarantee |
 | F16 | No approved total budget; contingency 10–15% suggested | S05 §7/S09 §3 | Budget limits and ongoing service cost need approval |
 | F17 | Verify room access, exits, accessibility, sound, projection and connectivity | Planning tasks S05 §6/S06/S07 | Physical/network readiness not proved by documents |
 | F18 | One group of attendees; no stage panel/Q&A in current plan | S05 §3 | No Q&A/voting module in baseline; preserve the planned format |
 | F19 | Recording, rights review, survey and publication/archive workflow | S05 §9/S07 final page | Export approved data; track manual external completion; no fabricated TED API |
 | F20 | Arabic and Turkish guides, Turkish posters, English certificates exist | S09–S15 | This is not evidence of approved site, scanner or talk languages |
-| F21 | Licence valid for one event before 17 Aug 2027; renewal deadline stated | S01 lines 222–228 | Do not calculate expiry from 24 Aug email receipt |
+| F21 | Licence term: 17 August 2026 02:00 +03 to 17 August 2027 02:00 +03 | Confirmed U02, TED event manager | Preserve the portal term timestamps |
 
-Source-grounded dates: foundation tasks originally by 6 Sep; selection 7–20 Sep; drafts/review 21 Sep–4 Oct; runbook/registration/testing 5–11 Oct; full rehearsal/freeze 12–18 Oct; final inspection 19–20 Oct (S05 §10). Actual completion is unknown. S09's proposed post-event dates are 22–23 Oct survey, 4 Nov media review, 21 Nov closeout. No acceptance of these dates is inferred.
+Preparation and post-event task deadlines from earlier plans must be rebaselined against 21 November 2026; they are not confirmed by the current logistics approval.
 
 ## Contradictions and resolution register
 
 | ID | Conflicting evidence | Impact | Proposed treatment / owner |
 |---|---|---|---|
 | C01 | S01 says `TEDxGedik University`; S05/S08/S11 say `TEDx University Event`; U01 heading/S14 omit the space in `GedikUniversity` | Public identity, logo, domain and generated tickets | Use S01 as provisional canonical value; organizer confirms portal spelling and approves artwork before publication. Existing assets not changed |
-| C02 | S05/S09: room unspecified; S14 names `Kartal Konferans Salonu` | Arrival, access, map, scanner rehearsal | Organizer/venue obtain written booking and exact room/address; artwork alone does not prove booking |
-| C03 | S05 theme is a proposal; S14 headline is “Fikirlerin Geleceğe Açılan Kapısı” | Theme versus marketing tagline unclear | Program/organizer classify and approve each field; do not treat either as final theme |
-| C04 | S05 says only advertise 13:00–16:00; S09 suggests 12:45 admission | Public instructions | Keep doors time unpublished until organizer/venue approves |
-| C05 | S05/S07 plan 8–10 talks; S09 allocates eight 15-minute talks | Schedule allocation | S09 is an alternative draft, not a superseding approved schedule; program lead resolves |
+| C02 | Venue | Resolved U02 | Kartal conference, Istanbul, İstanbul, Türkiye is confirmed; detailed arrival instructions remain pending |
+| C03 | Theme and description | Resolved U03 | From Ideas to Impact; organizer-provided English description is authoritative |
+| C04 | Confirmed 12:45 admission | Resolved U02 | Public program 13:00–16:00; check-in 12:45–13:00 |
+| C05 | Talk count and schedule | Resolved by organizer U02 | Eight 15-minute talks in two sessions; approved six-section program supersedes alternatives |
 | C06 | S04 organizer response says no outside sponsorship/affiliation; S05 §7 discusses sponsorship | Sponsor pages, finance and recognition | Organizer verifies event-specific commitment with TED before sponsorship features/content; generic rules do not resolve the correspondence |
-| C07 | S05 general “one year from approval”; S01 explicitly says before 17 Aug 2027 | Renewal and asset ownership | Preserve explicit S01 date; confirm portal before renewal |
+| C07 | Licence term | Resolved U02 | 17 August 2026 02:00 +03 to 17 August 2027 02:00 +03 |
 | C08 | Older wording can imply only occupancy at a moment is capped; current X02 says limit ticket distribution and keep one audience group | Ticket reuse/cancellation/exit | Proposed lifetime admission model in document 06; no replacement audience after checkout |
 | C09 | S08 broadly excludes political/religious content; S05 §5/S12 distinguish agendas from discussion | Automated moderation could wrongly reject content | Human editorial review; no keyword ban presented as TED policy |
 | C10 | S02 specifies an 18-minute limit; current official Rules allow some other formats beyond that length | Event timing and publication eligibility | Preserve the correspondence limit as proposed event policy; organizer verifies any requested exception. See X06 and document 14 |
 
-None of these records silently edits existing documents or asserts that the organizer has resolved the issue.
+Resolved rows cite the organizer confirmation U02. Other open issues remain unresolved.

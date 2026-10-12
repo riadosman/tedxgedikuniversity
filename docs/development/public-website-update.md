@@ -11,9 +11,11 @@ Routes under `/e/tedxgedik/`: `about/`, `theme/`, `speakers/`, `program/`, `venu
 - Original `tedx_logo/logo-black.png` and `logo-white.png` are copied unchanged into the application static assets. The black-text logo is displayed on a light header. Original event files are not edited.
 - `platform/content/event-pages.json` contains paired English/Turkish drafts for eleven page topics. The source map and original Turkish introduction/detailed PDFs inform the content. The licensed identity follows correspondence rather than conflicting older PDF wording.
 - The homepage displays the existing event record's date, planned program hours and licence audience limit, plus an expanded introduction, theme/program/FAQ links, speaker announcements and volunteer information.
-- Proposed theme and talk count remain labelled as proposals. Exact room, entrance opening, price, public contact, privacy and terms remain unconfirmed. No speakers, testimonials, payment integration or final venue facts were invented.
+- The organizer has confirmed From Ideas to Impact, eight talks, Kartal conference and 12:45 admission for 21 November 2026. Public contact, privacy and terms remain separate decisions. No speakers, testimonials, payment integration or final venue facts were invented.
 - `python manage.py prepare_public_content --slug tedxgedik` creates missing drafts and expands only exact legacy imported text. It preserves organizer edits and published snapshots. It enables the requested English/Turkish selection but does not publish or open intake. In this workspace, 22 draft page records were prepared.
 - Public application pages display translated explanatory content and a closed message, rather than a local-preview 404. Private ticket access still requires a valid credential.
+- Announcements are published on Instagram ([@tedx_gedik_uni](https://www.instagram.com/tedx_gedik_uni/)). The homepage has a follow section with a LinkedIn card ([TEDxGedik University](https://www.linkedin.com/company/tedx-gedik-university/)) asking attendees to mention the event in their posts. Every public footer links both accounts, and the ticket page points attendees to Instagram for announcements. Both URLs are defined once in `platform/core/context.py`.
+- The homepage hero counts calendar days to the event day in event time (Europe/Istanbul), shows "The event is today" on the day and disappears afterwards. It reads the event start from Event settings, so changing the date there updates the counter.
 
 ## Validation
 

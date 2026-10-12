@@ -17,9 +17,6 @@ msgstr ""
 msgid "A retry ID cannot be reused for a different request."
 msgstr "Yeniden deneme kimliği başka bir istek için kullanılamaz."
 
-msgid "A valid invitation for this email is required."
-msgstr "Bu e-posta adresi için geçerli bir davetiye gerekir."
-
 msgid "ACCOUNT SECURITY"
 msgstr "HESAP GÜVENLİĞİ"
 
@@ -81,17 +78,11 @@ msgstr "Yorum ekle"
 msgid "Add record +"
 msgstr "Kayıt ekle +"
 
-msgid "Admission Status"
-msgstr "Giriş durumu"
-
 msgid "Admission opens at"
 msgstr "Giriş açılış zamanı"
 
 msgid "Admission policy is awaiting approval."
 msgstr "Giriş politikası onay bekliyor."
-
-msgid "All available categories count toward the approved audience capacity."
-msgstr "Mevcut tüm kategoriler onaylı katılımcı kapasitesine dahildir."
 
 msgid "All speakers"
 msgstr "Tüm konuşmacılar"
@@ -122,9 +113,6 @@ msgstr "Duyurular"
 
 msgid "Anonymize"
 msgstr "Anonimleştir"
-
-msgid "Answer is too long."
-msgstr "Yanıt çok uzun."
 
 msgid "Application received"
 msgstr "Başvuru alındı"
@@ -340,9 +328,6 @@ msgstr "Önce etkin bir giriş bileti türü yapılandırın."
 msgid "Confirm the speaker and record publication consent first."
 msgstr "Önce konuşmacıyı teyit edin ve yayımlama iznini kaydedin."
 
-msgid "Confirm this email address to continue your application."
-msgstr "Başvurunuza devam etmek için bu e-posta adresini doğrulayın."
-
 msgid "Confirmed"
 msgstr "Teyit edildi"
 
@@ -395,9 +380,6 @@ msgstr "Devre dışı bırak"
 
 msgid "Declined"
 msgstr "Reddedildi"
-
-msgid "Default general admission"
-msgstr "Varsayılan genel giriş"
 
 msgid "Department"
 msgstr "Departman"
@@ -478,21 +460,11 @@ msgstr "İçerik editörü"
 msgid "Email"
 msgstr "E-posta"
 
-msgid ""
-"Email changes require identity review. Keep this registration's verified "
-"address; cancel and re-register through the approved process if necessary."
-msgstr ""
-"E-posta değişikliği kimlik incelemesi gerektirir. Bu kaydın doğrulanmış "
-"adresini koruyun; gerekirse onaylı süreçle iptal edip yeniden kaydolun."
-
 msgid "Email delivery"
 msgstr "E-posta teslimatı"
 
 msgid "Email templates"
 msgstr "E-posta şablonları"
-
-msgid "Email verified"
-msgstr "E-posta doğrulandı"
 
 msgid "Enabled"
 msgstr "Etkinleştirildi"
@@ -574,9 +546,6 @@ msgstr ""
 msgid "Export CSV"
 msgstr "CSV dışa aktar"
 
-msgid "Export consenting survey recipients"
-msgstr "Ankete izin veren alıcıları dışa aktar"
-
 msgid "Export controlled admission roster"
 msgstr "Kontrollü giriş listesini dışa aktar"
 
@@ -628,9 +597,6 @@ msgstr "Saklama engeli sonu"
 msgid "Hold until"
 msgstr "Saklama engeli sonu"
 
-msgid "I agree to receive the optional event survey"
-msgstr "İsteğe bağlı etkinlik anketini almayı kabul ediyorum"
-
 msgid "I have read the privacy notice"
 msgstr "Gizlilik bildirimini okudum"
 
@@ -652,18 +618,6 @@ msgid ""
 msgstr ""
 "Bu adresle uygun bir hesap varsa parola sıfırlama bağlantısı göndereceğiz. "
 "Doğrulayıcınız yine gereklidir."
-
-msgid ""
-"If this address is eligible, a verification email will arrive shortly. A "
-"submission is not a confirmed seat."
-msgstr ""
-"Adres uygunsa kısa süre içinde doğrulama e-postası gelecektir. Başvuru, "
-"kesinleşmiş bir yer anlamına gelmez."
-
-msgid ""
-"If we have an eligible registration for that address, we will send a fresh "
-"link."
-msgstr "Bu adresle uygun bir kayıt varsa yeni bağlantı göndereceğiz."
 
 msgid "Import at most 1000 rows at a time."
 msgstr "Bir seferde en fazla 1000 satır içe aktarın."
@@ -699,9 +653,6 @@ msgstr "Dahili notlar"
 msgid "Interview"
 msgstr "Görüşme"
 
-msgid "Invalid answer option."
-msgstr "Geçersiz yanıt seçeneği."
-
 msgid "Invalid custom-field definition."
 msgstr "Geçersiz özel alan tanımı."
 
@@ -719,9 +670,6 @@ msgstr "Yayımlanmış programın zaman bilgisi geçersiz."
 
 msgid "Investigating"
 msgstr "İnceleniyor"
-
-msgid "Invitation"
-msgstr "Davetli"
 
 msgid ""
 "Invitation queued. The recipient still verifies their email and receives a "
@@ -969,9 +917,6 @@ msgstr "Telefon"
 msgid "Photo"
 msgstr "Fotoğraf"
 
-msgid "Placeholders: {event}, {name}, {link}, {status}. Plain text only."
-msgstr "Yer tutucular: {event}, {name}, {link}, {status}. Yalnızca düz metin."
-
 msgid "Planning"
 msgstr "Planlanıyor"
 
@@ -1102,9 +1047,6 @@ msgstr "Alındı"
 msgid "Recent admissions"
 msgstr "Son girişler"
 
-msgid "Record a decision reason."
-msgstr "Karar gerekçesini kaydedin."
-
 msgid "Record a reason for the account change."
 msgstr "Hesap değişikliği için gerekçe kaydedin."
 
@@ -1135,14 +1077,8 @@ msgstr "İade edildi"
 msgid "Registration"
 msgstr "Kayıt"
 
-msgid "Registration applications"
-msgstr "Kayıt başvuruları"
-
 msgid "Registration closes after it opens."
 msgstr "Kayıt kapanışı açılıştan sonra olmalıdır."
-
-msgid "Registration fields"
-msgstr "Kayıt alanları"
 
 msgid "Registration is not open."
 msgstr "Kayıt açık değil."
@@ -1361,9 +1297,6 @@ msgstr "Sorumlu yönetici"
 msgid "Suppressed"
 msgstr "Gönderimi durduruldu"
 
-msgid "Survey consent"
-msgstr "Anket izni"
-
 msgid "Switch to reconciliation mode before committing a manual ledger."
 msgstr "Manuel giriş defterini uygulamadan önce uzlaştırma moduna geçin."
 
@@ -1501,9 +1434,6 @@ msgid "This registration already has a ticket. Use its lifecycle actions."
 msgstr ""
 "Bu kaydın zaten bileti var. Biletin yaşam döngüsü işlemlerini kullanın."
 
-msgid "This registration cannot move to that status."
-msgstr "Bu kayıt bu duruma geçirilemez."
-
 msgid "This session overlaps another public program item."
 msgstr "Bu oturum başka bir genel program öğesiyle çakışıyor."
 
@@ -1513,14 +1443,8 @@ msgstr "Bu konuşma etkinliğin belirlenen süre sınırını aşıyor."
 msgid "This username already exists."
 msgstr "Bu kullanıcı adı zaten var."
 
-msgid "This verification link has expired or was already used."
-msgstr "Bu doğrulama bağlantısının süresi doldu veya bağlantı kullanıldı."
-
 msgid "This volunteer already has an overlapping shift."
 msgstr "Bu gönüllünün çakışan bir vardiyası var."
-
-msgid "Ticket Type"
-msgstr "Bilet türü"
 
 msgid "Ticket allocation is closed for event-day admission."
 msgstr "Etkinlik günü girişi için bilet tahsisi kapandı."
@@ -1567,12 +1491,6 @@ msgstr "İnceleniyor"
 msgid "University community"
 msgstr "Üniversite topluluğu"
 
-msgid "Unsupported registration answers."
-msgstr "Desteklenmeyen kayıt yanıtları."
-
-msgid "Update my details"
-msgstr "Bilgilerimi güncelle"
-
 msgid "Updated"
 msgstr "Güncellendi"
 
@@ -1609,9 +1527,6 @@ msgstr ""
 msgid "Use the approval action to approve a reviewed talk."
 msgstr "İncelenen konuşmayı onaylamak için onay işlemini kullanın."
 
-msgid "Use the public form when invitations or custom answers are required."
-msgstr "Davetiye veya özel yanıt gerektiğinde herkese açık formu kullanın."
-
 msgid "Use your assigned account to access the event workspace."
 msgstr "Etkinlik çalışma alanına erişmek için size atanan hesabı kullanın."
 
@@ -1642,17 +1557,8 @@ msgstr "Doğrulandı"
 msgid "Verify code"
 msgstr "Kodu doğrula"
 
-msgid "Verify email"
-msgstr "E-postayı doğrula"
-
-msgid "Verify the attendee email before allocating a ticket."
-msgstr "Bilet ayırmadan önce katılımcının e-posta adresini doğrulayın."
-
 msgid "Verify your authenticator again before this privileged action."
 msgstr "Bu ayrıcalıklı işlemden önce doğrulayıcınızı yeniden doğrulayın."
-
-msgid "Verify your email"
-msgstr "E-postanızı doğrulayın"
 
 msgid "Verify your sign-in"
 msgstr "Girişinizi doğrulayın"
@@ -1704,26 +1610,12 @@ msgstr ""
 " organizatöre başvurun."
 
 msgid ""
-"Your application has been updated. We will email you when a ticket is "
-"issued."
-msgstr "Başvurunuz güncellendi. Bilet verildiğinde size e-posta göndereceğiz."
-
-msgid ""
 "Your application has been withdrawn. Active volunteer assignments were "
 "cancelled."
 msgstr "Başvurunuz geri çekildi. Etkin gönüllü atamaları iptal edildi."
 
-msgid "Your application is awaiting a ticket decision."
-msgstr "Başvurunuz bilet kararı bekliyor."
-
 msgid "Your details"
 msgstr "Bilgileriniz"
-
-msgid "Your profile and survey preference were updated."
-msgstr "Profiliniz ve anket tercihiniz güncellendi."
-
-msgid "Your registration"
-msgstr "Kaydınız"
 
 msgid "Your ticket has been cancelled."
 msgstr "Biletiniz iptal edildi."
@@ -1764,9 +1656,6 @@ msgstr "Paneli yenile"
 msgid "Authenticator enrollment QR"
 msgstr "Doğrulayıcı kurulum QR kodu"
 
-msgid "Choose…"
-msgstr "Seçin…"
-
 msgid "Pagination"
 msgstr "Sayfalar"
 
@@ -1790,9 +1679,6 @@ msgstr "Giriş modunu değiştir"
 
 msgid "Confirm action"
 msgstr "İşlemi onayla"
-
-msgid "Consent-filtered survey export"
-msgstr "İzne göre filtrelenmiş anket dışa aktarımı"
 
 msgid "Controlled entrance roster"
 msgstr "Kontrollü giriş listesi"
@@ -1916,16 +1802,6 @@ msgstr "Etkinlik bilgileri, konuşmacılar ve kayıt."
 msgid "Adding a speaker photo"
 msgstr "Konuşmacı fotoğrafı ekleme"
 
-msgid "Additional registration questions"
-msgstr "Ek kayıt soruları"
-
-msgid ""
-"Advanced JSON configuration for additional questions. Leave [] if no extra "
-"questions are needed. Do not collect unnecessary personal information."
-msgstr ""
-"Ek sorular için gelişmiş JSON ayarıdır. Ek soru gerekmiyorsa [] bırakın. "
-"Gereksiz kişisel bilgi toplamayın."
-
 msgid ""
 "Applications are accepted only between the registration opening and closing "
 "times."
@@ -1934,13 +1810,6 @@ msgstr ""
 
 msgid "Attendee registration and tickets"
 msgstr "Katılımcı kaydı ve biletler"
-
-msgid ""
-"Choose review to approve applications individually. Closed disables attendee"
-" registration."
-msgstr ""
-"Başvuruları tek tek onaylamak için İnceleme seçin. Kapalı seçeneği katılımcı"
-" kaydını kapatır."
 
 msgid "Entrance check-in opening time, not the registration opening date."
 msgstr ""
@@ -1972,13 +1841,6 @@ msgid ""
 "committed."
 msgstr ""
 "Etkinlik lisansına uygun olmalıdır; ayrılmış bilet sayısının altında olamaz."
-
-msgid ""
-"Paid tickets require an implemented payment provider. Choose free only if "
-"participation is approved as free."
-msgstr ""
-"Ücretli biletler için ödeme sağlayıcısı entegrasyonu gerekir. Yalnızca "
-"katılımın ücretsiz olması onaylandıysa Ücretsiz seçin."
 
 msgid ""
 "Photo is optional. Save the speaker first to avoid losing unsaved changes, "
@@ -2156,13 +2018,6 @@ msgstr "Konuşmacı ekle"
 msgid "All attendees"
 msgstr "Tüm katılımcılar"
 
-msgid ""
-"Applications are reviewed by the event team. A confirmed ticket secures your"
-" place."
-msgstr ""
-"Başvurular etkinlik ekibi tarafından değerlendirilir. Yeriniz onaylanmış "
-"biletle kesinleşir."
-
 msgid "Attendance"
 msgstr "Katılım"
 
@@ -2193,14 +2048,6 @@ msgstr "PNG veya JPEG biçiminde bir konuşmacı fotoğrafı seçin."
 
 msgid "Clear filters"
 msgstr "Filtreleri temizle"
-
-msgid ""
-"Complete your details, verify your email, then follow your ticket status."
-msgstr ""
-"Bilgilerinizi girin, e-postanızı doğrulayın ve bilet durumunuzu takip edin."
-
-msgid "Confirmed tickets"
-msgstr "Onaylanmış biletler"
 
 msgid "Contact the team"
 msgstr "Ekiple iletişime geç"
@@ -2277,14 +2124,8 @@ msgstr "Hızlı işlemler"
 msgid "Register"
 msgstr "Kayıt ol"
 
-msgid "Registration Status"
-msgstr "Başvuru durumu"
-
 msgid "Registration opens"
 msgstr "Kayıt başlangıcı"
-
-msgid "Registration steps"
-msgstr "Kayıt adımları"
 
 msgid "Registration, tickets and arrival in one place."
 msgstr "Başvurular, biletler ve giriş işlemleri bir arada."
@@ -2332,9 +2173,6 @@ msgstr ""
 "Bu konuşmacı için bir fotoğraf yükleyin. Güvenlik taraması ve yayın "
 "onayından sonra sitede görünür."
 
-msgid "Use the invitation sent to your email to apply for this event."
-msgstr "Bu etkinliğe başvurmak için e-postanıza gönderilen daveti kullanın."
-
 msgid "View tickets"
 msgstr "Biletleri görüntüle"
 
@@ -2354,9 +2192,6 @@ msgstr "Biletiniz"
 msgid "Entrance desk"
 msgstr "Giriş masası"
 
-msgid "Qr Status"
-msgstr "QR durumu"
-
 msgid "File quarantined pending a configured malware scan."
 msgstr ""
 "Dosya, yapılandırılmış güvenlik taraması tamamlanana kadar karantinada."
@@ -2369,9 +2204,6 @@ msgstr "Kaydedildi."
 
 msgid "The file could not be validated."
 msgstr "Dosya doğrulanamadı."
-
-msgid "Check-in attempts"
-msgstr "Giriş denemeleri"
 
 msgid "Applications awaiting review"
 msgstr "İnceleme bekleyen başvurular"
@@ -2435,9 +2267,6 @@ msgstr "Soyad"
 
 msgid "Manual admission ledger"
 msgstr "Manuel giriş kayıtları"
-
-msgid "Registration requests (email verification required)"
-msgstr "Kayıt başvuruları (e-posta doğrulaması gerekli)"
 
 msgid "Username"
 msgstr "Kullanıcı adı"
@@ -2529,15 +2358,6 @@ msgid "Open the applicable KVKK information notice"
 msgstr "Geçerli KVKK Aydınlatma Metni’ni aç"
 
 msgid ""
-"We collect your name for admission and your email for event logistics and "
-"the post-event TEDx attendee survey process. No marketing permission is "
-"requested."
-msgstr ""
-"Adınızı giriş işlemleri, e-posta adresinizi etkinlik bilgilendirmeleri ve "
-"etkinlik sonrası TEDx katılımcı anketi süreci için topluyoruz. Pazarlama "
-"izni istenmez."
-
-msgid ""
 "The acknowledgement confirms that you were informed. It is not blanket "
 "consent for other uses of your information."
 msgstr ""
@@ -2565,6 +2385,458 @@ msgstr "Etkinlik kontenjanı dolmuştur. Kayıt veya bilet oluşturulmadı."
 
 msgid "Registration requires an approved KVKK information notice."
 msgstr "Kayıt için onaylanmış bir KVKK Aydınlatma Metni gerekir."
+
+msgid "Acknowledge the KVKK information notice to register."
+msgstr "Kayıt olmak için KVKK Aydınlatma Metni'ni okuduğunuzu onaylayın."
+
+msgid "An anonymized attendee cannot be restored through correction."
+msgstr "Anonimleştirilmiş bir katılımcı düzeltme yoluyla geri getirilemez."
+
+msgid "Attendance rules"
+msgstr "Katılım kuralları"
+
+msgid "Attendee Email"
+msgstr "Katılımcı e-postası"
+
+msgid "Available capacity"
+msgstr "Kalan kontenjan"
+
+msgid "Cancelled At"
+msgstr "İptal zamanı"
+
+msgid "Cancelled at"
+msgstr "İptal zamanı"
+
+msgid "Cancelled tickets"
+msgstr "İptal edilen biletler"
+
+msgid "Checked In At"
+msgstr "Giriş zamanı"
+
+msgid "Checked in at"
+msgstr "Giriş zamanı"
+
+msgid ""
+"Choose a retention period after event end; this is an organizer policy, not "
+"a statutory default. Erasure is a reviewed action."
+msgstr ""
+"Etkinlik bitiminden sonraki saklama süresini seçin; bu yasal bir varsayılan "
+"değil, organizatör politikasıdır. Silme işlemi incelemeden geçer."
+
+msgid ""
+"Configure and document the retention policy before erasure, including TEDx "
+"survey and legal/audit needs."
+msgstr ""
+"Silmeden önce TEDx anketi ve yasal/denetim gereksinimleri dahil saklama "
+"politikasını ayarlayın ve belgeleyin."
+
+msgid ""
+"Confirm requester identity first. Do not include extra personal information."
+msgstr ""
+"Önce talep sahibinin kimliğini doğrulayın. Ek kişisel bilgi eklemeyin."
+
+msgid "Correction reason"
+msgstr "Düzeltme gerekçesi"
+
+msgid ""
+"Document TEDx survey completion, applicable obligations and dispute/audit "
+"needs before erasure."
+msgstr ""
+"Silmeden önce TEDx anketinin tamamlandığını, geçerli yükümlülükleri ve "
+"itiraz/denetim gereksinimlerini belgeleyin."
+
+msgid "Doors open at %(time)s."
+msgstr "Kapı açılış saati: %(time)s."
+
+msgid ""
+"Email verification no longer issues tickets. Contact the organizing team "
+"about your earlier application."
+msgstr ""
+"E-posta doğrulaması artık bilet oluşturmuyor. Önceki başvurunuz için "
+"organizasyon ekibiyle iletişime geçin."
+
+msgid "Enter a full name of 1–150 characters."
+msgstr "Ad soyad 1–150 karakter olmalıdır."
+
+msgid "Enter a phone number with 10–15 digits, for example +90 532 123 45 67."
+msgstr "10–15 haneli bir telefon numarası girin, örneğin +90 532 123 45 67."
+
+msgid "Enter a valid email address."
+msgstr "Geçerli bir e-posta adresi girin."
+
+msgid ""
+"Enter the vehicle plate with letters and numbers, for example 34 ABC 123."
+msgstr "Araç plakasını harf ve rakamlarla girin, örneğin 34 ABC 123."
+
+msgid "Export TEDx attendee emails"
+msgstr "TEDx katılımcı e-postalarını dışa aktar"
+
+msgid ""
+"If ticket email is enabled and this address has a ticket, a fresh link will "
+"be sent. Otherwise contact the organizing team for assistance."
+msgstr ""
+"Bilet e-postası açıksa ve bu adrese ait bir bilet varsa yeni bir bağlantı "
+"gönderilir. Aksi halde yardım için organizasyon ekibiyle iletişime geçin."
+
+msgid "Mobile phone"
+msgstr "Cep telefonu"
+
+msgid "No"
+msgstr "Hayır"
+
+msgid "No ticket is associated with this link. Contact the organizing team."
+msgstr ""
+"Bu bağlantıya bağlı bir bilet yok. Organizasyon ekibiyle iletişime geçin."
+
+msgid "Notice hash"
+msgstr "Metin özeti"
+
+msgid ""
+"Open registration issues tickets immediately within capacity. No email "
+"verification or review queue is used."
+msgstr ""
+"Açık kayıt, kontenjan dahilinde biletleri hemen oluşturur. E-posta "
+"doğrulaması veya inceleme kuyruğu kullanılmaz."
+
+msgid "Open — immediate tickets"
+msgstr "Açık — anında bilet"
+
+msgid "Parking reserved for"
+msgstr "Otopark rezervasyonu:"
+
+msgid ""
+"Placeholders: {event}, {name}, {link}, {status}, {ticket_id}, {event_date}, "
+"{venue}. Plain text only."
+msgstr ""
+"Yer tutucular: {event}, {name}, {link}, {status}, {ticket_id}, {event_date},"
+" {venue}. Yalnızca düz metin."
+
+msgid "Record the reason for this correction."
+msgstr "Bu düzeltmenin gerekçesini yazın."
+
+msgid ""
+"Registration CSV import is retired. Attendees must acknowledge the current "
+"notice through the public registration form."
+msgstr ""
+"CSV ile kayıt içe aktarma kullanımdan kaldırıldı. Katılımcılar güncel "
+"aydınlatma metnini herkese açık kayıt formu üzerinden onaylamalıdır."
+
+msgid "Registration has changed"
+msgstr "Kayıt süreci değişti"
+
+msgid "Remaining arrivals"
+msgstr "Gelmesi beklenenler"
+
+msgid "Required if you come by car. We use it to reserve your parking space."
+msgstr ""
+"Araçla geliyorsanız zorunludur. Otopark yerinizi ayırmak için kullanılır."
+
+msgid "Retention reason"
+msgstr "Saklama gerekçesi"
+
+msgid "TEDx attendee email export"
+msgstr "TEDx katılımcı e-posta dışa aktarımı"
+
+msgid ""
+"The information notice changed. Reload the form and read the current notice."
+msgstr "Aydınlatma metni değişti. Formu yenileyip güncel metni okuyun."
+
+msgid "The notice text changed without a new version. Contact the organizer."
+msgstr ""
+"Aydınlatma metni yeni bir sürüm oluşturulmadan değiştirilmiş. Organizatörle "
+"iletişime geçin."
+
+msgid "Ticket Reference"
+msgstr "Bilet numarası"
+
+msgid "Ticket email enabled"
+msgstr "Bilet e-postası açık"
+
+msgid "Use a new notice version when changing published notice text."
+msgstr "Yayımlanmış metni değiştirirken yeni bir metin sürümü kullanın."
+
+msgid "Use the registration form to create an attendee and ticket together."
+msgstr "Katılımcı ve bileti birlikte oluşturmak için kayıt formunu kullanın."
+
+msgid "Used only to reach you about the event day."
+msgstr "Yalnızca etkinlik günüyle ilgili size ulaşmak için kullanılır."
+
+msgid "Valid tickets"
+msgstr "Geçerli biletler"
+
+msgid "Vehicle Plate"
+msgstr "Araç plakası"
+
+msgid "Vehicle plate"
+msgstr "Araç plakası"
+
+msgid ""
+"We collect your name for admission, your email for event logistics and the "
+"post-event TEDx attendee survey process, your phone number to reach you "
+"about the event day, and your vehicle plate only if you come by car, to "
+"reserve parking. No marketing permission is requested."
+msgstr ""
+"Adınızı giriş için; e-postanızı etkinlik organizasyonu ve etkinlik sonrası "
+"TEDx katılımcı anketi için; telefon numaranızı etkinlik günüyle ilgili size "
+"ulaşmak için; araç plakanızı ise yalnızca araçla geliyorsanız otopark yeri "
+"ayırmak için alıyoruz. Pazarlama izni istenmez."
+
+msgid "Will you come by car?"
+msgstr "Etkinliğe araçla mı geleceksiniz?"
+
+msgid "Yes"
+msgstr "Evet"
+
+msgid "Your name was updated."
+msgstr "Adınız güncellendi."
+
+msgid "All announcements are on Instagram"
+msgstr "Tüm duyurular Instagram'da"
+
+msgid "Days until the event"
+msgstr "Etkinliğe kalan gün"
+
+msgid "Do not forget to mention TEDxGedik University in your posts."
+msgstr "Paylaşımlarınızda TEDxGedik University'yi etiketlemeyi unutmayın."
+
+msgid "Event announcements are shared on Instagram."
+msgstr "Etkinlik duyuruları Instagram'da paylaşılıyor."
+
+msgid "Follow on Instagram"
+msgstr "Instagram'da takip edin"
+
+msgid "Follow on LinkedIn"
+msgstr "LinkedIn'de takip edin"
+
+msgid "Follow us"
+msgstr "Bizi takip edin"
+
+msgid "Sharing on LinkedIn?"
+msgstr "LinkedIn'de paylaşım mı yapacaksınız?"
+
+msgid ""
+"Speakers, the program and event-day updates are announced first on our "
+"Instagram page. Follow us so you do not miss anything."
+msgstr ""
+"Konuşmacılar, program ve etkinlik günüyle ilgili tüm gelişmeler ilk olarak "
+"Instagram sayfamızda duyuruluyor. Hiçbir şeyi kaçırmamak için bizi takip "
+"edin."
+
+msgid "Stay in the loop"
+msgstr "Gelişmeleri kaçırmayın"
+
+msgid "The event is today"
+msgstr "Etkinlik bugün"
+
+msgid ""
+"An admitted attendee cannot be deleted; the admission stays in the history."
+msgstr "Giriş yapmış bir katılımcı silinemez; giriş kaydı geçmişte kalır."
+
+msgid "Arrives by car"
+msgstr "Araçla geliyor"
+
+msgid "Delete"
+msgstr "Sil"
+
+msgid "Delete registration"
+msgstr "Kaydı sil"
+
+msgid "Delete this registration? This cannot be undone."
+msgstr "Bu kayıt silinsin mi? Bu işlem geri alınamaz."
+
+msgid "Record the reason for deleting this registration."
+msgstr "Bu kaydı silme gerekçesini yazın."
+
+msgid "Registration deleted."
+msgstr "Kayıt silindi."
+
+msgid ""
+"The ticket is cancelled and its QR code stops working. Name, email, phone "
+"and plate are erased immediately and cannot be restored. The attendee is not"
+" emailed."
+msgstr ""
+"Bilet iptal edilir ve QR kodu çalışmaz. Ad, e-posta, telefon ve plaka hemen "
+"silinir ve geri getirilemez. Katılımcıya e-posta gönderilmez."
+
+#~ msgid "A valid invitation for this email is required."
+#~ msgstr "Bu e-posta adresi için geçerli bir davetiye gerekir."
+
+#~ msgid "Admission Status"
+#~ msgstr "Giriş durumu"
+
+#~ msgid "All available categories count toward the approved audience capacity."
+#~ msgstr "Mevcut tüm kategoriler onaylı katılımcı kapasitesine dahildir."
+
+#~ msgid "Answer is too long."
+#~ msgstr "Yanıt çok uzun."
+
+#~ msgid "Confirm this email address to continue your application."
+#~ msgstr "Başvurunuza devam etmek için bu e-posta adresini doğrulayın."
+
+#~ msgid "Default general admission"
+#~ msgstr "Varsayılan genel giriş"
+
+#~ msgid ""
+#~ "Email changes require identity review. Keep this registration's verified "
+#~ "address; cancel and re-register through the approved process if necessary."
+#~ msgstr ""
+#~ "E-posta değişikliği kimlik incelemesi gerektirir. Bu kaydın doğrulanmış "
+#~ "adresini koruyun; gerekirse onaylı süreçle iptal edip yeniden kaydolun."
+
+#~ msgid "Email verified"
+#~ msgstr "E-posta doğrulandı"
+
+#~ msgid "Export consenting survey recipients"
+#~ msgstr "Ankete izin veren alıcıları dışa aktar"
+
+#~ msgid "I agree to receive the optional event survey"
+#~ msgstr "İsteğe bağlı etkinlik anketini almayı kabul ediyorum"
+
+#~ msgid ""
+#~ "If this address is eligible, a verification email will arrive shortly. A "
+#~ "submission is not a confirmed seat."
+#~ msgstr ""
+#~ "Adres uygunsa kısa süre içinde doğrulama e-postası gelecektir. Başvuru, "
+#~ "kesinleşmiş bir yer anlamına gelmez."
+
+#~ msgid ""
+#~ "If we have an eligible registration for that address, we will send a fresh "
+#~ "link."
+#~ msgstr "Bu adresle uygun bir kayıt varsa yeni bağlantı göndereceğiz."
+
+#~ msgid "Invalid answer option."
+#~ msgstr "Geçersiz yanıt seçeneği."
+
+#~ msgid "Invitation"
+#~ msgstr "Davetli"
+
+#~ msgid "Placeholders: {event}, {name}, {link}, {status}. Plain text only."
+#~ msgstr "Yer tutucular: {event}, {name}, {link}, {status}. Yalnızca düz metin."
+
+#~ msgid "Record a decision reason."
+#~ msgstr "Karar gerekçesini kaydedin."
+
+#~ msgid "Registration applications"
+#~ msgstr "Kayıt başvuruları"
+
+#~ msgid "Registration fields"
+#~ msgstr "Kayıt alanları"
+
+#~ msgid "Survey consent"
+#~ msgstr "Anket izni"
+
+#~ msgid "This registration cannot move to that status."
+#~ msgstr "Bu kayıt bu duruma geçirilemez."
+
+#~ msgid "This verification link has expired or was already used."
+#~ msgstr "Bu doğrulama bağlantısının süresi doldu veya bağlantı kullanıldı."
+
+#~ msgid "Ticket Type"
+#~ msgstr "Bilet türü"
+
+#~ msgid "Unsupported registration answers."
+#~ msgstr "Desteklenmeyen kayıt yanıtları."
+
+#~ msgid "Update my details"
+#~ msgstr "Bilgilerimi güncelle"
+
+#~ msgid "Use the public form when invitations or custom answers are required."
+#~ msgstr "Davetiye veya özel yanıt gerektiğinde herkese açık formu kullanın."
+
+#~ msgid "Verify email"
+#~ msgstr "E-postayı doğrula"
+
+#~ msgid "Verify the attendee email before allocating a ticket."
+#~ msgstr "Bilet ayırmadan önce katılımcının e-posta adresini doğrulayın."
+
+#~ msgid "Verify your email"
+#~ msgstr "E-postanızı doğrulayın"
+
+#~ msgid ""
+#~ "Your application has been updated. We will email you when a ticket is "
+#~ "issued."
+#~ msgstr "Başvurunuz güncellendi. Bilet verildiğinde size e-posta göndereceğiz."
+
+#~ msgid "Your application is awaiting a ticket decision."
+#~ msgstr "Başvurunuz bilet kararı bekliyor."
+
+#~ msgid "Your profile and survey preference were updated."
+#~ msgstr "Profiliniz ve anket tercihiniz güncellendi."
+
+#~ msgid "Your registration"
+#~ msgstr "Kaydınız"
+
+#~ msgid "Choose…"
+#~ msgstr "Seçin…"
+
+#~ msgid "Consent-filtered survey export"
+#~ msgstr "İzne göre filtrelenmiş anket dışa aktarımı"
+
+#~ msgid "Additional registration questions"
+#~ msgstr "Ek kayıt soruları"
+
+#~ msgid ""
+#~ "Advanced JSON configuration for additional questions. Leave [] if no extra "
+#~ "questions are needed. Do not collect unnecessary personal information."
+#~ msgstr ""
+#~ "Ek sorular için gelişmiş JSON ayarıdır. Ek soru gerekmiyorsa [] bırakın. "
+#~ "Gereksiz kişisel bilgi toplamayın."
+
+#~ msgid ""
+#~ "Choose review to approve applications individually. Closed disables attendee"
+#~ " registration."
+#~ msgstr ""
+#~ "Başvuruları tek tek onaylamak için İnceleme seçin. Kapalı seçeneği katılımcı"
+#~ " kaydını kapatır."
+
+#~ msgid ""
+#~ "Paid tickets require an implemented payment provider. Choose free only if "
+#~ "participation is approved as free."
+#~ msgstr ""
+#~ "Ücretli biletler için ödeme sağlayıcısı entegrasyonu gerekir. Yalnızca "
+#~ "katılımın ücretsiz olması onaylandıysa Ücretsiz seçin."
+
+#~ msgid ""
+#~ "Applications are reviewed by the event team. A confirmed ticket secures your"
+#~ " place."
+#~ msgstr ""
+#~ "Başvurular etkinlik ekibi tarafından değerlendirilir. Yeriniz onaylanmış "
+#~ "biletle kesinleşir."
+
+#~ msgid ""
+#~ "Complete your details, verify your email, then follow your ticket status."
+#~ msgstr ""
+#~ "Bilgilerinizi girin, e-postanızı doğrulayın ve bilet durumunuzu takip edin."
+
+#~ msgid "Confirmed tickets"
+#~ msgstr "Onaylanmış biletler"
+
+#~ msgid "Registration Status"
+#~ msgstr "Başvuru durumu"
+
+#~ msgid "Registration steps"
+#~ msgstr "Kayıt adımları"
+
+#~ msgid "Use the invitation sent to your email to apply for this event."
+#~ msgstr "Bu etkinliğe başvurmak için e-postanıza gönderilen daveti kullanın."
+
+#~ msgid "Qr Status"
+#~ msgstr "QR durumu"
+
+#~ msgid "Check-in attempts"
+#~ msgstr "Giriş denemeleri"
+
+#~ msgid "Registration requests (email verification required)"
+#~ msgstr "Kayıt başvuruları (e-posta doğrulaması gerekli)"
+
+#~ msgid ""
+#~ "We collect your name for admission and your email for event logistics and "
+#~ "the post-event TEDx attendee survey process. No marketing permission is "
+#~ "requested."
+#~ msgstr ""
+#~ "Adınızı giriş işlemleri, e-posta adresinizi etkinlik bilgilendirmeleri ve "
+#~ "etkinlik sonrası TEDx katılımcı anketi süreci için topluyoruz. Pazarlama "
+#~ "izni istenmez."
 
 #~ msgid ""
 #~ "Approve event policy, privacy, capacity and entrance opening time before "

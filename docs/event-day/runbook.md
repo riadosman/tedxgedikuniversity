@@ -38,3 +38,60 @@ No verified offline scanner mode exists. Manual admission still cannot force an 
 After outage: manual → reconciling, preview/import ledger, resolve unknown/revoked tickets, compare physical counts, brief desks, then resume online. For server/data loss follow [disaster recovery](../operations/disaster-recovery.md).
 
 At closing: close admission/intake as approved; record final counts and discrepancies. Review incident ownership. Back up reconciled data/files and verify off-host copy. Export authorized reports with purpose/audit. Revoke temporary roles; secure/dispose of roster copies under policy. Review failed mail, unresolved financial/provider items and media permissions. Prepare post-event report, confirm retention holds and schedule approved disposal.
+
+## Confirmed event logistics
+
+Source: TED event manager details provided and confirmed by the organizer on 4 October 2026.
+
+- Date: 21 November 2026.
+- Program: 13:00–16:00, Istanbul time (UTC+03:00).
+- Check-in: 12:45–13:00, approved by the organizer.
+- Venue: Kartal conference, Istanbul, İstanbul, Türkiye.
+- Licence type: University.
+- Licence term: 17 August 2026 02:00 +03 to 17 August 2027 02:00 +03.
+
+## Confirmed theme and registration
+
+Theme: **From Ideas to Impact**
+
+Bridging Theoretical Knowledge with Real-World Practice
+
+Knowledge often remains confined to classrooms, books, and theories, while its true value emerges when it is translated into practice, experience, solutions, and meaningful impact.
+
+This theme explores a fundamental question: How do we move from knowing to doing?
+
+We seek to explore the connection between theoretical concepts and practical applications, and how the knowledge we acquire can move beyond traditional learning to become a tool for understanding the world, addressing its challenges, and creating new solutions.
+
+It is not about choosing practice over theory. Rather, it is about discovering the space where ideas meet action, knowledge meets experience, and learning creates impact.
+
+Open to the public. Seats are available as confirmed by the organizer on 4 October 2026. Register or apply: https://tedxgedik.vercel.app/
+
+Canonical event details: `platform/content/confirmed-event.json`.
+
+## Confirmed program and stream descriptions
+
+Approved by the organizer on 4 October 2026 for 21 November 2026. All times are Istanbul time. This six-section program supersedes earlier schedule alternatives. Two talk sessions contain four 15-minute talks each, plus ten minutes of transitions per session. Speaker names and talk order remain pending.
+
+### 1. Check-in and Welcome | 12:45–13:00
+
+Welcome to TEDxGedik University. As our audience arrives and takes their seats, get ready for an afternoon of ideas, discovery, and new perspectives. The opening begins at 13:00, Istanbul time.
+
+### 2. Opening and Introduction | 13:00–13:10
+
+We open TEDxGedik University with a welcome to our audience and an introduction to TEDx and the purpose of our gathering.
+
+### 3. Talk Session 1 | 13:10–14:20
+
+Our first session brings four speakers to the stage to share ideas and perspectives from different fields. Join us for talks that encourage curiosity, reflection, and conversation.
+
+### 4. Intermission | 14:20–14:40
+
+We’re taking a short break. Reflect on the ideas from our first session, share your thoughts, and join us again at 14:40, Istanbul time, for the next four talks.
+
+### 5. Talk Session 2 | 14:40–15:50
+
+Our program continues with four more speakers, bringing new questions, experiences, and ideas to the TEDxGedik University stage.
+
+### 6. Closing and Thank You | 15:50–16:00
+
+Join us as we close TEDxGedik University and thank the speakers, volunteers, organizing team, and audience who made this gathering possible. We’ll also explain how to share your feedback through the audience survey.

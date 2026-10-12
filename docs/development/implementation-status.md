@@ -39,7 +39,7 @@ Critical boundaries are typed, but full repository-wide strict typing remains in
 
 ## External decisions and operating gates
 
-- Confirm public identity/branding, final theme/content, exact venue, audience allocation and counting policy, actual entrance opening, registration dates/mode, approved languages and privacy/controller text.
+- Confirm public identity/branding, audience allocation and counting policy, registration dates/mode, approved languages and privacy/controller text.
 - Select free admission or an approved paid model. **No payment provider, hosted checkout, production webhook handler or refund integration is implemented.** The relational boundary and typed provider interface exist; paid intake fails closed. A provider-specific implementation/sandbox contract is required if paid tickets are chosen.
 - Supply real hosting/domain/HTTPS proxy configuration, SMTP sender/DNS/provider account, malware scanner, persistent storage, off-host backup custody, monitoring and alert recipients. No external email or live deployment was performed.
 - Name the entrance supervisor/deputy and rehearse actual iOS/Android camera phones, lighting, Wi-Fi/cellular fallback, physical roster control, power failure and restored-state reconciliation.

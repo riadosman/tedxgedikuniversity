@@ -52,7 +52,7 @@ def test_product_visual_walkthrough(live_server, event, organizer, settings):
             )
         )
     for index, title in enumerate(
-        ["Welcome & opening", "Ideas from where we stand", "A different perspective"]
+        ["Welcome & opening", "From Ideas to Impact", "A different perspective"]
     ):
         start = event.starts_at + timedelta(minutes=index * 30)
         ScheduleItem.objects.create(

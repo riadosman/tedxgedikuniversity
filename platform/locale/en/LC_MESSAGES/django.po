@@ -15,9 +15,6 @@ msgstr "A reconciled admission needs its actual, valid event-day timestamp."
 msgid "A retry ID cannot be reused for a different request."
 msgstr "A retry ID cannot be reused for a different request."
 
-msgid "A valid invitation for this email is required."
-msgstr "A valid invitation for this email is required."
-
 msgid "ACCOUNT SECURITY"
 msgstr "ACCOUNT SECURITY"
 
@@ -79,17 +76,11 @@ msgstr "Add comment"
 msgid "Add record +"
 msgstr "Add record +"
 
-msgid "Admission Status"
-msgstr "Admission Status"
-
 msgid "Admission opens at"
 msgstr "Admission opens at"
 
 msgid "Admission policy is awaiting approval."
 msgstr "Admission policy is awaiting approval."
-
-msgid "All available categories count toward the approved audience capacity."
-msgstr "All available categories count toward the approved audience capacity."
 
 msgid "All speakers"
 msgstr "All speakers"
@@ -120,9 +111,6 @@ msgstr "Announcements"
 
 msgid "Anonymize"
 msgstr "Anonymize"
-
-msgid "Answer is too long."
-msgstr "Answer is too long."
 
 msgid "Application received"
 msgstr "Application received"
@@ -335,9 +323,6 @@ msgstr "Configure an enabled admission ticket type first."
 msgid "Confirm the speaker and record publication consent first."
 msgstr "Confirm the speaker and record publication consent first."
 
-msgid "Confirm this email address to continue your application."
-msgstr "Confirm this email address to continue your application."
-
 msgid "Confirmed"
 msgstr "Confirmed"
 
@@ -388,9 +373,6 @@ msgstr "Deactivate"
 
 msgid "Declined"
 msgstr "Declined"
-
-msgid "Default general admission"
-msgstr "Default general admission"
 
 msgid "Department"
 msgstr "Department"
@@ -471,21 +453,11 @@ msgstr "Editor"
 msgid "Email"
 msgstr "Email"
 
-msgid ""
-"Email changes require identity review. Keep this registration's verified "
-"address; cancel and re-register through the approved process if necessary."
-msgstr ""
-"Email changes require identity review. Keep this registration's verified "
-"address; cancel and re-register through the approved process if necessary."
-
 msgid "Email delivery"
 msgstr "Email delivery"
 
 msgid "Email templates"
 msgstr "Email templates"
-
-msgid "Email verified"
-msgstr "Email verified"
 
 msgid "Enabled"
 msgstr "Enabled"
@@ -566,9 +538,6 @@ msgstr ""
 msgid "Export CSV"
 msgstr "Export CSV"
 
-msgid "Export consenting survey recipients"
-msgstr "Export consenting survey recipients"
-
 msgid "Export controlled admission roster"
 msgstr "Export controlled admission roster"
 
@@ -620,9 +589,6 @@ msgstr "Hold Until"
 msgid "Hold until"
 msgstr "Hold until"
 
-msgid "I agree to receive the optional event survey"
-msgstr "I agree to receive the optional event survey"
-
 msgid "I have read the privacy notice"
 msgstr "I have read the privacy notice"
 
@@ -644,20 +610,6 @@ msgid ""
 msgstr ""
 "If that address has an eligible account, we will send a password reset link."
 " Your authenticator remains required."
-
-msgid ""
-"If this address is eligible, a verification email will arrive shortly. A "
-"submission is not a confirmed seat."
-msgstr ""
-"If this address is eligible, a verification email will arrive shortly. A "
-"submission is not a confirmed seat."
-
-msgid ""
-"If we have an eligible registration for that address, we will send a fresh "
-"link."
-msgstr ""
-"If we have an eligible registration for that address, we will send a fresh "
-"link."
 
 msgid "Import at most 1000 rows at a time."
 msgstr "Import at most 1000 rows at a time."
@@ -692,9 +644,6 @@ msgstr "Internal notes"
 msgid "Interview"
 msgstr "Interview"
 
-msgid "Invalid answer option."
-msgstr "Invalid answer option."
-
 msgid "Invalid custom-field definition."
 msgstr "Invalid custom-field definition."
 
@@ -712,9 +661,6 @@ msgstr "Invalid published program timestamp."
 
 msgid "Investigating"
 msgstr "Investigating"
-
-msgid "Invitation"
-msgstr "Invitation"
 
 msgid ""
 "Invitation queued. The recipient still verifies their email and receives a "
@@ -956,9 +902,6 @@ msgstr "Phone"
 msgid "Photo"
 msgstr "Photo"
 
-msgid "Placeholders: {event}, {name}, {link}, {status}. Plain text only."
-msgstr "Placeholders: {event}, {name}, {link}, {status}. Plain text only."
-
 msgid "Planning"
 msgstr "Planning"
 
@@ -1088,9 +1031,6 @@ msgstr "Received"
 msgid "Recent admissions"
 msgstr "Recent admissions"
 
-msgid "Record a decision reason."
-msgstr "Record a decision reason."
-
 msgid "Record a reason for the account change."
 msgstr "Record a reason for the account change."
 
@@ -1121,14 +1061,8 @@ msgstr "Refunded"
 msgid "Registration"
 msgstr "Registration"
 
-msgid "Registration applications"
-msgstr "Registration applications"
-
 msgid "Registration closes after it opens."
 msgstr "Registration closes after it opens."
-
-msgid "Registration fields"
-msgstr "Registration fields"
 
 msgid "Registration is not open."
 msgstr "Registration is not open."
@@ -1347,9 +1281,6 @@ msgstr "Supervisor"
 msgid "Suppressed"
 msgstr "Suppressed"
 
-msgid "Survey consent"
-msgstr "Survey consent"
-
 msgid "Switch to reconciliation mode before committing a manual ledger."
 msgstr "Switch to reconciliation mode before committing a manual ledger."
 
@@ -1485,9 +1416,6 @@ msgstr "This record is unavailable in your authorized scope."
 msgid "This registration already has a ticket. Use its lifecycle actions."
 msgstr "This registration already has a ticket. Use its lifecycle actions."
 
-msgid "This registration cannot move to that status."
-msgstr "This registration cannot move to that status."
-
 msgid "This session overlaps another public program item."
 msgstr "This session overlaps another public program item."
 
@@ -1497,14 +1425,8 @@ msgstr "This talk exceeds the configured event duration limit."
 msgid "This username already exists."
 msgstr "This username already exists."
 
-msgid "This verification link has expired or was already used."
-msgstr "This verification link has expired or was already used."
-
 msgid "This volunteer already has an overlapping shift."
 msgstr "This volunteer already has an overlapping shift."
-
-msgid "Ticket Type"
-msgstr "Ticket Type"
 
 msgid "Ticket allocation is closed for event-day admission."
 msgstr "Ticket allocation is closed for event-day admission."
@@ -1551,12 +1473,6 @@ msgstr "Under Review"
 msgid "University community"
 msgstr "University community"
 
-msgid "Unsupported registration answers."
-msgstr "Unsupported registration answers."
-
-msgid "Update my details"
-msgstr "Update my details"
-
 msgid "Updated"
 msgstr "Updated"
 
@@ -1590,9 +1506,6 @@ msgstr "Use only plain {event}, {name}, {link}, and {status} placeholders."
 msgid "Use the approval action to approve a reviewed talk."
 msgstr "Use the approval action to approve a reviewed talk."
 
-msgid "Use the public form when invitations or custom answers are required."
-msgstr "Use the public form when invitations or custom answers are required."
-
 msgid "Use your assigned account to access the event workspace."
 msgstr "Use your assigned account to access the event workspace."
 
@@ -1623,17 +1536,8 @@ msgstr "Verified"
 msgid "Verify code"
 msgstr "Verify code"
 
-msgid "Verify email"
-msgstr "Verify email"
-
-msgid "Verify the attendee email before allocating a ticket."
-msgstr "Verify the attendee email before allocating a ticket."
-
 msgid "Verify your authenticator again before this privileged action."
 msgstr "Verify your authenticator again before this privileged action."
-
-msgid "Verify your email"
-msgstr "Verify your email"
 
 msgid "Verify your sign-in"
 msgstr "Verify your sign-in"
@@ -1685,30 +1589,14 @@ msgstr ""
 "organizer for access."
 
 msgid ""
-"Your application has been updated. We will email you when a ticket is "
-"issued."
-msgstr ""
-"Your application has been updated. We will email you when a ticket is "
-"issued."
-
-msgid ""
 "Your application has been withdrawn. Active volunteer assignments were "
 "cancelled."
 msgstr ""
 "Your application has been withdrawn. Active volunteer assignments were "
 "cancelled."
-
-msgid "Your application is awaiting a ticket decision."
-msgstr "Your application is awaiting a ticket decision."
 
 msgid "Your details"
 msgstr "Your details"
-
-msgid "Your profile and survey preference were updated."
-msgstr "Your profile and survey preference were updated."
-
-msgid "Your registration"
-msgstr "Your registration"
 
 msgid "Your ticket has been cancelled."
 msgstr "Your ticket has been cancelled."
@@ -1749,9 +1637,6 @@ msgstr "Refresh dashboard"
 msgid "Authenticator enrollment QR"
 msgstr "Authenticator enrollment QR"
 
-msgid "Choose…"
-msgstr "Choose…"
-
 msgid "Pagination"
 msgstr "Pagination"
 
@@ -1775,9 +1660,6 @@ msgstr "Change admission mode"
 
 msgid "Confirm action"
 msgstr "Confirm action"
-
-msgid "Consent-filtered survey export"
-msgstr "Consent-filtered survey export"
 
 msgid "Controlled entrance roster"
 msgstr "Controlled entrance roster"
@@ -1900,16 +1782,6 @@ msgstr "Event information, speakers and registration."
 msgid "Adding a speaker photo"
 msgstr "Adding a speaker photo"
 
-msgid "Additional registration questions"
-msgstr "Additional registration questions"
-
-msgid ""
-"Advanced JSON configuration for additional questions. Leave [] if no extra "
-"questions are needed. Do not collect unnecessary personal information."
-msgstr ""
-"Advanced JSON configuration for additional questions. Leave [] if no extra "
-"questions are needed. Do not collect unnecessary personal information."
-
 msgid ""
 "Applications are accepted only between the registration opening and closing "
 "times."
@@ -1919,13 +1791,6 @@ msgstr ""
 
 msgid "Attendee registration and tickets"
 msgstr "Attendee registration and tickets"
-
-msgid ""
-"Choose review to approve applications individually. Closed disables attendee"
-" registration."
-msgstr ""
-"Choose review to approve applications individually. Closed disables attendee"
-" registration."
 
 msgid "Entrance check-in opening time, not the registration opening date."
 msgstr "Entrance check-in opening time, not the registration opening date."
@@ -1956,13 +1821,6 @@ msgid ""
 msgstr ""
 "Must respect the event licence and cannot be lower than tickets already "
 "committed."
-
-msgid ""
-"Paid tickets require an implemented payment provider. Choose free only if "
-"participation is approved as free."
-msgstr ""
-"Paid tickets require an implemented payment provider. Choose free only if "
-"participation is approved as free."
 
 msgid ""
 "Photo is optional. Save the speaker first to avoid losing unsaved changes, "
@@ -2138,13 +1996,6 @@ msgstr "Add speaker"
 msgid "All attendees"
 msgstr "All attendees"
 
-msgid ""
-"Applications are reviewed by the event team. A confirmed ticket secures your"
-" place."
-msgstr ""
-"Applications are reviewed by the event team. A confirmed ticket secures your"
-" place."
-
 msgid "Attendance"
 msgstr "Attendance"
 
@@ -2174,14 +2025,6 @@ msgstr "Choose a PNG or JPEG speaker photo."
 
 msgid "Clear filters"
 msgstr "Clear filters"
-
-msgid ""
-"Complete your details, verify your email, then follow your ticket status."
-msgstr ""
-"Complete your details, verify your email, then follow your ticket status."
-
-msgid "Confirmed tickets"
-msgstr "Confirmed tickets"
 
 msgid "Contact the team"
 msgstr "Contact the team"
@@ -2258,14 +2101,8 @@ msgstr "Quick actions"
 msgid "Register"
 msgstr "Register"
 
-msgid "Registration Status"
-msgstr "Registration Status"
-
 msgid "Registration opens"
 msgstr "Registration opens"
-
-msgid "Registration steps"
-msgstr "Registration steps"
 
 msgid "Registration, tickets and arrival in one place."
 msgstr "Registration, tickets and arrival in one place."
@@ -2313,9 +2150,6 @@ msgstr ""
 "Upload a photo for this speaker. It will appear publicly after scanning and "
 "publication approval."
 
-msgid "Use the invitation sent to your email to apply for this event."
-msgstr "Use the invitation sent to your email to apply for this event."
-
 msgid "View tickets"
 msgstr "View tickets"
 
@@ -2334,9 +2168,6 @@ msgstr "Your ticket"
 msgid "Entrance desk"
 msgstr "Entrance desk"
 
-msgid "Qr Status"
-msgstr "Qr Status"
-
 msgid "File quarantined pending a configured malware scan."
 msgstr "File quarantined pending a configured malware scan."
 
@@ -2348,9 +2179,6 @@ msgstr "Saved."
 
 msgid "The file could not be validated."
 msgstr "The file could not be validated."
-
-msgid "Check-in attempts"
-msgstr "Check-in attempts"
 
 msgid "Applications awaiting review"
 msgstr "Applications awaiting review"
@@ -2414,9 +2242,6 @@ msgstr "Last name"
 msgid "Manual admission ledger"
 msgstr "Manual admission ledger"
 
-msgid "Registration requests (email verification required)"
-msgstr "Registration requests (email verification required)"
-
 msgid "Username"
 msgstr "Username"
 
@@ -2477,6 +2302,513 @@ msgid ""
 msgstr ""
 "Approve event policy, capacity and entrance opening time before admitting "
 "guests."
+
+msgid "Acknowledge the KVKK information notice to register."
+msgstr "Acknowledge the KVKK information notice to register."
+
+msgid "An anonymized attendee cannot be restored through correction."
+msgstr "An anonymized attendee cannot be restored through correction."
+
+msgid "Attendance rules"
+msgstr "Attendance rules"
+
+msgid "Attendee Email"
+msgstr "Attendee Email"
+
+msgid "Available capacity"
+msgstr "Available capacity"
+
+msgid "Cancelled At"
+msgstr "Cancelled At"
+
+msgid "Cancelled at"
+msgstr "Cancelled at"
+
+msgid "Cancelled tickets"
+msgstr "Cancelled tickets"
+
+msgid "Checked In"
+msgstr "Checked In"
+
+msgid "Checked In At"
+msgstr "Checked In At"
+
+msgid "Checked in at"
+msgstr "Checked in at"
+
+msgid ""
+"Choose a retention period after event end; this is an organizer policy, not "
+"a statutory default. Erasure is a reviewed action."
+msgstr ""
+"Choose a retention period after event end; this is an organizer policy, not "
+"a statutory default. Erasure is a reviewed action."
+
+msgid ""
+"Configure and document the retention policy before erasure, including TEDx "
+"survey and legal/audit needs."
+msgstr ""
+"Configure and document the retention policy before erasure, including TEDx "
+"survey and legal/audit needs."
+
+msgid ""
+"Confirm requester identity first. Do not include extra personal information."
+msgstr ""
+"Confirm requester identity first. Do not include extra personal information."
+
+msgid "Contact the organizing team"
+msgstr "Contact the organizing team"
+
+msgid "Correction reason"
+msgstr "Correction reason"
+
+msgid ""
+"Document TEDx survey completion, applicable obligations and dispute/audit "
+"needs before erasure."
+msgstr ""
+"Document TEDx survey completion, applicable obligations and dispute/audit "
+"needs before erasure."
+
+msgid "Doors open at %(time)s."
+msgstr "Doors open at %(time)s."
+
+msgid ""
+"Email verification no longer issues tickets. Contact the organizing team "
+"about your earlier application."
+msgstr ""
+"Email verification no longer issues tickets. Contact the organizing team "
+"about your earlier application."
+
+msgid "Enter a full name of 1–150 characters."
+msgstr "Enter a full name of 1–150 characters."
+
+msgid "Enter a phone number with 10–15 digits, for example +90 532 123 45 67."
+msgstr ""
+"Enter a phone number with 10–15 digits, for example +90 532 123 45 67."
+
+msgid "Enter a valid email address."
+msgstr "Enter a valid email address."
+
+msgid ""
+"Enter the vehicle plate with letters and numbers, for example 34 ABC 123."
+msgstr ""
+"Enter the vehicle plate with letters and numbers, for example 34 ABC 123."
+
+msgid "Export TEDx attendee emails"
+msgstr "Export TEDx attendee emails"
+
+msgid "Get my ticket"
+msgstr "Get my ticket"
+
+msgid ""
+"I acknowledge that I have been informed through the KVKK Aydınlatma Metni."
+msgstr ""
+"I acknowledge that I have been informed through the KVKK Aydınlatma Metni."
+
+msgid ""
+"If ticket email is enabled and this address has a ticket, a fresh link will "
+"be sent. Otherwise contact the organizing team for assistance."
+msgstr ""
+"If ticket email is enabled and this address has a ticket, a fresh link will "
+"be sent. Otherwise contact the organizing team for assistance."
+
+msgid "KVKK Aydınlatma Metni — information notice"
+msgstr "KVKK Aydınlatma Metni — information notice"
+
+msgid "Mobile phone"
+msgstr "Mobile phone"
+
+msgid "No"
+msgstr "No"
+
+msgid "No ticket is associated with this link. Contact the organizing team."
+msgstr "No ticket is associated with this link. Contact the organizing team."
+
+msgid "Notice hash"
+msgstr "Notice hash"
+
+msgid ""
+"Open registration issues tickets immediately within capacity. No email "
+"verification or review queue is used."
+msgstr ""
+"Open registration issues tickets immediately within capacity. No email "
+"verification or review queue is used."
+
+msgid "Open the applicable KVKK information notice"
+msgstr "Open the applicable KVKK information notice"
+
+msgid "Open — immediate tickets"
+msgstr "Open — immediate tickets"
+
+msgid "Parking reserved for"
+msgstr "Parking reserved for"
+
+msgid ""
+"Placeholders: {event}, {name}, {link}, {status}, {ticket_id}, {event_date}, "
+"{venue}. Plain text only."
+msgstr ""
+"Placeholders: {event}, {name}, {link}, {status}, {ticket_id}, {event_date}, "
+"{venue}. Plain text only."
+
+msgid "Record the reason for this correction."
+msgstr "Record the reason for this correction."
+
+msgid ""
+"Register and receive your ticket immediately. No account or email "
+"verification is required."
+msgstr ""
+"Register and receive your ticket immediately. No account or email "
+"verification is required."
+
+msgid "Registered"
+msgstr "Registered"
+
+msgid ""
+"Registration CSV import is retired. Attendees must acknowledge the current "
+"notice through the public registration form."
+msgstr ""
+"Registration CSV import is retired. Attendees must acknowledge the current "
+"notice through the public registration form."
+
+msgid "Registration has changed"
+msgstr "Registration has changed"
+
+msgid "Registration requires an approved KVKK information notice."
+msgstr "Registration requires an approved KVKK information notice."
+
+msgid "Remaining arrivals"
+msgstr "Remaining arrivals"
+
+msgid "Required if you come by car. We use it to reserve your parking space."
+msgstr "Required if you come by car. We use it to reserve your parking space."
+
+msgid "Retention reason"
+msgstr "Retention reason"
+
+msgid ""
+"Save or print the ticket shown after registration. Keep your QR code private"
+" and show it to entrance staff."
+msgstr ""
+"Save or print the ticket shown after registration. Keep your QR code private"
+" and show it to entrance staff."
+
+msgid "TEDx attendee email export"
+msgstr "TEDx attendee email export"
+
+msgid ""
+"The acknowledgement confirms that you were informed. It is not blanket "
+"consent for other uses of your information."
+msgstr ""
+"The acknowledgement confirms that you were informed. It is not blanket "
+"consent for other uses of your information."
+
+msgid "The event is full. No registration or ticket was created."
+msgstr "The event is full. No registration or ticket was created."
+
+msgid ""
+"The information notice changed. Reload the form and read the current notice."
+msgstr ""
+"The information notice changed. Reload the form and read the current notice."
+
+msgid "The notice text changed without a new version. Contact the organizer."
+msgstr "The notice text changed without a new version. Contact the organizer."
+
+msgid ""
+"This email is already registered for this event. No additional ticket was "
+"created."
+msgstr ""
+"This email is already registered for this event. No additional ticket was "
+"created."
+
+msgid "Ticket Reference"
+msgstr "Ticket Reference"
+
+msgid "Ticket email enabled"
+msgstr "Ticket email enabled"
+
+msgid "Update my name"
+msgstr "Update my name"
+
+msgid "Use a new notice version when changing published notice text."
+msgstr "Use a new notice version when changing published notice text."
+
+msgid "Use the registration form to create an attendee and ticket together."
+msgstr "Use the registration form to create an attendee and ticket together."
+
+msgid "Used only to reach you about the event day."
+msgstr "Used only to reach you about the event day."
+
+msgid "Valid tickets"
+msgstr "Valid tickets"
+
+msgid "Vehicle Plate"
+msgstr "Vehicle Plate"
+
+msgid "Vehicle plate"
+msgstr "Vehicle plate"
+
+msgid ""
+"We collect your name for admission, your email for event logistics and the "
+"post-event TEDx attendee survey process, your phone number to reach you "
+"about the event day, and your vehicle plate only if you come by car, to "
+"reserve parking. No marketing permission is requested."
+msgstr ""
+"We collect your name for admission, your email for event logistics and the "
+"post-event TEDx attendee survey process, your phone number to reach you "
+"about the event day, and your vehicle plate only if you come by car, to "
+"reserve parking. No marketing permission is requested."
+
+msgid "Will you come by car?"
+msgstr "Will you come by car?"
+
+msgid "Yes"
+msgstr "Yes"
+
+msgid "Your name was updated."
+msgstr "Your name was updated."
+
+msgid "All announcements are on Instagram"
+msgstr "All announcements are on Instagram"
+
+msgid "Days until the event"
+msgstr "Days until the event"
+
+msgid "Do not forget to mention TEDxGedik University in your posts."
+msgstr "Do not forget to mention TEDxGedik University in your posts."
+
+msgid "Event announcements are shared on Instagram."
+msgstr "Event announcements are shared on Instagram."
+
+msgid "Follow on Instagram"
+msgstr "Follow on Instagram"
+
+msgid "Follow on LinkedIn"
+msgstr "Follow on LinkedIn"
+
+msgid "Follow us"
+msgstr "Follow us"
+
+msgid "Sharing on LinkedIn?"
+msgstr "Sharing on LinkedIn?"
+
+msgid ""
+"Speakers, the program and event-day updates are announced first on our "
+"Instagram page. Follow us so you do not miss anything."
+msgstr ""
+"Speakers, the program and event-day updates are announced first on our "
+"Instagram page. Follow us so you do not miss anything."
+
+msgid "Stay in the loop"
+msgstr "Stay in the loop"
+
+msgid "The event is today"
+msgstr "The event is today"
+
+msgid ""
+"An admitted attendee cannot be deleted; the admission stays in the history."
+msgstr ""
+"An admitted attendee cannot be deleted; the admission stays in the history."
+
+msgid "Arrives by car"
+msgstr "Arrives by car"
+
+msgid "Delete"
+msgstr "Delete"
+
+msgid "Delete registration"
+msgstr "Delete registration"
+
+msgid "Delete this registration? This cannot be undone."
+msgstr "Delete this registration? This cannot be undone."
+
+msgid "Record the reason for deleting this registration."
+msgstr "Record the reason for deleting this registration."
+
+msgid "Registration deleted."
+msgstr "Registration deleted."
+
+msgid ""
+"The ticket is cancelled and its QR code stops working. Name, email, phone "
+"and plate are erased immediately and cannot be restored. The attendee is not"
+" emailed."
+msgstr ""
+"The ticket is cancelled and its QR code stops working. Name, email, phone "
+"and plate are erased immediately and cannot be restored. The attendee is not"
+" emailed."
+
+#~ msgid "A valid invitation for this email is required."
+#~ msgstr "A valid invitation for this email is required."
+
+#~ msgid "Admission Status"
+#~ msgstr "Admission Status"
+
+#~ msgid "All available categories count toward the approved audience capacity."
+#~ msgstr "All available categories count toward the approved audience capacity."
+
+#~ msgid "Answer is too long."
+#~ msgstr "Answer is too long."
+
+#~ msgid "Confirm this email address to continue your application."
+#~ msgstr "Confirm this email address to continue your application."
+
+#~ msgid "Default general admission"
+#~ msgstr "Default general admission"
+
+#~ msgid ""
+#~ "Email changes require identity review. Keep this registration's verified "
+#~ "address; cancel and re-register through the approved process if necessary."
+#~ msgstr ""
+#~ "Email changes require identity review. Keep this registration's verified "
+#~ "address; cancel and re-register through the approved process if necessary."
+
+#~ msgid "Email verified"
+#~ msgstr "Email verified"
+
+#~ msgid "Export consenting survey recipients"
+#~ msgstr "Export consenting survey recipients"
+
+#~ msgid "I agree to receive the optional event survey"
+#~ msgstr "I agree to receive the optional event survey"
+
+#~ msgid ""
+#~ "If this address is eligible, a verification email will arrive shortly. A "
+#~ "submission is not a confirmed seat."
+#~ msgstr ""
+#~ "If this address is eligible, a verification email will arrive shortly. A "
+#~ "submission is not a confirmed seat."
+
+#~ msgid ""
+#~ "If we have an eligible registration for that address, we will send a fresh "
+#~ "link."
+#~ msgstr ""
+#~ "If we have an eligible registration for that address, we will send a fresh "
+#~ "link."
+
+#~ msgid "Invalid answer option."
+#~ msgstr "Invalid answer option."
+
+#~ msgid "Invitation"
+#~ msgstr "Invitation"
+
+#~ msgid "Placeholders: {event}, {name}, {link}, {status}. Plain text only."
+#~ msgstr "Placeholders: {event}, {name}, {link}, {status}. Plain text only."
+
+#~ msgid "Record a decision reason."
+#~ msgstr "Record a decision reason."
+
+#~ msgid "Registration applications"
+#~ msgstr "Registration applications"
+
+#~ msgid "Registration fields"
+#~ msgstr "Registration fields"
+
+#~ msgid "Survey consent"
+#~ msgstr "Survey consent"
+
+#~ msgid "This registration cannot move to that status."
+#~ msgstr "This registration cannot move to that status."
+
+#~ msgid "This verification link has expired or was already used."
+#~ msgstr "This verification link has expired or was already used."
+
+#~ msgid "Ticket Type"
+#~ msgstr "Ticket Type"
+
+#~ msgid "Unsupported registration answers."
+#~ msgstr "Unsupported registration answers."
+
+#~ msgid "Update my details"
+#~ msgstr "Update my details"
+
+#~ msgid "Use the public form when invitations or custom answers are required."
+#~ msgstr "Use the public form when invitations or custom answers are required."
+
+#~ msgid "Verify email"
+#~ msgstr "Verify email"
+
+#~ msgid "Verify the attendee email before allocating a ticket."
+#~ msgstr "Verify the attendee email before allocating a ticket."
+
+#~ msgid "Verify your email"
+#~ msgstr "Verify your email"
+
+#~ msgid ""
+#~ "Your application has been updated. We will email you when a ticket is "
+#~ "issued."
+#~ msgstr ""
+#~ "Your application has been updated. We will email you when a ticket is "
+#~ "issued."
+
+#~ msgid "Your application is awaiting a ticket decision."
+#~ msgstr "Your application is awaiting a ticket decision."
+
+#~ msgid "Your profile and survey preference were updated."
+#~ msgstr "Your profile and survey preference were updated."
+
+#~ msgid "Your registration"
+#~ msgstr "Your registration"
+
+#~ msgid "Choose…"
+#~ msgstr "Choose…"
+
+#~ msgid "Consent-filtered survey export"
+#~ msgstr "Consent-filtered survey export"
+
+#~ msgid "Additional registration questions"
+#~ msgstr "Additional registration questions"
+
+#~ msgid ""
+#~ "Advanced JSON configuration for additional questions. Leave [] if no extra "
+#~ "questions are needed. Do not collect unnecessary personal information."
+#~ msgstr ""
+#~ "Advanced JSON configuration for additional questions. Leave [] if no extra "
+#~ "questions are needed. Do not collect unnecessary personal information."
+
+#~ msgid ""
+#~ "Choose review to approve applications individually. Closed disables attendee"
+#~ " registration."
+#~ msgstr ""
+#~ "Choose review to approve applications individually. Closed disables attendee"
+#~ " registration."
+
+#~ msgid ""
+#~ "Paid tickets require an implemented payment provider. Choose free only if "
+#~ "participation is approved as free."
+#~ msgstr ""
+#~ "Paid tickets require an implemented payment provider. Choose free only if "
+#~ "participation is approved as free."
+
+#~ msgid ""
+#~ "Applications are reviewed by the event team. A confirmed ticket secures your"
+#~ " place."
+#~ msgstr ""
+#~ "Applications are reviewed by the event team. A confirmed ticket secures your"
+#~ " place."
+
+#~ msgid ""
+#~ "Complete your details, verify your email, then follow your ticket status."
+#~ msgstr ""
+#~ "Complete your details, verify your email, then follow your ticket status."
+
+#~ msgid "Confirmed tickets"
+#~ msgstr "Confirmed tickets"
+
+#~ msgid "Registration Status"
+#~ msgstr "Registration Status"
+
+#~ msgid "Registration steps"
+#~ msgstr "Registration steps"
+
+#~ msgid "Use the invitation sent to your email to apply for this event."
+#~ msgstr "Use the invitation sent to your email to apply for this event."
+
+#~ msgid "Qr Status"
+#~ msgstr "Qr Status"
+
+#~ msgid "Check-in attempts"
+#~ msgstr "Check-in attempts"
+
+#~ msgid "Registration requests (email verification required)"
+#~ msgstr "Registration requests (email verification required)"
 
 #~ msgid ""
 #~ "Approve event policy, privacy, capacity and entrance opening time before "

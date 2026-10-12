@@ -35,10 +35,27 @@ from .models import (
 
 QR_PATTERN = re.compile(r"^tx2\.[A-Za-z0-9_-]{43}$")
 LEGACY_QR_PATTERN = re.compile(r"^tx1\.([0-9a-f-]{36})\.([A-Za-z0-9_-]{43})$")
+PHONE_PATTERN = re.compile(r"\+?[0-9 ()-]+")
+PLATE_PATTERN = re.compile(r"[A-Za-z0-9 .-]+")
 
 
 def digest(value: str) -> str:
     return hashlib.sha256(value.encode()).hexdigest()
+
+
+def normalize_phone(value: str) -> str:
+    phone = " ".join(value.split())
+    if not PHONE_PATTERN.fullmatch(phone) or not 10 <= sum(c.isdigit() for c in phone) <= 15:
+        raise ValidationError(tr("Enter a phone number with 10–15 digits, for example +90 532 123 45 67."))
+    return phone
+
+
+def normalize_plate(value: str) -> str:
+    """Group letters and digits the way plates are printed: 34abc123 → 34 ABC 123."""
+    groups = re.findall(r"[A-Z]+|[0-9]+", value.strip().upper())
+    if not PLATE_PATTERN.fullmatch(value.strip()) or not 2 <= len("".join(groups)) <= 12:
+        raise ValidationError(tr("Enter the vehicle plate with letters and numbers, for example 34 ABC 123."))
+    return " ".join(groups)
 
 
 def ensure_intake(event: Event) -> None:
@@ -129,6 +146,9 @@ def submit_registration(
     privacy_acknowledged: bool = False,
     notice_version: str = "",
     notice_hash: str = "",
+    phone: str = "",
+    arrives_by_car: bool | None = None,
+    vehicle_plate: str = "",
 ) -> Registration:
     event = locked_event(event)
     ensure_intake(event)
@@ -137,6 +157,8 @@ def submit_registration(
     if not 1 <= len(name) <= 150 or any(ord(c) < 32 for c in name):
         raise ValidationError(tr("Enter a full name of 1–150 characters."))
     email = normalize_email(email)
+    phone = normalize_phone(phone) if phone else ""
+    vehicle_plate = normalize_plate(vehicle_plate) if arrives_by_car else ""
     if not privacy_acknowledged:
         raise ValidationError(tr("Acknowledge the KVKK information notice to register."))
     if notice_version != event.notice_version or notice_hash != notice_digest(event):
@@ -159,6 +181,9 @@ def submit_registration(
         event=event,
         name=name,
         email=email,
+        phone=phone,
+        arrives_by_car=arrives_by_car,
+        vehicle_plate=vehicle_plate,
         notice_version=notice.version_identifier,
         notification_language=get_language() if get_language() in event.enabled_languages else "en",
     )
@@ -167,6 +192,15 @@ def submit_registration(
     _allocate(event, registration, None)
     audit(event, None, "registration.submitted", registration)
     return registration
+
+
+def follow_event_end(event: Event, previous_end: datetime) -> int:
+    """Tickets and manage links issued for the old event end stay valid until the new one."""
+    moved = Ticket.objects.filter(event=event, expires_at=previous_end).update(expires_at=event.ends_at)
+    ActionToken.objects.filter(
+        event=event, purpose="manage", used_at__isnull=True, expires_at=previous_end + timedelta(days=1)
+    ).update(expires_at=event.ends_at + timedelta(days=1))
+    return moved
 
 
 def committed(event: Event) -> int:

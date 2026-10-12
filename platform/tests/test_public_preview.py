@@ -63,4 +63,4 @@ def test_content_preparation_preserves_edits_and_is_idempotent(event):
     call_command("prepare_public_content", slug=event.slug)
     page.refresh_from_db()
     assert page.body == "Organizer edit"
-    assert Page.objects.filter(event=event).count() == 33
+    assert Page.objects.filter(event=event).count() == 36

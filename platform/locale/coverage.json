@@ -1,6 +1,6 @@
 {
   "en/django": {
-    "messages": 756,
+    "messages": 794,
     "untranslated": 0
   },
   "en/djangojs": {
@@ -8,7 +8,7 @@
     "untranslated": 0
   },
   "tr/django": {
-    "messages": 756,
+    "messages": 794,
     "untranslated": 0
   },
   "tr/djangojs": {
@@ -16,7 +16,7 @@
     "untranslated": 0
   },
   "ar/django": {
-    "messages": 756,
+    "messages": 794,
     "untranslated": 0
   },
   "ar/djangojs": {

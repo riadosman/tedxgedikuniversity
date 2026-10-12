@@ -52,7 +52,7 @@ def test_prepare_uses_source_defaults_and_preserves_records(event, rehearsal):
     original_notice = event.privacy_notice
     call_command("prepare_local_rehearsal")
     event.refresh_from_db()
-    assert timezone.localtime(event.starts_at).strftime("%Y-%m-%d %H:%M") == "2026-10-21 13:00"
+    assert timezone.localtime(event.starts_at).strftime("%Y-%m-%d %H:%M") == "2026-11-21 13:00"
     assert timezone.localtime(event.setup_at).strftime("%H:%M") == "12:00"
     assert timezone.localtime(event.admission_opens_at).strftime("%H:%M") == "12:45"
     assert timezone.localtime(event.ends_at).strftime("%H:%M") == "16:00"

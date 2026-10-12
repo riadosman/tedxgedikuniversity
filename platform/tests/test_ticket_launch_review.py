@@ -24,6 +24,7 @@ def test_served_ticket_qr_and_existing_ticket_lookup(client, live_server, event,
     event.save()
     from admissions.services import notice_digest
     data = {"name": "Ticket review attendee", "email": "launch@example.invalid", "privacy": "on",
+        "phone": "+90 532 123 45 67", "arrives_by_car": "no",
         "notice_version": event.notice_version, "notice_hash": notice_digest(event)}
     response = client.post(reverse("register", args=[event.slug]), data)
     assert response.status_code == 302

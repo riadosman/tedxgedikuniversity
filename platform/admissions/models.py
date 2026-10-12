@@ -10,6 +10,10 @@ class Attendee(EventRecord):
     notification_language = models.CharField(max_length=8, choices=settings.LANGUAGES, default="en")
     name = models.CharField(max_length=150)
     email = models.EmailField(null=True, blank=True)
+    phone = models.CharField(max_length=24, blank=True)
+    # None: registered before the car question existed, or anonymized.
+    arrives_by_car = models.BooleanField(null=True, blank=True)
+    vehicle_plate = models.CharField(max_length=16, blank=True)
     verified_at = models.DateTimeField(null=True, blank=True)
     survey_consent = models.BooleanField(default=False)
     notice_version = models.CharField(max_length=40)

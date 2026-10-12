@@ -55,6 +55,18 @@ document.querySelectorAll("form:not(#scan-form):not(#lookup-form)").forEach(form
 }));
 
 document.getElementById("print-ticket")?.addEventListener("click", () => window.print());
+// The plate is asked only from attendees who answer "Yes" to arriving by car.
+document.querySelectorAll("[data-show-when-car]").forEach(plate => {
+  const field = plate.closest(".form-field");
+  const choices = plate.form.querySelectorAll('input[name="arrives_by_car"]');
+  const sync = () => {
+    const byCar = plate.form.querySelector('input[name="arrives_by_car"]:checked')?.value === "yes";
+    field.hidden = !byCar;
+    plate.required = byCar;
+  };
+  choices.forEach(choice => choice.addEventListener("change", sync));
+  sync();
+});
 window.addEventListener("pageshow", event => { if (event.persisted) location.reload(); });
 const firstInvalid = document.querySelector('[aria-invalid="true"]');
 if (firstInvalid) { for (let parent=firstInvalid.parentElement;parent;parent=parent.parentElement) { if(parent.tagName === "DETAILS") parent.open=true; } firstInvalid.focus(); }

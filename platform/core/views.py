@@ -9,6 +9,7 @@ from django.db import transaction, connection
 from django.db.models import Q, Count
 from django.http import JsonResponse, HttpResponse, Http404
 from django.shortcuts import get_object_or_404, render, redirect
+from django.urls import reverse
 from django.utils import timezone
 from django.views.decorators.http import require_POST
 from .models import Event, RoleGrant
@@ -253,9 +254,14 @@ def resource_list(request, slug, key):
         raise Http404
     query = scoped(resource.model.objects.all(), request.user, event, key)
     if key == "attendees":
-        query = query.select_related("registration", "ticket__checkin").prefetch_related(
-            "ticket__credentials"
+        # Deleted and erased attendees keep anonymous rows for audit; they are not people to manage.
+        query = (
+            query.filter(anonymized_at__isnull=True)
+            .select_related("registration", "ticket__checkin")
+            .prefetch_related("ticket__credentials")
         )
+    elif key == "registrations":
+        query = query.filter(attendee__anonymized_at__isnull=True)
     elif key == "tickets":
         query = query.select_related("attendee", "ticket_type", "checkin").prefetch_related("credentials")
     if not query.ordered:
@@ -398,6 +404,12 @@ def resource_detail(request, slug, key, pk):
             attachments=attachments,
             can_edit=bool(editable_fields(resource, request.user, event, obj))
             and can(request.user, event, key, "edit"),
+            # Registration details live on the attendee record, so its edit form serves both lists.
+            edit_url=reverse("resource-edit", args=[slug, "attendees", obj.attendee_id])
+            if key == "registrations"
+            and not obj.attendee.anonymized_at
+            and can(request.user, event, "attendees", "edit")
+            else "",
             can_speaker_photo=key == "speakers"
             and "photo" in editable_fields(resource, request.user, event, obj)
             and bool(roles(request.user, event) & {"organizer", "editor"})
@@ -501,14 +513,32 @@ def resource_action(request, slug, key, pk, action):
                 form.cleaned_data["reason"],
                 ticket_type=form.cleaned_data.get("ticket_type"),
             )
+            if key in {"attendees", "registrations"} and action == "delete":
+                messages.success(request, tr("Registration deleted."))
+                return redirect("resource-list", slug=slug, key=key)
             messages.success(request, tr("Action recorded."))
             return redirect("resource-detail", slug=slug, key=key, pk=pk)
         except ValidationError as error:
             form.add_error(None, error)
+    deleting = key in {"attendees", "registrations"} and action == "delete"
     return render(
         request,
         "staff/form.html",
-        staff_context(request, event, form=form, title=tr("Confirm action"), key=key),
+        staff_context(
+            request,
+            event,
+            form=form,
+            title=tr("Delete registration") if deleting else tr("Confirm action"),
+            key=key,
+            warning=tr(
+                "The ticket is cancelled and its QR code stops working. Name, email, phone and plate are erased "
+                "immediately and cannot be restored. The attendee is not emailed."
+            )
+            if deleting
+            else "",
+            confirm=tr("Delete this registration? This cannot be undone.") if deleting else "",
+            submit_label=tr("Delete registration") if deleting else "",
+        ),
     )
 
 
@@ -520,7 +550,7 @@ def event_settings(request, slug):
     if request.method == "POST" and form.is_valid():
         try:
             from .auth_views import recent_mfa
-            from admissions.services import committed
+            from admissions.services import committed, follow_event_end
 
             recent_mfa(request)
             with transaction.atomic():
@@ -540,7 +570,17 @@ def event_settings(request, slug):
                     )
                 form.instance.version += 1
                 form.save()
-                audit(event, request.user, "event.settings", event, fields=form.changed_data)
+                moved = (
+                    follow_event_end(form.instance, current.ends_at) if "ends_at" in form.changed_data else 0
+                )
+                audit(
+                    event,
+                    request.user,
+                    "event.settings",
+                    event,
+                    fields=form.changed_data,
+                    tickets_moved=moved,
+                )
             messages.success(request, tr("Event settings saved."))
             return redirect("event-settings", slug=slug)
         except ValidationError as error:
@@ -732,7 +772,20 @@ def export(request, slug, key):
     if key in {"attendees", "tickets"}:
         from admissions.models import Ticket
 
-        writer.writerow(["name", "email", "ticket_id", "ticket_status", "registered_at", "checked_in_at"])
+        writer.writerow(
+            [
+                "name",
+                "email",
+                "phone",
+                "arrives_by_car",
+                "vehicle_plate",
+                "ticket_id",
+                "ticket_status",
+                "registered_at",
+                "checked_in_at",
+            ]
+        )
+        car = {True: "yes", False: "no", None: ""}
         for ticket in (
             Ticket.objects.filter(event=event).select_related("attendee").order_by("created_at").iterator()
         ):
@@ -742,6 +795,9 @@ def export(request, slug, key):
                     for value in (
                         ticket.attendee.name,
                         ticket.attendee.email or "",
+                        ticket.attendee.phone,
+                        car[ticket.attendee.arrives_by_car],
+                        ticket.attendee.vehicle_plate,
                         ticket.reference,
                         ticket.status.upper(),
                         ticket.created_at.isoformat(),

@@ -1,6 +1,6 @@
 # 04 — Functional requirements
 
-Status: proposed acceptance contract. MVP = launch scope; Event day = required operational capability before 21 October, with manual/external delivery allowed only under [scope](03-product-scope.md) and [roadmap](11-mvp-roadmap.md). Optional and conditional paid features are not implicitly approved.
+Status: proposed acceptance contract. MVP = launch scope; Event day = required operational capability before 21 November, with manual/external delivery allowed only under [scope](03-product-scope.md) and [roadmap](11-mvp-roadmap.md). Optional and conditional paid features are not implicitly approved.
 
 All staff workflows inherit authenticated, event-scoped, server-side authorization, input validation, CSRF protection for cookie sessions, safe error messages and auditable mutations. All timestamps are stored with timezone and displayed in Europe/Istanbul. File and export access checks apply independently of screen access. [Acceptance tests](12-acceptance-and-testing.md) provide cross-feature scenarios.
 

@@ -3,7 +3,7 @@
 {% for hidden in form.hidden_fields %}{{ hidden }}{% for error in hidden.errors %}<p class="errorlist" role="alert">{{ error }}</p>{% endfor %}{% endfor %}
 {% for field in fields|default:form.visible_fields %}
 <div class="form-field{% if field.errors %} has-errors{% endif %}{% if field.field.widget.input_type == 'checkbox' %} checkbox-field{% endif %}">
-  {{ field|localized_label }}{% if not field.field.required and field.field.widget.input_type != 'checkbox' %}<span class="field-optional">{% translate 'Optional' %}</span>{% endif %}{{ field }}
+  {{ field|localized_label }}{% if not field.field.required and not field.field.conditionally_required and field.field.widget.input_type != 'checkbox' %}<span class="field-optional">{% translate 'Optional' %}</span>{% endif %}{{ field }}
   {% if field.help_text %}<div class="helptext" id="{{ field.auto_id }}_helptext">{{ field.help_text|safe }}</div>{% endif %}
   {% if field.errors %}<div role="alert">{{ field.errors }}</div>{% endif %}
 </div>

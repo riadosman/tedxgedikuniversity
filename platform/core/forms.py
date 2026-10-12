@@ -1,6 +1,7 @@
 from django.utils.translation import gettext_lazy as tr
 from django import forms
 from django.contrib.auth import get_user_model
+from django.core.exceptions import ValidationError
 from django.db.models import Q
 from .models import Event
 from .permissions import roles, grants, scoped, ADMIN, PROGRAM
@@ -268,9 +269,34 @@ class ReasonForm(forms.Form):
     )
 
 
+class ConditionalCharField(forms.CharField):
+    """Required only when another answer asks for it; the form's clean() enforces that."""
+
+    conditionally_required = True
+
+
 class RegistrationForm(forms.Form):
     name = forms.CharField(max_length=150, label=tr("Full name"))
     email = forms.EmailField(max_length=254, label=tr("Email"))
+    phone = forms.CharField(
+        max_length=24,
+        label=tr("Mobile phone"),
+        help_text=tr("Used only to reach you about the event day."),
+        widget=forms.TextInput(attrs={"type": "tel", "autocomplete": "tel"}),
+    )
+    arrives_by_car = forms.TypedChoiceField(
+        label=tr("Will you come by car?"),
+        choices=[("yes", tr("Yes")), ("no", tr("No"))],
+        coerce=lambda value: value == "yes",
+        widget=forms.RadioSelect,
+    )
+    vehicle_plate = ConditionalCharField(
+        required=False,
+        max_length=20,
+        label=tr("Vehicle plate"),
+        help_text=tr("Required if you come by car. We use it to reserve your parking space."),
+        widget=forms.TextInput(attrs={"autocapitalize": "characters", "data-show-when-car": ""}),
+    )
     privacy = forms.BooleanField(
         label=tr("I acknowledge that I have been informed through the KVKK Aydınlatma Metni.")
     )
@@ -284,6 +310,25 @@ class RegistrationForm(forms.Form):
         self.event = event
         self.fields["notice_version"].initial = event.notice_version
         self.fields["notice_hash"].initial = notice_digest(event)
+
+    def clean_phone(self):
+        from admissions.services import normalize_phone
+
+        return normalize_phone(self.cleaned_data["phone"])
+
+    def clean(self):
+        from admissions.services import normalize_plate
+
+        super().clean()
+        cleaned = self.cleaned_data
+        if cleaned.get("arrives_by_car") is True:
+            try:
+                cleaned["vehicle_plate"] = normalize_plate(cleaned.get("vehicle_plate", ""))
+            except ValidationError as error:
+                self.add_error("vehicle_plate", error)
+        else:
+            cleaned["vehicle_plate"] = ""
+        return cleaned
 
 
 class VolunteerForm(forms.Form):

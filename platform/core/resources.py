@@ -50,9 +50,10 @@ RESOURCES = {
     "attendees": resource(
         a.Attendee,
         "Attendees",
-        "name email",
-        "name email ticket_reference ticket_status created_at admitted_at",
-        "name email ticket__reference",
+        "name email phone arrives_by_car vehicle_plate",
+        "name email phone vehicle_plate ticket_reference ticket_status created_at admitted_at",
+        "name email phone vehicle_plate ticket__reference",
+        "delete",
     ),
     "registrations": resource(
         a.Registration,
@@ -60,7 +61,7 @@ RESOURCES = {
         "",
         "attendee status created_at",
         "attendee__name attendee__email",
-        "",
+        "delete",
     ),
     "tickets": resource(
         a.Ticket,

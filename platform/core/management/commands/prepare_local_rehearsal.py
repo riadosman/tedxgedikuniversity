@@ -32,7 +32,7 @@ class Command(BaseCommand):
 
         date = datetime.strptime(fact("F02").split(";")[0], "%d %B %Y").date()
         hours = re.findall(r"\d{2}:\d{2}", fact("F04"))
-        door = re.search(r"suggests (\d{2}:\d{2}) admission", fact("C04"))
+        door = re.search(r"(?:Confirmed|suggests) (\d{2}:\d{2}) admission", fact("C04"))
         if len(hours) != 4 or not door:
             raise CommandError("The source plan does not contain the expected hours.")
 
@@ -72,8 +72,8 @@ class Command(BaseCommand):
             None,
             "event.local_rehearsal_prepared",
             event,
-            source="F02/F04; C04 proposed doors adopted for local test only",
+            source="F02/F04; C04 confirmed admission time",
         )
         self.stdout.write(
-            "Local rehearsal ready. Source dates preserved; registration and QR entrance online. Existing tickets and privacy approvals preserved. C04 doors time is a test default, not venue approval."
+            "Local rehearsal ready. Source dates preserved; registration and QR entrance online. Existing tickets and privacy approvals preserved. C04 admission time follows organizer confirmation."
         )

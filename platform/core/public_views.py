@@ -49,8 +49,15 @@ def home(request):
             "event": event,
             "speakers": Speaker.objects.filter(event=event).exclude(published_snapshot={})[:8],
             "introduction": page_content(event, "about", request),
+            "days_left": days_until(event),
         },
     )
+
+
+def days_until(event):
+    """Calendar days to the event day in event time: 0 on the day itself, None afterwards."""
+    days = (timezone.localdate(event.starts_at) - timezone.localdate()).days
+    return days if days >= 0 else None
 
 
 def page_content(event, key, request):
@@ -67,6 +74,17 @@ def page_content(event, key, request):
             Page.objects.filter(event=event, key=key, language="en").exclude(published_snapshot={}).first()
         )
     return content.published_snapshot if content else None
+
+
+def attendance_rules(event, request):
+    """Organizer-edited rules page plus the door time from event settings."""
+    doors = (
+        tr("Doors open at %(time)s.")
+        % {"time": timezone.localtime(event.admission_opens_at).strftime("%H:%M")}
+        if event.admission_opens_at
+        else ""
+    )
+    return {"rules": page_content(event, "rules", request), "doors_open": doors}
 
 
 def page(request, slug, key):
@@ -155,6 +173,9 @@ def register(request, slug):
                     privacy_acknowledged=form.cleaned_data["privacy"],
                     notice_version=form.cleaned_data["notice_version"],
                     notice_hash=form.cleaned_data["notice_hash"],
+                    phone=form.cleaned_data["phone"],
+                    arrives_by_car=form.cleaned_data["arrives_by_car"],
+                    vehicle_plate=form.cleaned_data["vehicle_plate"],
                 )
                 raw = new_action_token(registration.attendee)
             return redirect("ticket-access", slug=event.slug, raw=raw)
@@ -172,6 +193,7 @@ def register(request, slug):
             "closed_reason": closed_reason,
             "registration_upcoming": bool(event.opens_at and event.opens_at > timezone.now()),
             "notice": event.privacy_notice if event.privacy_approved else "",
+            **attendance_rules(event, request),
         },
     )
 
@@ -300,6 +322,9 @@ def access(request, slug, raw):
                     {
                         "name": token.attendee.name,
                         "email": token.attendee.email,
+                        "phone": token.attendee.phone,
+                        "arrives_by_car": token.attendee.arrives_by_car,
+                        "vehicle_plate": token.attendee.vehicle_plate,
                         "notice_version": token.attendee.notice_version,
                         "registration_status": registration.status,
                         "answers": registration.answers,
@@ -324,7 +349,9 @@ def access(request, slug, raw):
         else None
     )
     return render(
-        request, "public/ticket.html", {"event": event, "token": token, "ticket": ticket, "raw": raw}
+        request,
+        "public/ticket.html",
+        {"event": event, "token": token, "ticket": ticket, "raw": raw, **attendance_rules(event, request)},
     )
 
 

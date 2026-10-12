@@ -72,7 +72,7 @@ class Command(BaseCommand):
             self.stdout.write("Existing event preserved; no facts overwritten.")
         for key, title, body, source in [
             ("about", "About the event", fact("F08"), "F08; S04/S08"),
-            ("theme", "Event theme", fact("F11"), "F11; proposed, requires approval"),
+            ("theme", "Event theme", fact("F11"), "F11; organizer-confirmed U03"),
         ]:
             Page.objects.get_or_create(
                 event=event, key=key, language="en", defaults={"title": title, "body": body, "source": source}

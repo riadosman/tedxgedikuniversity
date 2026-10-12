@@ -25,6 +25,8 @@ def data(event, email="guest@example.invalid", **extra):
     return {
         "name": "Test Guest",
         "email": email,
+        "phone": "+90 532 123 45 67",
+        "arrives_by_car": "no",
         "privacy": "on",
         "notice_version": event.notice_version,
         "notice_hash": notice_digest(event),
@@ -144,6 +146,9 @@ def test_acknowledgement_is_versioned_and_marketing_not_collected(client, event)
     assert set(response.context["form"].fields) == {
         "name",
         "email",
+        "phone",
+        "arrives_by_car",
+        "vehicle_plate",
         "privacy",
         "notice_version",
         "notice_hash",
@@ -237,7 +242,17 @@ def test_staff_search_export_authorization(client, event, organizer, settings):
     response = client.post(export, {"reason": "Event administration"})
     assert response.status_code == 200 and response["Content-Type"].startswith("text/csv")
     rows = list(csv.reader(io.StringIO(response.content.decode())))
-    assert rows[0] == ["name", "email", "ticket_id", "ticket_status", "registered_at", "checked_in_at"]
+    assert rows[0] == [
+        "name",
+        "email",
+        "phone",
+        "arrives_by_car",
+        "vehicle_plate",
+        "ticket_id",
+        "ticket_status",
+        "registered_at",
+        "checked_in_at",
+    ]
     assert ticket.attendee.email in rows[1] and raw(ticket) not in response.content.decode()
 
 

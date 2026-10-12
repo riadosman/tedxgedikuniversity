@@ -35,7 +35,7 @@ The local preview also passed 30 English/Turkish public route and automated acce
 
 ## Content and remaining limits
 
-Final speakers/photos, theme approval, venue and registration opening remain organizer-controlled. The public preview intentionally shows the preparation notice and closed applications. Event-specific untranslated CMS content still needs an approved translation; interface catalogs remain maintained separately.
+Theme and venue are confirmed in platform/content/confirmed-event.json. Speakers/photos and operational registration settings remain organizer-controlled. The public preview intentionally shows the preparation notice and closed applications. Event-specific untranslated CMS content still needs an approved translation; interface catalogs remain maintained separately.
 
 No real-device compatibility or production readiness claim is made. Existing external deployment/readiness blockers are unaffected. Native browser confirmation dialogs remain in use for destructive actions; there is no unnecessary custom modal framework. No live payment or ticket purchase flow was invented.
 

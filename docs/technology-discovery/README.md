@@ -40,13 +40,13 @@ MVP means the first usable release, not everything needed on event day. “Requi
 
 ## Discovery report
 
-**Confirmed:** the licence email names TEDxGedik University, 21 October 2026, University / Community, one event, up to 100 attendees. Local plans specify 13:00–16:00 for the audience and 12:00–17:00 for the team. Read-aloud opening permission is preserved in the correspondence. Source details and qualifications are in document 01.
+**Confirmed:** the organizer confirms TEDxGedik University, 21 November 2026, University / Community, one event, up to 100 attendees. Local plans specify 13:00–16:00 for the audience and 12:00–17:00 for the team. Read-aloud opening permission is preserved in the correspondence. Source details and qualifications are in document 01.
 
 **Proposed:** a modular monolith with a server-rendered public site, PostgreSQL, event-scoped staff permissions, free registration if approved, opaque QR credentials, transactional check-in, and one controlled manual fallback. Django is the provisional architecture recommendation; team skill and hosting approval can change it before implementation. Keep detailed operations in existing shared documents where a custom feature would threaten readiness.
 
-**Missing:** registration/payment policy, approved venue and capacity allocation, languages, role holders, existing off-repository systems, technology staffing, controller/privacy decisions, approved hosting and email, and event-day connectivity/device availability. Document 13 asks only unresolved questions.
+**Missing:** registration/payment policy, detailed arrival instructions and capacity allocation, languages, role holders, existing off-repository systems, technology staffing, controller/privacy decisions, approved hosting and email, and event-day connectivity/device availability. Document 13 asks only unresolved questions.
 
-**Risks:** short delivery window; inconsistent branding and venue evidence; unverified network/setup access; external data-transfer and payment decisions; overbuilding; and treating a draft or untested scanner as operational. The supplied correspondence contains private contact and meeting-access information and must never become a public site asset.
+**Risks:** short delivery window; unconfirmed final artwork; unverified network/setup access; external data-transfer and payment decisions; overbuilding; and treating a draft or untested scanner as operational. The supplied correspondence contains private contact and meeting-access information and must never become a public site asset.
 
 **Recommended next step:** organizer reviews ADR-01 through ADR-07 and Q01–Q09. After the foundation gate in document 11 is met and implementation is explicitly requested, start **Phase 1 — Foundation** with a private application directory, synthetic fixtures, staff authentication/authorization and database constraints. Do not start paid ticketing, publish provisional facts, or migrate live attendee data before their gates pass.
 

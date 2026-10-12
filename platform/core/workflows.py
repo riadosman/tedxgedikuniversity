@@ -109,7 +109,7 @@ def save_resource(event, actor, key, form, expected_version=None):
         obj.version = current.version + 1
     obj.event = event
     if key == "attendees":
-        from admissions.services import normalize_email
+        from admissions.services import normalize_email, normalize_phone, normalize_plate
         from admissions.models import ActionToken
         from communications.models import Notification
 
@@ -120,6 +120,9 @@ def save_resource(event, actor, key, form, expected_version=None):
         if not form.cleaned_data.get("correction_reason", "").strip():
             raise ValidationError(tr("Record the reason for this correction."))
         obj.email = normalize_email(obj.email or "")
+        # Older registrations have no phone; when given, it follows the registration form's rules.
+        obj.phone = normalize_phone(obj.phone) if obj.phone else ""
+        obj.vehicle_plate = normalize_plate(obj.vehicle_plate) if obj.arrives_by_car else ""
         if current.email != obj.email:
             ActionToken.objects.filter(attendee=obj).delete()
             Notification.objects.filter(
@@ -210,6 +213,10 @@ def action_resource(event, actor, key, pk, action, reason, *, ticket_type=None):
         from .privacy import anonymize_attendee
 
         return anonymize_attendee(event, actor, obj.pk, reason)
+    if key in {"attendees", "registrations"} and action == "delete":
+        from .privacy import delete_registration
+
+        return delete_registration(event, actor, obj.pk if key == "attendees" else obj.attendee_id, reason)
     if key == "notifications" and action == "retry":
         require(actor, event, key, "retry")
         if obj.status != "failed" or not reason.strip():

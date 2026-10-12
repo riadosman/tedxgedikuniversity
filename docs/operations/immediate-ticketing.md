@@ -9,8 +9,18 @@ For a simple Turkish overview, use the [six-page PDF guide](../../output/ticket-
 1. In Event settings, confirm free admission, capacity, venue, dates and the registration window. Capacity remains bounded by the existing licence ceiling.
 2. Enter the approved **KVKK Aydınlatma Metni**, assign its version and confirm actual notice approval. The application does not approve legal wording. Changing previously acknowledged text requires a new version.
 3. Enable the existing `general` ticket category. Choose **Open — immediate tickets** and publish the event. The allocation cutoff, if set, must also allow registration.
-4. Check the public form. It collects full name, email and a required notice acknowledgement. There are no custom demographic fields, survey opt-in gate or newsletter checkbox. No newsletter functionality has been added.
+4. Check the public form. It collects full name, email, mobile phone, whether the attendee will come by car (and the vehicle plate if so, for parking reservation) and a required notice acknowledgement. There are no custom demographic fields, survey opt-in gate or newsletter checkbox. No newsletter functionality has been added.
 5. Complete a rehearsal with synthetic data on staging. Registration immediately shows a private ticket page with the attendee name, public ticket ID, event details and QR. Print/save it. No attendee account or verification email is required.
+
+### Phone, car and parking
+
+The mobile phone (10–15 digits, `+` allowed) and the "Will you come by car?" answer are required. The plate field appears only after **Yes** and is then required. Plates are stored uppercase and grouped as printed (`34abc123` → `34 ABC 123`). A **No** answer stores no plate. Parking is not capacity-limited; staff build the parking list from the export by filtering `arrives_by_car = yes`. The plate is printed on the attendee's ticket and is searchable in the Attendees list. Attendees registered before this change have empty phone/plate fields and are not asked again.
+
+Before deploying, add the new data to the KVKK Aydınlatma Metni under a new notice version: the phone number is processed to contact the attendee about the event day, and the vehicle plate (only from attendees arriving by car) to reserve and control parking access, with the venue/security staff as recipients if the plate list is shared with them.
+
+### Attendance rules
+
+The registration page and the ticket show an **Attendance rules** box. Its first line, "Doors open at HH:MM", comes from the event's admission opening time in Event settings. The rest is the CMS page with the key `rules` (TR/EN/AR drafts are created by `prepare_public_content`). Edit and publish it like any other page; an unpublished rules page is not shown. The rules are informational: registration does not require ticking a rules checkbox.
 
 Duplicate email addresses get a clear message without displaying the existing person's ticket or details. A full event rejects the submission; it does not silently add a waitlist entry. Names and email addresses must be valid server-side. Email comparison is case-insensitive for compatibility with this event's existing records; dots and plus tags are preserved.
 
@@ -26,6 +36,8 @@ Private ticket links work until one day after event end, or at least 30 minutes 
 
 ## Tickets and entrance
 
+Tickets expire at the event end time and manage links one day later. Changing the event end in Event settings moves the expiry of already issued tickets and unused manage links with it, so tickets issued before a date change stay valid at the door. The settings audit entry records how many tickets were moved.
+
 - **Tickets:** search by name, email or public ticket ID. The list shows status, registration time, check-in time and cancellation time. Existing attendees can be corrected with a required reason after identity review; changing email revokes old management links and suppresses pending messages to the previous address.
 - **Dashboard:** shows registrations, valid tickets, checked-in count, cancelled tickets, available registration capacity and remaining arrivals.
 - **Entrance check-in:** requires an individual staff account and existing event permission. A successful scan records `CHECKED_IN` atomically and displays name, reference and time. A repeat shows `ALREADY_CHECKED_IN` with the prior time. Invalid/cancelled credentials are rejected without attendee details.
@@ -36,7 +48,7 @@ Set actual entrance opening time and switch entry mode to Online only when doors
 
 ## Exports and privacy
 
-Authorized administrators use the existing Tickets/Attendees export with a purpose. CSV fields are name, email, public ticket ID, ticket status, registration timestamp and check-in timestamp. No QR credentials, access tokens or database IDs are exported. Spreadsheet formula prefixes are escaped. Exports are audited and require recent MFA when MFA is enabled.
+Authorized administrators use the existing Tickets/Attendees export with a purpose. CSV fields are name, email, phone, arrives by car (yes/no, empty for earlier registrations), vehicle plate, public ticket ID, ticket status, registration timestamp and check-in timestamp. No QR credentials, access tokens or database IDs are exported. Spreadsheet formula prefixes are escaped. Exports are audited and require recent MFA when MFA is enabled.
 
 The **TEDx attendee email export** contains only emails for people with recorded admission. The general attendee export also contains registered/no-show/cancelled ticket records if needed for legitimate reconciliation. Neither export depends on marketing consent, and neither sends anything to TED. The organizer manually uses the official uploader after confirming the applicable notice, basis and transfer requirements.
 

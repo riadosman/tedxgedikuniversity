@@ -22,7 +22,7 @@ The camera suppresses repeated frames while a request is unresolved. A retry ret
 2. Collect and resolve any unknown requests using the online receipt/roster where available and the physical admission record. A current database restore alone cannot tell who entered after its backup.
 3. Use one controlled desk and a numbered roster/ledger. Record booking reference, unique ledger row ID, actual admission timestamp with timezone, operator and reason. Do not distribute independent admitting copies.
 4. Admit only a previously allocated, eligible ticket that has not been admitted. Unrecognized attendees and ambiguous duplicate names go to the supervisor. Do not create replacement audience places when someone exits.
-5. After service returns, switch to `reconciling`. Import reviewed CSV headers `reference,ledger_id,admitted_at,reason`; timestamps use ISO 8601, for example `2026-10-21T13:10:00+03:00`. The timestamp here illustrates format, not an admission record.
+5. After service returns, switch to `reconciling`. Import reviewed CSV headers `reference,ledger_id,admitted_at,reason`; timestamps use ISO 8601, for example `2026-11-21T13:10:00+03:00`. The timestamp here illustrates format, not an admission record.
 6. Preview and commit the ledger. A conflicting/unknown ticket blocks the batch for review. Repeating the same batch cannot create a second admission.
 7. Supervisor reconciles counts, unknown outcomes, cancellations and paper sheets, records a reason, then reopens online mode. Securely collect and destroy redundant roster copies according to policy.
 

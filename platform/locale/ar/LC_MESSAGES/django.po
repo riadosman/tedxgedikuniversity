@@ -15,9 +15,6 @@ msgstr "تتطلب تسوية الدخول وقت الدخول الفعلي وا
 msgid "A retry ID cannot be reused for a different request."
 msgstr "لا يمكن استخدام معرّف إعادة المحاولة لطلب مختلف."
 
-msgid "A valid invitation for this email is required."
-msgstr "تلزم دعوة صالحة لهذا البريد الإلكتروني."
-
 msgid "ACCOUNT SECURITY"
 msgstr "أمان الحساب"
 
@@ -79,17 +76,11 @@ msgstr "إضافة تعليق"
 msgid "Add record +"
 msgstr "إضافة سجل +"
 
-msgid "Admission Status"
-msgstr "حالة الدخول"
-
 msgid "Admission opens at"
 msgstr "وقت فتح الدخول"
 
 msgid "Admission policy is awaiting approval."
 msgstr "سياسة الدخول بانتظار الاعتماد."
-
-msgid "All available categories count toward the approved audience capacity."
-msgstr "تُحتسب جميع الفئات المتاحة ضمن السعة المعتمدة للحضور."
 
 msgid "All speakers"
 msgstr "جميع المتحدثين"
@@ -120,9 +111,6 @@ msgstr "الإعلانات"
 
 msgid "Anonymize"
 msgstr "إخفاء الهوية"
-
-msgid "Answer is too long."
-msgstr "الإجابة طويلة جدًا."
 
 msgid "Application received"
 msgstr "تم استلام الطلب"
@@ -331,9 +319,6 @@ msgstr "أعدّ نوع تذكرة دخول مفعّلًا أولًا."
 msgid "Confirm the speaker and record publication consent first."
 msgstr "أكد مشاركة المتحدث وسجّل موافقته على النشر أولًا."
 
-msgid "Confirm this email address to continue your application."
-msgstr "أكد هذا البريد الإلكتروني لمتابعة طلبك."
-
 msgid "Confirmed"
 msgstr "مؤكد"
 
@@ -384,9 +369,6 @@ msgstr "تعطيل"
 
 msgid "Declined"
 msgstr "مرفوض"
-
-msgid "Default general admission"
-msgstr "الدخول العام الافتراضي"
 
 msgid "Department"
 msgstr "القسم"
@@ -466,21 +448,11 @@ msgstr "محرر المحتوى"
 msgid "Email"
 msgstr "بريد إلكتروني"
 
-msgid ""
-"Email changes require identity review. Keep this registration's verified "
-"address; cancel and re-register through the approved process if necessary."
-msgstr ""
-"يتطلب تغيير البريد مراجعة الهوية. احتفظ بالعنوان الموثق لهذا التسجيل؛ وإذا "
-"لزم الأمر، ألغِ التسجيل وأعده وفق الإجراء المعتمد."
-
 msgid "Email delivery"
 msgstr "تسليم البريد الإلكتروني"
 
 msgid "Email templates"
 msgstr "قوالب البريد الإلكتروني"
-
-msgid "Email verified"
-msgstr "تم تأكيد البريد الإلكتروني"
 
 msgid "Enabled"
 msgstr "مفعّل"
@@ -559,9 +531,6 @@ msgstr ""
 msgid "Export CSV"
 msgstr "تصدير CSV"
 
-msgid "Export consenting survey recipients"
-msgstr "تصدير المستلمين الموافقين على الاستبيان"
-
 msgid "Export controlled admission roster"
 msgstr "تصدير قائمة الدخول الخاضعة للضبط"
 
@@ -613,9 +582,6 @@ msgstr "نهاية تعليق الحذف"
 msgid "Hold until"
 msgstr "نهاية تعليق الحذف"
 
-msgid "I agree to receive the optional event survey"
-msgstr "أوافق على تلقي استبيان الفعالية الاختياري"
-
 msgid "I have read the privacy notice"
 msgstr "قرأت إشعار الخصوصية"
 
@@ -636,18 +602,6 @@ msgid ""
 msgstr ""
 "إذا كان لهذا العنوان حساب مؤهل، فسنرسل رابط إعادة تعيين كلمة المرور. سيظل "
 "تطبيق المصادقة مطلوبًا."
-
-msgid ""
-"If this address is eligible, a verification email will arrive shortly. A "
-"submission is not a confirmed seat."
-msgstr ""
-"إذا كان العنوان مؤهلًا، فستصلك رسالة تحقق قريبًا. تقديم الطلب لا يعني تأكيد "
-"مقعد."
-
-msgid ""
-"If we have an eligible registration for that address, we will send a fresh "
-"link."
-msgstr "إذا كان لدينا تسجيل مؤهل بهذا العنوان، فسنرسل رابطًا جديدًا."
 
 msgid "Import at most 1000 rows at a time."
 msgstr "استورد 1000 صف كحد أقصى في كل مرة."
@@ -682,9 +636,6 @@ msgstr "ملاحظات داخلية"
 msgid "Interview"
 msgstr "مقابلة"
 
-msgid "Invalid answer option."
-msgstr "خيار إجابة غير صالح."
-
 msgid "Invalid custom-field definition."
 msgstr "تعريف الحقل المخصص غير صالح."
 
@@ -702,9 +653,6 @@ msgstr "وقت البرنامج المنشور غير صالح."
 
 msgid "Investigating"
 msgstr "قيد التحقيق"
-
-msgid "Invitation"
-msgstr "بدعوة"
 
 msgid ""
 "Invitation queued. The recipient still verifies their email and receives a "
@@ -946,9 +894,6 @@ msgstr "الهاتف"
 msgid "Photo"
 msgstr "الصورة"
 
-msgid "Placeholders: {event}, {name}, {link}, {status}. Plain text only."
-msgstr "العناصر النائبة: {event} و{name} و{link} و{status}. نص عادي فقط."
-
 msgid "Planning"
 msgstr "قيد التخطيط"
 
@@ -1078,9 +1023,6 @@ msgstr "تم الاستلام"
 msgid "Recent admissions"
 msgstr "آخر عمليات الدخول"
 
-msgid "Record a decision reason."
-msgstr "سجّل سبب القرار."
-
 msgid "Record a reason for the account change."
 msgstr "سجّل سبب تغيير الحساب."
 
@@ -1111,14 +1053,8 @@ msgstr "تم الاسترداد"
 msgid "Registration"
 msgstr "التسجيل"
 
-msgid "Registration applications"
-msgstr "طلبات التسجيل"
-
 msgid "Registration closes after it opens."
 msgstr "يجب أن يأتي إغلاق التسجيل بعد فتحه."
-
-msgid "Registration fields"
-msgstr "حقول التسجيل"
 
 msgid "Registration is not open."
 msgstr "التسجيل غير مفتوح."
@@ -1336,9 +1272,6 @@ msgstr "المشرف"
 msgid "Suppressed"
 msgstr "موقوف الإرسال"
 
-msgid "Survey consent"
-msgstr "الموافقة على الاستبيان"
-
 msgid "Switch to reconciliation mode before committing a manual ledger."
 msgstr "انتقل إلى وضع التسوية قبل تطبيق سجل الدخول اليدوي."
 
@@ -1469,9 +1402,6 @@ msgstr "هذا السجل غير متاح ضمن نطاق صلاحياتك."
 msgid "This registration already has a ticket. Use its lifecycle actions."
 msgstr "لهذا التسجيل تذكرة بالفعل. استخدم إجراءات إدارة التذكرة."
 
-msgid "This registration cannot move to that status."
-msgstr "لا يمكن نقل هذا التسجيل إلى هذه الحالة."
-
 msgid "This session overlaps another public program item."
 msgstr "تتداخل هذه الجلسة مع عنصر آخر من البرنامج العام."
 
@@ -1481,14 +1411,8 @@ msgstr "يتجاوز هذا الحديث الحد الزمني المحدد لل
 msgid "This username already exists."
 msgstr "اسم المستخدم موجود بالفعل."
 
-msgid "This verification link has expired or was already used."
-msgstr "انتهت صلاحية رابط التحقق أو استُخدم سابقًا."
-
 msgid "This volunteer already has an overlapping shift."
 msgstr "لدى هذا المتطوع مناوبة متداخلة."
-
-msgid "Ticket Type"
-msgstr "نوع التذكرة"
 
 msgid "Ticket allocation is closed for event-day admission."
 msgstr "أُغلق تخصيص التذاكر لدخول يوم الفعالية."
@@ -1535,12 +1459,6 @@ msgstr "قيد المراجعة"
 msgid "University community"
 msgstr "المجتمع الجامعي"
 
-msgid "Unsupported registration answers."
-msgstr "إجابات تسجيل غير مدعومة."
-
-msgid "Update my details"
-msgstr "تحديث بياناتي"
-
 msgid "Updated"
 msgstr "تم التحديث"
 
@@ -1574,9 +1492,6 @@ msgstr "استخدم العناصر النائبة البسيطة {event} و{nam
 msgid "Use the approval action to approve a reviewed talk."
 msgstr "استخدم إجراء الاعتماد لاعتماد حديث تمت مراجعته."
 
-msgid "Use the public form when invitations or custom answers are required."
-msgstr "استخدم النموذج العام عند الحاجة إلى دعوات أو إجابات مخصصة."
-
 msgid "Use your assigned account to access the event workspace."
 msgstr "استخدم حسابك المخصص للوصول إلى مساحة عمل الفعالية."
 
@@ -1607,17 +1522,8 @@ msgstr "موثّق"
 msgid "Verify code"
 msgstr "التحقق من الرمز"
 
-msgid "Verify email"
-msgstr "تأكيد البريد الإلكتروني"
-
-msgid "Verify the attendee email before allocating a ticket."
-msgstr "أكد البريد الإلكتروني للحاضر قبل تخصيص التذكرة."
-
 msgid "Verify your authenticator again before this privileged action."
 msgstr "أعد التحقق بتطبيق المصادقة قبل هذا الإجراء ذي الصلاحية العالية."
-
-msgid "Verify your email"
-msgstr "أكد بريدك الإلكتروني"
 
 msgid "Verify your sign-in"
 msgstr "أكد تسجيل الدخول"
@@ -1669,26 +1575,12 @@ msgstr ""
 "للحصول على الصلاحية."
 
 msgid ""
-"Your application has been updated. We will email you when a ticket is "
-"issued."
-msgstr "تم تحديث طلبك. سنرسل إليك رسالة عند إصدار التذكرة."
-
-msgid ""
 "Your application has been withdrawn. Active volunteer assignments were "
 "cancelled."
 msgstr "تم سحب طلبك وإلغاء تكليفات التطوع النشطة."
 
-msgid "Your application is awaiting a ticket decision."
-msgstr "طلبك بانتظار قرار إصدار التذكرة."
-
 msgid "Your details"
 msgstr "بياناتك"
-
-msgid "Your profile and survey preference were updated."
-msgstr "تم تحديث ملفك وتفضيلك المتعلق بالاستبيان."
-
-msgid "Your registration"
-msgstr "تسجيلك"
 
 msgid "Your ticket has been cancelled."
 msgstr "تم إلغاء تذكرتك."
@@ -1729,9 +1621,6 @@ msgstr "تحديث لوحة التحكم"
 msgid "Authenticator enrollment QR"
 msgstr "رمز إعداد تطبيق المصادقة"
 
-msgid "Choose…"
-msgstr "اختر…"
-
 msgid "Pagination"
 msgstr "التنقل بين الصفحات"
 
@@ -1755,9 +1644,6 @@ msgstr "تغيير وضع الدخول"
 
 msgid "Confirm action"
 msgstr "تأكيد الإجراء"
-
-msgid "Consent-filtered survey export"
-msgstr "تصدير الاستبيان حسب الموافقة"
 
 msgid "Controlled entrance roster"
 msgstr "قائمة الدخول المعتمدة"
@@ -1877,16 +1763,6 @@ msgstr "معلومات الفعالية والمتحدثون والتسجيل."
 msgid "Adding a speaker photo"
 msgstr "إضافة صورة المتحدث"
 
-msgid "Additional registration questions"
-msgstr "أسئلة التسجيل الإضافية"
-
-msgid ""
-"Advanced JSON configuration for additional questions. Leave [] if no extra "
-"questions are needed. Do not collect unnecessary personal information."
-msgstr ""
-"إعداد JSON متقدم للأسئلة الإضافية. اترك [] إذا لم تحتج إلى أسئلة إضافية. لا "
-"تجمع معلومات شخصية غير ضرورية."
-
 msgid ""
 "Applications are accepted only between the registration opening and closing "
 "times."
@@ -1894,12 +1770,6 @@ msgstr "تُقبل الطلبات فقط بين موعدي فتح التسجيل
 
 msgid "Attendee registration and tickets"
 msgstr "تسجيل الحضور والتذاكر"
-
-msgid ""
-"Choose review to approve applications individually. Closed disables attendee"
-" registration."
-msgstr ""
-"اختر المراجعة للموافقة على الطلبات فردياً. خيار مغلق يعطل تسجيل الحضور."
 
 msgid "Entrance check-in opening time, not the registration opening date."
 msgstr "موعد بدء التحقق من التذاكر عند المدخل، وليس تاريخ فتح التسجيل."
@@ -1926,13 +1796,6 @@ msgid ""
 "Must respect the event licence and cannot be lower than tickets already "
 "committed."
 msgstr "يجب أن يلتزم بترخيص الفعالية وألا يقل عن عدد التذاكر المحجوزة."
-
-msgid ""
-"Paid tickets require an implemented payment provider. Choose free only if "
-"participation is approved as free."
-msgstr ""
-"تتطلب التذاكر المدفوعة تكاملاً مع مزود دفع. اختر مجاناً فقط إذا اعتُمدت "
-"المشاركة المجانية."
 
 msgid ""
 "Photo is optional. Save the speaker first to avoid losing unsaved changes, "
@@ -2103,11 +1966,6 @@ msgstr "إضافة متحدث"
 msgid "All attendees"
 msgstr "جميع الحضور"
 
-msgid ""
-"Applications are reviewed by the event team. A confirmed ticket secures your"
-" place."
-msgstr "يراجع فريق الفعالية الطلبات. التذكرة المؤكدة هي التي تضمن مقعدك."
-
 msgid "Attendance"
 msgstr "الحضور"
 
@@ -2137,13 +1995,6 @@ msgstr "اختر صورة للمتحدث بصيغة PNG أو JPEG."
 
 msgid "Clear filters"
 msgstr "مسح الفلاتر"
-
-msgid ""
-"Complete your details, verify your email, then follow your ticket status."
-msgstr "أكمل بياناتك، وأكّد بريدك الإلكتروني، ثم تابع حالة تذكرتك."
-
-msgid "Confirmed tickets"
-msgstr "التذاكر المؤكدة"
 
 msgid "Contact the team"
 msgstr "التواصل مع الفريق"
@@ -2220,14 +2071,8 @@ msgstr "إجراءات سريعة"
 msgid "Register"
 msgstr "التسجيل"
 
-msgid "Registration Status"
-msgstr "حالة التسجيل"
-
 msgid "Registration opens"
 msgstr "يفتح التسجيل"
-
-msgid "Registration steps"
-msgstr "خطوات التسجيل"
 
 msgid "Registration, tickets and arrival in one place."
 msgstr "التسجيل والتذاكر والوصول في مكان واحد."
@@ -2274,9 +2119,6 @@ msgid ""
 msgstr ""
 "ارفع صورة لهذا المتحدث. ستظهر للزوار بعد فحص الملف والموافقة على النشر."
 
-msgid "Use the invitation sent to your email to apply for this event."
-msgstr "استخدم الدعوة المرسلة إلى بريدك الإلكتروني للتسجيل في هذه الفعالية."
-
 msgid "View tickets"
 msgstr "عرض التذاكر"
 
@@ -2295,9 +2137,6 @@ msgstr "تذكرتك"
 msgid "Entrance desk"
 msgstr "مكتب الاستقبال"
 
-msgid "Qr Status"
-msgstr "حالة رمز QR"
-
 msgid "File quarantined pending a configured malware scan."
 msgstr "الملف معزول بانتظار فحص البرمجيات الضارة المهيأ للنظام."
 
@@ -2309,9 +2148,6 @@ msgstr "تم الحفظ."
 
 msgid "The file could not be validated."
 msgstr "تعذّر التحقق من الملف."
-
-msgid "Check-in attempts"
-msgstr "محاولات تسجيل الدخول"
 
 msgid "Applications awaiting review"
 msgstr "طلبات بانتظار المراجعة"
@@ -2374,9 +2210,6 @@ msgstr "اسم العائلة"
 
 msgid "Manual admission ledger"
 msgstr "سجل الدخول اليدوي"
-
-msgid "Registration requests (email verification required)"
-msgstr "طلبات التسجيل (تأكيد البريد الإلكتروني مطلوب)"
 
 msgid "Username"
 msgstr "اسم المستخدم"
@@ -2465,14 +2298,6 @@ msgid "Open the applicable KVKK information notice"
 msgstr "فتح نص الإحاطة KVKK المعمول به"
 
 msgid ""
-"We collect your name for admission and your email for event logistics and "
-"the post-event TEDx attendee survey process. No marketing permission is "
-"requested."
-msgstr ""
-"نجمع اسمك لإجراءات الدخول وبريدك لتفاصيل الفعالية واستبيان الحضور بعد فعالية"
-" TEDx. لا نطلب إذنًا للتسويق."
-
-msgid ""
 "The acknowledgement confirms that you were informed. It is not blanket "
 "consent for other uses of your information."
 msgstr ""
@@ -2499,6 +2324,448 @@ msgstr "اكتملت سعة الفعالية. لم يُنشأ تسجيل أو ت
 
 msgid "Registration requires an approved KVKK information notice."
 msgstr "يتطلب التسجيل نص إحاطة KVKK معتمدًا."
+
+msgid "Acknowledge the KVKK information notice to register."
+msgstr "للتسجيل، أقرّ بالاطلاع على نص الإحاطة الخاص بحماية البيانات KVKK."
+
+msgid "An anonymized attendee cannot be restored through correction."
+msgstr "لا يمكن استعادة بيانات حاضر أُزيلت هويته عبر التصحيح."
+
+msgid "Attendance rules"
+msgstr "قواعد الحضور"
+
+msgid "Attendee Email"
+msgstr "البريد الإلكتروني للحاضر"
+
+msgid "Available capacity"
+msgstr "السعة المتاحة"
+
+msgid "Cancelled At"
+msgstr "وقت الإلغاء"
+
+msgid "Cancelled at"
+msgstr "وقت الإلغاء"
+
+msgid "Cancelled tickets"
+msgstr "التذاكر الملغاة"
+
+msgid "Checked In At"
+msgstr "وقت الدخول"
+
+msgid "Checked in at"
+msgstr "وقت الدخول"
+
+msgid ""
+"Choose a retention period after event end; this is an organizer policy, not "
+"a statutory default. Erasure is a reviewed action."
+msgstr ""
+"اختر مدة الاحتفاظ بعد انتهاء الفعالية؛ هذه سياسة يحددها المنظم وليست مدة "
+"قانونية افتراضية. الحذف إجراء يخضع للمراجعة."
+
+msgid ""
+"Configure and document the retention policy before erasure, including TEDx "
+"survey and legal/audit needs."
+msgstr ""
+"اضبط سياسة الاحتفاظ ووثّقها قبل الحذف، بما في ذلك استبيان TEDx والمتطلبات "
+"القانونية ومتطلبات التدقيق."
+
+msgid ""
+"Confirm requester identity first. Do not include extra personal information."
+msgstr "تحقق أولًا من هوية مقدم الطلب. لا تُضف معلومات شخصية إضافية."
+
+msgid "Correction reason"
+msgstr "سبب التصحيح"
+
+msgid ""
+"Document TEDx survey completion, applicable obligations and dispute/audit "
+"needs before erasure."
+msgstr ""
+"وثّق قبل الحذف اكتمال استبيان TEDx والالتزامات المعمول بها واحتياجات "
+"النزاعات والتدقيق."
+
+msgid "Doors open at %(time)s."
+msgstr "تُفتح الأبواب الساعة %(time)s."
+
+msgid ""
+"Email verification no longer issues tickets. Contact the organizing team "
+"about your earlier application."
+msgstr ""
+"لم يعد تأكيد البريد الإلكتروني يُصدر تذاكر. تواصل مع فريق التنظيم بخصوص طلبك"
+" السابق."
+
+msgid "Enter a full name of 1–150 characters."
+msgstr "أدخل اسمًا كاملًا من 1 إلى 150 حرفًا."
+
+msgid "Enter a phone number with 10–15 digits, for example +90 532 123 45 67."
+msgstr "أدخل رقم هاتف من 10 إلى 15 رقمًا، مثل +90 532 123 45 67."
+
+msgid "Enter a valid email address."
+msgstr "أدخل عنوان بريد إلكتروني صالحًا."
+
+msgid ""
+"Enter the vehicle plate with letters and numbers, for example 34 ABC 123."
+msgstr "أدخل رقم لوحة السيارة بالحروف والأرقام، مثل 34 ABC 123."
+
+msgid "Export TEDx attendee emails"
+msgstr "تصدير البريد الإلكتروني لحضور TEDx"
+
+msgid ""
+"If ticket email is enabled and this address has a ticket, a fresh link will "
+"be sent. Otherwise contact the organizing team for assistance."
+msgstr ""
+"إذا كان بريد التذاكر مفعّلًا وكان لهذا العنوان تذكرة، فسيُرسل رابط جديد. "
+"وإلا فتواصل مع فريق التنظيم للمساعدة."
+
+msgid "Mobile phone"
+msgstr "رقم الهاتف المحمول"
+
+msgid "No"
+msgstr "لا"
+
+msgid "No ticket is associated with this link. Contact the organizing team."
+msgstr "لا توجد تذكرة مرتبطة بهذا الرابط. تواصل مع فريق التنظيم."
+
+msgid "Notice hash"
+msgstr "بصمة النص"
+
+msgid ""
+"Open registration issues tickets immediately within capacity. No email "
+"verification or review queue is used."
+msgstr ""
+"يُصدر التسجيل المفتوح التذاكر فورًا ضمن السعة المتاحة. لا يُستخدم تأكيد "
+"البريد الإلكتروني ولا قائمة مراجعة."
+
+msgid "Open — immediate tickets"
+msgstr "مفتوح — تذاكر فورية"
+
+msgid "Parking reserved for"
+msgstr "موقف محجوز للسيارة"
+
+msgid ""
+"Placeholders: {event}, {name}, {link}, {status}, {ticket_id}, {event_date}, "
+"{venue}. Plain text only."
+msgstr ""
+"العناصر النائبة: {event}، {name}، {link}، {status}، {ticket_id}، "
+"{event_date}، {venue}. نص عادي فقط."
+
+msgid "Record the reason for this correction."
+msgstr "سجّل سبب هذا التصحيح."
+
+msgid ""
+"Registration CSV import is retired. Attendees must acknowledge the current "
+"notice through the public registration form."
+msgstr ""
+"أُوقف استيراد التسجيلات عبر CSV. يجب على الحضور الإقرار بنص الإحاطة الحالي "
+"من خلال نموذج التسجيل العام."
+
+msgid "Registration has changed"
+msgstr "تغيّرت طريقة التسجيل"
+
+msgid "Remaining arrivals"
+msgstr "الحضور المتبقون"
+
+msgid "Required if you come by car. We use it to reserve your parking space."
+msgstr "مطلوب إذا كنت ستأتي بالسيارة. نستخدمه لحجز مكانك في الموقف."
+
+msgid "Retention reason"
+msgstr "سبب الاحتفاظ"
+
+msgid "TEDx attendee email export"
+msgstr "تصدير البريد الإلكتروني لحضور TEDx"
+
+msgid ""
+"The information notice changed. Reload the form and read the current notice."
+msgstr "تغيّر نص الإحاطة. أعد تحميل النموذج واقرأ النص الحالي."
+
+msgid "The notice text changed without a new version. Contact the organizer."
+msgstr "تغيّر نص الإحاطة دون إصدار نسخة جديدة. تواصل مع المنظم."
+
+msgid "Ticket Reference"
+msgstr "رقم التذكرة"
+
+msgid "Ticket email enabled"
+msgstr "بريد التذاكر مفعّل"
+
+msgid "Use a new notice version when changing published notice text."
+msgstr "استخدم نسخة جديدة من نص الإحاطة عند تعديل النص المنشور."
+
+msgid "Use the registration form to create an attendee and ticket together."
+msgstr "استخدم نموذج التسجيل لإنشاء الحاضر والتذكرة معًا."
+
+msgid "Used only to reach you about the event day."
+msgstr "يُستخدم فقط للتواصل معك بشأن يوم الفعالية."
+
+msgid "Valid tickets"
+msgstr "التذاكر الصالحة"
+
+msgid "Vehicle Plate"
+msgstr "رقم لوحة السيارة"
+
+msgid "Vehicle plate"
+msgstr "رقم لوحة السيارة"
+
+msgid ""
+"We collect your name for admission, your email for event logistics and the "
+"post-event TEDx attendee survey process, your phone number to reach you "
+"about the event day, and your vehicle plate only if you come by car, to "
+"reserve parking. No marketing permission is requested."
+msgstr ""
+"نجمع اسمك لأغراض الدخول، وبريدك الإلكتروني لتنظيم الفعالية واستبيان حضور "
+"TEDx بعد الفعالية، ورقم هاتفك للتواصل معك بشأن يوم الفعالية، ورقم لوحة "
+"سيارتك فقط إذا كنت ستأتي بالسيارة لحجز مكان في الموقف. لا نطلب أي إذن "
+"تسويقي."
+
+msgid "Will you come by car?"
+msgstr "هل ستأتي بالسيارة؟"
+
+msgid "Yes"
+msgstr "نعم"
+
+msgid "Your name was updated."
+msgstr "تم تحديث اسمك."
+
+msgid "All announcements are on Instagram"
+msgstr "جميع الإعلانات على إنستغرام"
+
+msgid "Days until the event"
+msgstr "الأيام المتبقية على الفعالية"
+
+msgid "Do not forget to mention TEDxGedik University in your posts."
+msgstr "لا تنسَ الإشارة إلى TEDxGedik University في منشوراتك."
+
+msgid "Event announcements are shared on Instagram."
+msgstr "تُنشر إعلانات الفعالية على إنستغرام."
+
+msgid "Follow on Instagram"
+msgstr "تابعنا على إنستغرام"
+
+msgid "Follow on LinkedIn"
+msgstr "تابعنا على لينكدإن"
+
+msgid "Follow us"
+msgstr "تابعنا"
+
+msgid "Sharing on LinkedIn?"
+msgstr "هل ستنشر على لينكدإن؟"
+
+msgid ""
+"Speakers, the program and event-day updates are announced first on our "
+"Instagram page. Follow us so you do not miss anything."
+msgstr ""
+"نُعلن عن المتحدثين والبرنامج ومستجدات يوم الفعالية أولًا على صفحتنا في "
+"إنستغرام. تابعنا حتى لا يفوتك شيء."
+
+msgid "Stay in the loop"
+msgstr "ابقَ على اطلاع"
+
+msgid "The event is today"
+msgstr "الفعالية اليوم"
+
+msgid ""
+"An admitted attendee cannot be deleted; the admission stays in the history."
+msgstr "لا يمكن حذف حاضر سبق دخوله؛ يبقى الدخول مسجلًا في السجل."
+
+msgid "Arrives by car"
+msgstr "يحضر بالسيارة"
+
+msgid "Delete"
+msgstr "حذف"
+
+msgid "Delete registration"
+msgstr "حذف التسجيل"
+
+msgid "Delete this registration? This cannot be undone."
+msgstr "هل تريد حذف هذا التسجيل؟ لا يمكن التراجع عن ذلك."
+
+msgid "Record the reason for deleting this registration."
+msgstr "سجّل سبب حذف هذا التسجيل."
+
+msgid "Registration deleted."
+msgstr "تم حذف التسجيل."
+
+msgid ""
+"The ticket is cancelled and its QR code stops working. Name, email, phone "
+"and plate are erased immediately and cannot be restored. The attendee is not"
+" emailed."
+msgstr ""
+"تُلغى التذكرة ويتوقف رمز QR الخاص بها عن العمل. يُحذف الاسم والبريد "
+"الإلكتروني والهاتف ورقم اللوحة فورًا ولا يمكن استعادتها. لا تُرسل رسالة إلى "
+"الحاضر."
+
+#~ msgid "A valid invitation for this email is required."
+#~ msgstr "تلزم دعوة صالحة لهذا البريد الإلكتروني."
+
+#~ msgid "Admission Status"
+#~ msgstr "حالة الدخول"
+
+#~ msgid "All available categories count toward the approved audience capacity."
+#~ msgstr "تُحتسب جميع الفئات المتاحة ضمن السعة المعتمدة للحضور."
+
+#~ msgid "Answer is too long."
+#~ msgstr "الإجابة طويلة جدًا."
+
+#~ msgid "Confirm this email address to continue your application."
+#~ msgstr "أكد هذا البريد الإلكتروني لمتابعة طلبك."
+
+#~ msgid "Default general admission"
+#~ msgstr "الدخول العام الافتراضي"
+
+#~ msgid ""
+#~ "Email changes require identity review. Keep this registration's verified "
+#~ "address; cancel and re-register through the approved process if necessary."
+#~ msgstr ""
+#~ "يتطلب تغيير البريد مراجعة الهوية. احتفظ بالعنوان الموثق لهذا التسجيل؛ وإذا "
+#~ "لزم الأمر، ألغِ التسجيل وأعده وفق الإجراء المعتمد."
+
+#~ msgid "Email verified"
+#~ msgstr "تم تأكيد البريد الإلكتروني"
+
+#~ msgid "Export consenting survey recipients"
+#~ msgstr "تصدير المستلمين الموافقين على الاستبيان"
+
+#~ msgid "I agree to receive the optional event survey"
+#~ msgstr "أوافق على تلقي استبيان الفعالية الاختياري"
+
+#~ msgid ""
+#~ "If this address is eligible, a verification email will arrive shortly. A "
+#~ "submission is not a confirmed seat."
+#~ msgstr ""
+#~ "إذا كان العنوان مؤهلًا، فستصلك رسالة تحقق قريبًا. تقديم الطلب لا يعني تأكيد "
+#~ "مقعد."
+
+#~ msgid ""
+#~ "If we have an eligible registration for that address, we will send a fresh "
+#~ "link."
+#~ msgstr "إذا كان لدينا تسجيل مؤهل بهذا العنوان، فسنرسل رابطًا جديدًا."
+
+#~ msgid "Invalid answer option."
+#~ msgstr "خيار إجابة غير صالح."
+
+#~ msgid "Invitation"
+#~ msgstr "بدعوة"
+
+#~ msgid "Placeholders: {event}, {name}, {link}, {status}. Plain text only."
+#~ msgstr "العناصر النائبة: {event} و{name} و{link} و{status}. نص عادي فقط."
+
+#~ msgid "Record a decision reason."
+#~ msgstr "سجّل سبب القرار."
+
+#~ msgid "Registration applications"
+#~ msgstr "طلبات التسجيل"
+
+#~ msgid "Registration fields"
+#~ msgstr "حقول التسجيل"
+
+#~ msgid "Survey consent"
+#~ msgstr "الموافقة على الاستبيان"
+
+#~ msgid "This registration cannot move to that status."
+#~ msgstr "لا يمكن نقل هذا التسجيل إلى هذه الحالة."
+
+#~ msgid "This verification link has expired or was already used."
+#~ msgstr "انتهت صلاحية رابط التحقق أو استُخدم سابقًا."
+
+#~ msgid "Ticket Type"
+#~ msgstr "نوع التذكرة"
+
+#~ msgid "Unsupported registration answers."
+#~ msgstr "إجابات تسجيل غير مدعومة."
+
+#~ msgid "Update my details"
+#~ msgstr "تحديث بياناتي"
+
+#~ msgid "Use the public form when invitations or custom answers are required."
+#~ msgstr "استخدم النموذج العام عند الحاجة إلى دعوات أو إجابات مخصصة."
+
+#~ msgid "Verify email"
+#~ msgstr "تأكيد البريد الإلكتروني"
+
+#~ msgid "Verify the attendee email before allocating a ticket."
+#~ msgstr "أكد البريد الإلكتروني للحاضر قبل تخصيص التذكرة."
+
+#~ msgid "Verify your email"
+#~ msgstr "أكد بريدك الإلكتروني"
+
+#~ msgid ""
+#~ "Your application has been updated. We will email you when a ticket is "
+#~ "issued."
+#~ msgstr "تم تحديث طلبك. سنرسل إليك رسالة عند إصدار التذكرة."
+
+#~ msgid "Your application is awaiting a ticket decision."
+#~ msgstr "طلبك بانتظار قرار إصدار التذكرة."
+
+#~ msgid "Your profile and survey preference were updated."
+#~ msgstr "تم تحديث ملفك وتفضيلك المتعلق بالاستبيان."
+
+#~ msgid "Your registration"
+#~ msgstr "تسجيلك"
+
+#~ msgid "Choose…"
+#~ msgstr "اختر…"
+
+#~ msgid "Consent-filtered survey export"
+#~ msgstr "تصدير الاستبيان حسب الموافقة"
+
+#~ msgid "Additional registration questions"
+#~ msgstr "أسئلة التسجيل الإضافية"
+
+#~ msgid ""
+#~ "Advanced JSON configuration for additional questions. Leave [] if no extra "
+#~ "questions are needed. Do not collect unnecessary personal information."
+#~ msgstr ""
+#~ "إعداد JSON متقدم للأسئلة الإضافية. اترك [] إذا لم تحتج إلى أسئلة إضافية. لا "
+#~ "تجمع معلومات شخصية غير ضرورية."
+
+#~ msgid ""
+#~ "Choose review to approve applications individually. Closed disables attendee"
+#~ " registration."
+#~ msgstr ""
+#~ "اختر المراجعة للموافقة على الطلبات فردياً. خيار مغلق يعطل تسجيل الحضور."
+
+#~ msgid ""
+#~ "Paid tickets require an implemented payment provider. Choose free only if "
+#~ "participation is approved as free."
+#~ msgstr ""
+#~ "تتطلب التذاكر المدفوعة تكاملاً مع مزود دفع. اختر مجاناً فقط إذا اعتُمدت "
+#~ "المشاركة المجانية."
+
+#~ msgid ""
+#~ "Applications are reviewed by the event team. A confirmed ticket secures your"
+#~ " place."
+#~ msgstr "يراجع فريق الفعالية الطلبات. التذكرة المؤكدة هي التي تضمن مقعدك."
+
+#~ msgid ""
+#~ "Complete your details, verify your email, then follow your ticket status."
+#~ msgstr "أكمل بياناتك، وأكّد بريدك الإلكتروني، ثم تابع حالة تذكرتك."
+
+#~ msgid "Confirmed tickets"
+#~ msgstr "التذاكر المؤكدة"
+
+#~ msgid "Registration Status"
+#~ msgstr "حالة التسجيل"
+
+#~ msgid "Registration steps"
+#~ msgstr "خطوات التسجيل"
+
+#~ msgid "Use the invitation sent to your email to apply for this event."
+#~ msgstr "استخدم الدعوة المرسلة إلى بريدك الإلكتروني للتسجيل في هذه الفعالية."
+
+#~ msgid "Qr Status"
+#~ msgstr "حالة رمز QR"
+
+#~ msgid "Check-in attempts"
+#~ msgstr "محاولات تسجيل الدخول"
+
+#~ msgid "Registration requests (email verification required)"
+#~ msgstr "طلبات التسجيل (تأكيد البريد الإلكتروني مطلوب)"
+
+#~ msgid ""
+#~ "We collect your name for admission and your email for event logistics and "
+#~ "the post-event TEDx attendee survey process. No marketing permission is "
+#~ "requested."
+#~ msgstr ""
+#~ "نجمع اسمك لإجراءات الدخول وبريدك لتفاصيل الفعالية واستبيان الحضور بعد فعالية"
+#~ " TEDx. لا نطلب إذنًا للتسويق."
 
 #~ msgid ""
 #~ "Approve event policy, privacy, capacity and entrance opening time before "
