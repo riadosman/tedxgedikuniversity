@@ -43,6 +43,7 @@ Paths are relative to the workspace root; these are private review links, not pu
 | S14 | [Poster concept](../../TEDx_Afis_Tasarimlari/Gemini_Generated_Image_h3i0pdh3i0pdh3i0.jpg) and other files in that folder | Text names Kartal conference hall and a different headline; registration QR areas are placeholders |
 | S15 | `tedx_logo/`, `tedx_logo_from_files.png`, `TEDx_Sertifika_Tasarimlari/`, `TEDx_Sertifika_Tasarimlari_guncel/` | Logo/certificate visual concepts, placeholders; no documented final selection |
 | S16 | [Formatting rules](../../قواعد%20إنشاء%20الملفات.md) and Turkish counterpart | File-production process only; not event facts |
+| U04 | Organizer confirmation, 16 October 2026 | Venue: İstanbul Gedik Üniversitesi Kartal Kampüsü, B Blok, -1. Kat (Cumhuriyet Mah. İlkbahar Sok. No: 1-3-5, Yakacık, 34876 Kartal/İstanbul). Public contact: riyados973@gmail.com. Supersedes the U02 venue name. |
 | U03 | Organizer-provided TED event profile and explicit radio-button confirmation, 4 October 2026 | Theme: From Ideas to Impact; exact description in platform/content/confirmed-event.json; open to public; seats available as of confirmation; registration https://tedxgedik.vercel.app/ |
 | U02 | Organizer-provided TED event manager details, 4 October 2026 | Confirmed date: 21 November 2026, 13:00–16:00 +03; venue: Kartal conference, Istanbul, İstanbul, Türkiye; University licence; term 17 August 2026 02:00 +03 to 17 August 2027 02:00 +03. Supersedes earlier date and venue uncertainty. Organizer also approved the six-section program and 12:45 check-in in this conversation. |
 | U01 | Organizer's current discovery request | Requester acts as Event Organizer and Technology Lead; requirements documentation only; no implementation |
@@ -55,7 +56,7 @@ Paths are relative to the workspace root; these are private review links, not pu
 | F02 | 21 November 2026; University type, Community tier, one event | Date and University type confirmed U02; tier and event count S01 | Current event date supersedes the earlier October date |
 | F03 | Up to 100 attendees | Confirmed from S01/S02 | Hard ticket allocation ceiling; no oversubscription disguised as occupancy |
 | F04 | Audience 13:00–16:00; team 12:00–17:00 | Audience hours confirmed U02; team access remains a plan from S05/S06 | Check-in approved for 12:45; team access still requires venue booking confirmation |
-| F05 | Kartal conference, Istanbul, İstanbul, Türkiye | Confirmed U02, TED event manager details supplied by organizer | Venue name confirmed; street address, map and accessibility instructions remain to be supplied |
+| F05 | İstanbul Gedik Üniversitesi Kartal Kampüsü, B Blok, -1. Kat (Cumhuriyet Mah. İlkbahar Sok. No: 1-3-5, Yakacık, 34876 Kartal/İstanbul) | Confirmed U04, superseding the U02 venue name | Accessibility instructions remain to be supplied |
 | F06 | Riad Osman is organizer/licence contact; requester is technology lead | S01–S04/U01 | Organizer and technical roles may belong to one person but remain separate permissions |
 | F07 | Permission to read opening-video script | Confirmed S03 | Store approval reference privately; opening content needs exact approved script |
 | F08 | Main focus: students, faculty, researchers; selected other community voices | S04/S08 | Public audience copy and speaker curation; not student-only eligibility by inference |
@@ -80,7 +81,7 @@ Preparation and post-event task deadlines from earlier plans must be rebaselined
 | ID | Conflicting evidence | Impact | Proposed treatment / owner |
 |---|---|---|---|
 | C01 | S01 says `TEDxGedik University`; S05/S08/S11 say `TEDx University Event`; U01 heading/S14 omit the space in `GedikUniversity` | Public identity, logo, domain and generated tickets | Use S01 as provisional canonical value; organizer confirms portal spelling and approves artwork before publication. Existing assets not changed |
-| C02 | Venue | Resolved U02 | Kartal conference, Istanbul, İstanbul, Türkiye is confirmed; detailed arrival instructions remain pending |
+| C02 | Venue | Resolved U04 | İstanbul Gedik Üniversitesi Kartal Kampüsü, B Blok, -1. Kat (Cumhuriyet Mah. İlkbahar Sok. No: 1-3-5, Yakacık, 34876 Kartal/İstanbul) is confirmed; accessibility instructions remain pending |
 | C03 | Theme and description | Resolved U03 | From Ideas to Impact; organizer-provided English description is authoritative |
 | C04 | Confirmed 12:45 admission | Resolved U02 | Public program 13:00–16:00; check-in 12:45–13:00 |
 | C05 | Talk count and schedule | Resolved by organizer U02 | Eight 15-minute talks in two sessions; approved six-section program supersedes alternatives |

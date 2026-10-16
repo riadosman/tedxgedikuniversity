@@ -46,7 +46,7 @@ Source: TED event manager details provided and confirmed by the organizer on 4 O
 - Date: 21 November 2026.
 - Program: 13:00–16:00, Istanbul time (UTC+03:00).
 - Check-in: 12:45–13:00, approved by the organizer.
-- Venue: Kartal conference, Istanbul, İstanbul, Türkiye.
+- Venue: İstanbul Gedik Üniversitesi Kartal Kampüsü, B Blok, -1. Kat (Cumhuriyet Mah. İlkbahar Sok. No: 1-3-5, Yakacık, 34876 Kartal/İstanbul). Confirmed by the organizer on 16 October 2026 (U04).
 - Licence type: University.
 - Licence term: 17 August 2026 02:00 +03 to 17 August 2027 02:00 +03.
 
