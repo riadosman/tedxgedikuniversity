@@ -15,6 +15,7 @@ urlpatterns = [
     path("e/<slug:slug>/volunteer-access/<str:raw>/", team_views.access, name="volunteer-access"),
     path("e/<slug:slug>/volunteer-recovery/", team_views.recover, name="volunteer-recover"),
     path("", p.home, name="home"),
+    path("favicon.ico", p.favicon),
     path("health/", v.health),
     path("i18n/", include("django.conf.urls.i18n")),
     path("accounts/login/", a.LoginView.as_view(), name="login"),

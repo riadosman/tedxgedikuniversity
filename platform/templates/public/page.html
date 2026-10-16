@@ -1,4 +1,5 @@
 {% extends 'public/base.html' %}{% load i18n ui %}
+{% block title %}{{ content.title|default:title }} · {{ event.name }}{% endblock %}
 {% block content %}
 <div class="visitor-page visitor-{{ key }}">
 <header class="page-masthead"><div class="site-container"><nav class="breadcrumbs" aria-label="{% translate 'Breadcrumbs' %}"><a href="{% url 'home' %}">{% translate 'Home' %}</a><span aria-hidden="true">/</span><span>{{ content.title|default:title }}</span></nav><div class="page-masthead-grid"><div><p class="kicker">{{ event.name }}</p><h1>{{ content.title|default:title }}</h1><p class="page-lead">{{ subtitle }}</p></div>{% if key == "about" or key == "program" or key == "speakers" or key == "venue" %}<p class="page-date"><strong>{{ event.starts_at|date:'d' }}</strong><span>{{ event.starts_at|date:'F Y' }}</span></p>{% endif %}</div></div></header>

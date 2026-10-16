@@ -11,6 +11,7 @@ from django.db import transaction
 from django.http import HttpResponse, Http404
 from django.http import JsonResponse
 from django.shortcuts import render, get_object_or_404, redirect
+from django.templatetags.static import static
 from django.utils import timezone
 from .models import Event, Page
 from .forms import RegistrationForm, VolunteerForm
@@ -69,6 +70,11 @@ def registration_open(event):
     except ValidationError:
         return False
     return True
+
+
+def favicon(request):
+    """Browsers and crawlers request /favicon.ico even when pages declare their icons."""
+    return redirect(static("brand/favicon.ico"), permanent=True)
 
 
 def days_until(event):

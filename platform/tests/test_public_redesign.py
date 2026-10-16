@@ -129,3 +129,23 @@ def test_team_members_reach_the_site_only_through_publication(client, event, org
         assert "Unpublished draft edit." not in page
     action_resource(event, organizer, "team-members", member.pk, "withdraw", "Hide for now")
     assert "Test Organizer" not in client.get(team_url).content.decode()
+
+
+@pytest.mark.django_db
+def test_public_titles_name_the_page_and_the_event(client, event):
+    event.theme = "From Ideas to Impact"
+    event.save()
+    assert f"<title>{event.name} · From Ideas to Impact</title>" in client.get(reverse("home")).content.decode()
+    faq = client.get(reverse("public-page", args=[event.slug, "faq"])).content.decode()
+    assert f"<title>FAQ · {event.name}</title>" in faq
+    register = client.get(reverse("register", args=[event.slug])).content.decode()
+    assert f"<title>Attend the event · {event.name}</title>" in register
+
+
+@pytest.mark.django_db
+def test_pages_declare_icons_and_favicon_redirects(client, event):
+    for url in [reverse("home"), reverse("login")]:
+        page = client.get(url).content.decode()
+        assert 'rel="icon"' in page and 'rel="apple-touch-icon"' in page
+    response = client.get("/favicon.ico")
+    assert response.status_code == 301 and "brand/favicon" in response["Location"]
