@@ -145,3 +145,21 @@ class ApplicationToken(EventRecord):
     application = models.ForeignKey(VolunteerApplication, on_delete=models.PROTECT)
     digest = models.CharField(max_length=64, unique=True)
     expires_at = models.DateTimeField()
+
+
+class TeamMember(EventRecord):
+    """Public organizing-team profile. Only the published snapshot reaches the website."""
+
+    name = models.CharField(max_length=150)
+    role = models.CharField(max_length=150)
+    biography = models.TextField(blank=True)
+    profile_url = models.URLField(blank=True)
+    display_order = models.PositiveIntegerField(default=0)
+    published_snapshot = models.JSONField(default=dict, blank=True, editable=False)
+    published_at = models.DateTimeField(null=True, blank=True, editable=False)
+
+    class Meta(EventRecord.Meta):
+        ordering = ["display_order", "name"]
+
+    def __str__(self):
+        return self.name

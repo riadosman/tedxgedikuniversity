@@ -31,6 +31,7 @@ GROUPS = (
         tr("Team & operations"),
         tr("People, responsibilities and the work behind the event."),
         (
+            "team-members",
             "applications",
             "volunteers",
             "departments",

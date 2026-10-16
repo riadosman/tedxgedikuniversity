@@ -105,9 +105,6 @@ msgstr "En küçük para birimiyle tutar"
 msgid "An erasure needs a verified request and an approval reason."
 msgstr "Silme işlemi için doğrulanmış bir talep ve onay gerekçesi gerekir."
 
-msgid "An independently organized TEDx event."
-msgstr "Bağımsız olarak düzenlenen bir TEDx etkinliği."
-
 msgid "Announcements"
 msgstr "Duyurular"
 
@@ -407,9 +404,6 @@ msgstr "Ayrıntılar"
 
 msgid "Device label"
 msgstr "Cihaz etiketi"
-
-msgid "Discover the event"
-msgstr "Etkinliği keşfedin"
 
 msgid "Discussion"
 msgstr "Tartışma"
@@ -1488,9 +1482,6 @@ msgstr "Türkçe"
 msgid "Under Review"
 msgstr "İnceleniyor"
 
-msgid "University community"
-msgstr "Üniversite topluluğu"
-
 msgid "Updated"
 msgstr "Güncellendi"
 
@@ -1763,17 +1754,8 @@ msgstr ""
 "Program hazırlığı, prodüksiyon ve katılımcı karşılama alanlarındaki "
 "gönüllülük olanaklarını keşfedin."
 
-msgid "Find answers about registration, tickets, access and participation."
-msgstr "Kayıt, bilet, giriş ve katılımla ilgili sorularınıza yanıt bulun."
-
-msgid "Follow program announcements, talk details and the final schedule."
-msgstr "Program duyurularını, konuşma bilgilerini ve kesin akışı takip edin."
-
 msgid "Home"
 msgstr "Ana sayfa"
-
-msgid "Ideas begin with the people around us."
-msgstr "Fikirler, çevremizdeki insanlarla başlar."
 
 msgid ""
 "Local preview — event details are being prepared. Applications are not open."
@@ -2658,6 +2640,182 @@ msgstr ""
 "Bilet iptal edilir ve QR kodu çalışmaz. Ad, e-posta, telefon ve plaka hemen "
 "silinir ve geri getirilemez. Katılımcıya e-posta gönderilmez."
 
+msgid "Explore the program"
+msgstr "Programı keşfedin"
+
+msgid "About TED"
+msgstr "TED hakkında"
+
+msgid "About TEDx and TED"
+msgstr "TEDx ve TED hakkında"
+
+msgid "About TEDx, x = independently organized event"
+msgstr "TEDx hakkında, x = bağımsız olarak düzenlenen etkinlik"
+
+msgid "Check-in opens"
+msgstr "Giriş başlangıcı"
+
+msgid "Experience, experiments and real-world problems."
+msgstr "Deneyim, deneme ve gerçek dünya problemleri."
+
+msgid "Free registration. Your ticket is issued immediately."
+msgstr "Kayıt ücretsizdir. Biletiniz hemen oluşturulur."
+
+msgid "Ideas"
+msgstr "Fikirler"
+
+msgid "Impact"
+msgstr "Etki"
+
+msgid ""
+"In the spirit of discovering and spreading ideas, TED has created a program "
+"called TEDx. TEDx is a program of local, self-organized events that bring "
+"people together to share a TED-like experience. Our event is called "
+"TEDxGedik University, where x = independently organized TED event. At our "
+"TEDxGedik University event, TED Talks video and live speakers will combine "
+"to spark deep discussion and connection in a small group. Speakers never pay"
+" to join a TEDx event. Consideration, speaker coaching and event "
+"participation along with attendance are all provided free of charge. The TED"
+" Conference provides general guidance for the TEDx program, but individual "
+"TEDx events, including ours, are self-organized."
+msgstr ""
+"Fikirleri keşfetme ve yayma ruhuyla TED, TEDx adında bir program oluşturdu. "
+"TEDx, insanları bir araya getirerek TED benzeri bir deneyimi paylaşmalarını "
+"sağlayan, yerel ve bağımsız olarak düzenlenen etkinliklerden oluşan bir "
+"programdır. Etkinliğimizin adı TEDxGedik University'dir; buradaki x = "
+"bağımsız olarak düzenlenen TED etkinliği anlamına gelir. TEDxGedik "
+"University etkinliğimizde TED Talks videoları ve canlı konuşmacılar bir "
+"araya gelerek küçük bir grup içinde derin bir tartışma ve bağ kurulmasına "
+"vesile olacaktır. Konuşmacılar bir TEDx etkinliğine katılmak için asla ücret"
+" ödemez. Konuşmacı değerlendirmesi, konuşmacı koçluğu ve etkinliğe katılım "
+"ile izleyici katılımı tamamen ücretsizdir. TED Konferansı TEDx programı için"
+" genel bir rehberlik sağlar; ancak bizimki de dahil olmak üzere her TEDx "
+"etkinliği bağımsız olarak düzenlenir."
+
+msgid ""
+"In the spirit of discovering and spreading ideas, TEDx is a program of "
+"local, self-organized events that bring people together to share a TED-like "
+"experience. At a TEDx event, TED Talks video and live speakers combine to "
+"spark deep discussion and connection. These local, self-organized events are"
+" branded TEDx, where x = independently organized TED event. The TED "
+"Conference provides general guidance for the TEDx program, but individual "
+"TEDx events are self-organized. (Subject to certain rules and regulations.)"
+msgstr ""
+"Fikirleri keşfetme ve yayma ruhuyla TEDx, insanları bir araya getirerek TED "
+"benzeri bir deneyimi paylaşmalarını sağlayan, yerel ve bağımsız olarak "
+"düzenlenen etkinliklerden oluşan bir programdır. Bir TEDx etkinliğinde TED "
+"Talks videoları ve canlı konuşmacılar bir araya gelerek derin tartışmalara "
+"ve bağ kurulmasına vesile olur. Bu yerel ve bağımsız etkinlikler TEDx olarak"
+" adlandırılır; buradaki x = bağımsız olarak düzenlenen TED etkinliği "
+"anlamına gelir. TED Konferansı TEDx programı için genel bir rehberlik "
+"sağlar; ancak her TEDx etkinliği bağımsız olarak düzenlenir. (Belirli kural "
+"ve düzenlemelere tabidir.)"
+
+msgid "Information"
+msgstr "Bilgi"
+
+msgid "Knowledge built in classrooms, books and research."
+msgstr "Sınıflarda, kitaplarda ve araştırmalarda edinilen bilgi."
+
+msgid "Learn about the TEDx program"
+msgstr "TEDx programını tanıyın"
+
+msgid "Practice"
+msgstr "Uygulama"
+
+msgid "Read about the theme"
+msgstr "Temayı okuyun"
+
+msgid ""
+"TED began in 1984 as a conference where Technology, Entertainment and Design"
+" converged, but today it spans a multitude of worldwide communities and "
+"initiatives exploring everything from science and business to education, "
+"arts and global issues. Each year, thousands of independently run TEDx "
+"events take place around the world."
+msgstr ""
+"TED, 1984 yılında teknoloji, eğlence ve tasarımın (Technology, "
+"Entertainment, Design) buluştuğu bir konferans olarak başladı; bugün ise "
+"bilimden iş dünyasına, eğitimden sanata ve küresel meselelere kadar pek çok "
+"konuyu ele alan, dünya çapında çok sayıda topluluk ve girişimi kapsıyor. Her"
+" yıl dünya genelinde binlerce bağımsız TEDx etkinliği düzenleniyor."
+
+msgid ""
+"TED is a nonprofit, nonpartisan organization dedicated to discovering, "
+"debating and spreading ideas that spark conversation, deepen understanding "
+"and drive meaningful change. TED is devoted to curiosity, reason, wonder and"
+" the pursuit of knowledge — without an agenda. It welcomes people from every"
+" discipline and culture who seek a deeper understanding of the world and "
+"connection with others, and invites everyone to engage with ideas and "
+"activate them in their community."
+msgstr ""
+"TED; sohbeti başlatan, anlayışı derinleştiren ve anlamlı değişimi tetikleyen"
+" fikirleri keşfetmeye, tartışmaya ve yaymaya kendini adamış, kâr amacı "
+"gütmeyen ve tarafsız bir kuruluştur. TED, herhangi bir gündem gözetmeksizin "
+"merak, akıl, hayret ve bilgi arayışına bağlıdır. Dünyayı daha derinden "
+"anlamak ve başkalarıyla bağ kurmak isteyen her disiplinden ve kültürden "
+"insanı ağırlar; herkesi fikirlerle ilgilenmeye ve onları kendi "
+"topluluklarında hayata geçirmeye davet eder."
+
+msgid "The theme"
+msgstr "Tema"
+
+msgid "This independent TEDx event is operated under license from TED."
+msgstr "Bu bağımsız TEDx etkinliği, TED lisansı altında düzenlenmektedir."
+
+msgid "What is TEDx?"
+msgstr "TEDx nedir?"
+
+msgid "Where learning becomes solutions people can use."
+msgstr "Öğrenmenin, insanların kullanabileceği çözümlere dönüştüğü yer."
+
+msgid "x = independently organized TED event"
+msgstr "x = bağımsız olarak düzenlenen TED etkinliği"
+
+msgid "Display Order"
+msgstr "Sıralama"
+
+msgid "Display order"
+msgstr "Sıralama"
+
+msgid "Organizing team"
+msgstr "Organizasyon ekibi"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Profile url"
+msgstr "Profil bağlantısı"
+
+msgid "Public team"
+msgstr "Web sitesindeki ekip"
+
+msgid "Team"
+msgstr "Ekip"
+
+msgid "The organizing team will be introduced here."
+msgstr "Organizasyon ekibi burada tanıtılacak."
+
+msgid "The people organizing the event."
+msgstr "Etkinliği düzenleyen ekip."
+
+#~ msgid "An independently organized TEDx event."
+#~ msgstr "Bağımsız olarak düzenlenen bir TEDx etkinliği."
+
+#~ msgid "Discover the event"
+#~ msgstr "Etkinliği keşfedin"
+
+#~ msgid "University community"
+#~ msgstr "Üniversite topluluğu"
+
+#~ msgid "Find answers about registration, tickets, access and participation."
+#~ msgstr "Kayıt, bilet, giriş ve katılımla ilgili sorularınıza yanıt bulun."
+
+#~ msgid "Follow program announcements, talk details and the final schedule."
+#~ msgstr "Program duyurularını, konuşma bilgilerini ve kesin akışı takip edin."
+
+#~ msgid "Ideas begin with the people around us."
+#~ msgstr "Fikirler, çevremizdeki insanlarla başlar."
+
 #~ msgid "A valid invitation for this email is required."
 #~ msgstr "Bu e-posta adresi için geçerli bir davetiye gerekir."
 
@@ -2955,9 +3113,6 @@ msgstr ""
 
 #~ msgid "Discover opportunities to support the event as a volunteer."
 #~ msgstr "Etkinliği gönüllü olarak destekleme fırsatlarını keşfedin."
-
-#~ msgid "Explore the program"
-#~ msgstr "Programı keşfedin"
 
 #~ msgid "Join the audience"
 #~ msgstr "Katılımcılar arasına katılın"

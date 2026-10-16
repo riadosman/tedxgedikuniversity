@@ -103,9 +103,6 @@ msgstr "المبلغ بوحدات العملة الصغرى"
 msgid "An erasure needs a verified request and an approval reason."
 msgstr "يتطلب الحذف طلبًا موثّقًا وسببًا للاعتماد."
 
-msgid "An independently organized TEDx event."
-msgstr "فعالية TEDx منظمة بشكل مستقل."
-
 msgid "Announcements"
 msgstr "الإعلانات"
 
@@ -396,9 +393,6 @@ msgstr "التفاصيل"
 
 msgid "Device label"
 msgstr "اسم الجهاز"
-
-msgid "Discover the event"
-msgstr "تعرّف إلى الفعالية"
 
 msgid "Discussion"
 msgstr "النقاش"
@@ -1456,9 +1450,6 @@ msgstr "Türkçe"
 msgid "Under Review"
 msgstr "قيد المراجعة"
 
-msgid "University community"
-msgstr "المجتمع الجامعي"
-
 msgid "Updated"
 msgstr "تم التحديث"
 
@@ -1725,17 +1716,8 @@ msgid ""
 "hospitality."
 msgstr "تعرّف على فرص التطوع في إعداد البرنامج والإنتاج واستقبال الحضور."
 
-msgid "Find answers about registration, tickets, access and participation."
-msgstr "اعثر على إجابات حول التسجيل والتذاكر والدخول والمشاركة."
-
-msgid "Follow program announcements, talk details and the final schedule."
-msgstr "تابع إعلانات البرنامج وتفاصيل المحاضرات والجدول النهائي."
-
 msgid "Home"
 msgstr "الرئيسية"
-
-msgid "Ideas begin with the people around us."
-msgstr "تبدأ الأفكار من الأشخاص حولنا."
 
 msgid ""
 "Local preview — event details are being prepared. Applications are not open."
@@ -2592,6 +2574,173 @@ msgstr ""
 "الإلكتروني والهاتف ورقم اللوحة فورًا ولا يمكن استعادتها. لا تُرسل رسالة إلى "
 "الحاضر."
 
+msgid "Explore the program"
+msgstr "استكشف البرنامج"
+
+msgid "About TED"
+msgstr "عن TED"
+
+msgid "About TEDx and TED"
+msgstr "عن TEDx وTED"
+
+msgid "About TEDx, x = independently organized event"
+msgstr "عن TEDx، حيث x = فعالية منظمة بشكل مستقل"
+
+msgid "Check-in opens"
+msgstr "يبدأ الاستقبال"
+
+msgid "Experience, experiments and real-world problems."
+msgstr "الخبرة والتجارب ومشكلات العالم الحقيقي."
+
+msgid "Free registration. Your ticket is issued immediately."
+msgstr "التسجيل مجاني، وتصدر تذكرتك فورًا."
+
+msgid "Ideas"
+msgstr "الأفكار"
+
+msgid "Impact"
+msgstr "الأثر"
+
+msgid ""
+"In the spirit of discovering and spreading ideas, TED has created a program "
+"called TEDx. TEDx is a program of local, self-organized events that bring "
+"people together to share a TED-like experience. Our event is called "
+"TEDxGedik University, where x = independently organized TED event. At our "
+"TEDxGedik University event, TED Talks video and live speakers will combine "
+"to spark deep discussion and connection in a small group. Speakers never pay"
+" to join a TEDx event. Consideration, speaker coaching and event "
+"participation along with attendance are all provided free of charge. The TED"
+" Conference provides general guidance for the TEDx program, but individual "
+"TEDx events, including ours, are self-organized."
+msgstr ""
+"انطلاقًا من روح اكتشاف الأفكار ونشرها، أنشأت TED برنامجًا يُسمى TEDx. وTEDx "
+"برنامج من الفعاليات المحلية المنظمة ذاتيًا التي تجمع الناس لمشاركة تجربة "
+"شبيهة بتجربة TED. تُسمى فعاليتنا TEDxGedik University، حيث x = فعالية TED "
+"منظمة بشكل مستقل. في فعالية TEDxGedik University ستجتمع مقاطع TED Talks "
+"والمتحدثون الحاضرون لإثارة نقاش عميق وتواصل حقيقي ضمن مجموعة صغيرة. لا يدفع "
+"المتحدثون أبدًا مقابل المشاركة في فعالية TEDx، كما يُقدَّم النظر في "
+"المشاركات وتدريب المتحدثين والمشاركة في الفعالية والحضور مجانًا بالكامل. "
+"يقدّم مؤتمر TED إرشادات عامة لبرنامج TEDx، لكن فعاليات TEDx الفردية، ومنها "
+"فعاليتنا، تُنظَّم ذاتيًا."
+
+msgid ""
+"In the spirit of discovering and spreading ideas, TEDx is a program of "
+"local, self-organized events that bring people together to share a TED-like "
+"experience. At a TEDx event, TED Talks video and live speakers combine to "
+"spark deep discussion and connection. These local, self-organized events are"
+" branded TEDx, where x = independently organized TED event. The TED "
+"Conference provides general guidance for the TEDx program, but individual "
+"TEDx events are self-organized. (Subject to certain rules and regulations.)"
+msgstr ""
+"انطلاقًا من روح اكتشاف الأفكار ونشرها، فإن TEDx برنامج من الفعاليات المحلية "
+"المنظمة ذاتيًا التي تجمع الناس لمشاركة تجربة شبيهة بتجربة TED. في فعالية "
+"TEDx تجتمع مقاطع TED Talks والمتحدثون الحاضرون لإثارة نقاش عميق وتواصل "
+"حقيقي. تحمل هذه الفعاليات المحلية المنظمة ذاتيًا اسم TEDx، حيث x = فعالية "
+"TED منظمة بشكل مستقل. يقدّم مؤتمر TED إرشادات عامة لبرنامج TEDx، لكن فعاليات"
+" TEDx الفردية تُنظَّم ذاتيًا. (وفق قواعد وأنظمة محددة.)"
+
+msgid "Information"
+msgstr "معلومات"
+
+msgid "Knowledge built in classrooms, books and research."
+msgstr "معرفة تُبنى في القاعات الدراسية والكتب والأبحاث."
+
+msgid "Learn about the TEDx program"
+msgstr "تعرّف على برنامج TEDx"
+
+msgid "Practice"
+msgstr "التطبيق"
+
+msgid "Read about the theme"
+msgstr "اقرأ عن المحور"
+
+msgid ""
+"TED began in 1984 as a conference where Technology, Entertainment and Design"
+" converged, but today it spans a multitude of worldwide communities and "
+"initiatives exploring everything from science and business to education, "
+"arts and global issues. Each year, thousands of independently run TEDx "
+"events take place around the world."
+msgstr ""
+"بدأت TED عام 1984 مؤتمرًا التقت فيه التكنولوجيا والترفيه والتصميم، لكنها "
+"اليوم تشمل مجتمعات ومبادرات عديدة حول العالم تستكشف كل شيء من العلوم "
+"والأعمال إلى التعليم والفنون والقضايا العالمية. وفي كل عام تُقام آلاف "
+"فعاليات TEDx المستقلة حول العالم."
+
+msgid ""
+"TED is a nonprofit, nonpartisan organization dedicated to discovering, "
+"debating and spreading ideas that spark conversation, deepen understanding "
+"and drive meaningful change. TED is devoted to curiosity, reason, wonder and"
+" the pursuit of knowledge — without an agenda. It welcomes people from every"
+" discipline and culture who seek a deeper understanding of the world and "
+"connection with others, and invites everyone to engage with ideas and "
+"activate them in their community."
+msgstr ""
+"TED منظمة غير ربحية وغير حزبية مكرّسة لاكتشاف الأفكار ومناقشتها ونشرها، "
+"أفكار تثير الحوار وتعمّق الفهم وتدفع نحو تغيير هادف. تلتزم TED بالفضول "
+"والعقل والدهشة والسعي إلى المعرفة، دون أي أجندة، وترحّب بالناس من كل "
+"التخصصات والثقافات ممن يسعون إلى فهم أعمق للعالم والتواصل مع الآخرين، وتدعو "
+"الجميع إلى التفاعل مع الأفكار وتفعيلها في مجتمعاتهم."
+
+msgid "The theme"
+msgstr "المحور"
+
+msgid "This independent TEDx event is operated under license from TED."
+msgstr "تُدار فعالية TEDx المستقلة هذه بموجب ترخيص من TED."
+
+msgid "What is TEDx?"
+msgstr "ما هو TEDx؟"
+
+msgid "Where learning becomes solutions people can use."
+msgstr "حيث يتحوّل التعلّم إلى حلول يستفيد منها الناس."
+
+msgid "x = independently organized TED event"
+msgstr "x = فعالية TED منظمة بشكل مستقل"
+
+msgid "Display Order"
+msgstr "ترتيب العرض"
+
+msgid "Display order"
+msgstr "ترتيب العرض"
+
+msgid "Organizing team"
+msgstr "فريق التنظيم"
+
+msgid "Profile"
+msgstr "الملف الشخصي"
+
+msgid "Profile url"
+msgstr "رابط الملف الشخصي"
+
+msgid "Public team"
+msgstr "الفريق على الموقع"
+
+msgid "Team"
+msgstr "الفريق"
+
+msgid "The organizing team will be introduced here."
+msgstr "سيُعرَّف بفريق التنظيم هنا."
+
+msgid "The people organizing the event."
+msgstr "الأشخاص الذين ينظمون الفعالية."
+
+#~ msgid "An independently organized TEDx event."
+#~ msgstr "فعالية TEDx منظمة بشكل مستقل."
+
+#~ msgid "Discover the event"
+#~ msgstr "تعرّف إلى الفعالية"
+
+#~ msgid "University community"
+#~ msgstr "المجتمع الجامعي"
+
+#~ msgid "Find answers about registration, tickets, access and participation."
+#~ msgstr "اعثر على إجابات حول التسجيل والتذاكر والدخول والمشاركة."
+
+#~ msgid "Follow program announcements, talk details and the final schedule."
+#~ msgstr "تابع إعلانات البرنامج وتفاصيل المحاضرات والجدول النهائي."
+
+#~ msgid "Ideas begin with the people around us."
+#~ msgstr "تبدأ الأفكار من الأشخاص حولنا."
+
 #~ msgid "A valid invitation for this email is required."
 #~ msgstr "تلزم دعوة صالحة لهذا البريد الإلكتروني."
 
@@ -2879,9 +3028,6 @@ msgstr ""
 
 #~ msgid "Discover opportunities to support the event as a volunteer."
 #~ msgstr "تعرّف إلى فرص دعم الفعالية بالتطوع."
-
-#~ msgid "Explore the program"
-#~ msgstr "استكشف البرنامج"
 
 #~ msgid "Join the audience"
 #~ msgstr "انضم إلى الحضور"

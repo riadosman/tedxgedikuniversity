@@ -29,6 +29,7 @@ ADMIN = {
     "runbook",
     "contacts",
     "files",
+    "team-members",
 }
 PROGRAM = {"speakers", "talks", "rehearsals", "schedule"}
 READ_ONLY = {"audit", "notifications", "orders", "checkins"}

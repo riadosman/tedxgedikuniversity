@@ -1,3 +1,4 @@
+import re
 from django import template
 from django.forms.boundfield import BoundField
 from django.utils.translation import gettext
@@ -62,6 +63,29 @@ def program_time(value: object) -> str:
     if parsed is None:
         return str(value)
     return date_format(localtime(parsed) if is_aware(parsed) else parsed, "H:i")
+
+
+@register.filter
+def paragraphs(value: object) -> list[str]:
+    """Blank-line separated paragraphs of published page text."""
+    return [part.strip() for part in str(value or "").replace("\r\n", "\n").split("\n\n") if part.strip()]
+
+
+PROGRAM_ROW = re.compile(r"^\s*(\d{1,2}[:.]\d{2})\s*[–—-]\s*(\d{1,2}[:.]\d{2})\s*\|\s*(.+?)\s*$")
+
+
+@register.filter
+def program_outline(value: object) -> dict[str, list]:
+    """Split published program text into 'HH:MM–HH:MM | Title' rows and the remaining notes."""
+    rows, notes = [], []
+    for part in paragraphs(value):
+        lines = part.split("\n")
+        matches = [PROGRAM_ROW.match(line) for line in lines]
+        if all(matches):
+            rows += [{"starts": m[1], "ends": m[2], "title": m[3]} for m in matches if m]
+        else:
+            notes.append(part)
+    return {"rows": rows, "notes": notes}
 
 
 @register.filter

@@ -1,18 +1,23 @@
 {% extends 'public/base.html' %}{% load i18n %}
 {% block content %}
-<section class="section application-layout"><div>
-  <h1>{% translate 'Attend the event' %}</h1>
-  <p>{% translate 'Register and receive your ticket immediately. No account or email verification is required.' %}</p>
-  {% include 'components/attendance-rules.html' %}
-  {% if closed %}
-    <div class="notice warning" role="status">{{ closed_reason }}</div>
-  {% else %}
-    <p>{% translate 'We collect your name for admission, your email for event logistics and the post-event TEDx attendee survey process, your phone number to reach you about the event day, and your vehicle plate only if you come by car, to reserve parking. No marketing permission is requested.' %}</p>
-    <details id="information-notice"><summary>{% translate 'KVKK Aydınlatma Metni — information notice' %}</summary><div class="prose">{{ notice|linebreaks }}</div><p>{{ event.notice_version }}</p></details>
-    <p><a href="{% url 'public-page' event.slug 'privacy' %}" target="_blank" rel="noopener">{% translate 'Open the applicable KVKK information notice' %}</a></p>
-    <form method="post" class="form-stack">{% csrf_token %}{% include 'components/form-fields.html' %}<button type="submit">{% translate 'Get my ticket' %}</button></form>
-    <p class="muted">{% translate 'The acknowledgement confirms that you were informed. It is not blanket consent for other uses of your information.' %}</p>
-  {% endif %}
-  <p><a href="{% url 'recover' event.slug %}">{% translate 'Already registered? Recover your ticket link.' %}</a></p>
-</div><aside class="form-support"><p class="eyebrow">{% translate 'Your event' %}</p><h2>{{ event.name }}</h2><p>{{ event.starts_at|date:'d F Y' }} · {{ event.starts_at|date:'H:i' }} · {{ event.timezone }}</p><p>{{ event.venue }}</p><p>{% translate 'Save or print the ticket shown after registration. Keep your QR code private and show it to entrance staff.' %}</p>{% if event.contact_email %}<a href="mailto:{{ event.contact_email }}">{% translate 'Contact the organizing team' %}</a>{% endif %}</aside></section>
+<header class="page-masthead page-masthead-compact"><div class="site-container"><nav class="breadcrumbs" aria-label="{% translate 'Breadcrumbs' %}"><a href="{% url 'home' %}">{% translate 'Home' %}</a><span aria-hidden="true">/</span><span>{% translate 'Register' %}</span></nav><p class="kicker">{{ event.name }}</p><h1>{% translate 'Attend the event' %}</h1><p class="page-lead">{% translate 'Register and receive your ticket immediately. No account or email verification is required.' %}</p></div></header>
+<div class="page-body"><div class="site-container form-layout">
+  <div class="form-main">
+    {% include 'components/attendance-rules.html' %}
+    {% if closed %}
+      <div class="notice warning" role="status">{{ closed_reason }}</div>
+    {% else %}
+      <section class="form-card" aria-labelledby="registration-form-title">
+        <h2 id="registration-form-title">{% translate 'Your details' %}</h2>
+        <p class="form-intro">{% translate 'We collect your name for admission, your email for event logistics and the post-event TEDx attendee survey process, your phone number to reach you about the event day, and your vehicle plate only if you come by car, to reserve parking. No marketing permission is requested.' %}</p>
+        <details id="information-notice" class="notice-details"><summary>{% translate 'KVKK Aydınlatma Metni — information notice' %}</summary><div class="prose">{{ notice|linebreaks }}</div><p>{{ event.notice_version }}</p></details>
+        <p class="form-intro"><a href="{% url 'public-page' event.slug 'privacy' %}" target="_blank" rel="noopener">{% translate 'Open the applicable KVKK information notice' %}</a></p>
+        <form method="post" class="form-stack">{% csrf_token %}{% include 'components/form-fields.html' %}<button type="submit" class="button-large">{% translate 'Get my ticket' %}</button></form>
+        <p class="muted form-footnote">{% translate 'The acknowledgement confirms that you were informed. It is not blanket consent for other uses of your information.' %}</p>
+      </section>
+    {% endif %}
+    <p class="form-recover"><a href="{% url 'recover' event.slug %}">{% translate 'Already registered? Recover your ticket link.' %}</a></p>
+  </div>
+  <aside class="event-card form-aside" aria-label="{% translate 'Your event' %}"><p class="kicker">{% translate 'Your event' %}</p><p class="event-card-date">{{ event.starts_at|date:'j F Y' }}</p><p class="event-card-day"><bdi dir="ltr">{{ event.starts_at|date:'H:i' }}–{{ event.ends_at|date:'H:i' }}</bdi> · {{ event.timezone }}</p><dl><div><dt>{% translate 'Venue' %}</dt><dd>{% if event.venue_confirmed %}{{ event.venue }}{% else %}{% translate 'Room to be announced' %}{% endif %}</dd></div></dl>{% if event.venue_confirmed and event.map_url %}<a class="event-card-map" href="{{ event.map_url }}" target="_blank" rel="noopener noreferrer">{% translate 'Open in Google Maps' %} <span class="directional" aria-hidden="true">↗</span></a>{% endif %}<p class="event-card-note">{% translate 'Save or print the ticket shown after registration. Keep your QR code private and show it to entrance staff.' %}</p>{% if event.contact_email %}<a class="event-card-link" href="mailto:{{ event.contact_email }}">{% translate 'Contact the organizing team' %}</a>{% endif %}</aside>
+</div></div>
 {% endblock %}

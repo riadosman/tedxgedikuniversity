@@ -314,6 +314,20 @@ def action_resource(event, actor, key, pk, action, reason, *, ticket_type=None):
         else:
             require(actor, event, key, "approve")
             obj.published_snapshot = {}
+    elif key == "team-members":
+        if action == "publish":
+            obj.published_snapshot = {
+                "name": obj.name,
+                "role": obj.role,
+                "biography": obj.biography,
+                "profile_url": obj.profile_url,
+                "display_order": obj.display_order,
+                "version": obj.version,
+            }
+            obj.published_at = timezone.now()
+        else:
+            require(actor, event, key, "approve")
+            obj.published_snapshot, obj.published_at = {}, None
     elif key == "talks":
         if not all([obj.release_received, obj.fact_checked, obj.rights_cleared]):
             raise ValidationError(tr("Complete release, fact checking and rights review before approval."))

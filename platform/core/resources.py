@@ -87,6 +87,14 @@ RESOURCES = {
         "name email skills",
         "review interview accepted rejected waitlisted",
     ),
+    "team-members": resource(
+        t.TeamMember,
+        "Public team",
+        "name role biography profile_url display_order",
+        "name role display_order published_at",
+        "name role",
+        "publish withdraw",
+    ),
     "volunteers": resource(
         t.Volunteer,
         "Volunteers",

@@ -49,9 +49,26 @@ def home(request):
             "event": event,
             "speakers": Speaker.objects.filter(event=event).exclude(published_snapshot={})[:8],
             "introduction": page_content(event, "about", request),
+            "theme": page_content(event, "theme", request),
+            "program": page_content(event, "program", request),
+            "schedule": ScheduleItem.objects.filter(event=event)
+            .exclude(published_snapshot={})
+            .order_by("starts_at"),
+            "registration_open": registration_open(event),
             "days_left": days_until(event),
         },
     )
+
+
+def registration_open(event):
+    """Same gate the registration form applies, so calls to action never overstate availability."""
+    from admissions.services import ensure_intake
+
+    try:
+        ensure_intake(event)
+    except ValidationError:
+        return False
+    return True
 
 
 def days_until(event):
@@ -89,7 +106,18 @@ def attendance_rules(event, request):
 
 def page(request, slug, key):
     event = public_event(slug, request=request)
-    if key not in {"about", "theme", "speakers", "program", "venue", "faq", "contact", "privacy", "terms"}:
+    if key not in {
+        "about",
+        "theme",
+        "speakers",
+        "program",
+        "venue",
+        "faq",
+        "contact",
+        "privacy",
+        "terms",
+        "team",
+    }:
         custom_pages = Page.objects.filter(event=event, key=key)
         if not getattr(request, "event_preview", False):
             custom_pages = custom_pages.exclude(published_snapshot={})
@@ -112,12 +140,14 @@ def page(request, slug, key):
         "contact": tr("Contact"),
         "privacy": tr("Privacy"),
         "terms": tr("Terms"),
+        "team": tr("Team"),
     }
     context = {
         "event": event,
         "key": key,
         "content": content,
         "title": titles.get(key, key.replace("-", " ").title()),
+        "registration_open": registration_open(event),
     }
     context["subtitle"] = {
         "about": tr("One day. New ideas. Shared perspectives."),
@@ -129,6 +159,7 @@ def page(request, slug, key):
         "contact": tr("Questions about joining us? Start here."),
         "privacy": tr("Your information, explained clearly."),
         "terms": tr("What to know before taking part."),
+        "team": tr("The people organizing the event."),
     }.get(key, "")
     if key == "faq" and content:
         context["faq_sections"] = []
@@ -136,6 +167,16 @@ def page(request, slug, key):
             if paragraph.strip():
                 question, _, answer = paragraph.strip().partition("\n")
                 context["faq_sections"].append({"question": question, "answer": answer})
+    if key == "about":
+        context["program"] = page_content(event, "program", request)
+    if key in {"team", "about"}:
+        from team.models import TeamMember
+
+        context["team"] = (
+            TeamMember.objects.filter(event=event)
+            .exclude(published_snapshot={})
+            .order_by("published_snapshot__display_order", "name")
+        )
     if key in {"speakers", "about"}:
         context["speakers"] = Speaker.objects.filter(event=event).exclude(published_snapshot={})
     if key in {"program", "about"}:
