@@ -227,3 +227,19 @@ def test_delete_from_registrations_list(staff, event):
     assert attendee.anonymized_at is not None
     listing = staff.get(response.url).content.decode()
     assert str(attendee.registration.pk) not in listing
+
+
+@pytest.mark.django_db
+def test_overview_counts_follow_a_deleted_registration(staff, event):
+    def overview():
+        stats = staff.get(reverse("dashboard", args=[event.slug])).context["stats"]
+        return {str(label): value for label, value in stats}
+
+    registered(event)
+    gone = registered(event, email="second@example.invalid")
+    before = overview()
+    assert before["Registrations"] == 2 and before["Valid tickets"] == 2
+    delete(staff, gone)
+    after = overview()
+    assert after["Registrations"] == 1
+    assert after["Valid tickets"] == 1 and after["Cancelled tickets"] == 1

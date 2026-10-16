@@ -126,7 +126,11 @@ def dashboard(request, slug):
     ]
     if can(request.user, event, "reports") or can(request.user, event, "checkin", "create"):
         stats = [
-            (tr("Registrations"), Registration.objects.filter(event=event).count()),
+            # Deleted and cancelled registrations keep anonymous rows; they are counted as cancelled tickets.
+            (
+                tr("Registrations"),
+                Registration.objects.filter(event=event).exclude(status="cancelled").count(),
+            ),
             (
                 tr("Valid tickets"),
                 Ticket.objects.filter(event=event, status__in=["registered", "checked_in"]).count(),
