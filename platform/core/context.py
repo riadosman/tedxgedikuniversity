@@ -1,6 +1,6 @@
 # Announcements are published on Instagram; LinkedIn is where attendees mention the event.
-INSTAGRAM_URL = "https://www.instagram.com/tedx_gedik_uni/"
-INSTAGRAM_HANDLE = "@tedx_gedik_uni"
+INSTAGRAM_URL = "https://www.instagram.com/tedxgedikuniversity/"
+INSTAGRAM_HANDLE = "@tedxgedikuniversity"
 LINKEDIN_URL = "https://www.linkedin.com/company/tedx-gedik-university/"
 
 

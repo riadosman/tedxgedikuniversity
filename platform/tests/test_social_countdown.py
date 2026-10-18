@@ -8,7 +8,7 @@ from django.utils import timezone
 
 from .test_registration_contact import register
 
-INSTAGRAM = "https://www.instagram.com/tedx_gedik_uni/"
+INSTAGRAM = "https://www.instagram.com/tedxgedikuniversity/"
 LINKEDIN = "https://www.linkedin.com/company/tedx-gedik-university/"
 
 
