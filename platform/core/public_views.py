@@ -221,6 +221,7 @@ def register(request, slug):
                     notice_version=form.cleaned_data["notice_version"],
                     notice_hash=form.cleaned_data["notice_hash"],
                     phone=form.cleaned_data["phone"],
+                    gedik_student=form.cleaned_data["gedik_student"],
                     arrives_by_car=form.cleaned_data["arrives_by_car"],
                     vehicle_plate=form.cleaned_data["vehicle_plate"],
                 )
@@ -370,6 +371,7 @@ def access(request, slug, raw):
                         "name": token.attendee.name,
                         "email": token.attendee.email,
                         "phone": token.attendee.phone,
+                        "gedik_student": token.attendee.gedik_student,
                         "arrives_by_car": token.attendee.arrives_by_car,
                         "vehicle_plate": token.attendee.vehicle_plate,
                         "notice_version": token.attendee.notice_version,

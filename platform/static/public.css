@@ -312,7 +312,7 @@ html:lang(ar) .page-next span{letter-spacing:0}
 .public .form-field input:focus,.public .form-field select:focus,.public .form-field textarea:focus{border-color:var(--x-ink);box-shadow:0 0 0 3px #11111122;outline:none}
 .public .form-field input:focus-visible,.public .form-field select:focus-visible,.public .form-field textarea:focus-visible{outline:3px solid var(--x-ink);outline-offset:2px}
 .public .form-field input[type=checkbox],.public .form-field input[type=radio]{accent-color:var(--x-red)}
-.public .form-field [id^=id_arrives_by_car]>div{display:inline-flex;margin-inline-end:1.25rem}
+.public .form-field :is([id^=id_arrives_by_car],[id^=id_gedik_student])>div{display:inline-flex;margin-inline-end:1.25rem}
 .public .form-field label:has(>input[type=radio]){display:inline-flex;align-items:center;gap:.5rem;min-height:44px;font-weight:600}
 .public .has-errors input,.public .has-errors select,.public .has-errors textarea{border-color:#B42318}
 .public .helptext{font-size:.85rem;color:var(--x-muted)}

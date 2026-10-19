@@ -2486,17 +2486,6 @@ msgstr "رقم لوحة السيارة"
 msgid "Vehicle plate"
 msgstr "رقم لوحة السيارة"
 
-msgid ""
-"We collect your name for admission, your email for event logistics and the "
-"post-event TEDx attendee survey process, your phone number to reach you "
-"about the event day, and your vehicle plate only if you come by car, to "
-"reserve parking. No marketing permission is requested."
-msgstr ""
-"نجمع اسمك لأغراض الدخول، وبريدك الإلكتروني لتنظيم الفعالية واستبيان حضور "
-"TEDx بعد الفعالية، ورقم هاتفك للتواصل معك بشأن يوم الفعالية، ورقم لوحة "
-"سيارتك فقط إذا كنت ستأتي بالسيارة لحجز مكان في الموقف. لا نطلب أي إذن "
-"تسويقي."
-
 msgid "Will you come by car?"
 msgstr "هل ستأتي بالسيارة؟"
 
@@ -2722,6 +2711,50 @@ msgstr "سيُعرَّف بفريق التنظيم هنا."
 
 msgid "The people organizing the event."
 msgstr "الأشخاص الذين ينظمون الفعالية."
+
+msgid "Are you an İstanbul Gedik University student?"
+msgstr "هل أنت طالب في جامعة إسطنبول غديك؟"
+
+msgid "Gedik Student"
+msgstr "طالب في جامعة غديك"
+
+msgid "Gedik University student"
+msgstr "طالب في جامعة غديك"
+
+msgid "Gedik student"
+msgstr "طالب في جامعة غديك"
+
+msgid "Gedik students"
+msgstr "طلاب جامعة غديك"
+
+msgid "Not Gedik students"
+msgstr "ليسوا من طلاب جامعة غديك"
+
+msgid "Not answered"
+msgstr "لم تتم الإجابة"
+
+msgid ""
+"We collect your name for admission, your email for event logistics and the "
+"post-event TEDx attendee survey process, your phone number to reach you "
+"about the event day, whether you are an İstanbul Gedik University student "
+"for attendance statistics, and your vehicle plate only if you come by car, "
+"to reserve parking. No marketing permission is requested."
+msgstr ""
+"نجمع اسمك لأغراض الدخول، وبريدك الإلكتروني لتنظيم الفعالية واستبيان حضور "
+"TEDx بعد الفعالية، ورقم هاتفك للتواصل معك بشأن يوم الفعالية، وما إذا كنت "
+"طالبًا في جامعة إسطنبول غديك لإحصاءات الحضور، ورقم لوحة سيارتك فقط إذا كنت "
+"ستأتي بالسيارة لحجز مكان في الموقف. لا نطلب أي إذن تسويقي."
+
+#~ msgid ""
+#~ "We collect your name for admission, your email for event logistics and the "
+#~ "post-event TEDx attendee survey process, your phone number to reach you "
+#~ "about the event day, and your vehicle plate only if you come by car, to "
+#~ "reserve parking. No marketing permission is requested."
+#~ msgstr ""
+#~ "نجمع اسمك لأغراض الدخول، وبريدك الإلكتروني لتنظيم الفعالية واستبيان حضور "
+#~ "TEDx بعد الفعالية، ورقم هاتفك للتواصل معك بشأن يوم الفعالية، ورقم لوحة "
+#~ "سيارتك فقط إذا كنت ستأتي بالسيارة لحجز مكان في الموقف. لا نطلب أي إذن "
+#~ "تسويقي."
 
 #~ msgid "An independently organized TEDx event."
 #~ msgstr "فعالية TEDx منظمة بشكل مستقل."

@@ -38,3 +38,5 @@ arabic_guides/
 *.pfx
 .vercel/
 !platform/.env.vercel.example
+
+.superpowers/

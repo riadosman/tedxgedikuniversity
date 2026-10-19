@@ -284,6 +284,12 @@ class RegistrationForm(forms.Form):
         help_text=tr("Used only to reach you about the event day."),
         widget=forms.TextInput(attrs={"type": "tel", "autocomplete": "tel"}),
     )
+    gedik_student = forms.TypedChoiceField(
+        label=tr("Are you an İstanbul Gedik University student?"),
+        choices=[("yes", tr("Yes")), ("no", tr("No"))],
+        coerce=lambda value: value == "yes",
+        widget=forms.RadioSelect,
+    )
     arrives_by_car = forms.TypedChoiceField(
         label=tr("Will you come by car?"),
         choices=[("yes", tr("Yes")), ("no", tr("No"))],

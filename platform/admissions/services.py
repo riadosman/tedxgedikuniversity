@@ -147,6 +147,7 @@ def submit_registration(
     notice_version: str = "",
     notice_hash: str = "",
     phone: str = "",
+    gedik_student: bool | None = None,
     arrives_by_car: bool | None = None,
     vehicle_plate: str = "",
 ) -> Registration:
@@ -182,6 +183,7 @@ def submit_registration(
         name=name,
         email=email,
         phone=phone,
+        gedik_student=gedik_student,
         arrives_by_car=arrives_by_car,
         vehicle_plate=vehicle_plate,
         notice_version=notice.version_identifier,

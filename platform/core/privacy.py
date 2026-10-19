@@ -22,6 +22,7 @@ def erase_attendee(event, attendee, now):
         now,
     )
     attendee.phone, attendee.arrives_by_car, attendee.vehicle_plate = "", None, ""
+    attendee.gedik_student = None
     attendee.save()
     references = Ticket.objects.filter(attendee=attendee).values_list("reference", flat=True)
     for receipt in ScanReceipt.objects.filter(event=event, result__reference__in=list(references)):

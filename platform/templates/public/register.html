@@ -9,7 +9,7 @@
     {% else %}
       <section class="form-card" aria-labelledby="registration-form-title">
         <h2 id="registration-form-title">{% translate 'Your details' %}</h2>
-        <p class="form-intro">{% translate 'We collect your name for admission, your email for event logistics and the post-event TEDx attendee survey process, your phone number to reach you about the event day, and your vehicle plate only if you come by car, to reserve parking. No marketing permission is requested.' %}</p>
+        <p class="form-intro">{% translate 'We collect your name for admission, your email for event logistics and the post-event TEDx attendee survey process, your phone number to reach you about the event day, whether you are an İstanbul Gedik University student for attendance statistics, and your vehicle plate only if you come by car, to reserve parking. No marketing permission is requested.' %}</p>
         <details id="information-notice" class="notice-details"><summary>{% translate 'KVKK Aydınlatma Metni — information notice' %}</summary><div class="prose">{{ notice|linebreaks }}</div><p>{{ event.notice_version }}</p></details>
         <p class="form-intro"><a href="{% url 'public-page' event.slug 'privacy' %}" target="_blank" rel="noopener">{% translate 'Open the applicable KVKK information notice' %}</a></p>
         <form method="post" class="form-stack">{% csrf_token %}{% include 'components/form-fields.html' %}<button type="submit" class="button-large">{% translate 'Get my ticket' %}</button></form>

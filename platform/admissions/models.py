@@ -3,6 +3,7 @@ from django.db.models.base import ModelBase
 from collections.abc import Iterable
 from django.db.models import Q
 from django.conf import settings
+from django.utils.translation import gettext_lazy as tr
 from core.models import EventRecord, choices
 
 
@@ -11,6 +12,8 @@ class Attendee(EventRecord):
     name = models.CharField(max_length=150)
     email = models.EmailField(null=True, blank=True)
     phone = models.CharField(max_length=24, blank=True)
+    # None: registered before the student question existed, or anonymized.
+    gedik_student = models.BooleanField(null=True, blank=True, choices=[(True, tr("Yes")), (False, tr("No"))])
     # None: registered before the car question existed, or anonymized.
     arrives_by_car = models.BooleanField(null=True, blank=True)
     vehicle_plate = models.CharField(max_length=16, blank=True)

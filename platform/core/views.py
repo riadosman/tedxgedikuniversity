@@ -231,7 +231,9 @@ def display_value(obj, column):
         return ticket.checkin.admitted_at if ticket and hasattr(ticket, "checkin") else "—"
     value = getattr(obj, column, "")
     display = getattr(obj, f"get_{column}_display", None)
-    return display() if display else value if value is not None else "—"
+    if display:
+        value = display()
+    return value if value is not None else "—"
 
 
 def readable_record(obj, user, event, key):
@@ -248,6 +250,30 @@ def readable_record(obj, user, event, key):
         obj.cue_at = obj.published_snapshot.get("cue_at")
         obj.owner = None
     return obj
+
+
+# components/people-table.html reads these values by position.
+PEOPLE_COLUMNS = {
+    "attendees": (
+        "name",
+        "email",
+        "registration_status",
+        "ticket_status",
+        "qr_status",
+        "admission_status",
+        "admitted_at",
+        "phone",
+    ),
+    "tickets": (
+        "reference",
+        "attendee",
+        "ticket_type",
+        "status",
+        "qr_status",
+        "admission_status",
+        "admitted_at",
+    ),
+}
 
 
 @login_required
@@ -297,9 +323,13 @@ def resource_list(request, slug, key):
         query = query.filter(
             **{("ticket__checkin__isnull" if key == "attendees" else "checkin__isnull"): attendance == "no"}
         )
+    gedik = request.GET.get("gedik", "")
+    if key == "attendees" and gedik in {"yes", "no", "unknown"}:
+        query = query.filter(gedik_student={"yes": True, "no": False, "unknown": None}[gedik])
     page = Paginator(query, 30).get_page(request.GET.get("page"))
     visible = [readable_record(obj, request.user, event, key) for obj in page]
-    rows = [(obj, [display_value(obj, col) for col in resource.columns]) for obj in visible]
+    columns = PEOPLE_COLUMNS.get(key, resource.columns)
+    rows = [(obj, [display_value(obj, col) for col in columns]) for obj in visible]
     return render(
         request,
         "staff/list.html",
@@ -313,6 +343,7 @@ def resource_list(request, slug, key):
             search=search,
             status=status,
             attendance=attendance,
+            gedik=gedik,
             sort=order,
             sortable=[column for column in resource.columns if column in sortable],
             status_choices=(
@@ -783,13 +814,14 @@ def export(request, slug, key):
                 "phone",
                 "arrives_by_car",
                 "vehicle_plate",
+                "gedik_student",
                 "ticket_id",
                 "ticket_status",
                 "registered_at",
                 "checked_in_at",
             ]
         )
-        car = {True: "yes", False: "no", None: ""}
+        yes_no = {True: "yes", False: "no", None: ""}
         for ticket in (
             Ticket.objects.filter(event=event).select_related("attendee").order_by("created_at").iterator()
         ):
@@ -800,8 +832,9 @@ def export(request, slug, key):
                         ticket.attendee.name,
                         ticket.attendee.email or "",
                         ticket.attendee.phone,
-                        car[ticket.attendee.arrives_by_car],
+                        yes_no[ticket.attendee.arrives_by_car],
                         ticket.attendee.vehicle_plate,
+                        yes_no[ticket.attendee.gedik_student],
                         ticket.reference,
                         ticket.status.upper(),
                         ticket.created_at.isoformat(),

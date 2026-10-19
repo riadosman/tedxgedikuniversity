@@ -19,6 +19,7 @@ def data(event, **extra):
         "name": "Test Guest",
         "email": "guest@example.invalid",
         "phone": "+90 532 123 45 67",
+        "gedik_student": "no",
         "arrives_by_car": "no",
         "privacy": "on",
         "notice_version": event.notice_version,

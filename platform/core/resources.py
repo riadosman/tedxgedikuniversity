@@ -50,8 +50,8 @@ RESOURCES = {
     "attendees": resource(
         a.Attendee,
         "Attendees",
-        "name email phone arrives_by_car vehicle_plate",
-        "name email phone vehicle_plate ticket_reference ticket_status created_at admitted_at",
+        "name email phone gedik_student arrives_by_car vehicle_plate",
+        "name email phone gedik_student vehicle_plate ticket_reference ticket_status created_at admitted_at",
         "name email phone vehicle_plate ticket__reference",
         "delete",
     ),

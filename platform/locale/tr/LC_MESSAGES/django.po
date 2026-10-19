@@ -2552,17 +2552,6 @@ msgstr "Araç plakası"
 msgid "Vehicle plate"
 msgstr "Araç plakası"
 
-msgid ""
-"We collect your name for admission, your email for event logistics and the "
-"post-event TEDx attendee survey process, your phone number to reach you "
-"about the event day, and your vehicle plate only if you come by car, to "
-"reserve parking. No marketing permission is requested."
-msgstr ""
-"Adınızı giriş için; e-postanızı etkinlik organizasyonu ve etkinlik sonrası "
-"TEDx katılımcı anketi için; telefon numaranızı etkinlik günüyle ilgili size "
-"ulaşmak için; araç plakanızı ise yalnızca araçla geliyorsanız otopark yeri "
-"ayırmak için alıyoruz. Pazarlama izni istenmez."
-
 msgid "Will you come by car?"
 msgstr "Etkinliğe araçla mı geleceksiniz?"
 
@@ -2797,6 +2786,51 @@ msgstr "Organizasyon ekibi burada tanıtılacak."
 
 msgid "The people organizing the event."
 msgstr "Etkinliği düzenleyen ekip."
+
+msgid "Are you an İstanbul Gedik University student?"
+msgstr "İstanbul Gedik Üniversitesi öğrencisi misiniz?"
+
+msgid "Gedik Student"
+msgstr "Gedik öğrencisi"
+
+msgid "Gedik University student"
+msgstr "Gedik Üniversitesi öğrencisi"
+
+msgid "Gedik student"
+msgstr "Gedik öğrencisi"
+
+msgid "Gedik students"
+msgstr "Gedik öğrencileri"
+
+msgid "Not Gedik students"
+msgstr "Gedik öğrencisi olmayanlar"
+
+msgid "Not answered"
+msgstr "Yanıtlanmamış"
+
+msgid ""
+"We collect your name for admission, your email for event logistics and the "
+"post-event TEDx attendee survey process, your phone number to reach you "
+"about the event day, whether you are an İstanbul Gedik University student "
+"for attendance statistics, and your vehicle plate only if you come by car, "
+"to reserve parking. No marketing permission is requested."
+msgstr ""
+"Adınızı giriş için; e-postanızı etkinlik organizasyonu ve etkinlik sonrası "
+"TEDx katılımcı anketi için; telefon numaranızı etkinlik günüyle ilgili size "
+"ulaşmak için; İstanbul Gedik Üniversitesi öğrencisi olup olmadığınızı "
+"katılım istatistikleri için; araç plakanızı ise yalnızca araçla geliyorsanız"
+" otopark yeri ayırmak için alıyoruz. Pazarlama izni istenmez."
+
+#~ msgid ""
+#~ "We collect your name for admission, your email for event logistics and the "
+#~ "post-event TEDx attendee survey process, your phone number to reach you "
+#~ "about the event day, and your vehicle plate only if you come by car, to "
+#~ "reserve parking. No marketing permission is requested."
+#~ msgstr ""
+#~ "Adınızı giriş için; e-postanızı etkinlik organizasyonu ve etkinlik sonrası "
+#~ "TEDx katılımcı anketi için; telefon numaranızı etkinlik günüyle ilgili size "
+#~ "ulaşmak için; araç plakanızı ise yalnızca araçla geliyorsanız otopark yeri "
+#~ "ayırmak için alıyoruz. Pazarlama izni istenmez."
 
 #~ msgid "An independently organized TEDx event."
 #~ msgstr "Bağımsız olarak düzenlenen bir TEDx etkinliği."
